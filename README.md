@@ -11,26 +11,14 @@ GiToon for Apple Platforms
 GiToon uses Bundler, Homebrew and Cocoapods to manage build dependencies. You'll need Xcode 14.1 (or later) which you can download from the [App Store](https://developer.apple.com/download/). You can get the app running using the following commands:
 
 ```bash
-git clone https://github.com/home-assistant/iOS.git
-cd iOS
+git clone https://github.com/Edgar-Grigoryan/gitoon-iOS.git
+cd gitoon-iOS
 
-# you must do one of the following, but you do not need to do all of them:
-
-## install cocoapods via homebrew, use that
-brew install cocoapods
-$(brew --prefix)/opt/ruby/bin/gem install cocoapods-acknowledgements
-pod install --repo-update
-
-## install ruby via homebrew, use that
 brew install ruby@3.1
+brew install fonttools
+Comment “pip3 install --user fonttools” in Tools/BuildMaterialDesignIconsFont.sh
 $(brew --prefix)/opt/ruby@3.1/bin/bundle install
 $(brew --prefix)/opt/ruby@3.1/bin/bundle exec pod install --repo-update
-
-## install ruby via rbenv, use that
-brew install rbenv ruby-build
-rbenv install
-bundle install
-bundle exec pod install --repo-update
 ```
 
 Once this completes, you can launch  `HomeAssistant.xcworkspace` and run the `App-Debug` scheme onto your simulator or iOS device.
