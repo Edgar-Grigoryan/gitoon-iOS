@@ -21,7 +21,7 @@ $(brew --prefix)/opt/ruby@3.1/bin/bundle install
 $(brew --prefix)/opt/ruby@3.1/bin/bundle exec pod install --repo-update
 ```
 
-Once this completes, you can launch  `HomeAssistant.xcworkspace` and run the `App-Debug` scheme onto your simulator or iOS device.
+Once this completes, you can launch  `GiToon.xcworkspace` and run the `App-Debug` scheme onto your simulator or iOS device.
 
 ## Testing just the frontend
 
