@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Rastreador Problemas Github";
 "about.help_localize.title" = "¡Ayuda a traducir la aplicación!";
-"about.home_assistant_on_facebook.title" = "Home Assistant en Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant en Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon en Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon en Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Despierta tu hogar";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Dejar un comentario";
 "about.title" = "Acerca de";
 "about.website.title" = "Sitio web";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "También podéis cambiarlas personalizando los atributos Scene: %@";
 "actions_configurator.visual_section.server_defined" = "La apariencia de esta acción está controlada por la configuración del servidor.";
 "addButtonLabel" = "Añadir";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Please update Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Please update GiToon";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "El servidor ha rechazado sus credenciales y debe iniciar sesión nueva para continuar.";
 "alerts.auth_required.title" = "Debe iniciar sesión para continuar";
@@ -128,7 +128,7 @@
 "error_label" = "Error";
 "extensions.map.location.new" = "Nueva ubicación";
 "extensions.map.location.original" = "Ubicación original";
-"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a homeassistant dictionary!";
+"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a gitoon dictionary!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Latitude wasn't found or couldn't be casted to string!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Longitude wasn't found or couldn't be casted to string!";
 "extensions.notification_content.error.no_entity_id" = "¡No se ha encontrado ningún entity_id a la carga útil!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Transmisión HLS no disponible";
 "extensions.notification_content.error.request.other" = "Se ha recibido código de estado no-200 (%li)";
 "ha_api.api_error.cant_build_url" = "No se puede construir la URL de la API";
-"ha_api.api_error.invalid_response" = "Recibió una respuesta inválida de Home Assistant";
+"ha_api.api_error.invalid_response" = "Recibió una respuesta inválida de GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager no está disponible";
-"ha_api.api_error.mobile_app_component_not_loaded" = "El componente mobile_app no está cargado. Por favor, añádalo a su configuración, reinicie Home Assistant e inténtelo de nuevo.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Su versión de Home Assistant ( %@ ) es antigua, debe actualizar por lo menos a la versión %@ para usar la aplicación.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "El componente mobile_app no está cargado. Por favor, añádalo a su configuración, reinicie GiToon e inténtelo de nuevo.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Su versión de GiToon ( %@ ) es antigua, debe actualizar por lo menos a la versión %@ para usar la aplicación.";
 "ha_api.api_error.not_configured" = "API de HA no configurada";
 "ha_api.api_error.unacceptable_status_code" = "Código de estado inaceptable %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Leer etiqueta";
 "nfc.list.description" = "NFC tags written by the app will show a notification when you bring your device near them. Activating the notification will launch the app and fire an event.\
 \
-Tags will work on any device with Home Assistant installed which has hardware support to read them.";
+Tags will work on any device with GiToon installed which has hardware support to read them.";
 "nfc.list.learn_more" = "Más información";
 "nfc.list.read_tag" = "Leer la etiqueta";
 "nfc.list.title" = "Etiquetas NFC";
 "nfc.list.write_tag" = "Escribir etiqueta";
 "nfc.not_available" = "El NFC no está disponible en este dispositivo";
 "nfc.read.error.generic_failure" = "No se ha podido leer la etiqueta";
-"nfc.read.error.not_home_assistant" = "La etiqueta NFC no es una etiqueta Home Assistant";
+"nfc.read.error.not_home_assistant" = "La etiqueta NFC no es una etiqueta GiToon";
 "nfc.read.error.tag_invalid" = "La etiqueta NFC no es válida";
 "nfc.read.start_message" = "Mantenga su %@ cerca de una etiqueta NFC";
 "nfc.tag_read" = "Lectura de etiquetas NFC";
@@ -213,7 +213,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "notification_service.parser.camera.invalid_entity" = "entity_id proporcionado no era válido.";
 "notification_service.parser.url.invalid_url" = "La dirección URL dada no era válida.";
 "notification_service.parser.url.no_url" = "No se ha proporcionado ninguna URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, GiToon will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Autenticación requerida";
 "notifications_configurator.action.rows.destructive.footer" = "When enabled, the action button is displayed with special highlighting to indicate that it performs a destructive task.";
 "notifications_configurator.action.rows.destructive.title" = "Destructivo";
@@ -263,7 +263,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.manual_setup.connect" = "Conectado";
 "onboarding.manual_setup.couldnt_make_url.message" = "El valor \" %@ \" no es una URL válida.";
 "onboarding.manual_setup.couldnt_make_url.title" = "No se pudo crear una URL";
-"onboarding.manual_setup.description" = "La dirección URL del servidor Home Assistant. Asegúrese de que incluye el protocolo y el puerto.";
+"onboarding.manual_setup.description" = "La dirección URL del servidor GiToon. Asegúrese de que incluye el protocolo y el puerto.";
 "onboarding.manual_setup.no_scheme.message" = "¿Deberíamos intentar conectarnos usando http:// o https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL ingresada sin esquema";
 "onboarding.manual_setup.title" = "Introduzca la dirección URL";
@@ -272,7 +272,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.change_later_note" = "Puede cambiar este permiso más adelante en la Configuración";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "Instant updates when status changes";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to GiToon";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "Enfocarse";
 "onboarding.permissions.location.bullet.automations" = "Automatismos basados en la presencia";
@@ -284,23 +284,23 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.motion.bullet.activity" = "Sensor para el tipo de actividad actual";
 "onboarding.permissions.motion.bullet.distance" = "Sensor de distancia recorrida";
 "onboarding.permissions.motion.bullet.steps" = "Sensor para contar pasos";
-"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Home Assistant";
+"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to GiToon";
 "onboarding.permissions.motion.grant_description" = "Allow motion permission to create sensors for motion and pedometer data.";
 "onboarding.permissions.motion.title" = "Motion & Pedometer";
 "onboarding.permissions.notification.bullet.alert" = "Recibir alertas de notificaciones";
 "onboarding.permissions.notification.bullet.badge" = "Actualiza la insignia del icono de aplicación";
 "onboarding.permissions.notification.bullet.commands" = "Envío de órdenes al dispositivo";
-"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your Home Assistant";
+"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your GiToon";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "Notificaciones";
 "onboarding.scanning.discovered_announcement" = "Se ha descubierto: %@";
 "onboarding.scanning.manual" = "Introduzca la dirección manualmente";
 "onboarding.scanning.manual_hint" = "¿No encontráis vuestro servidor?";
 "onboarding.scanning.title" = "Se está buscando servidores";
-"onboarding.welcome.description" = "Esta aplicación se conecta a vuestro servidor Home Assistant y permite integrar datos sobre ti y tu teléfono. \
+"onboarding.welcome.description" = "Esta aplicación se conecta a vuestro servidor GiToon y permite integrar datos sobre ti y tu teléfono. \
 \
-Home Assistant es un software de automatización del hogar gratuito y de código abierto, centrado en el control local y la privacidad.";
-"onboarding.welcome.title" = "Bienvenidos a Home Assistant %@ !";
+GiToon es un software de automatización del hogar gratuito y de código abierto, centrado en el control local y la privacidad.";
+"onboarding.welcome.title" = "Bienvenidos a GiToon %@ !";
 "open_label" = "Abrir";
 "preview_output" = "Previsualización de la salida";
 "requires_version" = "Requiere %@ o posterior";
@@ -318,11 +318,11 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "settings.connection_section.delete_server.title" = "Elimina el servidor";
 "settings.connection_section.details" = "Detalles";
 "settings.connection_section.errors.cannot_remove_last_url" = "No puede eliminar sólo la URL disponible.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "URL externa";
 "settings.connection_section.header" = "Conexión";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "ej. http://homeassistant.local:8123";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "ej. http://gitoon.local:8123";
 "settings.connection_section.internal_base_url.title" = "URL interna";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Internal URL will be used when the primary network interface has a MAC address matching one of these hardware addresses.";
@@ -332,7 +332,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "settings.connection_section.internal_url_ssids.footer" = "La URL interna se utilizará cuando se conecte a los SSID listados";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MiDivertidoNombreDeRed";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the GiToon server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Exacto";
 "settings.connection_section.location_send_type.setting.never" = "Nunca";
 "settings.connection_section.location_send_type.setting.zone_only" = "Sólo el nombre de la zona";
@@ -387,7 +387,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "settings.location_history.title" = "Historial de localización";
 "settings.navigation_bar.about_button.title" = "Acerca de";
 "settings.navigation_bar.title" = "Configuraciones";
-"settings.reset_section.reset_alert.message" = "Su configuración se restablecerá y este dispositivo se desregistrará desde las notificaciones automáticas y se eliminará de su configuración de Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Su configuración se restablecerá y este dispositivo se desregistrará desde las notificaciones automáticas y se eliminará de su configuración de GiToon.";
 "settings.reset_section.reset_alert.progress_message" = "Restableciendo…";
 "settings.reset_section.reset_alert.title" = "Restablecer";
 "settings.reset_section.reset_row.title" = "Reiniciar";
@@ -395,7 +395,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "settings.server_select.page_title" = "Servidor";
 "settings.server_select.title" = "Servidor";
 "settings.status_section.header" = "Estado";
-"settings.status_section.location_name_row.placeholder" = "Mi Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Mi GiToon";
 "settings.status_section.location_name_row.title" = "Nombre";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versión";
@@ -427,7 +427,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "settings_details.general.app_icon.enum.electric_violet" = "Violeta Eléctrico";
 "settings_details.general.app_icon.enum.fire_orange" = "Naranja fuego";
 "settings_details.general.app_icon.enum.green" = "Verde";
-"settings_details.general.app_icon.enum.ha_blue" = "Azul Home Assistant";
+"settings_details.general.app_icon.enum.ha_blue" = "Azul GiToon";
 "settings_details.general.app_icon.enum.old_beta" = "Beta Viejo";
 "settings_details.general.app_icon.enum.old_dev" = "Viejo Dev";
 "settings_details.general.app_icon.enum.old_release" = "Versión antigua";
@@ -561,7 +561,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "settings_details.notifications.title" = "Notificaciones";
 "settings_details.privacy.alerts.description" = "Permite comprobar si hay alertas importantes, como vulnerabilidades de seguridad.";
 "settings_details.privacy.alerts.title" = "Alertas";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your GiToon URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "Actualmente, esta característica utiliza Sentry como destino del informe.";
@@ -601,7 +601,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -609,7 +609,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Error en la conexión.";
 "token_error.expired" = "El token ha caducado.";
 "token_error.token_unavailable" = "El token no está disponible.";
@@ -639,7 +639,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "url_handler.send_location.success.title" = "Ubicación enviada";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName debe estar definido";
 "url_handler.x_callback_url.error.general" = "Ocurrió un error general.";
-"url_handler.x_callback_url.error.serviceMissing" = "El servicio (ej. homeassistant.turn_on) debe ser definido";
+"url_handler.x_callback_url.error.serviceMissing" = "El servicio (ej. gitoon.turn_on) debe ser definido";
 "url_handler.x_callback_url.error.templateMissing" = "Se debe definir una plantilla renderizable";
 "username_label" = "Nombre de usuario";
 "watch.configurator.delete.button" = "Suprimir la complicación";
@@ -839,7 +839,7 @@ Home Assistant es un software de automatización del hogar gratuito y de código
 "widgets.actions.description" = "Realiza acciones del Hombre Assistante.";
 "widgets.actions.not_configured" = "No se ha configurado ninguna acción";
 "widgets.actions.title" = "Acciones";
-"widgets.open_page.description" = "Open a frontend page in Home Assistant.";
+"widgets.open_page.description" = "Open a frontend page in GiToon.";
 "widgets.open_page.not_configured" = "No hay páginas disponibles";
 "widgets.open_page.title" = "Abre la página";
 "yes_label" = "Sí";

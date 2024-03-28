@@ -34,7 +34,7 @@ class ClientEventTests: XCTestCase {
     func testNotificationTitleForNotificationWithATitle() {
         let mutableContent = UNMutableNotificationContent()
         let alert = "House mode changed to away"
-        mutableContent.title = "Home Assistant Notification"
+        mutableContent.title = "GiToon Notification"
         mutableContent.subtitle = "Fake Sub"
         mutableContent.userInfo = ["aps": ["alert": alert, "sound": "default:"]]
 

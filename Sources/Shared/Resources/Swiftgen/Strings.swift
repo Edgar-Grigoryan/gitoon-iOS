@@ -99,19 +99,19 @@ public enum L10n {
       public static var title: String { return L10n.tr("Localizable", "about.help_localize.title") }
     }
     public enum HomeAssistantOnFacebook {
-      /// Home Assistant on Facebook
+      /// GiToon on Facebook
       public static var title: String { return L10n.tr("Localizable", "about.home_assistant_on_facebook.title") }
     }
     public enum HomeAssistantOnTwitter {
-      /// Home Assistant on Twitter
+      /// GiToon on Twitter
       public static var title: String { return L10n.tr("Localizable", "about.home_assistant_on_twitter.title") }
     }
     public enum Logo {
-      /// Home Assistant Companion
+      /// GiToon Companion
       public static var appTitle: String { return L10n.tr("Localizable", "about.logo.app_title") }
       /// Awaken Your Home
       public static var tagline: String { return L10n.tr("Localizable", "about.logo.tagline") }
-      /// Home Assistant
+      /// GiToon
       public static var title: String { return L10n.tr("Localizable", "about.logo.title") }
     }
     public enum Review {
@@ -182,9 +182,9 @@ public enum L10n {
   public enum Alerts {
     public enum ActionAutomationEditor {
       public enum Unavailable {
-        /// To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2
+        /// To automatically create an automation for an Action please update your GiToon to at least version 2024.2
         public static var body: String { return L10n.tr("Localizable", "alerts.action_automation_editor.unavailable.body") }
-        /// Please update Home Assistant
+        /// Please update GiToon
         public static var title: String { return L10n.tr("Localizable", "alerts.action_automation_editor.unavailable.title") }
       }
     }
@@ -497,7 +497,7 @@ public enum L10n {
         public static var original: String { return L10n.tr("Localizable", "extensions.map.location.original") }
       }
       public enum PayloadMissingHomeassistant {
-        /// Payload didn't contain a homeassistant dictionary!
+        /// Payload didn't contain a gitoon dictionary!
         public static var message: String { return L10n.tr("Localizable", "extensions.map.payload_missing_homeassistant.message") }
       }
       public enum ValueMissingOrUncastable {
@@ -537,13 +537,13 @@ public enum L10n {
     public enum ApiError {
       /// Cant build API URL
       public static var cantBuildUrl: String { return L10n.tr("Localizable", "ha_api.api_error.cant_build_url") }
-      /// Received invalid response from Home Assistant
+      /// Received invalid response from GiToon
       public static var invalidResponse: String { return L10n.tr("Localizable", "ha_api.api_error.invalid_response") }
       /// HA API Manager is unavailable
       public static var managerNotAvailable: String { return L10n.tr("Localizable", "ha_api.api_error.manager_not_available") }
-      /// The mobile_app component is not loaded. Please add it to your configuration, restart Home Assistant, and try again.
+      /// The mobile_app component is not loaded. Please add it to your configuration, restart GiToon, and try again.
       public static var mobileAppComponentNotLoaded: String { return L10n.tr("Localizable", "ha_api.api_error.mobile_app_component_not_loaded") }
-      /// Your Home Assistant version (%@) is too old, you must upgrade to at least version %@ to use the app.
+      /// Your GiToon version (%@) is too old, you must upgrade to at least version %@ to use the app.
       public static func mustUpgradeHomeAssistant(_ p1: Any, _ p2: Any) -> String {
         return L10n.tr("Localizable", "ha_api.api_error.must_upgrade_home_assistant", String(describing: p1), String(describing: p2))
       }
@@ -720,7 +720,7 @@ public enum L10n {
     public enum List {
       /// NFC tags written by the app will show a notification when you bring your device near them. Activating the notification will launch the app and fire an event.
       /// 
-      /// Tags will work on any device with Home Assistant installed which has hardware support to read them.
+      /// Tags will work on any device with GiToon installed which has hardware support to read them.
       public static var description: String { return L10n.tr("Localizable", "nfc.list.description") }
       /// Learn More
       public static var learnMore: String { return L10n.tr("Localizable", "nfc.list.learn_more") }
@@ -739,7 +739,7 @@ public enum L10n {
       public enum Error {
         /// Failed to read tag
         public static var genericFailure: String { return L10n.tr("Localizable", "nfc.read.error.generic_failure") }
-        /// NFC tag is not a Home Assistant tag
+        /// NFC tag is not a GiToon tag
         public static var notHomeAssistant: String { return L10n.tr("Localizable", "nfc.read.error.not_home_assistant") }
         /// NFC tag is invalid
         public static var tagInvalid: String { return L10n.tr("Localizable", "nfc.read.error.tag_invalid") }
@@ -804,7 +804,7 @@ public enum L10n {
     public enum Action {
       public enum Rows {
         public enum AuthenticationRequired {
-          /// When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.
+          /// When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, GiToon will be notified of the selected action.
           public static var footer: String { return L10n.tr("Localizable", "notifications_configurator.action.rows.authentication_required.footer") }
           /// Authentication Required
           public static var title: String { return L10n.tr("Localizable", "notifications_configurator.action.rows.authentication_required.title") }
@@ -965,7 +965,7 @@ public enum L10n {
     public enum ManualSetup {
       /// Connect
       public static var connect: String { return L10n.tr("Localizable", "onboarding.manual_setup.connect") }
-      /// The URL of your Home Assistant server. Make sure it includes the protocol and port.
+      /// The URL of your GiToon server. Make sure it includes the protocol and port.
       public static var description: String { return L10n.tr("Localizable", "onboarding.manual_setup.description") }
       /// Enter URL
       public static var title: String { return L10n.tr("Localizable", "onboarding.manual_setup.title") }
@@ -992,7 +992,7 @@ public enum L10n {
       /// You can change this permission later in Settings
       public static var changeLaterNote: String { return L10n.tr("Localizable", "onboarding.permissions.change_later_note") }
       public enum Focus {
-        /// Allow whether you are in focus mode to be sent to Home Assistant
+        /// Allow whether you are in focus mode to be sent to GiToon
         public static var description: String { return L10n.tr("Localizable", "onboarding.permissions.focus.description") }
         /// Allow focus permission to create sensors for your focus status, also known as do-not-disturb.
         public static var grantDescription: String { return L10n.tr("Localizable", "onboarding.permissions.focus.grant_description") }
@@ -1022,7 +1022,7 @@ public enum L10n {
         }
       }
       public enum Motion {
-        /// Allow motion activity and pedometer data to be sent to Home Assistant
+        /// Allow motion activity and pedometer data to be sent to GiToon
         public static var description: String { return L10n.tr("Localizable", "onboarding.permissions.motion.description") }
         /// Allow motion permission to create sensors for motion and pedometer data.
         public static var grantDescription: String { return L10n.tr("Localizable", "onboarding.permissions.motion.grant_description") }
@@ -1038,7 +1038,7 @@ public enum L10n {
         }
       }
       public enum Notification {
-        /// Allow push notifications to be sent from your Home Assistant
+        /// Allow push notifications to be sent from your GiToon
         public static var description: String { return L10n.tr("Localizable", "onboarding.permissions.notification.description") }
         /// Allow notification permission to create a notify service for your device.
         public static var grantDescription: String { return L10n.tr("Localizable", "onboarding.permissions.notification.grant_description") }
@@ -1067,11 +1067,11 @@ public enum L10n {
       public static var title: String { return L10n.tr("Localizable", "onboarding.scanning.title") }
     }
     public enum Welcome {
-      /// This app connects to your Home Assistant server and allows integrating data about you and your phone.
+      /// This app connects to your GiToon server and allows integrating data about you and your phone.
       /// 
-      /// Home Assistant is free and open source home automation software with a focus on local control and privacy.
+      /// GiToon is free and open source home automation software with a focus on local control and privacy.
       public static var description: String { return L10n.tr("Localizable", "onboarding.welcome.description") }
-      /// Welcome to Home Assistant %@!
+      /// Welcome to GiToon %@!
       public static func title(_ p1: Any) -> String {
         return L10n.tr("Localizable", "onboarding.welcome.title", String(describing: p1))
       }
@@ -1111,7 +1111,7 @@ public enum L10n {
       public static var details: String { return L10n.tr("Localizable", "settings.connection_section.details") }
       /// Connection
       public static var header: String { return L10n.tr("Localizable", "settings.connection_section.header") }
-      /// Directly connect to the Home Assistant server for push notifications when on internal SSIDs.
+      /// Directly connect to the GiToon server for push notifications when on internal SSIDs.
       public static var localPushDescription: String { return L10n.tr("Localizable", "settings.connection_section.local_push_description") }
       /// Logged in as
       public static var loggedInAs: String { return L10n.tr("Localizable", "settings.connection_section.logged_in_as") }
@@ -1134,17 +1134,17 @@ public enum L10n {
         public static var cannotRemoveLastUrl: String { return L10n.tr("Localizable", "settings.connection_section.errors.cannot_remove_last_url") }
       }
       public enum ExternalBaseUrl {
-        /// https://homeassistant.myhouse.com
+        /// https://gitoon.myhouse.com
         public static var placeholder: String { return L10n.tr("Localizable", "settings.connection_section.external_base_url.placeholder") }
         /// External URL
         public static var title: String { return L10n.tr("Localizable", "settings.connection_section.external_base_url.title") }
       }
       public enum HomeAssistantCloud {
-        /// Home Assistant Cloud
+        /// GiToon Cloud
         public static var title: String { return L10n.tr("Localizable", "settings.connection_section.home_assistant_cloud.title") }
       }
       public enum InternalBaseUrl {
-        /// e.g. http://homeassistant.local:8123/
+        /// e.g. http://gitoon.local:8123/
         public static var placeholder: String { return L10n.tr("Localizable", "settings.connection_section.internal_base_url.placeholder") }
         /// Internal URL
         public static var title: String { return L10n.tr("Localizable", "settings.connection_section.internal_base_url.title") }
@@ -1354,7 +1354,7 @@ public enum L10n {
     }
     public enum ResetSection {
       public enum ResetAlert {
-        /// Your settings will be reset and this device will be unregistered from push notifications as well as removed from your Home Assistant configuration.
+        /// Your settings will be reset and this device will be unregistered from push notifications as well as removed from your GiToon configuration.
         public static var message: String { return L10n.tr("Localizable", "settings.reset_section.reset_alert.message") }
         /// Resetting…
         public static var progressMessage: String { return L10n.tr("Localizable", "settings.reset_section.reset_alert.progress_message") }
@@ -1380,7 +1380,7 @@ public enum L10n {
       /// Status
       public static var header: String { return L10n.tr("Localizable", "settings.status_section.header") }
       public enum LocationNameRow {
-        /// My Home Assistant
+        /// My GiToon
         public static var placeholder: String { return L10n.tr("Localizable", "settings.status_section.location_name_row.placeholder") }
         /// Name
         public static var title: String { return L10n.tr("Localizable", "settings.status_section.location_name_row.title") }
@@ -1480,7 +1480,7 @@ public enum L10n {
           public static var fireOrange: String { return L10n.tr("Localizable", "settings_details.general.app_icon.enum.fire_orange") }
           /// Green
           public static var green: String { return L10n.tr("Localizable", "settings_details.general.app_icon.enum.green") }
-          /// Home Assistant Blue
+          /// GiToon Blue
           public static var haBlue: String { return L10n.tr("Localizable", "settings_details.general.app_icon.enum.ha_blue") }
           /// Old Beta
           public static var oldBeta: String { return L10n.tr("Localizable", "settings_details.general.app_icon.enum.old_beta") }
@@ -1887,7 +1887,7 @@ public enum L10n {
         public static var title: String { return L10n.tr("Localizable", "settings_details.privacy.alerts.title") }
       }
       public enum Analytics {
-        /// Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.
+        /// Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your GiToon URLs and tokens. You must restart the app for changes to this setting to take effect.
         public static var genericDescription: String { return L10n.tr("Localizable", "settings_details.privacy.analytics.generic_description") }
         /// Analytics
         public static var genericTitle: String { return L10n.tr("Localizable", "settings_details.privacy.analytics.generic_title") }
@@ -2003,7 +2003,7 @@ public enum L10n {
       public static var noCredentialAvailable: String { return L10n.tr("Localizable", "thread.credentials.no_credential_available") }
       /// Thread Credentials
       public static var screenTitle: String { return L10n.tr("Localizable", "thread.credentials.screen_title") }
-      /// Share credential with Home Assistant
+      /// Share credential with GiToon
       public static var shareCredentialsButtonTitle: String { return L10n.tr("Localizable", "thread.credentials.share_credentials_button_title") }
       public enum ShareCredentials {
         /// Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.
@@ -2043,7 +2043,7 @@ public enum L10n {
       public static var title: String { return L10n.tr("Localizable", "thread.transter_to_apple.title") }
     }
     public enum TransterToHomeassistant {
-      /// Transfer to Home Assistant
+      /// Transfer to GiToon
       public static var title: String { return L10n.tr("Localizable", "thread.transter_to_homeassistant.title") }
     }
   }
@@ -2173,7 +2173,7 @@ public enum L10n {
         public static var eventNameMissing: String { return L10n.tr("Localizable", "url_handler.x_callback_url.error.eventNameMissing") }
         /// A general error occurred
         public static var general: String { return L10n.tr("Localizable", "url_handler.x_callback_url.error.general") }
-        /// service (e.g. homeassistant.turn_on) must be defined
+        /// service (e.g. gitoon.turn_on) must be defined
         public static var serviceMissing: String { return L10n.tr("Localizable", "url_handler.x_callback_url.error.serviceMissing") }
         /// A renderable template must be defined
         public static var templateMissing: String { return L10n.tr("Localizable", "url_handler.x_callback_url.error.templateMissing") }
@@ -2810,7 +2810,7 @@ public enum L10n {
 
   public enum Widgets {
     public enum Actions {
-      /// Perform Home Assistant actions.
+      /// Perform GiToon actions.
       public static var description: String { return L10n.tr("Localizable", "widgets.actions.description") }
       /// No Actions Configured
       public static var notConfigured: String { return L10n.tr("Localizable", "widgets.actions.not_configured") }
@@ -2818,7 +2818,7 @@ public enum L10n {
       public static var title: String { return L10n.tr("Localizable", "widgets.actions.title") }
     }
     public enum OpenPage {
-      /// Open a frontend page in Home Assistant.
+      /// Open a frontend page in GiToon.
       public static var description: String { return L10n.tr("Localizable", "widgets.open_page.description") }
       /// No Pages Available
       public static var notConfigured: String { return L10n.tr("Localizable", "widgets.open_page.not_configured") }

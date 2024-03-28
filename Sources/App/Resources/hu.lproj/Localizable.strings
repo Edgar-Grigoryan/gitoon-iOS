@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub hibabejelentő";
 "about.help_localize.title" = "Segítsen lokalizálni az alkalmazást!";
-"about.home_assistant_on_facebook.title" = "Home Assistant a Facebookon";
-"about.home_assistant_on_twitter.title" = "Home Assistant a Twitteren";
-"about.logo.app_title" = "Home Assistant mobilalkalmazás";
+"about.home_assistant_on_facebook.title" = "GiToon a Facebookon";
+"about.home_assistant_on_twitter.title" = "GiToon a Twitteren";
+"about.logo.app_title" = "GiToon mobilalkalmazás";
 "about.logo.tagline" = "Ébressze fel otthonát";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Írja meg véleményét";
 "about.title" = "Névjegy";
 "about.website.title" = "Weboldal";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Ezeket a jelenet attribútumainak testreszabásával is megváltoztathatja: %@";
 "actions_configurator.visual_section.server_defined" = "A művelet megjelenését a kiszolgáló konfigurációja szabályozza.";
 "addButtonLabel" = "Hozzáadás";
-"alerts.action_automation_editor.unavailable.body" = "A művelet automatizálásokk létrehozásához frissítse a Home Assistantot legalább a 2024.2-es verzióra";
-"alerts.action_automation_editor.unavailable.title" = "Kérjük, frissítse a Home Assistantot";
+"alerts.action_automation_editor.unavailable.body" = "A művelet automatizálásokk létrehozásához frissítse a GiToonot legalább a 2024.2-es verzióra";
+"alerts.action_automation_editor.unavailable.title" = "Kérjük, frissítse a GiToonot";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "A szerver elutasította a hitelesítő adatait, a folytatáshoz újra be kell jelentkeznie.";
 "alerts.auth_required.title" = "A folytatáshoz bejelentkezés szükséges";
@@ -128,7 +128,7 @@
 "error_label" = "Hiba";
 "extensions.map.location.new" = "Új helyszín";
 "extensions.map.location.original" = "Eredeti helyszín";
-"extensions.map.payload_missing_homeassistant.message" = "Az adatcsomag nem tartalmazott homeassistant szótárt!";
+"extensions.map.payload_missing_homeassistant.message" = "Az adatcsomag nem tartalmazott gitoon szótárt!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "A szélességi fok nem található, vagy nem lehetett kiolvasni!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "A hosszúsági fok nem található, vagy nem lehetett kiolvasni!";
 "extensions.notification_content.error.no_entity_id" = "Nincs entity_id az adatcsomagban!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS stream nem elérhető";
 "extensions.notification_content.error.request.other" = "Nem 200-as állapotkód (%li)";
 "ha_api.api_error.cant_build_url" = "Nem lehet API URL-t létrehozni";
-"ha_api.api_error.invalid_response" = "Érvénytelen válasz érkezett a Home Assistant-tól";
+"ha_api.api_error.invalid_response" = "Érvénytelen válasz érkezett a GiToon-tól";
 "ha_api.api_error.manager_not_available" = "A HA API Manager nem elérhető";
-"ha_api.api_error.mobile_app_component_not_loaded" = "A mobile_app komponens nincs betöltve. Kérjük, adja hozzá a konfigurációjához, indítsa újra a Home Assistantot és próbálja meg újra.";
-"ha_api.api_error.must_upgrade_home_assistant" = "A Home Assistant (%@) verziója túl régi, az alkalmazás használatához legalább a %@ verzióra kell frissítenie.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "A mobile_app komponens nincs betöltve. Kérjük, adja hozzá a konfigurációjához, indítsa újra a GiToonot és próbálja meg újra.";
+"ha_api.api_error.must_upgrade_home_assistant" = "A GiToon (%@) verziója túl régi, az alkalmazás használatához legalább a %@ verzióra kell frissítenie.";
 "ha_api.api_error.not_configured" = "HA API nincs konfigurálva";
 "ha_api.api_error.unacceptable_status_code" = "Elfogadhatatlan állapotkód %1$li.";
 "ha_api.api_error.unexpected_type" = "%1$@ típusú eredményt érkezett a válaszban, miközben %2$@ típusú eredmény az elvárt.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Címke olvasása";
 "nfc.list.description" = "Az alkalmazás által írt NFC-címkék értesítést jeleznek, ha a készüléket a közelükbe viszi. Az értesítés aktiválása elindítja az alkalmazást és eseményt indít.\
 \
-A címkék minden olyan eszközön működnek, amelyre telepítve van a Home Assistant és amely hardveres támogatással rendelkezik az olvasásukhoz.";
+A címkék minden olyan eszközön működnek, amelyre telepítve van a GiToon és amely hardveres támogatással rendelkezik az olvasásukhoz.";
 "nfc.list.learn_more" = "Tudjon meg többet";
 "nfc.list.read_tag" = "Címke olvasása";
 "nfc.list.title" = "NFC-címkék";
 "nfc.list.write_tag" = "Címke írása";
 "nfc.not_available" = "Az NFC nem érhető el ezen a készüléken";
 "nfc.read.error.generic_failure" = "Nem sikerült beolvasni a matricát";
-"nfc.read.error.not_home_assistant" = "Az NFC-címke nem Home Assistant címke";
+"nfc.read.error.not_home_assistant" = "Az NFC-címke nem GiToon címke";
 "nfc.read.error.tag_invalid" = "Az NFC-címke érvénytelen";
 "nfc.read.start_message" = "Tartsa a(z) %@-t egy NFC-címke közelébe";
 "nfc.tag_read" = "NFC-címke olvasása";
@@ -213,7 +213,7 @@ A címkék minden olyan eszközön működnek, amelyre telepítve van a Home Ass
 "notification_service.parser.camera.invalid_entity" = "A megadott entity_id érvénytelen.";
 "notification_service.parser.url.invalid_url" = "A megadott URL érvénytelen.";
 "notification_service.parser.url.no_url" = "Nincs megadva URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Ha a felhasználó ezzel a lehetőséggel választja ki a műveletet, a rendszer felszólítja a felhasználót a készülék feloldására. A feloldás után a Home Assistant értesítést kap a kiválasztott műveletről.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Ha a felhasználó ezzel a lehetőséggel választja ki a műveletet, a rendszer felszólítja a felhasználót a készülék feloldására. A feloldás után a GiToon értesítést kap a kiválasztott műveletről.";
 "notifications_configurator.action.rows.authentication_required.title" = "Hitelesítés szükséges";
 "notifications_configurator.action.rows.destructive.footer" = "Ha engedélyezve van, a műveletgomb külön kiemeléssel jelenik meg, jelezve, hogy destruktív feladatot hajt végre.";
 "notifications_configurator.action.rows.destructive.title" = "Destruktív";
@@ -263,7 +263,7 @@ A címkék minden olyan eszközön működnek, amelyre telepítve van a Home Ass
 "onboarding.manual_setup.connect" = "Csatlakozás";
 "onboarding.manual_setup.couldnt_make_url.message" = "%@ nem érvényes URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Nem sikerült létrehozni URL-t";
-"onboarding.manual_setup.description" = "A Home Assistant szerver URL-je. Győződjön meg arról, hogy tartalmazza a protokollt és a portot.";
+"onboarding.manual_setup.description" = "A GiToon szerver URL-je. Győződjön meg arról, hogy tartalmazza a protokollt és a portot.";
 "onboarding.manual_setup.no_scheme.message" = "http:// vagy https:// segítségével csatlakozna?";
 "onboarding.manual_setup.no_scheme.title" = "Séma nélkül megadott URL";
 "onboarding.manual_setup.title" = "URL megadása";
@@ -272,7 +272,7 @@ A címkék minden olyan eszközön működnek, amelyre telepítve van a Home Ass
 "onboarding.permissions.change_later_note" = "Ezt az engedélyt később módosíthatja a beállításokban";
 "onboarding.permissions.focus.bullet.automations" = "Fókusz-alapú automatizmusok";
 "onboarding.permissions.focus.bullet.instant" = "Azonnali frissítések az állapotváltozáskor";
-"onboarding.permissions.focus.description" = "Engedélyezi, hogy a Home Assistant számára elküldjük, ha Ön ne zavarj módban van";
+"onboarding.permissions.focus.description" = "Engedélyezi, hogy a GiToon számára elküldjük, ha Ön ne zavarj módban van";
 "onboarding.permissions.focus.grant_description" = "Engedélyezze a fókuszengedélyt, hogy érzékelőket hozzon létre a fókusz állapotához, más néven \"ne zavarjanak\".";
 "onboarding.permissions.focus.title" = "Ne zavarj";
 "onboarding.permissions.location.bullet.automations" = "Jelenlét-alapú automatizmusok";
@@ -284,23 +284,23 @@ A címkék minden olyan eszközön működnek, amelyre telepítve van a Home Ass
 "onboarding.permissions.motion.bullet.activity" = "Az aktuális tevékenységtípus érzékelője";
 "onboarding.permissions.motion.bullet.distance" = "A megtett távolság érzékelője";
 "onboarding.permissions.motion.bullet.steps" = "Érzékelő a lépésszámláláshoz";
-"onboarding.permissions.motion.description" = "A mozgástevékenység és a lépésszámláló adatok elküldésének engedélyezése a Home Assistant számára";
+"onboarding.permissions.motion.description" = "A mozgástevékenység és a lépésszámláló adatok elküldésének engedélyezése a GiToon számára";
 "onboarding.permissions.motion.grant_description" = "Engedélyezze a mozgás engedélyezését a mozgás- és lépésszámláló adatok érzékelőinek létrehozásához.";
 "onboarding.permissions.motion.title" = "Mozgás és lépésszámláló";
 "onboarding.permissions.notification.bullet.alert" = "Értesítések megjelenítése";
 "onboarding.permissions.notification.bullet.badge" = "Frissítse az alkalmazás ikonját";
 "onboarding.permissions.notification.bullet.commands" = "Parancsok küldése a készüléknek";
-"onboarding.permissions.notification.description" = "Home Assistant által küldött Push értesítések engedélyezése";
+"onboarding.permissions.notification.description" = "GiToon által küldött Push értesítések engedélyezése";
 "onboarding.permissions.notification.grant_description" = "Értesítési engedély engedélyezése értesítési szolgáltatás létrehozásához az eszközön.";
 "onboarding.permissions.notification.title" = "Értesítések";
 "onboarding.scanning.discovered_announcement" = "Felfedezve: %@";
 "onboarding.scanning.manual" = "Cím kézi megadása";
 "onboarding.scanning.manual_hint" = "Nem találja a szerverét?";
 "onboarding.scanning.title" = "Szerverek keresése";
-"onboarding.welcome.description" = "Ez az alkalmazás csatlakozik a Home Assistant szerverhez és lehetővé teszi az Önre és telefonjára vonatkozó adatok integrálását.\
+"onboarding.welcome.description" = "Ez az alkalmazás csatlakozik a GiToon szerverhez és lehetővé teszi az Önre és telefonjára vonatkozó adatok integrálását.\
 \
-A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási szoftver, amely a vezérlés helyben történő kivitelezésére és az adatvédelemre összpontosít.";
-"onboarding.welcome.title" = "%@ Home Assistant üdvözli Önt!";
+A GiToon egy ingyenes és nyílt forráskódú otthoni automatizálási szoftver, amely a vezérlés helyben történő kivitelezésére és az adatvédelemre összpontosít.";
+"onboarding.welcome.title" = "%@ GiToon üdvözli Önt!";
 "open_label" = "Megnyitás";
 "preview_output" = "Eredmény előnézete";
 "requires_version" = "%@ vagy újabb szükséges.";
@@ -318,11 +318,11 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "settings.connection_section.delete_server.title" = "Szerver törlése";
 "settings.connection_section.details" = "Részletek";
 "settings.connection_section.errors.cannot_remove_last_url" = "Nem lehet az egyetlen rendelkezésre álló URL-t eltávolítani.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Külső URL";
 "settings.connection_section.header" = "Kapcsolat";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Felhő";
-"settings.connection_section.internal_base_url.placeholder" = "pl. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Felhő";
+"settings.connection_section.internal_base_url.placeholder" = "pl. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Belső URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Új hardvercím hozzáadása";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "A rendszer akkor használja a belső URL-címet, ha az elsődleges hálózati adapter MAC-címe megegyezik ezen hardvercímek egyikével.";
@@ -332,7 +332,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "settings.connection_section.internal_url_ssids.footer" = "A belső URL-t használja a rendszer, ha a felsorolt SSID-ek közül valamelyikéhez csatlakozik";
 "settings.connection_section.internal_url_ssids.header" = "SSID-k";
 "settings.connection_section.internal_url_ssids.placeholder" = "SajátHálózatNév";
-"settings.connection_section.local_push_description" = "Közvetlenül csatlakozhat a Home Assistant szerverhez a push értesítésekért, ha belső SSID-eken van.";
+"settings.connection_section.local_push_description" = "Közvetlenül csatlakozhat a GiToon szerverhez a push értesítésekért, ha belső SSID-eken van.";
 "settings.connection_section.location_send_type.setting.exact" = "Pontos";
 "settings.connection_section.location_send_type.setting.never" = "Soha";
 "settings.connection_section.location_send_type.setting.zone_only" = "Csak a zóna neve";
@@ -387,7 +387,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "settings.location_history.title" = "Helyelőzmények";
 "settings.navigation_bar.about_button.title" = "Névjegy";
 "settings.navigation_bar.title" = "Beállítások";
-"settings.reset_section.reset_alert.message" = "A beállítások visszaállítását követően ez az eszköz nem lesz regisztrálva többé a push-értesítésekbe, valamint eltávolításra kerül a Home Assistant konfigurációjából.";
+"settings.reset_section.reset_alert.message" = "A beállítások visszaállítását követően ez az eszköz nem lesz regisztrálva többé a push-értesítésekbe, valamint eltávolításra kerül a GiToon konfigurációjából.";
 "settings.reset_section.reset_alert.progress_message" = "Visszaállítás...";
 "settings.reset_section.reset_alert.title" = "Visszaállítás";
 "settings.reset_section.reset_row.title" = "Visszaállítás";
@@ -395,7 +395,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "settings.server_select.page_title" = "Szerver";
 "settings.server_select.title" = "Szerver";
 "settings.status_section.header" = "Állapot";
-"settings.status_section.location_name_row.placeholder" = "Az én Home Assistantom";
+"settings.status_section.location_name_row.placeholder" = "Az én GiToonom";
 "settings.status_section.location_name_row.title" = "Elnevezés";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Verzió";
@@ -427,7 +427,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "settings_details.general.app_icon.enum.electric_violet" = "Ibolya";
 "settings_details.general.app_icon.enum.fire_orange" = "Tűznarancs";
 "settings_details.general.app_icon.enum.green" = "Zöld";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant kék";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon kék";
 "settings_details.general.app_icon.enum.old_beta" = "Régi béta";
 "settings_details.general.app_icon.enum.old_dev" = "Régi fejlesztői";
 "settings_details.general.app_icon.enum.old_release" = "Régi kiadás";
@@ -561,7 +561,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "settings_details.notifications.title" = "Értesítések";
 "settings_details.privacy.alerts.description" = "Lehetővé teszi a fontos figyelmeztetések ellenőrzését, például biztonsági rések kapcsán.";
 "settings_details.privacy.alerts.title" = "Riasztások";
-"settings_details.privacy.analytics.generic_description" = "Lehetővé teszi az eszközzel és az alkalmazással való interakciókkal kapcsolatos alapvető információk gyűjtését. Nem osztja meg a felhasználó azonosítható adatait, beleértve a Home Assistant URL-címeit és a tokeneket. Újra kell indítania az alkalmazást ahhoz, hogy a beállítás módosításai hatályba lépjenek.";
+"settings_details.privacy.analytics.generic_description" = "Lehetővé teszi az eszközzel és az alkalmazással való interakciókkal kapcsolatos alapvető információk gyűjtését. Nem osztja meg a felhasználó azonosítható adatait, beleértve a GiToon URL-címeit és a tokeneket. Újra kell indítania az alkalmazást ahhoz, hogy a beállítás módosításai hatályba lépjenek.";
 "settings_details.privacy.analytics.generic_title" = "Analitika";
 "settings_details.privacy.crash_reporting.description" = "Lehetővé teszi az alkalmazásban előforduló összeomlások és egyéb hibák mélyebb nyomon követését, ami gyorsabb javítások közzétételéhez vezet. Az alapvető eszközadatokon kívül nem küldünk a felhasználóval azonosítható adatokat. Az alkalmazás újraindítása szükséges ahhoz, hogy a beállítás módosítása érvénybe lépjen.";
 "settings_details.privacy.crash_reporting.sentry" = "Ez a funkció jelenleg a Sentry-t használja a jelentés célállomásaként.";
@@ -601,7 +601,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "thread.credentials.screen_title" = "Thread hitelesítő adatai";
 "thread.credentials.share_credentials.no_credentials_message" = "Győződjön meg róla, hogy bejelentkezett az iCloud fiókjával, amely egy Otthon tulajdonosa az Apple Home-ban.";
 "thread.credentials.share_credentials.no_credentials_title" = "Nincsenek megosztandó hitelesítő adatai";
-"thread.credentials.share_credentials_button_title" = "Hitelesítő adatok megosztása a Home Assistanttal";
+"thread.credentials.share_credentials_button_title" = "Hitelesítő adatok megosztása a GiToontal";
 "thread.extended_pan_id.title" = "Kiterjesztett PAN azonosító";
 "thread.management.title" = "Thread hitelesítő adatai";
 "thread.network_key.title" = "Hálózati kulcs";
@@ -609,7 +609,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Nem sikerült hexadecimálisra konvertálni a bemenetet, miközben a Thread hitelesítő adatait a kulcskarikában tárolta";
 "thread.store_in_keychain.error.title" = "A művelet sikertelen";
 "thread.transter_to_apple.title" = "Átvitel az Apple-kulcskarikára";
-"thread.transter_to_homeassistant.title" = "Átvitel a Home Assistantba";
+"thread.transter_to_homeassistant.title" = "Átvitel a GiToonba";
 "token_error.connection_failed" = "A kapcsolat sikertelen.";
 "token_error.expired" = "A token lejárt.";
 "token_error.token_unavailable" = "A token nem elérhető.";
@@ -639,7 +639,7 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "url_handler.send_location.success.title" = "Helymeghatározás elküldve";
 "url_handler.x_callback_url.error.eventNameMissing" = "az eventName-et meg kell határozni";
 "url_handler.x_callback_url.error.general" = "Általános hiba történt";
-"url_handler.x_callback_url.error.serviceMissing" = "szolgáltatást (pl. homeassistant.turn_on) definiálni kell";
+"url_handler.x_callback_url.error.serviceMissing" = "szolgáltatást (pl. gitoon.turn_on) definiálni kell";
 "url_handler.x_callback_url.error.templateMissing" = "Meg kell határozni egy renderelhető sablont";
 "username_label" = "Felhasználónév";
 "watch.configurator.delete.button" = "Modul törlése";
@@ -836,10 +836,10 @@ A Home Assistant egy ingyenes és nyílt forráskódú otthoni automatizálási 
 "watch.labels.complication_text_areas.trailing.label" = "Záró";
 "watch.labels.no_action" = "Nincsenek konfigurálva műveletek. Konfigurálja a műveleteket a telefonján az üzenet elvetéséhez.";
 "watch.placeholder_complication_name" = "Helykitöltő";
-"widgets.actions.description" = "Hajtsa végre a Home Assistant műveleteket.";
+"widgets.actions.description" = "Hajtsa végre a GiToon műveleteket.";
 "widgets.actions.not_configured" = "Nincs konfigurált művelet";
 "widgets.actions.title" = "Műveletek";
-"widgets.open_page.description" = "Nyisson meg egy kezelőfelületet a Home Assistant alkalmazásban.";
+"widgets.open_page.description" = "Nyisson meg egy kezelőfelületet a GiToon alkalmazásban.";
 "widgets.open_page.not_configured" = "Nincsenek elérhető oldalak";
 "widgets.open_page.title" = "Oldal megnyitása";
 "yes_label" = "Igen";

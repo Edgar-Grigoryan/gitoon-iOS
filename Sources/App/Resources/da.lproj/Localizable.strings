@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Hjælp med at oversætte appen!";
-"about.home_assistant_on_facebook.title" = "Home Assistant på Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant på Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon på Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon på Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Væk dit hjem til live";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Skriv en anmeldelse";
 "about.title" = "Om";
 "about.website.title" = "Hjemmeside";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Du kan også ændre disse ved at tilpasse Scene-egenskaberne: %@";
 "actions_configurator.visual_section.server_defined" = "Udseendet af denne handling styres af serverkonfigurationen.";
 "addButtonLabel" = "Tilføj";
-"alerts.action_automation_editor.unavailable.body" = "Hvis du automatisk vil oprette en automatisering for en handling, skal du opdatere din Home Assistant til version 2024.2 eller nyere.";
-"alerts.action_automation_editor.unavailable.title" = "Opdatér venligst Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "Hvis du automatisk vil oprette en automatisering for en handling, skal du opdatere din GiToon til version 2024.2 eller nyere.";
+"alerts.action_automation_editor.unavailable.title" = "Opdatér venligst GiToon";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Serveren har afvist dine legitimationsoplysninger, og du skal logge ind igen for at fortsætte.";
 "alerts.auth_required.title" = "Du skal logge ind for at fortsætte";
@@ -128,7 +128,7 @@
 "error_label" = "Fejl";
 "extensions.map.location.new" = "Ny lokalitet";
 "extensions.map.location.original" = "Original lokalitet";
-"extensions.map.payload_missing_homeassistant.message" = "Payload indeholdt ikke et Home Assistant-dictonary!";
+"extensions.map.payload_missing_homeassistant.message" = "Payload indeholdt ikke et GiToon-dictonary!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Breddegraden blev ikke fundet eller kunne ikke blive lavet til en streng!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Længdegraden blev ikke fundet eller kunne ikke blive lavet til en streng!";
 "extensions.notification_content.error.no_entity_id" = "Intet entity_id fundet i payload!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS-stream er ikke tilgængelig";
 "extensions.notification_content.error.request.other" = "Modtog en ikke-200 statuskode (%li)";
 "ha_api.api_error.cant_build_url" = "Kan ikke oprette API-URL";
-"ha_api.api_error.invalid_response" = "Modtog ugyldigt svar fra Home Assistant";
+"ha_api.api_error.invalid_response" = "Modtog ugyldigt svar fra GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager er ikke tilgængelig";
-"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app-komponenten er ikke indlæst. Føj den til konfigurationen, genstart Home Assistant, og prøv igen.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Din Home Assistant-version (%@) er for gammel, du skal opgradere til mindst version %@ for at bruge appen.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app-komponenten er ikke indlæst. Føj den til konfigurationen, genstart GiToon, og prøv igen.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Din GiToon-version (%@) er for gammel, du skal opgradere til mindst version %@ for at bruge appen.";
 "ha_api.api_error.not_configured" = "HA API er ikke konfigureret";
 "ha_api.api_error.unacceptable_status_code" = "Uacceptabel statuskode %1$li.";
 "ha_api.api_error.unexpected_type" = "Modtog svar med et resultat af typen %1$@, men forventede typen %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tag læst";
 "nfc.list.description" = "NFC-tags, der er skrevet af appen, viser en notifikation, når du bringer din enhed i nærheden af dem. Ved tryk på notifikationen starter appen og afsender en begivenhed.\
 \
-Tags vil virke på enhver enhed med Home Assistant installeret som har hardwareunderstøttelse til at læse dem.";
+Tags vil virke på enhver enhed med GiToon installeret som har hardwareunderstøttelse til at læse dem.";
 "nfc.list.learn_more" = "Lær mere";
 "nfc.list.read_tag" = "Læs tag";
 "nfc.list.title" = "NFC-tags";
 "nfc.list.write_tag" = "Skriv til tag";
 "nfc.not_available" = "NFC er ikke tilgængelig på denne enhed";
 "nfc.read.error.generic_failure" = "Kunne ikke læse tag";
-"nfc.read.error.not_home_assistant" = "NFC-tag er ikke et Home Assistant-tag";
+"nfc.read.error.not_home_assistant" = "NFC-tag er ikke et GiToon-tag";
 "nfc.read.error.tag_invalid" = "NFC-tag er ugyldigt";
 "nfc.read.start_message" = "Hold %@ i nærheden af et NFC-tag";
 "nfc.tag_read" = "NFC-tag læst";
@@ -213,7 +213,7 @@ Tags vil virke på enhver enhed med Home Assistant installeret som har hardwareu
 "notification_service.parser.camera.invalid_entity" = "Angivet entitets-Id er ugyldig.";
 "notification_service.parser.url.invalid_url" = "Den angivne webadresse var ugyldig.";
 "notification_service.parser.url.no_url" = "Ingen webadresse blev angivet.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Når brugeren vælger en handling med denne indstilling, beder systemet brugeren om at låse enheden op. Efter oplåsning vil Home Assistant blive underrettet om den valgte handling.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Når brugeren vælger en handling med denne indstilling, beder systemet brugeren om at låse enheden op. Efter oplåsning vil GiToon blive underrettet om den valgte handling.";
 "notifications_configurator.action.rows.authentication_required.title" = "Godkendelse påkrævet";
 "notifications_configurator.action.rows.destructive.footer" = "Når den er aktiveret, vises handlingsknappen med særlig fremhævning for at indikere, at den udfører en destruktiv opgave.";
 "notifications_configurator.action.rows.destructive.title" = "Destruktiv";
@@ -263,7 +263,7 @@ Tags vil virke på enhver enhed med Home Assistant installeret som har hardwareu
 "onboarding.manual_setup.connect" = "Opret forbindelse";
 "onboarding.manual_setup.couldnt_make_url.message" = "Værdien '%@' var ikke en gyldig webadresse.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Kunne ikke oprette en webadresse";
-"onboarding.manual_setup.description" = "Webadressen til din Home Assistant-server. Sørg for, at den indeholder protokollen og porten.";
+"onboarding.manual_setup.description" = "Webadressen til din GiToon-server. Sørg for, at den indeholder protokollen og porten.";
 "onboarding.manual_setup.no_scheme.message" = "Skal vi prøve at forbinde ved hjælp af http:// eller https://?";
 "onboarding.manual_setup.no_scheme.title" = "Webadresse-adresse angivet uden scheme";
 "onboarding.manual_setup.title" = "Indtast webadresse";
@@ -272,7 +272,7 @@ Tags vil virke på enhver enhed med Home Assistant installeret som har hardwareu
 "onboarding.permissions.change_later_note" = "Du kan ændre denne tilladelse senere i Indstillinger";
 "onboarding.permissions.focus.bullet.automations" = "Fokus-baserede automatiseringer";
 "onboarding.permissions.focus.bullet.instant" = "Øjeblikkelige opdateringer når status ændres";
-"onboarding.permissions.focus.description" = "Tillad, at det sendes til Home Assistant, om Fokusfunktion er slået til";
+"onboarding.permissions.focus.description" = "Tillad, at det sendes til GiToon, om Fokusfunktion er slået til";
 "onboarding.permissions.focus.grant_description" = "Giv fokustilladelse for at oprette sensorer til din fokus-status, også kendt som \"Forstyr ikke\"";
 "onboarding.permissions.focus.title" = "Fokus";
 "onboarding.permissions.location.bullet.automations" = "Tilstedeværelsesbaserede automatiseringer";
@@ -284,23 +284,23 @@ Tags vil virke på enhver enhed med Home Assistant installeret som har hardwareu
 "onboarding.permissions.motion.bullet.activity" = "Sensor for den aktuelle aktivitetstype";
 "onboarding.permissions.motion.bullet.distance" = "Sensor til måling af tilbagelagt afstand";
 "onboarding.permissions.motion.bullet.steps" = "Sensor til skridttælling";
-"onboarding.permissions.motion.description" = "Tillad, at bevægelsesaktivitet og skridttællerdata sendes til Home Assistant";
+"onboarding.permissions.motion.description" = "Tillad, at bevægelsesaktivitet og skridttællerdata sendes til GiToon";
 "onboarding.permissions.motion.grant_description" = "Giv bevægelsestilladelse for at oprette sensorer til bevægelses- og skridttællerdata.";
 "onboarding.permissions.motion.title" = "Bevægelse og skridttæller";
 "onboarding.permissions.notification.bullet.alert" = "Få besked vha. notifikationer";
 "onboarding.permissions.notification.bullet.badge" = "Opdatér app-ikon badge";
 "onboarding.permissions.notification.bullet.commands" = "Send kommandoer til din enhed";
-"onboarding.permissions.notification.description" = "Tillad, at push-notifikationer sendes fra din Home Assistant";
+"onboarding.permissions.notification.description" = "Tillad, at push-notifikationer sendes fra din GiToon";
 "onboarding.permissions.notification.grant_description" = "Giv notifikationstilladelse for at oprette en notifikationstjeneste for din enhed.";
 "onboarding.permissions.notification.title" = "Notifikationer";
 "onboarding.scanning.discovered_announcement" = "Fandt: %@";
 "onboarding.scanning.manual" = "Indtast adresse manuelt";
 "onboarding.scanning.manual_hint" = "Kan du ikke finde din server?";
 "onboarding.scanning.title" = "Søger efter servere";
-"onboarding.welcome.description" = "Denne app forbinder til din Home Assistant-server og giver mulighed for at integrere data om dig og din telefon. \
+"onboarding.welcome.description" = "Denne app forbinder til din GiToon-server og giver mulighed for at integrere data om dig og din telefon. \
 \
-Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus på lokal kontrol og privatliv.";
-"onboarding.welcome.title" = "Velkommen til Home Assistant %@!";
+GiToon er gratis og open source hjemmeautomatiseringssoftware med fokus på lokal kontrol og privatliv.";
+"onboarding.welcome.title" = "Velkommen til GiToon %@!";
 "open_label" = "Åbn";
 "preview_output" = "Forhåndsvisning af output";
 "requires_version" = "Kræver %@ eller nyere.";
@@ -318,11 +318,11 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings.connection_section.delete_server.title" = "Slet server";
 "settings.connection_section.details" = "Detaljer";
 "settings.connection_section.errors.cannot_remove_last_url" = "Du kan ikke fjerne den eneste tilgængelige webadresse.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.mithjem.dk";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.mithjem.dk";
 "settings.connection_section.external_base_url.title" = "Ekstern webadresse";
 "settings.connection_section.header" = "Forbindelse";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "fx http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "fx http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Intern webadresse";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Tilføj ny hardwareadresse";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Intern URL vil blive brugt, når den primære netværksgrænseflade har en MAC-adresse, der matcher en af disse hardwareadresser.";
@@ -332,7 +332,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings.connection_section.internal_url_ssids.footer" = "Intern webadresse vil blive brugt, når der er oprettet forbindelse til tilføjede SSID'er";
 "settings.connection_section.internal_url_ssids.header" = "SSID'er";
 "settings.connection_section.internal_url_ssids.placeholder" = "MitSjoveNetværksnavn";
-"settings.connection_section.local_push_description" = "Opret direkte forbindelse til Home Assistant -serveren for push -notifikationer, når der tilsluttes via  interne SSID'er.";
+"settings.connection_section.local_push_description" = "Opret direkte forbindelse til GiToon -serveren for push -notifikationer, når der tilsluttes via  interne SSID'er.";
 "settings.connection_section.location_send_type.setting.exact" = "Præcis";
 "settings.connection_section.location_send_type.setting.never" = "Aldrig";
 "settings.connection_section.location_send_type.setting.zone_only" = "Kun zonenavn";
@@ -387,7 +387,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings.location_history.title" = "Lokalitetshistorik";
 "settings.navigation_bar.about_button.title" = "Om";
 "settings.navigation_bar.title" = "Indstillinger";
-"settings.reset_section.reset_alert.message" = "Dine indstillinger nulstilles, og denne enhed vil blive afregistreret fra push-notifikationer og fjernes fra din Home Assistant-konfiguration.";
+"settings.reset_section.reset_alert.message" = "Dine indstillinger nulstilles, og denne enhed vil blive afregistreret fra push-notifikationer og fjernes fra din GiToon-konfiguration.";
 "settings.reset_section.reset_alert.progress_message" = "Nulstiller…";
 "settings.reset_section.reset_alert.title" = "Nulstil";
 "settings.reset_section.reset_row.title" = "Nulstil";
@@ -395,7 +395,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "Min Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Min GiToon";
 "settings.status_section.location_name_row.title" = "Navn";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -427,7 +427,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrisk violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Ildorange";
 "settings_details.general.app_icon.enum.green" = "Grøn";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant-blå";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon-blå";
 "settings_details.general.app_icon.enum.old_beta" = "Gammel beta";
 "settings_details.general.app_icon.enum.old_dev" = "Gammel udviklings";
 "settings_details.general.app_icon.enum.old_release" = "Gammel udgivelse";
@@ -561,7 +561,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "settings_details.notifications.title" = "Notifikationer";
 "settings_details.privacy.alerts.description" = "Gør det muligt at kontrollere vigtige advarsler såsom sikkerhedssvagheder.";
 "settings_details.privacy.alerts.title" = "Advarsler";
-"settings_details.privacy.analytics.generic_description" = "Giver mulighed for indsamling af grundlæggende oplysninger om din enhed og interaktioner med appen. Der deles ingen brugeridentificerbare data herunder webadresser og tokens til Home Assistant. Du skal genstarte appen, for at ændringer af denne indstilling kan træde i kraft.";
+"settings_details.privacy.analytics.generic_description" = "Giver mulighed for indsamling af grundlæggende oplysninger om din enhed og interaktioner med appen. Der deles ingen brugeridentificerbare data herunder webadresser og tokens til GiToon. Du skal genstarte appen, for at ændringer af denne indstilling kan træde i kraft.";
 "settings_details.privacy.analytics.generic_title" = "Brugsdata og diagnostik";
 "settings_details.privacy.crash_reporting.description" = "Giver mulighed for mere tilbundsgående sporing af nedbrud og andre fejl i appen, hvilket betyder at der hurtigere kan laves rettelser. Der sendes ingen brugeridentificerbare oplysninger, bortset fra grundlæggende enhedsoplysninger. Du skal genstarte appen, for at ændringer af denne indstilling kan træde i kraft.";
 "settings_details.privacy.crash_reporting.sentry" = "Denne funktion bruger i øjeblikket Sentry som rapporteringsdestination.";
@@ -601,7 +601,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "thread.credentials.screen_title" = "Thread-legitimationsoplysninger";
 "thread.credentials.share_credentials.no_credentials_message" = "Sørg for, at du er logget ind med din iCloud-konto, som er ejer af et hjem i Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Du har ikke legitimationsoplysninger at dele";
-"thread.credentials.share_credentials_button_title" = "Del legitimationsoplysninger med Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Del legitimationsoplysninger med GiToon";
 "thread.extended_pan_id.title" = "Udvidet PAN-ID";
 "thread.management.title" = "Thread-legitimationsoplysninger";
 "thread.network_key.title" = "Netværksnøgle";
@@ -609,7 +609,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Kunne ikke konvertere input til hexadecimal under lagring af Thread-legitimationsoplysninger i nøglering";
 "thread.store_in_keychain.error.title" = "Handlingen mislykkedes";
 "thread.transter_to_apple.title" = "Overførsel til Apple-nøglering";
-"thread.transter_to_homeassistant.title" = "Overfør til Home Assistant";
+"thread.transter_to_homeassistant.title" = "Overfør til GiToon";
 "token_error.connection_failed" = "Forbindelsen mislykkedes.";
 "token_error.expired" = "Token er udløbet.";
 "token_error.token_unavailable" = "Token er ikke tilgængelig.";
@@ -639,7 +639,7 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "url_handler.send_location.success.title" = "Send lokalitet";
 "url_handler.x_callback_url.error.eventNameMissing" = "hændelsesnavn skal defineres";
 "url_handler.x_callback_url.error.general" = "Der opstod en generel fejl";
-"url_handler.x_callback_url.error.serviceMissing" = "service (f.eks. homeassistant.turn_on) skal defineres";
+"url_handler.x_callback_url.error.serviceMissing" = "service (f.eks. gitoon.turn_on) skal defineres";
 "url_handler.x_callback_url.error.templateMissing" = "Der skal defineres en gengivbar skabelon";
 "username_label" = "Brugernavn";
 "watch.configurator.delete.button" = "Slet Komplikation?";
@@ -836,10 +836,10 @@ Home Assistant er gratis og open source hjemmeautomatiseringssoftware med fokus 
 "watch.labels.complication_text_areas.trailing.label" = "Bagkant";
 "watch.labels.no_action" = "Der er ikke konfigureret nogen handlinger. Konfigurer handlinger på telefonen for at fjerne denne meddelelse.";
 "watch.placeholder_complication_name" = "Pladsholder";
-"widgets.actions.description" = "Udfør Home Assistant-handlinger.";
+"widgets.actions.description" = "Udfør GiToon-handlinger.";
 "widgets.actions.not_configured" = "Ingen handlinger konfigureret";
 "widgets.actions.title" = "Handlinger";
-"widgets.open_page.description" = "Åbn en brugerflade-side i Home Assistant.";
+"widgets.open_page.description" = "Åbn en brugerflade-side i GiToon.";
 "widgets.open_page.not_configured" = "Ingen sider tilgængelig";
 "widgets.open_page.title" = "Åbn side";
 "yes_label" = "Ja";

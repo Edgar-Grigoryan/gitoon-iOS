@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Hjelp å oversette appen!";
-"about.home_assistant_on_facebook.title" = "Home Assistant på Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant på Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon på Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon på Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Ta kontroll over hjemmet ditt";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Legg igjen en anmeldelse";
 "about.title" = "Om";
 "about.website.title" = "Nettsted";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Du kan også endre disse ved å tilpasse Scene-attributtene: %@";
 "actions_configurator.visual_section.server_defined" = "Utseendet til denne handlingen styres av serverkonfigurasjonen.";
 "addButtonLabel" = "Legg til";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Vennligst oppdater Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Vennligst oppdater GiToon";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Serveren har avvist legitimasjonen din, du må logge deg på igjen for å fortsette.";
 "alerts.auth_required.title" = "Du må logge inn for å fortsette";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS-strøm er ikke tilgjengelig";
 "extensions.notification_content.error.request.other" = "Mottok non-200 statuskode (%li)";
 "ha_api.api_error.cant_build_url" = "Kan ikke lage API-nettadressen";
-"ha_api.api_error.invalid_response" = "Mottatt ugyldig tilbakemelding fra Home Assistant";
+"ha_api.api_error.invalid_response" = "Mottatt ugyldig tilbakemelding fra GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager er ikke tilgjengelig";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenten mobile_app er ikke lastet inn. Legg den til i konfigurasjonen din, start Home Assistant på nytt og prøv igjen.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistant-versjonen (%@) er for gammel, du må oppgradere til minst versjon %@ for å kunne bruke appen.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenten mobile_app er ikke lastet inn. Legg den til i konfigurasjonen din, start GiToon på nytt og prøv igjen.";
+"ha_api.api_error.must_upgrade_home_assistant" = "GiToon-versjonen (%@) er for gammel, du må oppgradere til minst versjon %@ for å kunne bruke appen.";
 "ha_api.api_error.not_configured" = "HA API er ikke konfigurert";
 "ha_api.api_error.unacceptable_status_code" = "Uakseptabel statuskode %1$li .";
 "ha_api.api_error.unexpected_type" = "Mottatt svar med resultat av type %1$@ men forventet type %2$@ .";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tagg Les";
 "nfc.list.description" = "NFC-tagger skrevet av appen viser et varsel når du tar med enheten i nærheten av dem. Aktivering av varselet vil starte appen og utløse en hendelse.\
 \
-Koder vil fungere på alle enheter med Home Assistant installert som har maskinvarestøtte for å lese dem.";
+Koder vil fungere på alle enheter med GiToon installert som har maskinvarestøtte for å lese dem.";
 "nfc.list.learn_more" = "Lære mer";
 "nfc.list.read_tag" = "Les tag";
 "nfc.list.title" = "NFC-tagger";
 "nfc.list.write_tag" = "Skriv tag";
 "nfc.not_available" = "NFC er ikke tilgjengelig på denne enheten";
 "nfc.read.error.generic_failure" = "Kunne ikke lese taggen";
-"nfc.read.error.not_home_assistant" = "NFC-taggen er ikke et Home Assistant-tagg";
+"nfc.read.error.not_home_assistant" = "NFC-taggen er ikke et GiToon-tagg";
 "nfc.read.error.tag_invalid" = "NFC-taggen er ugyldig";
 "nfc.read.start_message" = "Hold %@ nærheten av en NFC-taggen";
 "nfc.tag_read" = "NFC Tag Les";
@@ -213,7 +213,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "notification_service.parser.camera.invalid_entity" = "enhets_id oppgitt var ugyldig.";
 "notification_service.parser.url.invalid_url" = "Den angitte URL-adressen var ugyldig.";
 "notification_service.parser.url.no_url" = "Ingen URL ble oppgitt.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Når brukeren velger en handling med dette alternativet, vil systemet be brukeren om å låse opp enheten. Etter opplåsing vil Home Assistant bli varslet om den valgte handlingen.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Når brukeren velger en handling med dette alternativet, vil systemet be brukeren om å låse opp enheten. Etter opplåsing vil GiToon bli varslet om den valgte handlingen.";
 "notifications_configurator.action.rows.authentication_required.title" = "Godkjenning kreves";
 "notifications_configurator.action.rows.destructive.footer" = "Når aktivert, vises handlingsknappen med spesiell markering for å indikere at den utfører en ødeleggende oppgave.";
 "notifications_configurator.action.rows.destructive.title" = "Destruktive";
@@ -263,7 +263,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "onboarding.manual_setup.connect" = "Koble";
 "onboarding.manual_setup.couldnt_make_url.message" = "Verdien %@ var ikke en gyldig URL-adresse.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Kan ikke opprette en URL-adresse";
-"onboarding.manual_setup.description" = "Nettadressen til Home Assistant -serveren. Sørg for at den inneholder protokollen og porten.";
+"onboarding.manual_setup.description" = "Nettadressen til GiToon -serveren. Sørg for at den inneholder protokollen og porten.";
 "onboarding.manual_setup.no_scheme.message" = "Skal vi prøve å koble til ved hjelp av http:// eller https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL angitt uten skjema";
 "onboarding.manual_setup.title" = "Skriv inn URL";
@@ -272,7 +272,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "onboarding.permissions.change_later_note" = "Du kan endre denne tillatelsen senere i Innstillinger";
 "onboarding.permissions.focus.bullet.automations" = "Fokusbaserte automatiseringer";
 "onboarding.permissions.focus.bullet.instant" = "Øyeblikkelige oppdateringer når status endres";
-"onboarding.permissions.focus.description" = "Tillat om du er i fokusmodus for å bli sendt til Home Assistant";
+"onboarding.permissions.focus.description" = "Tillat om du er i fokusmodus for å bli sendt til GiToon";
 "onboarding.permissions.focus.grant_description" = "Tillat fokustillatelse for å lage sensorer for fokusstatusen din, også kjent som ikke-forstyrr.";
 "onboarding.permissions.focus.title" = "Fokus";
 "onboarding.permissions.location.bullet.automations" = "Tilstedeværelsesbaserte automatiseringer";
@@ -284,23 +284,23 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "onboarding.permissions.motion.bullet.activity" = "Sensor for gjeldende aktivitetstype";
 "onboarding.permissions.motion.bullet.distance" = "Sensor for distanse flyttet";
 "onboarding.permissions.motion.bullet.steps" = "Sensor for trinntelling";
-"onboarding.permissions.motion.description" = "Tillat at bevegelsesaktivitet og skrittellerdata sendes til Home Assistant";
+"onboarding.permissions.motion.description" = "Tillat at bevegelsesaktivitet og skrittellerdata sendes til GiToon";
 "onboarding.permissions.motion.grant_description" = "Tillat bevegelsestillatelse for å lage sensorer for bevegelses- og skrittellerdata.";
 "onboarding.permissions.motion.title" = "Bevegelse og skritteller";
 "onboarding.permissions.notification.bullet.alert" = "Bli varslet fra meldinger";
 "onboarding.permissions.notification.bullet.badge" = "Oppdater appikonemerke";
 "onboarding.permissions.notification.bullet.commands" = "Send kommandoer til enheten din";
-"onboarding.permissions.notification.description" = "Tillat at pushvarsler sendes fra Home Assistant";
+"onboarding.permissions.notification.description" = "Tillat at pushvarsler sendes fra GiToon";
 "onboarding.permissions.notification.grant_description" = "Tillat varslingstillatelse for å opprette en varslingstjeneste for enheten din.";
 "onboarding.permissions.notification.title" = "Varslinger";
 "onboarding.scanning.discovered_announcement" = "Oppdaget: %@";
 "onboarding.scanning.manual" = "Skriv inn adressen manuelt";
 "onboarding.scanning.manual_hint" = "Finner du ikke serveren din?";
 "onboarding.scanning.title" = "Søker etter servere";
-"onboarding.welcome.description" = "Denne appen kobles til Home Assistant -serveren og lar deg integrere data om deg og telefonen. \
+"onboarding.welcome.description" = "Denne appen kobles til GiToon -serveren og lar deg integrere data om deg og telefonen. \
 \
- Home Assistant er gratis og åpen kildekode hjemmeautomatiseringsprogramvare med fokus på lokal kontroll og personvern.";
-"onboarding.welcome.title" = "Velkommen til Home Assistant %@ !";
+ GiToon er gratis og åpen kildekode hjemmeautomatiseringsprogramvare med fokus på lokal kontroll og personvern.";
+"onboarding.welcome.title" = "Velkommen til GiToon %@ !";
 "open_label" = "Åpen";
 "preview_output" = "Forhåndsvisning";
 "requires_version" = "Krever %@ eller nyere.";
@@ -318,11 +318,11 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.connection_section.delete_server.title" = "Slett server";
 "settings.connection_section.details" = "Detaljer";
 "settings.connection_section.errors.cannot_remove_last_url" = "Du kan ikke fjerne bare tilgjengelig URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Ekstern URL";
 "settings.connection_section.header" = "Tilkobling";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "f.eks. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "f.eks. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Intern URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Legg til ny maskinvareadresse";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Intern URL vil bli brukt når det primære nettverksgrensesnittet har en MAC-adresse som samsvarer med en av disse maskinvareadressene.";
@@ -332,7 +332,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.connection_section.internal_url_ssids.footer" = "Intern URL-adresse vil bli brukt når du er koblet til oppførte SSID-er";
 "settings.connection_section.internal_url_ssids.header" = "SSIDer";
 "settings.connection_section.internal_url_ssids.placeholder" = "MittRareNettverksNavn";
-"settings.connection_section.local_push_description" = "Koble direkte til Home Assistant-serveren for push-varsler når du er på interne SSIDer.";
+"settings.connection_section.local_push_description" = "Koble direkte til GiToon-serveren for push-varsler når du er på interne SSIDer.";
 "settings.connection_section.location_send_type.setting.exact" = "Nøyaktig";
 "settings.connection_section.location_send_type.setting.never" = "Aldri";
 "settings.connection_section.location_send_type.setting.zone_only" = "Kun sonenavn";
@@ -387,7 +387,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.location_history.title" = "Posisjonshistorikk";
 "settings.navigation_bar.about_button.title" = "Om";
 "settings.navigation_bar.title" = "Innstillinger";
-"settings.reset_section.reset_alert.message" = "Innstillingene tilbakestilles og denne enheten vil bli avregistrert fra push-varsling samt fjernet fra Home Assistant konfigurasjonen.";
+"settings.reset_section.reset_alert.message" = "Innstillingene tilbakestilles og denne enheten vil bli avregistrert fra push-varsling samt fjernet fra GiToon konfigurasjonen.";
 "settings.reset_section.reset_alert.progress_message" = "Tilbakestiller…";
 "settings.reset_section.reset_alert.title" = "Tilbakestill";
 "settings.reset_section.reset_row.title" = "Tilbakestille";
@@ -395,7 +395,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "Min Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Min GiToon";
 "settings.status_section.location_name_row.title" = "Navn";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versjon";
@@ -427,7 +427,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrisk Fiolett";
 "settings_details.general.app_icon.enum.fire_orange" = "Brann Oransje";
 "settings_details.general.app_icon.enum.green" = "Grønn";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blå";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon Blå";
 "settings_details.general.app_icon.enum.old_beta" = "Gammel Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Gammel Beta";
 "settings_details.general.app_icon.enum.old_release" = "Gammel Versjonen";
@@ -561,7 +561,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "settings_details.notifications.title" = "Varslingsinnstillinger";
 "settings_details.privacy.alerts.description" = "Tillater å se etter viktige varsler som sikkerhetsproblemer.";
 "settings_details.privacy.alerts.title" = "Varsler";
-"settings_details.privacy.analytics.generic_description" = "Tillater samling av grunnleggende informasjon om enheten din og interaksjoner med appen. Ingen brukeridentifiserbare data deles, inkludert URL-adresser og symboler for Home Assistant. Du må starte appen på nytt for at endringer i denne innstillingen skal tre i kraft.";
+"settings_details.privacy.analytics.generic_description" = "Tillater samling av grunnleggende informasjon om enheten din og interaksjoner med appen. Ingen brukeridentifiserbare data deles, inkludert URL-adresser og symboler for GiToon. Du må starte appen på nytt for at endringer i denne innstillingen skal tre i kraft.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Gjør det mulig å spore krasj og andre feil i appen dypere, noe som fører til at raskere reparasjoner publiseres. Ingen brukeridentifiserbar informasjon sendes, annet enn grunnleggende enhetsinformasjon. Du må starte appen på nytt for at endringer i denne innstillingen skal tre i kraft.";
 "settings_details.privacy.crash_reporting.sentry" = "Denne funksjonen bruker Sentry for øyeblikket som rapportdestinasjon.";
@@ -601,7 +601,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -609,7 +609,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Tilkoblingen mislyktes.";
 "token_error.expired" = "Token er utløpt.";
 "token_error.token_unavailable" = "Token er ikke tilgjengelig.";
@@ -639,7 +639,7 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "url_handler.send_location.success.title" = "Send plassering";
 "url_handler.x_callback_url.error.eventNameMissing" = "Hendelsesnavn må defineres";
 "url_handler.x_callback_url.error.general" = "Det oppstod en generell feil";
-"url_handler.x_callback_url.error.serviceMissing" = "Service (f.eks. homeassistant. turn_on) må defineres";
+"url_handler.x_callback_url.error.serviceMissing" = "Service (f.eks. gitoon. turn_on) må defineres";
 "url_handler.x_callback_url.error.templateMissing" = "En gjengivelsesmal må defineres";
 "username_label" = "Brukernavn";
 "watch.configurator.delete.button" = "Slett komplikasjon";
@@ -836,10 +836,10 @@ Koder vil fungere på alle enheter med Home Assistant installert som har maskinv
 "watch.labels.complication_text_areas.trailing.label" = "Etterfølgende";
 "watch.labels.no_action" = "Ingen handlinger konfigurert. Konfigurere handlinger på telefonen din for å fjerne denne meldingen.";
 "watch.placeholder_complication_name" = "Plassholder";
-"widgets.actions.description" = "Utfør Home Assistant handlinger.";
+"widgets.actions.description" = "Utfør GiToon handlinger.";
 "widgets.actions.not_configured" = "Ingen handlinger konfigurert";
 "widgets.actions.title" = "Handlinger";
-"widgets.open_page.description" = "Åpne en frontend -side i Home Assistant.";
+"widgets.open_page.description" = "Åpne en frontend -side i GiToon.";
 "widgets.open_page.not_configured" = "Ingen sider tilgjengelig";
 "widgets.open_page.title" = "Åpne side";
 "yes_label" = "Ja";

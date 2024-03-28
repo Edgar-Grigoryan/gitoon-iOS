@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Ärendehantering";
 "about.help_localize.title" = "Hjälp till att översätta appen!";
-"about.home_assistant_on_facebook.title" = "Home Assistant på Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant på Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon på Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon på Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Väck ditt hem";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Skriv en recension";
 "about.title" = "Om";
 "about.website.title" = "Webbplats";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Du kan också ändra dessa genom att skräddarsy scen-egenskaperna: %@";
 "actions_configurator.visual_section.server_defined" = "Utseendet på den här åtgärden styrs av serverkonfigurationen.";
 "addButtonLabel" = "Lägg till";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Please update Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Please update GiToon";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Servern har avvisat dina autentiseringsuppgifter och du måste logga in igen för att fortsätta.";
 "alerts.auth_required.title" = "Du måste logga in för att fortsätta";
@@ -128,7 +128,7 @@
 "error_label" = "Fel";
 "extensions.map.location.new" = "Ny plats";
 "extensions.map.location.original" = "Ursprunglig plats";
-"extensions.map.payload_missing_homeassistant.message" = "Nyttolasten innehöll inte en homeassistant-ordbok!";
+"extensions.map.payload_missing_homeassistant.message" = "Nyttolasten innehöll inte en gitoon-ordbok!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Lattitud hittades inte eller kunde konverteras till sträng!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Longitud hittades inte eller kunde konverteras till sträng!";
 "extensions.notification_content.error.no_entity_id" = "Ingen entity_id finns i data!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS-flöde ej tillgängligt";
 "extensions.notification_content.error.request.other" = "Fick icke-200 statusskoden (%li)";
 "ha_api.api_error.cant_build_url" = "Kan inte skapa API-URL";
-"ha_api.api_error.invalid_response" = "Mottog ogiltigt svar från Home Assistant";
+"ha_api.api_error.invalid_response" = "Mottog ogiltigt svar från GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager är inte tillgänglig";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenten mobile_app är inte laddad. Lägg till det i din konfiguration, starta om Home Assistant och försök igen.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Din Home Assistant-version (%@) är för gammal, du måste uppgradera till minst version %@ för att kunna använda appen.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Komponenten mobile_app är inte laddad. Lägg till det i din konfiguration, starta om GiToon och försök igen.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Din GiToon-version (%@) är för gammal, du måste uppgradera till minst version %@ för att kunna använda appen.";
 "ha_api.api_error.not_configured" = "HA API är inte konfigurerat";
 "ha_api.api_error.unacceptable_status_code" = "Ogiltig statuskod %1$li.";
 "ha_api.api_error.unexpected_type" = "Mottog svar med resultat av typ %1$@ men väntade typ %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tagg läst";
 "nfc.list.description" = "NFC-taggar skrivna med appen kommer att visa en notis när du håller din enhet nära dem. Att aktivera notisen kommer att öppna appen och köra åtgärden.\
 \
-Taggar fungerar på alla enheter med Home Assistant installerat och som har hårdvara som stödjer läsning av dem.";
+Taggar fungerar på alla enheter med GiToon installerat och som har hårdvara som stödjer läsning av dem.";
 "nfc.list.learn_more" = "Läs mer";
 "nfc.list.read_tag" = "Läs tagg";
 "nfc.list.title" = "NFC-taggar";
 "nfc.list.write_tag" = "Skriv till tagg";
 "nfc.not_available" = "NFC är inte tillgängligt på den här enheten";
 "nfc.read.error.generic_failure" = "Kunde inte läsa taggen";
-"nfc.read.error.not_home_assistant" = "NFC-taggen är inte en Home Assistant-tagg";
+"nfc.read.error.not_home_assistant" = "NFC-taggen är inte en GiToon-tagg";
 "nfc.read.error.tag_invalid" = "NGC-taggen är ogiltig";
 "nfc.read.start_message" = "Håll din %@ nära en NFC-tagg";
 "nfc.tag_read" = "NFC-tagg läst";
@@ -213,7 +213,7 @@ Taggar fungerar på alla enheter med Home Assistant installerat och som har hår
 "notification_service.parser.camera.invalid_entity" = "Angivet enhets_id var ogiltigt.";
 "notification_service.parser.url.invalid_url" = "Den angivna URL:en var ogiltig.";
 "notification_service.parser.url.no_url" = "Ingen URL angavs.";
-"notifications_configurator.action.rows.authentication_required.footer" = "När användaren väljer en åtgärd med det här alternativet uppmanar systemet användaren att låsa upp enheten. Efter upplåsning kommer Home Assistant att meddelas om den valda åtgärden.";
+"notifications_configurator.action.rows.authentication_required.footer" = "När användaren väljer en åtgärd med det här alternativet uppmanar systemet användaren att låsa upp enheten. Efter upplåsning kommer GiToon att meddelas om den valda åtgärden.";
 "notifications_configurator.action.rows.authentication_required.title" = "Autentisering krävs";
 "notifications_configurator.action.rows.destructive.footer" = "När den är aktiverad visas åtgärdsknappen med särskild markering för att indikera att den utför en destruktiv uppgift.";
 "notifications_configurator.action.rows.destructive.title" = "Destruktiv";
@@ -263,7 +263,7 @@ Taggar fungerar på alla enheter med Home Assistant installerat och som har hår
 "onboarding.manual_setup.connect" = "Anslut";
 "onboarding.manual_setup.couldnt_make_url.message" = "Värdet '%@' var inte en giltig URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Kunde inte skapa en URL";
-"onboarding.manual_setup.description" = "URL:en till din Home Assistant-server. Se till att den innehåller protokollet och porten.";
+"onboarding.manual_setup.description" = "URL:en till din GiToon-server. Se till att den innehåller protokollet och porten.";
 "onboarding.manual_setup.no_scheme.message" = "Ska vi försöka ansluta med http:// eller https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL angiven utan protokoll";
 "onboarding.manual_setup.title" = "Ange URL";
@@ -272,7 +272,7 @@ Taggar fungerar på alla enheter med Home Assistant installerat och som har hår
 "onboarding.permissions.change_later_note" = "Du kan ändra denna behörighet senare i Inställningar";
 "onboarding.permissions.focus.bullet.automations" = "Fokusbaserade automatiseringar";
 "onboarding.permissions.focus.bullet.instant" = "Omedelbara notiser när statusen ändras";
-"onboarding.permissions.focus.description" = "Tillåt att ditt fokusläge skickas till Home Assistant";
+"onboarding.permissions.focus.description" = "Tillåt att ditt fokusläge skickas till GiToon";
 "onboarding.permissions.focus.grant_description" = "Tillåt fokus-åtkomst för att skapa sensorer för din fokus-status, även känd som stör ej.";
 "onboarding.permissions.focus.title" = "Fokus";
 "onboarding.permissions.location.bullet.automations" = "Närvarobaserade automatiseringar";
@@ -284,23 +284,23 @@ Taggar fungerar på alla enheter med Home Assistant installerat och som har hår
 "onboarding.permissions.motion.bullet.activity" = "Sensor för aktuell aktivitetstyp";
 "onboarding.permissions.motion.bullet.distance" = "Sensor för tillryggalagd sträcka";
 "onboarding.permissions.motion.bullet.steps" = "Sensor för stegräkning";
-"onboarding.permissions.motion.description" = "Tillåt att rörelseaktivitet och stegräknardata skickas till Home Assistant";
+"onboarding.permissions.motion.description" = "Tillåt att rörelseaktivitet och stegräknardata skickas till GiToon";
 "onboarding.permissions.motion.grant_description" = "Tillåt åtkomst till rörelse för att skapa sensorer för rörelse- och stegräknardata.";
 "onboarding.permissions.motion.title" = "Rörelse & stegräknare";
 "onboarding.permissions.notification.bullet.alert" = "Bli uppmärksammad med notiser";
 "onboarding.permissions.notification.bullet.badge" = "Uppdatera app-ikonmärket";
 "onboarding.permissions.notification.bullet.commands" = "Skicka kommandon till din enhet";
-"onboarding.permissions.notification.description" = "Tillåt att push-notiser skickas från din Home Assistant";
+"onboarding.permissions.notification.description" = "Tillåt att push-notiser skickas från din GiToon";
 "onboarding.permissions.notification.grant_description" = "Tillåt notiser för att skapa en meddelandetjänst för din enhet.";
 "onboarding.permissions.notification.title" = "Notiser";
 "onboarding.scanning.discovered_announcement" = "Upptäckt: %@";
 "onboarding.scanning.manual" = "Skriv adress för hand";
 "onboarding.scanning.manual_hint" = "Hittar du inte din server?";
 "onboarding.scanning.title" = "Söker efter servrar";
-"onboarding.welcome.description" = "Den här appen ansluter till din Home Assistant-server och låter dig integrera data om dig och din telefon. \
+"onboarding.welcome.description" = "Den här appen ansluter till din GiToon-server och låter dig integrera data om dig och din telefon. \
 \
-Home Assistant är gratis och öppen källkod för hemautomatisering med fokus på lokal kontroll och integritet.";
-"onboarding.welcome.title" = "Välkommen till Home Assistant %@!";
+GiToon är gratis och öppen källkod för hemautomatisering med fokus på lokal kontroll och integritet.";
+"onboarding.welcome.title" = "Välkommen till GiToon %@!";
 "open_label" = "Öppen";
 "preview_output" = "Förhandsgranska";
 "requires_version" = "Kräver %@ eller nyare.";
@@ -318,11 +318,11 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "settings.connection_section.delete_server.title" = "Ta bort server";
 "settings.connection_section.details" = "Detaljer";
 "settings.connection_section.errors.cannot_remove_last_url" = "Du kan inte ta bort den enda tillgängliga URL:en.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Extern URL";
 "settings.connection_section.header" = "Anslutning";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "till exempel http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "till exempel http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Intern URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Lägg till ny hårdvaruadress";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Intern URL kommer att användas när det primära nätverksgränssnittet har en MAC-adress som matchar en av de här hårdvaruadresserna.";
@@ -332,7 +332,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "settings.connection_section.internal_url_ssids.footer" = "Internt URL kommer att användas vid anslutning till angivna SSID";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "MittRoligaNätverksNamn";
-"settings.connection_section.local_push_description" = "Anslut direkt till Home Assistant-servern för push-notiser när du använder internt SSID.";
+"settings.connection_section.local_push_description" = "Anslut direkt till GiToon-servern för push-notiser när du använder internt SSID.";
 "settings.connection_section.location_send_type.setting.exact" = "Exakt";
 "settings.connection_section.location_send_type.setting.never" = "Aldrig";
 "settings.connection_section.location_send_type.setting.zone_only" = "Endast zonnamn";
@@ -387,7 +387,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "settings.location_history.title" = "Platshistorik";
 "settings.navigation_bar.about_button.title" = "Om";
 "settings.navigation_bar.title" = "Inställningar";
-"settings.reset_section.reset_alert.message" = "Dina inställningar återställs och den här enheten kommer att avregistreras från push-meddelanden och tas bort från din Home Assistant-konfiguration.";
+"settings.reset_section.reset_alert.message" = "Dina inställningar återställs och den här enheten kommer att avregistreras från push-meddelanden och tas bort från din GiToon-konfiguration.";
 "settings.reset_section.reset_alert.progress_message" = "Återställer...";
 "settings.reset_section.reset_alert.title" = "Återställ";
 "settings.reset_section.reset_row.title" = "Återställ";
@@ -395,7 +395,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "Min Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Min GiToon";
 "settings.status_section.location_name_row.title" = "Namn";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -427,7 +427,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "settings_details.general.app_icon.enum.electric_violet" = "Elektriskt lila";
 "settings_details.general.app_icon.enum.fire_orange" = "Brandgul";
 "settings_details.general.app_icon.enum.green" = "Grön";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant-blå";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon-blå";
 "settings_details.general.app_icon.enum.old_beta" = "Gammal Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Gammal Dev";
 "settings_details.general.app_icon.enum.old_release" = "Gammal release";
@@ -562,7 +562,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "settings_details.notifications.title" = "Notiser";
 "settings_details.privacy.alerts.description" = "Tillåter kontroll av viktiga varningar som säkerhetssårbarheter.";
 "settings_details.privacy.alerts.title" = "Varningar";
-"settings_details.privacy.analytics.generic_description" = "Tillåter insamling av grundläggande information om din enhet och interaktioner med appen. Inga användaridentifierbara uppgifter delas, inklusive din Home Assistants URL och tokens. Du måste starta om appen för att ändringarna ska slå igenom.";
+"settings_details.privacy.analytics.generic_description" = "Tillåter insamling av grundläggande information om din enhet och interaktioner med appen. Inga användaridentifierbara uppgifter delas, inklusive din GiToons URL och tokens. Du måste starta om appen för att ändringarna ska slå igenom.";
 "settings_details.privacy.analytics.generic_title" = "Analyser";
 "settings_details.privacy.crash_reporting.description" = "Tillåter djupare spårning av krascher och andra fel i appen, vilket leder till att rättelser kan publiceras snabbare. Ingen användaridentifierbar information skickas, utöver grundläggande enhetsinformation. Du måste starta om appen för att ändringarna ska slå igenom.";
 "settings_details.privacy.crash_reporting.sentry" = "Den här funktionen använder för närvarande Sentry som rapportdestination.";
@@ -602,7 +602,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "thread.credentials.screen_title" = "Thread autentiseringsuppgifter";
 "thread.credentials.share_credentials.no_credentials_message" = "Se till att du är inloggad med ditt iCloud-konto som är ägare till ett hem i Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Du har inga inloggningsuppgifter att dela";
-"thread.credentials.share_credentials_button_title" = "Dela autentiseringsuppgifter med Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Dela autentiseringsuppgifter med GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -610,7 +610,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Anslutningen misslyckades.";
 "token_error.expired" = "Token har upphört att gälla.";
 "token_error.token_unavailable" = "Token är inte tillgänglig.";
@@ -640,7 +640,7 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "url_handler.send_location.success.title" = "Skickade plats";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName måste definieras";
 "url_handler.x_callback_url.error.general" = "Ett allmänt fel inträffade";
-"url_handler.x_callback_url.error.serviceMissing" = "tjänst (e.g. homeassistant.turn_on) måste definieras";
+"url_handler.x_callback_url.error.serviceMissing" = "tjänst (e.g. gitoon.turn_on) måste definieras";
 "url_handler.x_callback_url.error.templateMissing" = "En mall som kan återges måste definieras";
 "username_label" = "Användarnamn";
 "watch.configurator.delete.button" = "Radera komplikation";
@@ -837,10 +837,10 @@ Home Assistant är gratis och öppen källkod för hemautomatisering med fokus p
 "watch.labels.complication_text_areas.trailing.label" = "Efterföljande";
 "watch.labels.no_action" = "Inga åtgärder konfigurerade. Konfigurera åtgärder på telefonen för att avfärda detta meddelande.";
 "watch.placeholder_complication_name" = "Platshållare";
-"widgets.actions.description" = "Utför Home Assistant-åtgärder.";
+"widgets.actions.description" = "Utför GiToon-åtgärder.";
 "widgets.actions.not_configured" = "Inga åtgärder inställda";
 "widgets.actions.title" = "Åtgärder";
-"widgets.open_page.description" = "Öppna en frontend-sida i Home Assistant.";
+"widgets.open_page.description" = "Öppna en frontend-sida i GiToon.";
 "widgets.open_page.not_configured" = "Inga sidor tillgängliga";
 "widgets.open_page.title" = "Öppna sida";
 "yes_label" = "Ja";

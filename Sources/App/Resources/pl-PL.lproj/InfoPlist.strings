@@ -1,13 +1,13 @@
 "NFCReaderUsageDescription" = "Odczytywanie i zapisywanie tagów NFC umożliwia wyzwalanie zdarzeń.";
-"NSCameraUsageDescription" = "Zrób zdjęcia i wyślij je do serwera Home Assistant.";
+"NSCameraUsageDescription" = "Zrób zdjęcia i wyślij je do serwera GiToon.";
 "NSCrossWebsiteTrackingUsageDescription" = "Opcjonalnie włącz śledzenie w wielu witrynach, jeśli wymaga tego Twoja konfiguracja.";
 "NSFocusStatusUsageDescription" = "Zgłoś swój stan skupienia jako czujnik.";
-"NSLocalNetworkUsageDescription" = "Zlokalizuj i komunikuj się z Twoją instancją Home Assistant'a.";
+"NSLocalNetworkUsageDescription" = "Zlokalizuj i komunikuj się z Twoją instancją GiToon'a.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Zalecamy wybranie opcji „Zawsze”, aby uzyskać najlepszą jakość lokalizacji. Wybranie opcji „Gdy używam aplikacji” spowoduje wyłączenie iBeacons, geofence, aktualizacji lokalizacji w tle i dokładnego raportowania.";
 "NSLocationAlwaysUsageDescription" = "Zawsze potrzebujemy dostępu do Twojej lokalizacji, aby korzystać z takich funkcji jak iBeacons, geofence, aktualizacje lokalizacji w tle i dokładne raportowanie lokalizacji.";
-"NSLocationUsageDescription" = "When enabled, your device location is sent to your Home Assistant server as a device tracker.";
+"NSLocationUsageDescription" = "When enabled, your device location is sent to your GiToon server as a device tracker.";
 "NSLocationWhenInUseUsageDescription" = "Zezwolenie na dostęp do lokalizacji tylko, gdy aplikacja jest włączona, spowoduje wyłączenie iBeacons, geofences, aktualizacje lokalizacji w tle i dokładne raportowania lokalizacji.";
-"NSMicrophoneUsageDescription" = "Record audio using your Home Assistant frontend.";
+"NSMicrophoneUsageDescription" = "Record audio using your GiToon frontend.";
 "NSMotionUsageDescription" = "Wykrywanie ruchu służy do ulepszania lokalizacji, a także do dostarczania podstawowych danych krokomierza.";
 "NSPhotoLibraryAddUsageDescription" = "Dostęp do Biblioteki Zdjęć jest wymagany, aby umożliwić zapisywanie zdjęć ze strony.";
 "NSPhotoLibraryUsageDescription" = "Dostęp do Biblioteki Zdjęć jest wymagany, aby umożliwić zapisywanie zdjęć ze strony.";

@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Nahlásit chybu na GitHubu";
 "about.help_localize.title" = "Pomozte lokalizovat aplikaci";
-"about.home_assistant_on_facebook.title" = "Home Assistant na Facebooku";
-"about.home_assistant_on_twitter.title" = "Home Assistant na X";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon na Facebooku";
+"about.home_assistant_on_twitter.title" = "GiToon na X";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Probuďte svůj domov";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Napište recenzi";
 "about.title" = "O aplikaci";
 "about.website.title" = "Webová stránka";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Je možné změnit přizpůsobením atributů scény: %@";
 "actions_configurator.visual_section.server_defined" = "Vzhled této akce je řízen konfigurací serveru.";
 "addButtonLabel" = "Přidat";
-"alerts.action_automation_editor.unavailable.body" = "Chcete-li automaticky vytvořit automatizaci pro akci, aktualizujte Home Assistanta alespoň na verzi 2024.2.";
-"alerts.action_automation_editor.unavailable.title" = "Aktualizovat Home Assistanta";
+"alerts.action_automation_editor.unavailable.body" = "Chcete-li automaticky vytvořit automatizaci pro akci, aktualizujte GiToona alespoň na verzi 2024.2.";
+"alerts.action_automation_editor.unavailable.title" = "Aktualizovat GiToona";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Server odmítl Vaše přihlašovací údaje a pro pokračování se musíte znovu přihlásit.";
 "alerts.auth_required.title" = "Chcete-li pokračovat, musíte se přihlásit";
@@ -72,7 +72,7 @@
 "carPlay.navigation.tab.actions" = "Akce";
 "carPlay.navigation.tab.areas" = "Oblasti";
 "carPlay.navigation.tab.domains" = "Řízení";
-"carPlay.no_actions.title" = "Otevřete aplikaci Home Assistanta a vytvořte akce pro CarPlay.";
+"carPlay.no_actions.title" = "Otevřete aplikaci GiToona a vytvořte akce pro CarPlay.";
 "carPlay.no_entities.title" = "Nejsou k dispozici žádné entity kompatibilní s CarPlay.";
 "carPlay.notification.action.intro.body" = "Klepnutím vytvořte svou první akci pro iOS";
 "carPlay.notification.action.intro.title" = "Vytvořit akci pro iOS";
@@ -128,7 +128,7 @@
 "error_label" = "Chyba";
 "extensions.map.location.new" = "Nová poloha";
 "extensions.map.location.original" = "Původní poloha";
-"extensions.map.payload_missing_homeassistant.message" = "Datová část neobsahovala slovník Home Assistanta!";
+"extensions.map.payload_missing_homeassistant.message" = "Datová část neobsahovala slovník GiToona!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Zeměpisná šířka nebyla nalezena nebo ji nelze přenést na řetězec!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Zeměpisná délka nebyla nalezena nebo ji nelze přenést na řetězec!";
 "extensions.notification_content.error.no_entity_id" = "V datové části nebylo nalezeno entiy_id!";
@@ -137,11 +137,11 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Proud HLS je nedostupný";
 "extensions.notification_content.error.request.other" = "Stavový kód jiný než 200 (%li)";
 "ha_api.api_error.cant_build_url" = "Nelze sestavit URL API";
-"ha_api.api_error.invalid_response" = "Byla přijata neplatná odpověď od Home Assistanta";
-"ha_api.api_error.manager_not_available" = "API manažer Home Assistanta není dostupný";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Součást mobile_app není načtena. Přidejte ji do nastavení, restartujte Home Assistanta a zkuste to znovu.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Vaše verze Home Assistanta (%@) je příliš stará. Chcete-li aplikaci používat, musíte aktualizovat alespoň na verzi %@.";
-"ha_api.api_error.not_configured" = "API Home Assistanta není nastaveno";
+"ha_api.api_error.invalid_response" = "Byla přijata neplatná odpověď od GiToona";
+"ha_api.api_error.manager_not_available" = "API manažer GiToona není dostupný";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Součást mobile_app není načtena. Přidejte ji do nastavení, restartujte GiToona a zkuste to znovu.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Vaše verze GiToona (%@) je příliš stará. Chcete-li aplikaci používat, musíte aktualizovat alespoň na verzi %@.";
+"ha_api.api_error.not_configured" = "API GiToona není nastaveno";
 "ha_api.api_error.unacceptable_status_code" = "Nepřijatelný stavový kód %1$li.";
 "ha_api.api_error.unexpected_type" = "Přijata odpověď s výsledkem typu %1$@, ale očekával se typ %2$@.";
 "ha_api.api_error.unknown" = "Nastala neznámá chyba.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Přečíst štítek";
 "nfc.list.description" = "NFC štítky zapsané pomocí aplikace vyvolají událost, jakmile k nim přiblížíte své zařízení.\
 \
-Štítky budou fungovat na jakémkoli zařízení s Home Assistantem a hardwarovou podporou k jejich čtení.";
+Štítky budou fungovat na jakémkoli zařízení s GiToonem a hardwarovou podporou k jejich čtení.";
 "nfc.list.learn_more" = "Další informace";
 "nfc.list.read_tag" = "Přečíst štítek";
 "nfc.list.title" = "NFC štítky";
 "nfc.list.write_tag" = "Zapsat štítek";
 "nfc.not_available" = "NFC není na tomto zařízení k dispozici";
 "nfc.read.error.generic_failure" = "Nepodařilo se přečíst štítek";
-"nfc.read.error.not_home_assistant" = "NFC štítek neobsahuje štítek z Home Assistanta";
+"nfc.read.error.not_home_assistant" = "NFC štítek neobsahuje štítek z GiToona";
 "nfc.read.error.tag_invalid" = "NFC štítek je neplatný";
 "nfc.read.start_message" = "Podržte %@ poblíž NFC štítku";
 "nfc.tag_read" = "Přečíst NFC štítek";
@@ -213,7 +213,7 @@
 "notification_service.parser.camera.invalid_entity" = "Poskytnuté entiy_id bylo neplatné.";
 "notification_service.parser.url.invalid_url" = "Zadaná URL byla neplatná.";
 "notification_service.parser.url.no_url" = "Nebyla zadána žádná URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Když uživatel vybere akci s touto volbou, systém jej vyzve k odemknutí zařízení. Po odemknutí bude Home Assistantovi předána vybraná akce.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Když uživatel vybere akci s touto volbou, systém jej vyzve k odemknutí zařízení. Po odemknutí bude GiToonovi předána vybraná akce.";
 "notifications_configurator.action.rows.authentication_required.title" = "Vyžadováno ověření";
 "notifications_configurator.action.rows.destructive.footer" = "Je-li povoleno, zobrazí se akční tlačítko se speciálním zvýrazněním, které označuje, že provádí destruktivní úlohu.";
 "notifications_configurator.action.rows.destructive.title" = "Destruktivní";
@@ -263,7 +263,7 @@
 "onboarding.manual_setup.connect" = "Připojit";
 "onboarding.manual_setup.couldnt_make_url.message" = "Hodnota \"%@\" není platná URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Nelze vytvořit URL.";
-"onboarding.manual_setup.description" = "URL Vašeho serveru Home Assistanta. Ujistěte se, že obsahuje protokol a port.";
+"onboarding.manual_setup.description" = "URL Vašeho serveru GiToona. Ujistěte se, že obsahuje protokol a port.";
 "onboarding.manual_setup.no_scheme.message" = "Zkusit se připojit přes http:// nebo https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL zadána bez schématu";
 "onboarding.manual_setup.title" = "Zadat URL";
@@ -284,23 +284,23 @@
 "onboarding.permissions.motion.bullet.activity" = "Senzor pro aktuální typ aktivity";
 "onboarding.permissions.motion.bullet.distance" = "Senzor pro přesunutou vzdálenost";
 "onboarding.permissions.motion.bullet.steps" = "Senzor pro počet kroků";
-"onboarding.permissions.motion.description" = "Povolí odesílání údajů o pohybové aktivitě a krokoměru do aplikace Home Assistant.";
+"onboarding.permissions.motion.description" = "Povolí odesílání údajů o pohybové aktivitě a krokoměru do aplikace GiToon.";
 "onboarding.permissions.motion.grant_description" = "Povolí oprávnění k pohybu pro vytvoření senzorů pro data pohybu a krokoměru.";
 "onboarding.permissions.motion.title" = "Pohyb a krokoměr";
 "onboarding.permissions.notification.bullet.alert" = "Získejte upozornění z oznámení";
 "onboarding.permissions.notification.bullet.badge" = "Aktualizovat odznak ikony aplikace";
 "onboarding.permissions.notification.bullet.commands" = "Odeslat příkazy do Vašeho zařízení";
-"onboarding.permissions.notification.description" = "Povolí zasílání push oznámení z Vašeho Home Assistanta.";
+"onboarding.permissions.notification.description" = "Povolí zasílání push oznámení z Vašeho GiToona.";
 "onboarding.permissions.notification.grant_description" = "Povolí oprávnění pro oznámení k vytvoření služby oznámení pro Vaše zařízení.";
 "onboarding.permissions.notification.title" = "Oznámení";
 "onboarding.scanning.discovered_announcement" = "Zjištěno: %@";
 "onboarding.scanning.manual" = "Zadejte adresu ručně";
 "onboarding.scanning.manual_hint" = "Nenašli jste svůj server?";
 "onboarding.scanning.title" = "Vyhledávání serverů";
-"onboarding.welcome.description" = "Tato aplikace se připojí k Vašemu Home Assistantovi a umožní Vám propojení s Vašim telefonem.\
+"onboarding.welcome.description" = "Tato aplikace se připojí k Vašemu GiToonovi a umožní Vám propojení s Vašim telefonem.\
 \
-Home Assistant je bezplatný a otevřený software pro domácí automatizaci se zaměřením na místní ovládání a soukromí.";
-"onboarding.welcome.title" = "Vítejte v Home Assistantovi %@!";
+GiToon je bezplatný a otevřený software pro domácí automatizaci se zaměřením na místní ovládání a soukromí.";
+"onboarding.welcome.title" = "Vítejte v GiToonovi %@!";
 "open_label" = "Otevřít";
 "preview_output" = "Náhled výstupu";
 "requires_version" = "Vyžaduje %@ nebo novější.";
@@ -318,11 +318,11 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "settings.connection_section.delete_server.title" = "Smazat server";
 "settings.connection_section.details" = "Podrobnosti";
 "settings.connection_section.errors.cannot_remove_last_url" = "Nelze odebrat jedinou dostupnou URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.mujdum.cz";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.mujdum.cz";
 "settings.connection_section.external_base_url.title" = "Externí URL";
 "settings.connection_section.header" = "Připojení";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "např. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "např. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Interní URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Přidat novou adresu hardware";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Interní URL se použije, pokud má primární síťové rozhraní adresu MAC odpovídající jedné z těchto hardwarových adres.";
@@ -332,7 +332,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "settings.connection_section.internal_url_ssids.footer" = "Interní URL bude použita při připojení k uvedeným SSID";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "NázevMéSítě";
-"settings.connection_section.local_push_description" = "Přímé připojení k serveru Home Assistant pro push oznámení na interních SSID.";
+"settings.connection_section.local_push_description" = "Přímé připojení k serveru GiToon pro push oznámení na interních SSID.";
 "settings.connection_section.location_send_type.setting.exact" = "Přesná";
 "settings.connection_section.location_send_type.setting.never" = "Nikdy";
 "settings.connection_section.location_send_type.setting.zone_only" = "Jen název zóny";
@@ -387,7 +387,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "settings.location_history.title" = "Historie polohy";
 "settings.navigation_bar.about_button.title" = "O aplikaci";
 "settings.navigation_bar.title" = "Nastavení";
-"settings.reset_section.reset_alert.message" = "Vaše nastavení bude resetováno a toto zařízení bude odhlášeno také z oznámení a bude odebráno z nastavení Vašeho Home Assistanta.";
+"settings.reset_section.reset_alert.message" = "Vaše nastavení bude resetováno a toto zařízení bude odhlášeno také z oznámení a bude odebráno z nastavení Vašeho GiToona.";
 "settings.reset_section.reset_alert.progress_message" = "Resetování...";
 "settings.reset_section.reset_alert.title" = "Resetovat";
 "settings.reset_section.reset_row.title" = "Resetovat";
@@ -395,7 +395,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Stav";
-"settings.status_section.location_name_row.placeholder" = "Můj Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Můj GiToon";
 "settings.status_section.location_name_row.title" = "Název";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Verze";
@@ -427,7 +427,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrická fialová";
 "settings_details.general.app_icon.enum.fire_orange" = "Ohnivě oranžová";
 "settings_details.general.app_icon.enum.green" = "Zelená";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Stará beta";
 "settings_details.general.app_icon.enum.old_dev" = "Stará vývojová";
 "settings_details.general.app_icon.enum.old_release" = "Staré vydání";
@@ -561,7 +561,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "settings_details.notifications.title" = "Oznámení";
 "settings_details.privacy.alerts.description" = "Umožňuje kontrolu důležitých upozornění, jako jsou chyby zabezpečení.";
 "settings_details.privacy.alerts.title" = "Výstrahy";
-"settings_details.privacy.analytics.generic_description" = "Umožňuje shromažďování základních informací o Vašem zařízení a interakcích s aplikací. Nejsou sdílena žádná uživatelsky identifikovatelná data, včetně URL a tokenů Home Assistanta. Změna tohoto nastavení se projeví až po restartování aplikace.";
+"settings_details.privacy.analytics.generic_description" = "Umožňuje shromažďování základních informací o Vašem zařízení a interakcích s aplikací. Nejsou sdílena žádná uživatelsky identifikovatelná data, včetně URL a tokenů GiToona. Změna tohoto nastavení se projeví až po restartování aplikace.";
 "settings_details.privacy.analytics.generic_title" = "Analýza";
 "settings_details.privacy.crash_reporting.description" = "Umožňuje hlubší sledování chyb a dalších chyb v aplikaci, což vede k rychlejšímu publikování oprav. Nejsou odesílány žádné uživatelsky identifikovatelné informace, kromě základních informací o zařízení. Změny tohoto nastavení se projeví až po restartování aplikace.";
 "settings_details.privacy.crash_reporting.sentry" = "Tato funkce aktuálně používá Sentry jako cíl sestavy.";
@@ -601,7 +601,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "thread.credentials.screen_title" = "Přihlašovací údaje vlákna";
 "thread.credentials.share_credentials.no_credentials_message" = "Ujistěte se, že jste přihlášeni pomocí svého účtu iCloud, který je vlastníkem domácnosti v Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Nemáte přihlašovací údaje, které byste mohli sdílet";
-"thread.credentials.share_credentials_button_title" = "Sdílet přihlašovací údaje s Home Assistantem";
+"thread.credentials.share_credentials_button_title" = "Sdílet přihlašovací údaje s GiToonem";
 "thread.extended_pan_id.title" = "ID rozšířené PAN";
 "thread.management.title" = "Přihlašovací údaje Thread";
 "thread.network_key.title" = "Síťový klíč";
@@ -609,7 +609,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Při ukládání pověření Thread do klíčenky se nepodařilo převést vstup na hexadecimální.";
 "thread.store_in_keychain.error.title" = "Operace se nezdařila";
 "thread.transter_to_apple.title" = "Převod do klíčenky Apple";
-"thread.transter_to_homeassistant.title" = "Přenést do Home Assistanta";
+"thread.transter_to_homeassistant.title" = "Přenést do GiToona";
 "token_error.connection_failed" = "Připojení se nezdařilo.";
 "token_error.expired" = "Platnost tokenu vypršela.";
 "token_error.token_unavailable" = "Token není k dispozici.";
@@ -639,7 +639,7 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "url_handler.send_location.success.title" = "Poloha byla odeslána";
 "url_handler.x_callback_url.error.eventNameMissing" = "Musí být definován eventName";
 "url_handler.x_callback_url.error.general" = "Došlo k obecné chybě";
-"url_handler.x_callback_url.error.serviceMissing" = "Musí být definována služba (např. homeassistant.turn_on)";
+"url_handler.x_callback_url.error.serviceMissing" = "Musí být definována služba (např. gitoon.turn_on)";
 "url_handler.x_callback_url.error.templateMissing" = "Musí být definována vykreslitelná šablona";
 "username_label" = "Uživatelské jméno";
 "watch.configurator.delete.button" = "Smazat komplikaci";
@@ -836,10 +836,10 @@ Home Assistant je bezplatný a otevřený software pro domácí automatizaci se 
 "watch.labels.complication_text_areas.trailing.label" = "Konec";
 "watch.labels.no_action" = "Nejsou nastaveny žádné akce. Aby se tato zpráva nezobrazovala, musíte nastavit v telefonu nějaké akce.";
 "watch.placeholder_complication_name" = "Zástupný symbol";
-"widgets.actions.description" = "Provede akce v Home Assistantovi.";
+"widgets.actions.description" = "Provede akce v GiToonovi.";
 "widgets.actions.not_configured" = "Akce nejsou nastaveny";
 "widgets.actions.title" = "Akce";
-"widgets.open_page.description" = "Otevřete frontendovou stránku v Home Assistantovi.";
+"widgets.open_page.description" = "Otevřete frontendovou stránku v GiToonovi.";
 "widgets.open_page.not_configured" = "Nejsou k dispozici žádné stránky";
 "widgets.open_page.title" = "Otevřít stránku";
 "yes_label" = "Ano";

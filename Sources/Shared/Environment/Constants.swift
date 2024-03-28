@@ -5,7 +5,7 @@ import Version
 
 /// Contains shared constants
 public enum Constants {
-    /// Home Assistant Blue
+    /// GiToon Blue
     public static var tintColor: UIColor {
         #if os(iOS)
         return UIColor { [lighterTintColor, darkerTintColor] (traitCollection: UITraitCollection) -> UIColor in
@@ -48,7 +48,6 @@ public enum Constants {
         removeBundleSuffix = removeBundleSuffix.replacingOccurrences(of: ".watchkitapp", with: "")
         removeBundleSuffix = removeBundleSuffix.replacingOccurrences(of: ".Widgets", with: "")
         removeBundleSuffix = removeBundleSuffix.replacingOccurrences(of: ".ShareExtension", with: "")
-        removeBundleSuffix = removeBundleSuffix.replacingOccurrences(of: ".PushProvider", with: "")
         removeBundleSuffix = removeBundleSuffix.replacingOccurrences(of: ".Matter", with: "")
 
         return removeBundleSuffix

@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Help localize the app!";
-"about.home_assistant_on_facebook.title" = "Home Assistant on Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant on Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon on Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon on Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Awaken Your Home";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Leave a review";
 "about.title" = "Giới thiệu";
 "about.website.title" = "Website";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "You can also change these by customizing the Scene attributes: %@";
 "actions_configurator.visual_section.server_defined" = "The appearance of this action is controlled by the server configuration.";
 "addButtonLabel" = "Add";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Please update Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Please update GiToon";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "The server has rejected your credentials, and you must sign in again to continue.";
 "alerts.auth_required.title" = "You must sign in to continue";
@@ -128,7 +128,7 @@
 "error_label" = "Error";
 "extensions.map.location.new" = "New Location";
 "extensions.map.location.original" = "Original Location";
-"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a homeassistant dictionary!";
+"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a gitoon dictionary!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Latitude wasn't found or couldn't be casted to string!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Longitude wasn't found or couldn't be casted to string!";
 "extensions.notification_content.error.no_entity_id" = "No entity_id found in payload!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS stream unavailable";
 "extensions.notification_content.error.request.other" = "Got non-200 status code (%li)";
 "ha_api.api_error.cant_build_url" = "Cant build API URL";
-"ha_api.api_error.invalid_response" = "Received invalid response from Home Assistant";
+"ha_api.api_error.invalid_response" = "Received invalid response from GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager is unavailable";
-"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app component is not loaded. Please add it to your configuration, restart Home Assistant, and try again.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Your Home Assistant version (%@) is too old, you must upgrade to at least version %@ to use the app.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "The mobile_app component is not loaded. Please add it to your configuration, restart GiToon, and try again.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Your GiToon version (%@) is too old, you must upgrade to at least version %@ to use the app.";
 "ha_api.api_error.not_configured" = "HA API not configured";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "NFC tags written by the app will show a notification when you bring your device near them. Activating the notification will launch the app and fire an event.\
 \
-Tags will work on any device with Home Assistant installed which has hardware support to read them.";
+Tags will work on any device with GiToon installed which has hardware support to read them.";
 "nfc.list.learn_more" = "Learn More";
 "nfc.list.read_tag" = "Read Tag";
 "nfc.list.title" = "NFC Tags";
 "nfc.list.write_tag" = "Write Tag";
 "nfc.not_available" = "NFC is not available on this device";
 "nfc.read.error.generic_failure" = "Failed to read tag";
-"nfc.read.error.not_home_assistant" = "NFC tag is not a Home Assistant tag";
+"nfc.read.error.not_home_assistant" = "NFC tag is not a GiToon tag";
 "nfc.read.error.tag_invalid" = "NFC tag is invalid";
 "nfc.read.start_message" = "Hold your %@ near an NFC tag";
 "nfc.tag_read" = "NFC Tag Read";
@@ -213,7 +213,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "The given URL was invalid.";
 "notification_service.parser.url.no_url" = "No URL was provided.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, GiToon will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Authentication Required";
 "notifications_configurator.action.rows.destructive.footer" = "When enabled, the action button is displayed with special highlighting to indicate that it performs a destructive task.";
 "notifications_configurator.action.rows.destructive.title" = "Destructive";
@@ -263,7 +263,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.manual_setup.connect" = "Kết nối";
 "onboarding.manual_setup.couldnt_make_url.message" = "The value '%@' was not a valid URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Could not create a URL";
-"onboarding.manual_setup.description" = "Địa chỉ URL máy chủ Home Assistant của bạn. Hãy chắc chắn rằng nó bao gồm cả giao thức và cổng.";
+"onboarding.manual_setup.description" = "Địa chỉ URL máy chủ GiToon của bạn. Hãy chắc chắn rằng nó bao gồm cả giao thức và cổng.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "Nhập URL";
@@ -272,7 +272,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.change_later_note" = "Bạn có thể thay đổi quyền này sau trong Cài đặt";
 "onboarding.permissions.focus.bullet.automations" = "Tự động hóa dựa trên sự tập trung";
 "onboarding.permissions.focus.bullet.instant" = "Cập nhật tức thì khi trạng thái thay đổi";
-"onboarding.permissions.focus.description" = "Cho phép gửi tới Home Assistant trạng thái bạn có đang ở chế độ tập trung";
+"onboarding.permissions.focus.description" = "Cho phép gửi tới GiToon trạng thái bạn có đang ở chế độ tập trung";
 "onboarding.permissions.focus.grant_description" = "Cho phép quyền tập trung để tạo cảm biến cho trạng thái tập trung của bạn, còn được gọi là không làm phiền.";
 "onboarding.permissions.focus.title" = "Tập trung";
 "onboarding.permissions.location.bullet.automations" = "Tự động hóa dựa trên sự hiện diện";
@@ -284,23 +284,23 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.motion.bullet.activity" = "Cảm biến cho loại hoạt động hiện tại";
 "onboarding.permissions.motion.bullet.distance" = "Cảm biến khoảng cách di chuyển";
 "onboarding.permissions.motion.bullet.steps" = "Cảm biến đếm bước";
-"onboarding.permissions.motion.description" = "Cho phép gửi dữ liệu về hoạt động chuyển động và máy đếm bước đi tới Home Assistant";
+"onboarding.permissions.motion.description" = "Cho phép gửi dữ liệu về hoạt động chuyển động và máy đếm bước đi tới GiToon";
 "onboarding.permissions.motion.grant_description" = "Cho phép quyền chuyển động để tạo cảm biến cho dữ liệu chuyển động và máy đếm bước đi.";
 "onboarding.permissions.motion.title" = "Chuyển động & Máy đếm bước đi";
 "onboarding.permissions.notification.bullet.alert" = "Nhận các thông báo cảnh báo";
 "onboarding.permissions.notification.bullet.badge" = "Cập nhật biểu tượng ứng dụng";
 "onboarding.permissions.notification.bullet.commands" = "Gửi lệnh đến thiết bị của bạn";
-"onboarding.permissions.notification.description" = "Cho phép gửi thông báo đẩy từ Home Assistant của bạn";
+"onboarding.permissions.notification.description" = "Cho phép gửi thông báo đẩy từ GiToon của bạn";
 "onboarding.permissions.notification.grant_description" = "Cho phép quyền thông báo để tạo dịch vụ thông báo cho thiết bị của bạn.";
 "onboarding.permissions.notification.title" = "Thông báo";
 "onboarding.scanning.discovered_announcement" = "Đã phát hiện: %@";
 "onboarding.scanning.manual" = "Nhập đường dẫn thủ công";
 "onboarding.scanning.manual_hint" = "Không tìm thấy máy chủ nào.";
 "onboarding.scanning.title" = "Đang quét tìm máy chủ";
-"onboarding.welcome.description" = "Ứng dụng này kết nối với máy chủ Home Assistant và cho phép tích hợp dữ liệu về bạn và điện thoại của bạn. \
+"onboarding.welcome.description" = "Ứng dụng này kết nối với máy chủ GiToon và cho phép tích hợp dữ liệu về bạn và điện thoại của bạn. \
 \
-Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở và miễn phí, tập trung vào quyền kiểm soát và quyền riêng tư cục bộ.";
-"onboarding.welcome.title" = "Chào mừng bạn đến với Home Assistant%@!";
+GiToon là phần mềm tự động hóa gia đình mã nguồn mở và miễn phí, tập trung vào quyền kiểm soát và quyền riêng tư cục bộ.";
+"onboarding.welcome.title" = "Chào mừng bạn đến với GiToon%@!";
 "open_label" = "Mở";
 "preview_output" = "Preview Output";
 "requires_version" = "Yêu cầu %@ trở lên.";
@@ -318,11 +318,11 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.connection_section.delete_server.title" = "Xoá máy chủ";
 "settings.connection_section.details" = "Details";
 "settings.connection_section.errors.cannot_remove_last_url" = "You cannot remove only available URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "External URL";
 "settings.connection_section.header" = "Connection";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "e.g. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Internal URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Internal URL will be used when the primary network interface has a MAC address matching one of these hardware addresses.";
@@ -332,7 +332,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.connection_section.internal_url_ssids.footer" = "Internal URL will be used when connected to listed SSIDs";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Kết nối trực tiếp với máy chủ Home Assistant để nhận thông báo đẩy khi sử dụng SSID nội bộ.";
+"settings.connection_section.local_push_description" = "Kết nối trực tiếp với máy chủ GiToon để nhận thông báo đẩy khi sử dụng SSID nội bộ.";
 "settings.connection_section.location_send_type.setting.exact" = "Chính xác";
 "settings.connection_section.location_send_type.setting.never" = "Không bao giờ";
 "settings.connection_section.location_send_type.setting.zone_only" = "Chỉ tên vùng";
@@ -387,7 +387,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.location_history.title" = "Lịch sử vị trí";
 "settings.navigation_bar.about_button.title" = "Giới thiệu";
 "settings.navigation_bar.title" = "Settings";
-"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your Home Assistant configuration.";
+"settings.reset_section.reset_alert.message" = "Your settings will be reset and this device will be unregistered from push notifications as well as removed from your GiToon configuration.";
 "settings.reset_section.reset_alert.progress_message" = "Resetting…";
 "settings.reset_section.reset_alert.title" = "Reset";
 "settings.reset_section.reset_row.title" = "Reset";
@@ -395,7 +395,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings.server_select.page_title" = "Máy chủ";
 "settings.server_select.title" = "Máy chủ";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "My Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "My GiToon";
 "settings.status_section.location_name_row.title" = "Name";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Version";
@@ -427,7 +427,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings_details.general.app_icon.enum.electric_violet" = "Electric Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Fire Orange";
 "settings_details.general.app_icon.enum.green" = "Green";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Old Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Old Dev";
 "settings_details.general.app_icon.enum.old_release" = "Old Release";
@@ -561,7 +561,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "settings_details.notifications.title" = "Notifications";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Alerts";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your GiToon URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -601,7 +601,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -609,7 +609,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Connection failed.";
 "token_error.expired" = "Token is expired.";
 "token_error.token_unavailable" = "Token is unavailable.";
@@ -639,7 +639,7 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "url_handler.send_location.success.title" = "Sent location";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName must be defined";
 "url_handler.x_callback_url.error.general" = "A general error occurred";
-"url_handler.x_callback_url.error.serviceMissing" = "service (e.g. homeassistant.turn_on) must be defined";
+"url_handler.x_callback_url.error.serviceMissing" = "service (e.g. gitoon.turn_on) must be defined";
 "url_handler.x_callback_url.error.templateMissing" = "A renderable template must be defined";
 "username_label" = "Username";
 "watch.configurator.delete.button" = "Delete Complication";
@@ -836,10 +836,10 @@ Home Assistant là phần mềm tự động hóa gia đình mã nguồn mở v�
 "watch.labels.complication_text_areas.trailing.label" = "Trailing";
 "watch.labels.no_action" = "No actions configured. Configure actions on your phone to dismiss this message.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Thực hiện các tác vụ của Home Assistant.";
+"widgets.actions.description" = "Thực hiện các tác vụ của GiToon.";
 "widgets.actions.not_configured" = "Không có Hành động nào được Cấu hình";
 "widgets.actions.title" = "Hành động";
-"widgets.open_page.description" = "Mở một trang giao diện người dùng trong Home Assistant.";
+"widgets.open_page.description" = "Mở một trang giao diện người dùng trong GiToon.";
 "widgets.open_page.not_configured" = "Không có trang nào";
 "widgets.open_page.title" = "Mở trang";
 "yes_label" = "Yes";

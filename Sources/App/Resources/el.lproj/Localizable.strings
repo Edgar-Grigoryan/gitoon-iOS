@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Παρακολούθηση ζητημάτων GitHub";
 "about.help_localize.title" = "Βοηθήστε να μεταφραστεί η εφαρμογή!";
-"about.home_assistant_on_facebook.title" = "Το Home Assistant στο Facebook";
-"about.home_assistant_on_twitter.title" = "Το Home Assistant στο Twitter";
-"about.logo.app_title" = "Συνοδευτική Εφαρμογή Home Assistant";
+"about.home_assistant_on_facebook.title" = "Το GiToon στο Facebook";
+"about.home_assistant_on_twitter.title" = "Το GiToon στο Twitter";
+"about.logo.app_title" = "Συνοδευτική Εφαρμογή GiToon";
 "about.logo.tagline" = "Ζωντανέψτε το σπίτι σας";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Αφήστε μια κριτική";
 "about.title" = "Σχετικά";
 "about.website.title" = "Ιστοσελίδα";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Μπορείτε επίσης να τις αλλάξετε προσαρμόζοντας τα χαρακτηριστικά σκηνής: %@";
 "actions_configurator.visual_section.server_defined" = "Η εμφάνιση αυτής της ενέργειας ελέγχεται από τη ρύθμιση παραμέτρων του διακομιστή.";
 "addButtonLabel" = "Προσθήκη";
-"alerts.action_automation_editor.unavailable.body" = "Για να δημιουργήσετε αυτόματα έναν αυτοματισμό για μια ενέργεια, παρακαλώ ενημερώστε το Home Assistant τουλάχιστον στην έκδοση 2024.2.";
-"alerts.action_automation_editor.unavailable.title" = "Παρακαλώ ενημερώστε το Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "Για να δημιουργήσετε αυτόματα έναν αυτοματισμό για μια ενέργεια, παρακαλώ ενημερώστε το GiToon τουλάχιστον στην έκδοση 2024.2.";
+"alerts.action_automation_editor.unavailable.title" = "Παρακαλώ ενημερώστε το GiToon";
 "alerts.alert.ok" = "Εντάξει";
 "alerts.auth_required.message" = "Ο διακομιστής απέρριψε τα διαπιστευτήριά σας και πρέπει να συνδεθείτε ξανά για να συνεχίσετε.";
 "alerts.auth_required.title" = "Πρέπει να συνδεθείτε για να συνεχίσετε";
@@ -72,7 +72,7 @@
 "carPlay.navigation.tab.actions" = "Ενέργειες";
 "carPlay.navigation.tab.areas" = "Περιοχές";
 "carPlay.navigation.tab.domains" = "Ελεγχος";
-"carPlay.no_actions.title" = "Ανοίξτε την Συνοδευτική Εφαρμογή Home Assistant για iOS για να δημιουργήσετε ενέργειες για το CarPlay.";
+"carPlay.no_actions.title" = "Ανοίξτε την Συνοδευτική Εφαρμογή GiToon για iOS για να δημιουργήσετε ενέργειες για το CarPlay.";
 "carPlay.no_entities.title" = "Δεν υπάρχουν διαθέσιμες οντότητες συμβατές με CarPlay.";
 "carPlay.notification.action.intro.body" = "Πατήστε για να δημιουργήσετε την πρώτη σας ενέργεια iOS";
 "carPlay.notification.action.intro.title" = "Δημιουργία ενέργειας iOS";
@@ -128,7 +128,7 @@
 "error_label" = "Σφάλμα";
 "extensions.map.location.new" = "Νέα τοποθεσία";
 "extensions.map.location.original" = "Αρχική τοποθεσία";
-"extensions.map.payload_missing_homeassistant.message" = "Το ωφέλιμο φορτίο δεν περιείχε ένα homeassistant λεξικό!";
+"extensions.map.payload_missing_homeassistant.message" = "Το ωφέλιμο φορτίο δεν περιείχε ένα gitoon λεξικό!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Το Latitude δεν βρέθηκε ή δεν ήταν δυνατή η μετατροπή σε αλφαριθμητικό!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Το γεωγραφικό μήκος δεν βρέθηκε ή δεν ήταν δυνατό να μετατραπεί σε αλφαριθμητικό";
 "extensions.notification_content.error.no_entity_id" = "Δεν βρέθηκε entity_id στο ωφέλιμο φορτίο!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Η ροή HLS δεν είναι διαθέσιμη";
 "extensions.notification_content.error.request.other" = "Λήφθηκε κωδικός κατάστασης που δεν είναι 200 (%li)";
 "ha_api.api_error.cant_build_url" = "Δεν είναι δυνατή η δημιουργία URL API";
-"ha_api.api_error.invalid_response" = "Λάβαμε μη έγκυρη απάντηση από το Home Assistant";
+"ha_api.api_error.invalid_response" = "Λάβαμε μη έγκυρη απάντηση από το GiToon";
 "ha_api.api_error.manager_not_available" = "Το HA API Manager δεν είναι διαθέσιμο";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Το στοιχείο mobile_app δεν έχει φορτωθεί. Προσθέστε το στη διαμόρφωσή σας, κάντε επανεκκίνηση του Home Assistant και δοκιμάστε ξανά.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Η έκδοση του Home Assistant ( %@ ) είναι πολύ παλιά, πρέπει να κάνετε αναβάθμιση σε τουλάχιστον έκδοση %@ για να χρησιμοποιήσετε την εφαρμογή.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Το στοιχείο mobile_app δεν έχει φορτωθεί. Προσθέστε το στη διαμόρφωσή σας, κάντε επανεκκίνηση του GiToon και δοκιμάστε ξανά.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Η έκδοση του GiToon ( %@ ) είναι πολύ παλιά, πρέπει να κάνετε αναβάθμιση σε τουλάχιστον έκδοση %@ για να χρησιμοποιήσετε την εφαρμογή.";
 "ha_api.api_error.not_configured" = "Το HA API δεν έχει διαμορφωθεί";
 "ha_api.api_error.unacceptable_status_code" = "Μη αποδεκτός κωδικός κατάστασης %1$li.";
 "ha_api.api_error.unexpected_type" = "Λήψη απόκρισης με αποτέλεσμα τύπου %1$@ αλλά αναμενόμενο τύπο %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Ανάγνωση ετικέτας";
 "nfc.list.description" = "Οι ετικέτες NFC που γράφονται από την εφαρμογή θα εμφανίζουν μια ειδοποίηση όταν φέρετε τη συσκευή σας κοντά τους. Η ενεργοποίηση της ειδοποίησης θα ξεκινήσει την εφαρμογή και θα ενεργοποιήσει ένα συμβάν.\
 \
- Οι ετικέτες θα λειτουργούν σε οποιαδήποτε συσκευή με εγκατεστημένο το Home Assistant που διαθέτει υποστήριξη υλικού για την ανάγνωσή τους.";
+ Οι ετικέτες θα λειτουργούν σε οποιαδήποτε συσκευή με εγκατεστημένο το GiToon που διαθέτει υποστήριξη υλικού για την ανάγνωσή τους.";
 "nfc.list.learn_more" = "Μάθε περισσότερα";
 "nfc.list.read_tag" = "Ανάγνωση ετικέτας";
 "nfc.list.title" = "Ετικέτες NFC";
 "nfc.list.write_tag" = "Εγγραφή ετικέτας";
 "nfc.not_available" = "Το NFC δεν είναι διαθέσιμο σε αυτήν τη συσκευή";
 "nfc.read.error.generic_failure" = "Αποτυχία ανάγνωσης ετικέτας";
-"nfc.read.error.not_home_assistant" = "Η ετικέτα NFC δεν είναι ετικέτα του Home Assistant";
+"nfc.read.error.not_home_assistant" = "Η ετικέτα NFC δεν είναι ετικέτα του GiToon";
 "nfc.read.error.tag_invalid" = "Η ετικέτα NFC δεν είναι έγκυρη";
 "nfc.read.start_message" = "Κρατήστε το %@ κοντά σε μια ετικέτα NFC";
 "nfc.tag_read" = "Ανάγνωση ετικέτας NFC";
@@ -213,7 +213,7 @@
 "notification_service.parser.camera.invalid_entity" = "Το  entity_id που δόθηκε δεν ήταν έγκυρο.";
 "notification_service.parser.url.invalid_url" = "Η διεύθυνση URL που δόθηκε δεν ήταν έγκυρη.";
 "notification_service.parser.url.no_url" = "Δεν δόθηκε διεύθυνση URL.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Όταν ο χρήστης επιλέξει μια ενέργεια με αυτήν την επιλογή, το σύστημα ζητά από το χρήστη να ξεκλειδώσει τη συσκευή. Μετά το ξεκλείδωμα, το Home Assistant θα ειδοποιηθεί για την επιλεγμένη ενέργεια.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Όταν ο χρήστης επιλέξει μια ενέργεια με αυτήν την επιλογή, το σύστημα ζητά από το χρήστη να ξεκλειδώσει τη συσκευή. Μετά το ξεκλείδωμα, το GiToon θα ειδοποιηθεί για την επιλεγμένη ενέργεια.";
 "notifications_configurator.action.rows.authentication_required.title" = "Απαιτείται έλεγχος ταυτότητας";
 "notifications_configurator.action.rows.destructive.footer" = "Όταν ενεργοποιηθεί, το κουμπί ενέργειας εμφανίζεται με ειδική επισήμανση που υποδεικνύει ότι εκτελεί μια καταστροφική εργασία.";
 "notifications_configurator.action.rows.destructive.title" = "Καταστροφικό";
@@ -263,7 +263,7 @@
 "onboarding.manual_setup.connect" = "Σύνδεση";
 "onboarding.manual_setup.couldnt_make_url.message" = "Η τιμή '%@' δεν ήταν έγκυρη διεύθυνση URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Δεν ήταν δυνατή η δημιουργία διεύθυνσης URL";
-"onboarding.manual_setup.description" = "Η διεύθυνση URL του διακομιστή Home Assistant. Βεβαιωθείτε ότι περιλαμβάνει το πρωτόκολλο και τη θύρα.";
+"onboarding.manual_setup.description" = "Η διεύθυνση URL του διακομιστή GiToon. Βεβαιωθείτε ότι περιλαμβάνει το πρωτόκολλο και τη θύρα.";
 "onboarding.manual_setup.no_scheme.message" = "Θα πρέπει να προσπαθήσουμε να συνδεθούμε χρησιμοποιώντας http:// ή https://;";
 "onboarding.manual_setup.no_scheme.title" = "Η διεύθυνση URL καταχωρήθηκε χωρίς σχήμα";
 "onboarding.manual_setup.title" = "Εισαγωγή διεύθυνσης URL";
@@ -272,7 +272,7 @@
 "onboarding.permissions.change_later_note" = "Μπορείτε να αλλάξετε αυτό το δικαίωμα αργότερα στις Ρυθμίσεις";
 "onboarding.permissions.focus.bullet.automations" = "Αυτοματισμοί βασισμένοι στην εστίαση";
 "onboarding.permissions.focus.bullet.instant" = "Άμεσες ενημερώσεις όταν αλλάζει η κατάσταση";
-"onboarding.permissions.focus.description" = "Επιτρέψτε εάν είστε σε λειτουργία εστίασης για αποστολή στο Home Assistant";
+"onboarding.permissions.focus.description" = "Επιτρέψτε εάν είστε σε λειτουργία εστίασης για αποστολή στο GiToon";
 "onboarding.permissions.focus.grant_description" = "Επιτρέψτε την άδεια εστίασης για να δημιουργήσετε αισθητήρες για την κατάσταση εστίασης, γνωστή και ως \"μην ενοχλείτε\".";
 "onboarding.permissions.focus.title" = "Εστίαση";
 "onboarding.permissions.location.bullet.automations" = "Αυτοματισμοί βάσει παρουσίας";
@@ -284,23 +284,23 @@
 "onboarding.permissions.motion.bullet.activity" = "Αισθητήρας για τον τρέχοντα τύπο δραστηριότητας";
 "onboarding.permissions.motion.bullet.distance" = "Αισθητήρας για την απόσταση που διανύθηκε";
 "onboarding.permissions.motion.bullet.steps" = "Αισθητήρας για μετρήσεις βημάτων";
-"onboarding.permissions.motion.description" = "Επιτρέψτε την αποστολή δεδομένων δραστηριότητας κίνησης και βηματόμετρου στο Home Assistant";
+"onboarding.permissions.motion.description" = "Επιτρέψτε την αποστολή δεδομένων δραστηριότητας κίνησης και βηματόμετρου στο GiToon";
 "onboarding.permissions.motion.grant_description" = "Να επιτρέπεται η άδεια κίνησης για τη δημιουργία αισθητήρων για δεδομένα κίνησης και βηματόμετρου.";
 "onboarding.permissions.motion.title" = "Κίνηση & Βηματομετρητής";
 "onboarding.permissions.notification.bullet.alert" = "Ειδοποιηθείτε από ειδοποιήσεις";
 "onboarding.permissions.notification.bullet.badge" = "Ενημέρωση εμβλήματος εικονιδίου εφαρμογής";
 "onboarding.permissions.notification.bullet.commands" = "Αποστολή εντολών στη συσκευή σας";
-"onboarding.permissions.notification.description" = "Επιτρέψτε την αποστολή ειδοποιήσεων push από το Home Assistant σας";
+"onboarding.permissions.notification.description" = "Επιτρέψτε την αποστολή ειδοποιήσεων push από το GiToon σας";
 "onboarding.permissions.notification.grant_description" = "Επιτρέψτε το δικαίωμα ειδοποίησης για να δημιουργήσετε μια υπηρεσία ειδοποίησης για τη συσκευή σας.";
 "onboarding.permissions.notification.title" = "Ειδοποιήσεις";
 "onboarding.scanning.discovered_announcement" = "Ανακαλύφθηκε: %@";
 "onboarding.scanning.manual" = "Εισαγωγή διεύθυνσης χειροκίνητα";
 "onboarding.scanning.manual_hint" = "Δεν βρίσκετε τον διακομιστή σας;";
 "onboarding.scanning.title" = "Σάρωση για διακομιστές";
-"onboarding.welcome.description" = "Αυτή η εφαρμογή συνδέεται με τον διακομιστή Home Assistant και επιτρέπει την ενσωμάτωση δεδομένων σχετικά με εσάς και το τηλέφωνό σας. \
+"onboarding.welcome.description" = "Αυτή η εφαρμογή συνδέεται με τον διακομιστή GiToon και επιτρέπει την ενσωμάτωση δεδομένων σχετικά με εσάς και το τηλέφωνό σας. \
 \
- Το Home Assistant είναι δωρεάν και ανοιχτού κώδικα λογισμικό αυτοματισμού σπιτιού με έμφαση στον τοπικό έλεγχο και την ιδιωτικότητα.";
-"onboarding.welcome.title" = "Καλώς ορίσατε στο Home Assistant %@!";
+ Το GiToon είναι δωρεάν και ανοιχτού κώδικα λογισμικό αυτοματισμού σπιτιού με έμφαση στον τοπικό έλεγχο και την ιδιωτικότητα.";
+"onboarding.welcome.title" = "Καλώς ορίσατε στο GiToon %@!";
 "open_label" = "Άνοιγμα";
 "preview_output" = "Έξοδος προεπισκόπησης";
 "requires_version" = "Απαιτεί %@ ή μεταγενέστερη έκδοση.";
@@ -318,11 +318,11 @@
 "settings.connection_section.delete_server.title" = "Διαγραφή διακομιστή";
 "settings.connection_section.details" = "Λεπτομέρειες";
 "settings.connection_section.errors.cannot_remove_last_url" = "Δεν μπορείτε να καταργήσετε μόνο τη διαθέσιμη διεύθυνση URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Εξωτερική διεύθυνση URL";
 "settings.connection_section.header" = "Σύνδεση";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "π.χ. http://homeassistant.local:8123";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "π.χ. http://gitoon.local:8123";
 "settings.connection_section.internal_base_url.title" = "Εσωτερική διεύθυνση URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Προσθήκη νέας διεύθυνσης υλικού";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Η εσωτερική διεύθυνση URL θα χρησιμοποιείται όταν η κύρια διασύνδεση δικτύου έχει διεύθυνση MAC που ταιριάζει με μία από αυτές τις διευθύνσεις υλικού.";
@@ -332,7 +332,7 @@
 "settings.connection_section.internal_url_ssids.footer" = "Η εσωτερική διεύθυνση URL θα χρησιμοποιηθεί όταν συνδέεται με καταχωρημένα SSID";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Συνδεθείτε απευθείας στο διακομιστή Home Assistant για ειδοποιήσεις push όταν βρίσκεστε σε εσωτερικά SSID.";
+"settings.connection_section.local_push_description" = "Συνδεθείτε απευθείας στο διακομιστή GiToon για ειδοποιήσεις push όταν βρίσκεστε σε εσωτερικά SSID.";
 "settings.connection_section.location_send_type.setting.exact" = "Ακριβής";
 "settings.connection_section.location_send_type.setting.never" = "Ποτέ";
 "settings.connection_section.location_send_type.setting.zone_only" = "Μόνο όνομα ζώνης";
@@ -387,7 +387,7 @@
 "settings.location_history.title" = "Ιστορικό Τοποθεσίας";
 "settings.navigation_bar.about_button.title" = "Σχετικά";
 "settings.navigation_bar.title" = "Ρυθμίσεις";
-"settings.reset_section.reset_alert.message" = "Οι ρυθμίσεις σας θα επαναρυθμιστούν και αυτή η συσκευή δεν θα καταχωρηθεί από τις ειδοποιήσεις push, καθώς και θα καταργηθεί από τη ρύθμιση παραμέτρων του Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Οι ρυθμίσεις σας θα επαναρυθμιστούν και αυτή η συσκευή δεν θα καταχωρηθεί από τις ειδοποιήσεις push, καθώς και θα καταργηθεί από τη ρύθμιση παραμέτρων του GiToon.";
 "settings.reset_section.reset_alert.progress_message" = "Επαναφορά…";
 "settings.reset_section.reset_alert.title" = "Επαναφορά";
 "settings.reset_section.reset_row.title" = "Επαναφορά";
@@ -395,7 +395,7 @@
 "settings.server_select.page_title" = "Διακομιστής";
 "settings.server_select.title" = "Διακομιστής";
 "settings.status_section.header" = "Κατάσταση";
-"settings.status_section.location_name_row.placeholder" = "Το Home Assistant μου";
+"settings.status_section.location_name_row.placeholder" = "Το GiToon μου";
 "settings.status_section.location_name_row.title" = "Όνομα";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Έκδοση";
@@ -427,7 +427,7 @@
 "settings_details.general.app_icon.enum.electric_violet" = "Ηλεκτρικό βιολετί";
 "settings_details.general.app_icon.enum.fire_orange" = "Πορτοκαλί της φωτιάς";
 "settings_details.general.app_icon.enum.green" = "Πράσινο";
-"settings_details.general.app_icon.enum.ha_blue" = "Μπλε Home Assistant";
+"settings_details.general.app_icon.enum.ha_blue" = "Μπλε GiToon";
 "settings_details.general.app_icon.enum.old_beta" = "Παλιά beta";
 "settings_details.general.app_icon.enum.old_dev" = "Παλιά ανάπτυξη";
 "settings_details.general.app_icon.enum.old_release" = "Παλιά έκδοση";
@@ -561,7 +561,7 @@
 "settings_details.notifications.title" = "Ειδοποιήσεις";
 "settings_details.privacy.alerts.description" = "Επιτρέπει τον έλεγχο σημαντικών ειδοποιήσεων όπως τρωτά σημεία ασφαλείας.";
 "settings_details.privacy.alerts.title" = "Ειδοποιήσεις";
-"settings_details.privacy.analytics.generic_description" = "Επιτρέπει τη συλλογή βασικών πληροφοριών σχετικά με τη συσκευή σας και τις αλληλεπιδράσεις με την εφαρμογή. Δεν κοινοποιούνται δεδομένα που να είναι αναγνωρίσιμα από το χρήστη, συμπεριλαμβανομένων των διευθύνσεων URL και των διακριτικών του Home Assistant. Πρέπει να κάνετε επανεκκίνηση της εφαρμογής για να εφαρμοστούν οι αλλαγές σε αυτήν τη ρύθμιση.";
+"settings_details.privacy.analytics.generic_description" = "Επιτρέπει τη συλλογή βασικών πληροφοριών σχετικά με τη συσκευή σας και τις αλληλεπιδράσεις με την εφαρμογή. Δεν κοινοποιούνται δεδομένα που να είναι αναγνωρίσιμα από το χρήστη, συμπεριλαμβανομένων των διευθύνσεων URL και των διακριτικών του GiToon. Πρέπει να κάνετε επανεκκίνηση της εφαρμογής για να εφαρμοστούν οι αλλαγές σε αυτήν τη ρύθμιση.";
 "settings_details.privacy.analytics.generic_title" = "Ανάλυση";
 "settings_details.privacy.crash_reporting.description" = "Επιτρέπει βαθύτερη παρακολούθηση των σφαλμάτων και άλλων σφαλμάτων στην εφαρμογή, με αποτέλεσμα τη δημοσίευση ταχύτερων επιδιορθώσεων. Δεν αποστέλλονται πληροφορίες που να είναι αναγνωρίσιμες από το χρήστη, εκτός από τις βασικές πληροφορίες συσκευής. Πρέπει να κάνετε επανεκκίνηση της εφαρμογής για να εφαρμοστούν οι αλλαγές σε αυτήν τη ρύθμιση.";
 "settings_details.privacy.crash_reporting.sentry" = "Αυτή η δυνατότητα χρησιμοποιεί αυτήν τη στιγμή το Sentry ως προορισμό αναφοράς.";
@@ -601,7 +601,7 @@
 "thread.credentials.screen_title" = "Διαπιστευτήρια Thread";
 "thread.credentials.share_credentials.no_credentials_message" = "Βεβαιωθείτε ότι έχετε συνδεθεί με το λογαριασμό σας στο iCloud, ο οποίος είναι ιδιοκτήτης ενός Σπιτιού στο Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Δεν έχετε διαπιστευτήρια για κοινή χρήση";
-"thread.credentials.share_credentials_button_title" = "Μοιραστείτε τα διαπιστευτήρια με το Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Μοιραστείτε τα διαπιστευτήρια με το GiToon";
 "thread.extended_pan_id.title" = "Εκτεταμένο αναγνωριστικό PAN";
 "thread.management.title" = "Διαπιστευτήρια νήματος";
 "thread.network_key.title" = "Κλειδί δικτύου";
@@ -609,7 +609,7 @@
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Απέτυχε η μετατροπή της εισόδου σε δεκαεξαδικό σύστημα κατά την αποθήκευση των διαπιστευτηρίων νήματος στην κλειδοθήκη";
 "thread.store_in_keychain.error.title" = "Η λειτουργία απέτυχε";
 "thread.transter_to_apple.title" = "Μεταφορά στην Κλειδοθήκη Apple";
-"thread.transter_to_homeassistant.title" = "Μεταφορά στο Home Assistant";
+"thread.transter_to_homeassistant.title" = "Μεταφορά στο GiToon";
 "token_error.connection_failed" = "Η σύνδεση απέτυχε.";
 "token_error.expired" = "Το διακριτικό έχει λήξει.";
 "token_error.token_unavailable" = "Το διακριτικό δεν είναι διαθέσιμο.";
@@ -639,7 +639,7 @@
 "url_handler.send_location.success.title" = "Τοποθεσία εστάλη";
 "url_handler.x_callback_url.error.eventNameMissing" = "Πρέπει να οριστεί το όνομα συμβάντος";
 "url_handler.x_callback_url.error.general" = "Παρουσιάστηκε ένα γενικό σφάλμα";
-"url_handler.x_callback_url.error.serviceMissing" = "υπηρεσία (π.χ. homeassistant.turn_on) πρέπει να οριστεί";
+"url_handler.x_callback_url.error.serviceMissing" = "υπηρεσία (π.χ. gitoon.turn_on) πρέπει να οριστεί";
 "url_handler.x_callback_url.error.templateMissing" = "Πρέπει να οριστεί ένα πρότυπο απόδοσης";
 "username_label" = "Όνομα χρήστη";
 "watch.configurator.delete.button" = "Διαγραφή επιπλοκής";
@@ -836,10 +836,10 @@
 "watch.labels.complication_text_areas.trailing.label" = "Ακολουθία";
 "watch.labels.no_action" = "Δεν έχουν διαμορφωθεί ενέργειες. Διαμορφώστε τις ενέργειες στο τηλέφωνό σας για να παραβλέψετε αυτό το μήνυμα.";
 "watch.placeholder_complication_name" = "Σύμβολο κράτησης θέσης";
-"widgets.actions.description" = "Εκτελέστε ενέργειες Home Assistant.";
+"widgets.actions.description" = "Εκτελέστε ενέργειες GiToon.";
 "widgets.actions.not_configured" = "Δεν έχουν ρυθμιστεί ενέργειες";
 "widgets.actions.title" = "Ενέργειες";
-"widgets.open_page.description" = "Ανοίξτε μια αρχική σελίδα στο Home Assistant.";
+"widgets.open_page.description" = "Ανοίξτε μια αρχική σελίδα στο GiToon.";
 "widgets.open_page.not_configured" = "Δεν υπάρχουν διαθέσιμες σελίδες";
 "widgets.open_page.title" = "Άνοιγμα σελίδας";
 "yes_label" = "Ναι";

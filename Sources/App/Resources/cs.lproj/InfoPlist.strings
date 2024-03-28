@@ -1,13 +1,13 @@
 "NFCReaderUsageDescription" = "Čtení a zápis NFC štítků umožňuje spouštět události.";
-"NSCameraUsageDescription" = "Pořídí fotky a odešle je na server Home Assistanta.";
+"NSCameraUsageDescription" = "Pořídí fotky a odešle je na server GiToona.";
 "NSCrossWebsiteTrackingUsageDescription" = "Volitelně povolte sledování napříč weby, pokud to Vaše konfigurace vyžaduje.";
 "NSFocusStatusUsageDescription" = "Hlásí stav zaostření jako senzor.";
-"NSLocalNetworkUsageDescription" = "Hledá a komunikuje s Vaší instancí Home Assistanta.";
+"NSLocalNetworkUsageDescription" = "Hledá a komunikuje s Vaší instancí GiToona.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Doporučujeme vybrat možnost \"Trvale\", abyste získali nejlepší informace o poloze. Výběrem \"Při používání aplikace\" deaktivujete iBeacons, geofence, aktualizace polohy na pozadí a přesné hlášení.";
 "NSLocationAlwaysUsageDescription" = "Vždy potřebujeme přístup k Vaší poloze pro funkce, jako jsou iBeacons, geofence, aktualizace polohy na pozadí a přesné hlášení.";
-"NSLocationUsageDescription" = "Když je tato volba povolena, poloha Vašeho zařízení se odesílá na server Home Assistanta jako sledovač zařízení.";
+"NSLocationUsageDescription" = "Když je tato volba povolena, poloha Vašeho zařízení se odesílá na server GiToona jako sledovač zařízení.";
 "NSLocationWhenInUseUsageDescription" = "Povolení přístupu k poloze jen při používání aplikace deaktivuje iBeacons, geofence, aktualizace polohy na pozadí a přesné hlášení.";
-"NSMicrophoneUsageDescription" = "Nahrávejte zvuk pomocí frontendu Home Assistanta.";
+"NSMicrophoneUsageDescription" = "Nahrávejte zvuk pomocí frontendu GiToona.";
 "NSMotionUsageDescription" = "Pohyb se používá ke zlepšení aktualizace polohy pomocí aktuálního typu pohybu a k poskytování základních údajů o krokoměru.";
 "NSPhotoLibraryAddUsageDescription" = "Přístup do knihovny fotek je nutný k tomu, aby je bylo možné ukládat  z webového zobrazení.";
 "NSPhotoLibraryUsageDescription" = "Přístup do knihovny fotek je nutný k tomu, aby je bylo možné ukládat  z webového zobrazení.";

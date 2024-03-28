@@ -1,13 +1,13 @@
 "NFCReaderUsageDescription" = "Læsning og skrivning af NFC-tags giver dig mulighed for at udløse hændelser.";
-"NSCameraUsageDescription" = "Tag fotos og send dem til din Home Assistant-server.";
+"NSCameraUsageDescription" = "Tag fotos og send dem til din GiToon-server.";
 "NSCrossWebsiteTrackingUsageDescription" = "Du kan vælge at aktivere sporing på tværs af websitet, hvis din konfiguration kræver det.";
 "NSFocusStatusUsageDescription" = "Rapportér din fokusstatus som en sensor.";
-"NSLocalNetworkUsageDescription" = "Finde og kommunikere med din Home Assistant-installation.";
+"NSLocalNetworkUsageDescription" = "Finde og kommunikere med din GiToon-installation.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Vi anbefaler, at du vælger \"Tillad altid\" for at få den bedste lokalitet. Hvis du vælger \"Kun mens du bruger appen\", deaktiveres iBeacons, geofences, baggrundsopdatering af lokalitet og nøjagtig rapportering.";
 "NSLocationAlwaysUsageDescription" = "Vi har altid brug for adgang til din lokalitet for funktioner som iBeacons, geofences, baggrundsopdatering af lokalitet og nøjagtig rapportering.";
-"NSLocationUsageDescription" = "Når denne indstilling er aktiveret, sendes din enheds lokalitet til din Home Assistant som en sporingsenhed.";
+"NSLocationUsageDescription" = "Når denne indstilling er aktiveret, sendes din enheds lokalitet til din GiToon som en sporingsenhed.";
 "NSLocationWhenInUseUsageDescription" = "Hvis du kun tillader lokalitetsadgang, mens appen er i brug, deaktiveres iBeacons, geofences, baggrundsopdatering af lokalitet og nøjagtig rapportering.";
-"NSMicrophoneUsageDescription" = "Optag lyd ved hjælp af Home Assistant-brugerfladen";
+"NSMicrophoneUsageDescription" = "Optag lyd ved hjælp af GiToon-brugerfladen";
 "NSMotionUsageDescription" = "Bevægelse bruges til at forbedre lokalitetssopdateringer med aktuel bevægelsestype samt levere grundlæggende skridttæller-data.";
 "NSPhotoLibraryAddUsageDescription" = "Adgang til fotobibliotek er nødvendig for at give mulighed for at gemme fotos fra webvisningen.";
 "NSPhotoLibraryUsageDescription" = "Adgang til fotobibliotek er nødvendig for at give mulighed for at gemme fotos fra webvisningen.";

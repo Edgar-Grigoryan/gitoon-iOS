@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Допоможіть локалізувати застосунок!";
-"about.home_assistant_on_facebook.title" = "Home Assistant у Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant у Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon у Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon у Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Пробуджує ваш дім";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Залишити відгук";
 "about.title" = "Інформація";
 "about.website.title" = "Сайт";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Ви також можете змінити їх, налаштувавши атрибути сцени: %@";
 "actions_configurator.visual_section.server_defined" = "Вигляд цієї дії контролюється конфігурацією сервера.";
 "addButtonLabel" = "Додати";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Please update Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Please update GiToon";
 "alerts.alert.ok" = "ОК";
 "alerts.auth_required.message" = "Сервер відхилив ваші облікові дані, тому необхідно знову увійти, щоб продовжити.";
 "alerts.auth_required.title" = "Ви повинні увійти, щоб продовжити";
@@ -128,7 +128,7 @@
 "error_label" = "Помилка";
 "extensions.map.location.new" = "Нове розташування";
 "extensions.map.location.original" = "Оригінальне розташування";
-"extensions.map.payload_missing_homeassistant.message" = "Вміст не містить не містить словник homeassistant!";
+"extensions.map.payload_missing_homeassistant.message" = "Вміст не містить не містить словник gitoon!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Широта не була знайдена або не може перетворена в рядок!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Довгота не була знайдена або не може перетворена в рядок!";
 "extensions.notification_content.error.no_entity_id" = "Жодного entity_id не знайдено у вмісті!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS-потік недоступний";
 "extensions.notification_content.error.request.other" = "Отримано статус-код помилки (%li)";
 "ha_api.api_error.cant_build_url" = "Не вдається побудувати API URL";
-"ha_api.api_error.invalid_response" = "Отримано хибну відповідь від Home Assistant";
+"ha_api.api_error.invalid_response" = "Отримано хибну відповідь від GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager недоступний";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Компонент mobile_app не завантажено. Додайте його до своєї конфігурації, перезапустіть Home Assistant та повторіть спробу.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Ваша версія Home Assistant (%@) застаріла. Для використання програми потрібно оновити принаймні до версії %@.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Компонент mobile_app не завантажено. Додайте його до своєї конфігурації, перезапустіть GiToon та повторіть спробу.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Ваша версія GiToon (%@) застаріла. Для використання програми потрібно оновити принаймні до версії %@.";
 "ha_api.api_error.not_configured" = "HA API не налаштовано";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Читання тегів";
 "nfc.list.description" = "Теги NFC, записані у програмі, відображатимуть сповіщення, коли ви наблизите пристрій до них. Активація сповіщення запустить програму та активує подію. \
 \
-Теги працюватимуть на будь-якому пристрої з встановленим Home Assistant, який має апаратну підтримку для їх читання.";
+Теги працюватимуть на будь-якому пристрої з встановленим GiToon, який має апаратну підтримку для їх читання.";
 "nfc.list.learn_more" = "Дізнатися більше";
 "nfc.list.read_tag" = "Прочитати тег";
 "nfc.list.title" = "Теги NFC";
 "nfc.list.write_tag" = "Записати тег";
 "nfc.not_available" = "NFC недоступний на цьому пристрої";
 "nfc.read.error.generic_failure" = "Не вдалося прочитати тег";
-"nfc.read.error.not_home_assistant" = "Тег NFC не є тегом Home Assistant";
+"nfc.read.error.not_home_assistant" = "Тег NFC не є тегом GiToon";
 "nfc.read.error.tag_invalid" = "Неприпустимий тег NFC";
 "nfc.read.start_message" = "Тримайте %@ біля тегу NFC";
 "nfc.tag_read" = "Читання тегів NFC";
@@ -213,7 +213,7 @@
 "notification_service.parser.camera.invalid_entity" = "Вказаний entity_id недійсний.";
 "notification_service.parser.url.invalid_url" = "Вказана URL-адреса недійсна.";
 "notification_service.parser.url.no_url" = "URL-адреса не вказана.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Коли користувач вибирає дію з цією опцією, система пропонує користувачеві розблокувати пристрій. Після розблокування Home Assistant буде повідомлений про вибрану дію.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Коли користувач вибирає дію з цією опцією, система пропонує користувачеві розблокувати пристрій. Після розблокування GiToon буде повідомлений про вибрану дію.";
 "notifications_configurator.action.rows.authentication_required.title" = "Потрібна автентифікація";
 "notifications_configurator.action.rows.destructive.footer" = "Якщо ввімкнено, кнопка дії виділятиметься, щоб вказувати на те, що вона виконує деструктивну дію.";
 "notifications_configurator.action.rows.destructive.title" = "Руйнівний";
@@ -263,7 +263,7 @@
 "onboarding.manual_setup.connect" = "Підключення";
 "onboarding.manual_setup.couldnt_make_url.message" = "Значення \"%@\" не є допустимою URL-адресою.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Не вдалося створити URL";
-"onboarding.manual_setup.description" = "URL-адреса вашого сервера Home Assistant. Переконайтеся, що він містить протокол і порт.";
+"onboarding.manual_setup.description" = "URL-адреса вашого сервера GiToon. Переконайтеся, що він містить протокол і порт.";
 "onboarding.manual_setup.no_scheme.message" = "Чи варто спробувати підключитися за допомогою http: // або https: //?";
 "onboarding.manual_setup.no_scheme.title" = "URL-адреса введена без схеми";
 "onboarding.manual_setup.title" = "Введіть URL-адресу";
@@ -272,7 +272,7 @@
 "onboarding.permissions.change_later_note" = "You can change this permission later in Settings";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "Instant updates when status changes";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to GiToon";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "Focus";
 "onboarding.permissions.location.bullet.automations" = "Presence-based automations";
@@ -284,23 +284,23 @@
 "onboarding.permissions.motion.bullet.activity" = "Sensor for current activity type";
 "onboarding.permissions.motion.bullet.distance" = "Sensor for distance moved";
 "onboarding.permissions.motion.bullet.steps" = "Датчик для підрахунку кроків";
-"onboarding.permissions.motion.description" = "Дозволити надсилання даних про рух і дані крокоміра до Home Assistant";
+"onboarding.permissions.motion.description" = "Дозволити надсилання даних про рух і дані крокоміра до GiToon";
 "onboarding.permissions.motion.grant_description" = "Allow motion permission to create sensors for motion and pedometer data.";
 "onboarding.permissions.motion.title" = "Рух і крокомір";
 "onboarding.permissions.notification.bullet.alert" = "Get alerted from notifications";
 "onboarding.permissions.notification.bullet.badge" = "Update app icon badge";
 "onboarding.permissions.notification.bullet.commands" = "Надсилайти команди на свій пристрій";
-"onboarding.permissions.notification.description" = "Дозволити надсилання push-сповіщень із вашого Home Assistant";
+"onboarding.permissions.notification.description" = "Дозволити надсилання push-сповіщень із вашого GiToon";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "Сповіщення";
 "onboarding.scanning.discovered_announcement" = "Discovered: %@";
 "onboarding.scanning.manual" = "Ввести адресу вручну";
 "onboarding.scanning.manual_hint" = "Не знайшли свій сервер?";
 "onboarding.scanning.title" = "Сканування серверів";
-"onboarding.welcome.description" = "This app connects to your Home Assistant server and allows integrating data about you and your phone.\
+"onboarding.welcome.description" = "This app connects to your GiToon server and allows integrating data about you and your phone.\
 \
-Home Assistant is free and open source home automation software with a focus on local control and privacy.";
-"onboarding.welcome.title" = "Ласкаво просимо до Home Assistant %@ !";
+GiToon is free and open source home automation software with a focus on local control and privacy.";
+"onboarding.welcome.title" = "Ласкаво просимо до GiToon %@ !";
 "open_label" = "Відкрити";
 "preview_output" = "Попередній перегляд";
 "requires_version" = "Requires %@ or later.";
@@ -318,11 +318,11 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.delete_server.title" = "Delete Server";
 "settings.connection_section.details" = "Деталі";
 "settings.connection_section.errors.cannot_remove_last_url" = "Ви не можете видалити єдину доступну URL-адресу.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Зовнішній URL";
 "settings.connection_section.header" = "Підключення";
-"settings.connection_section.home_assistant_cloud.title" = "Хмара Home Assistant";
-"settings.connection_section.internal_base_url.placeholder" = "наприклад http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "Хмара GiToon";
+"settings.connection_section.internal_base_url.placeholder" = "наприклад http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Внутрішній URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Internal URL will be used when the primary network interface has a MAC address matching one of these hardware addresses.";
@@ -332,7 +332,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.internal_url_ssids.footer" = "Внутрішня URL-адреса використовуватиметься при підключенні до перелічених SSID";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "МояКумендаНазваМережі";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the GiToon server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Exact";
 "settings.connection_section.location_send_type.setting.never" = "Ніколи";
 "settings.connection_section.location_send_type.setting.zone_only" = "Лише ім'я зони";
@@ -387,7 +387,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.location_history.title" = "Location History";
 "settings.navigation_bar.about_button.title" = "Інформація";
 "settings.navigation_bar.title" = "Налаштування";
-"settings.reset_section.reset_alert.message" = "Ваші налаштування будуть скинуті, надсилання push-сповіщень буде зупинено, а цей пристрій буде видалено з конфігурації Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Ваші налаштування будуть скинуті, надсилання push-сповіщень буде зупинено, а цей пристрій буде видалено з конфігурації GiToon.";
 "settings.reset_section.reset_alert.progress_message" = "Скидання…";
 "settings.reset_section.reset_alert.title" = "Скинути";
 "settings.reset_section.reset_row.title" = "Скинути";
@@ -395,7 +395,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Статус";
-"settings.status_section.location_name_row.placeholder" = "Мій Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Мій GiToon";
 "settings.status_section.location_name_row.title" = "Назва";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Версія";
@@ -427,7 +427,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.general.app_icon.enum.electric_violet" = "Електричний фіолетовий";
 "settings_details.general.app_icon.enum.fire_orange" = "Вогняний помаранчевий";
 "settings_details.general.app_icon.enum.green" = "Зелений";
-"settings_details.general.app_icon.enum.ha_blue" = "Синій Home Assistant";
+"settings_details.general.app_icon.enum.ha_blue" = "Синій GiToon";
 "settings_details.general.app_icon.enum.old_beta" = "Старий Beta";
 "settings_details.general.app_icon.enum.old_dev" = "Старий Dev";
 "settings_details.general.app_icon.enum.old_release" = "Старий реліз";
@@ -561,7 +561,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.notifications.title" = "Сповіщення";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Alerts";
-"settings_details.privacy.analytics.generic_description" = "Дозволяє збирати основну інформацію про ваш пристрій та взаємодію з додатком. Не надаються ідентифікаційні дані користувача, включаючи URL-адреси та маркери Home Assistant. Потрібно перезапустити програму, щоб зміни цього параметра набрали чинності.";
+"settings_details.privacy.analytics.generic_description" = "Дозволяє збирати основну інформацію про ваш пристрій та взаємодію з додатком. Не надаються ідентифікаційні дані користувача, включаючи URL-адреси та маркери GiToon. Потрібно перезапустити програму, щоб зміни цього параметра набрали чинності.";
 "settings_details.privacy.analytics.generic_title" = "Аналітика";
 "settings_details.privacy.crash_reporting.description" = "Дозволяє глибше відстежувати збої та інші помилки в додатку, що призводить до швидшого опублікування виправлень. Не надсилається інформація, що ідентифікує користувача, окрім базової інформації про пристрій. Потрібно перезапустити програму, щоб зміни цього параметра набрали чинності.";
 "settings_details.privacy.crash_reporting.sentry" = "Ця функція наразі використовує Sentry як місце призначення звіту.";
@@ -601,7 +601,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -609,7 +609,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Не вдалося підключитися.";
 "token_error.expired" = "Токен застарів";
 "token_error.token_unavailable" = "Токен недоступний";
@@ -639,7 +639,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "url_handler.send_location.success.title" = "Надіслане розташування";
 "url_handler.x_callback_url.error.eventNameMissing" = "Необхідно вказати eventName";
 "url_handler.x_callback_url.error.general" = "Виникла загальна помилка";
-"url_handler.x_callback_url.error.serviceMissing" = "сервіс (наприклад, homeassistant.turn_on) має бути визначений";
+"url_handler.x_callback_url.error.serviceMissing" = "сервіс (наприклад, gitoon.turn_on) має бути визначений";
 "url_handler.x_callback_url.error.templateMissing" = "Необхідно визначити шаблон для відтворення";
 "username_label" = "Ім'я користувача";
 "watch.configurator.delete.button" = "Видалити Complication";
@@ -836,10 +836,10 @@ Home Assistant is free and open source home automation software with a focus on 
 "watch.labels.complication_text_areas.trailing.label" = "Закривання";
 "watch.labels.no_action" = "Не налаштовано жодних дій. Налаштуйте дії на своєму телефоні, щоб приховати це повідомлення.";
 "watch.placeholder_complication_name" = "Заповнювач";
-"widgets.actions.description" = "Виконайте дії Home Assistant.";
+"widgets.actions.description" = "Виконайте дії GiToon.";
 "widgets.actions.not_configured" = "Жодних дій не налаштовано";
 "widgets.actions.title" = "Дії";
-"widgets.open_page.description" = "Open a frontend page in Home Assistant.";
+"widgets.open_page.description" = "Open a frontend page in GiToon.";
 "widgets.open_page.not_configured" = "No Pages Available";
 "widgets.open_page.title" = "Open Page";
 "yes_label" = "Так";

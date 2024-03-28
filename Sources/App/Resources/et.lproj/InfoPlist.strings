@@ -1,13 +1,13 @@
 "NFCReaderUsageDescription" = "NFC-märgiste lugemine ja kirjutamine võimaldab käivitada sündmusi.";
-"NSCameraUsageDescription" = "Tee fotosid ja saada need Home Assistant serverisse.";
+"NSCameraUsageDescription" = "Tee fotosid ja saada need GiToon serverisse.";
 "NSCrossWebsiteTrackingUsageDescription" = "Luba veebisaidiülene jälgimine kui konfiguratsioon seda nõuab.";
 "NSFocusStatusUsageDescription" = "Teata oma fookuse olekust andurina.";
-"NSLocalNetworkUsageDescription" = "Leia Home Assistanti eksemplar ja suhtle sellega.";
+"NSLocalNetworkUsageDescription" = "Leia GiTooni eksemplar ja suhtle sellega.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Parima asukohakogemuse saamiseks soovitame teha valiku „Luba alati”. Kui valid \"Ainult rakenduse kasutamise ajal\", keelatakse iBeaconid, geopiirded, taustal asukohavärskendused ja täpne aruandlus.";
 "NSLocationAlwaysUsageDescription" = "Meil on alati vaja juurdepääsu asukohale, et kasutada selliseid funktsioone nagu iBeacons, geofüüsilised piirded, asukoha taustauuendused ja täpne aruandlus.";
-"NSLocationUsageDescription" = "Kui see on aktiveeritud, saadetakse  seadme asukoht jälgimisseadmena Home Assistant'i serverisse.";
+"NSLocationUsageDescription" = "Kui see on aktiveeritud, saadetakse  seadme asukoht jälgimisseadmena GiToon'i serverisse.";
 "NSLocationWhenInUseUsageDescription" = "Asukohale juurdepääsu lubamine ainult rakenduse kasutamise ajal keelab iBeaconid, geopiirded, taustal asukohavärskendused ja täpse aruandluse.";
-"NSMicrophoneUsageDescription" = "Salvesta heli Home Assistanti kasutajaliidese abil.";
+"NSMicrophoneUsageDescription" = "Salvesta heli GiTooni kasutajaliidese abil.";
 "NSMotionUsageDescription" = "Liikumist kasutatakse asukoha ajakohastamise parandamiseks koos praeguse liikumistüübiga ning samuti põhiliste sammuloendurite andmete esitamiseks.";
 "NSPhotoLibraryAddUsageDescription" = "Fotode veebivaatest salvestamiseks on vaja juurdepääsu fotokogule.";
 "NSPhotoLibraryUsageDescription" = "Fotode veebivaatest salvestamiseks on vaja juurdepääsu fotokogule.";

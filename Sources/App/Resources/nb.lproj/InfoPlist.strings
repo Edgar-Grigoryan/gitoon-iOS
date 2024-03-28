@@ -1,13 +1,13 @@
 "NFCReaderUsageDescription" = "Å lese og skrive NFC-tagger lar deg utløse hendelser.";
-"NSCameraUsageDescription" = "Ta bilder og send dem til Home Assistant-serveren.";
+"NSCameraUsageDescription" = "Ta bilder og send dem til GiToon-serveren.";
 "NSCrossWebsiteTrackingUsageDescription" = "Du kan eventuelt aktivere sporing på tvers av nettsteder hvis konfigurasjonen krever det.";
 "NSFocusStatusUsageDescription" = "Rapporter fokusstatusen din som sensor.";
-"NSLocalNetworkUsageDescription" = "Finn og kommuniser med Home Assistant-forekomsten.";
+"NSLocalNetworkUsageDescription" = "Finn og kommuniser med GiToon-forekomsten.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Vi foreslår at du velger \"Alltid tillat\" for den beste opplevelsen. Hvis du velger \"Kun mens du bruker appen\", deaktiveres iBeacons, geofences, oppdateringer for bakgrunnsplassering og nøyaktig rapportering.";
 "NSLocationAlwaysUsageDescription" = "Vi trenger tilgang til posisjonen din for funksjoner som iBeacons, geofences, oppdateringer for bakgrunnssteder og nøyaktig rapportering.";
-"NSLocationUsageDescription" = "Når den er aktivert, sendes enhetsplasseringen til Home Assistant-serveren din som en enhetssporing.";
+"NSLocationUsageDescription" = "Når den er aktivert, sendes enhetsplasseringen til GiToon-serveren din som en enhetssporing.";
 "NSLocationWhenInUseUsageDescription" = "Bare tillatelse for tilgang til plass mens appen er i bruk, deaktiverer iBeacons, geofences, oppdateringer for bakgrunnsplassering og nøyaktig rapportering.";
-"NSMicrophoneUsageDescription" = "Ta opp lyd ved hjelp av Home Assistant-frontend.";
+"NSMicrophoneUsageDescription" = "Ta opp lyd ved hjelp av GiToon-frontend.";
 "NSMotionUsageDescription" = "Bevegelse brukes til å forbedre posisjonsoppdateringer med gjeldende bevegelsestype, samt gi grunnleggende pedometerdata.";
 "NSPhotoLibraryAddUsageDescription" = "Tilgang til fotobibliotek er nødvendig for å tillate lagring av bilder fra nettvisningen.";
 "NSPhotoLibraryUsageDescription" = "Tilgang til fotobibliotek er nødvendig for å tillate lagring av bilder fra nettvisningen.";

@@ -1,4 +1,4 @@
-Another week, another new Home Assistant Companion build!
+Another week, another new GiToon Companion build!
 
 - More localization support! We now support Chinese (Traditional and Simplified), Dutch and Spanish. Minor updates were also made to the existing German translation.
 - Add support for granular control of location update triggers (in Settings->Location)

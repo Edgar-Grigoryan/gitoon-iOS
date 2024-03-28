@@ -26,7 +26,7 @@
 "DsasVx" = "Error";
 "EA0zLv" = "There are ${count} options matching ‘${server}’.";
 "EWqRDj" = "Falló: ${error}";
-"FBQiVD" = "Call a service on the Home Assistant instance";
+"FBQiVD" = "Call a service on the GiToon instance";
 "FZ9qkT" = "Renderiza la plantilla";
 "FtQqoU" = "Ubicación actualizada";
 "GiSjQE" = "Failed: ${error}";
@@ -48,14 +48,14 @@
 "MwEpGz" = "¡Hecho!";
 "N9iJpK" = "Obtener imagen de la cámara";
 "NUF0Pa" = "${result}";
-"NdG9Jz" = "Renderizar la plantilla de Home Assistant";
+"NdG9Jz" = "Renderizar la plantilla de GiToon";
 "NsbUTz" = "Entidad de la cámara";
 "Q2Qp4a" = "Acción";
 "QCGKRz" = "Which language?";
 "QVD2lM" = "Datos del servicio";
 "QmGpOH" = "Error";
 "RCQAlr" = "Obtener la imagen de ${cameraID}";
-"RMQY3r" = "Envía la ubicación a Home Assistant";
+"RMQY3r" = "Envía la ubicación a GiToon";
 "RsOw3P" = "Plantilla renderizada correctamente";
 "T06Fka" = "Abra una página en la interfaz";
 "U4u9Xz" = "Hay ${count} opciones que coinciden con  ́${server} ́.";
@@ -86,7 +86,7 @@
 "fnz838" = "Sensores actualizados";
 "foI0Fv" = "Ha Fallado: Hombre Assistant no está accesible actualmente";
 "ftQHJw" = "Which server?";
-"fuRWMi" = "Envia ${location} a Home Assistant";
+"fuRWMi" = "Envia ${location} a GiToon";
 "g8g7Af" = "Realiza la acción";
 "gI3mme" = "¿Qué datos de servicio queréis enviar?";
 "gePUyy" = "Ubicación";
@@ -134,9 +134,9 @@
 "tycImk" = "Realiza una acción definida en la aplicación";
 "uqeIcc" = "Assist with \"${text}\"";
 "v7TSD5" = "Envía la ubicación";
-"vAIAF2" = "Envía una actualización del sensor a Home Assistant";
+"vAIAF2" = "Envía una actualización del sensor a GiToon";
 "vebd70" = "Servidor";
-"wfPQQQ" = "Fire an event to the Home Assistant event bus";
+"wfPQQQ" = "Fire an event to the GiToon event bus";
 "xN51te" = "Result";
 "xfXG6b" = "¿Qué servidor?";
 "xhwpj4" = "Hecho!";

@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub IssueTracker";
 "about.help_localize.title" = "アプリのローカライズを手伝ってください！";
-"about.home_assistant_on_facebook.title" = "Home AssistantのFacebook";
-"about.home_assistant_on_twitter.title" = "Home AssistantのTwitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToonのFacebook";
+"about.home_assistant_on_twitter.title" = "GiToonのTwitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "あなたの家を呼び覚ます";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "レビューを残す";
 "about.title" = "～について";
 "about.website.title" = "Webサイト";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "シーン属性をカスタマイズしてこれらを変更することもできます: %@";
 "actions_configurator.visual_section.server_defined" = "このアクションの外観は、サーバーの設定によって制御されます。";
 "addButtonLabel" = "追加";
-"alerts.action_automation_editor.unavailable.body" = "アクションのオートメーションを自動的に作成するには、Home Assistantを少なくともバージョン 2024.2 に更新してください。";
-"alerts.action_automation_editor.unavailable.title" = "Home Assistantを更新してください";
+"alerts.action_automation_editor.unavailable.body" = "アクションのオートメーションを自動的に作成するには、GiToonを少なくともバージョン 2024.2 に更新してください。";
+"alerts.action_automation_editor.unavailable.title" = "GiToonを更新してください";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "サーバーがあなたの認証情報を拒否したため、続行するには再度サインインする必要があります。";
 "alerts.auth_required.title" = "続けるにはサインインする必要があります";
@@ -128,7 +128,7 @@
 "error_label" = "エラー";
 "extensions.map.location.new" = "新しい場所";
 "extensions.map.location.original" = "元の場所";
-"extensions.map.payload_missing_homeassistant.message" = "ペイロードにはhomeassistant dictionaryが含まれていませんでした。";
+"extensions.map.payload_missing_homeassistant.message" = "ペイロードにはgitoon dictionaryが含まれていませんでした。";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "経度が見つからなかったか、文字列にキャストできませんでした！";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "経度が見つからなかったか、文字列にキャストできませんでした！";
 "extensions.notification_content.error.no_entity_id" = "ペイロードに、entity_idが見つかりません！";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLSストリームは利用できません";
 "extensions.notification_content.error.request.other" = "200以外のステータスコードを取得しました (%li)";
 "ha_api.api_error.cant_build_url" = "API URLを構築できません";
-"ha_api.api_error.invalid_response" = "Home Assistantから無効な応答を受け取りました";
+"ha_api.api_error.invalid_response" = "GiToonから無効な応答を受け取りました";
 "ha_api.api_error.manager_not_available" = "HA APIマネージャーが使用できません。";
-"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_appコンポーネントがロードされていません。設定に追加して、Home Assistantを再起動してから、もう一度やり直してください。";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistantのバージョン (%@)が古すぎます。アプリを使用するには、少なくともバージョン %@ にアップグレードする必要があります。";
+"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_appコンポーネントがロードされていません。設定に追加して、GiToonを再起動してから、もう一度やり直してください。";
+"ha_api.api_error.must_upgrade_home_assistant" = "GiToonのバージョン (%@)が古すぎます。アプリを使用するには、少なくともバージョン %@ にアップグレードする必要があります。";
 "ha_api.api_error.not_configured" = "HA APIが設定されていません";
 "ha_api.api_error.unacceptable_status_code" = "受け入れ不可なステータスコード %1$li。";
 "ha_api.api_error.unexpected_type" = "タイプ %1$@ の結果を含む応答を受け取りましたが、タイプ %2$@ が必要です。";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "タグ読み取り";
 "nfc.list.description" = "アプリによって書き込まれた NFC タグにデバイスを近づけると、通知が表示されます。通知を有効にすると、アプリが起動し、イベントが発生します。 \
 \
-タグは、Home Assistantがインストールされていて、タグの読み取りをハードウェアでサポートしているすべてのデバイスで機能します。";
+タグは、GiToonがインストールされていて、タグの読み取りをハードウェアでサポートしているすべてのデバイスで機能します。";
 "nfc.list.learn_more" = "さらに詳しく";
 "nfc.list.read_tag" = "タグを読み取る";
 "nfc.list.title" = "NFCタグ";
 "nfc.list.write_tag" = "タグの書き込み";
 "nfc.not_available" = "このデバイスではNFCは使用できません";
 "nfc.read.error.generic_failure" = "タグの読み取りに失敗しました";
-"nfc.read.error.not_home_assistant" = "NFCタグはHome Assistantのタグではありません";
+"nfc.read.error.not_home_assistant" = "NFCタグはGiToonのタグではありません";
 "nfc.read.error.tag_invalid" = "NFCタグが無効です";
 "nfc.read.start_message" = "NFCタグに、%@ を近づける";
 "nfc.tag_read" = "NFCタグ読み取り";
@@ -213,7 +213,7 @@
 "notification_service.parser.camera.invalid_entity" = "指定されたentity_idは無効でした。";
 "notification_service.parser.url.invalid_url" = "指定されたURLが無効でした。";
 "notification_service.parser.url.no_url" = "URLが提供されていません。";
-"notifications_configurator.action.rows.authentication_required.footer" = "ユーザーがこのオプションでアクションを選択すると、システムはユーザーにデバイスのロックを解除するように求めます。ロック解除後、選択したアクションが Home Assistant に通知されます。";
+"notifications_configurator.action.rows.authentication_required.footer" = "ユーザーがこのオプションでアクションを選択すると、システムはユーザーにデバイスのロックを解除するように求めます。ロック解除後、選択したアクションが GiToon に通知されます。";
 "notifications_configurator.action.rows.authentication_required.title" = "認証が必要";
 "notifications_configurator.action.rows.destructive.footer" = "有効にすると、アクションボタンが破壊的なタスクを実行することを示す特別なハイライトで表示されます。";
 "notifications_configurator.action.rows.destructive.title" = "破壊的な";
@@ -263,7 +263,7 @@
 "onboarding.manual_setup.connect" = "接続";
 "onboarding.manual_setup.couldnt_make_url.message" = "値 %@ は、有効なURLではありませんでした。";
 "onboarding.manual_setup.couldnt_make_url.title" = "URLを作成できませんでした";
-"onboarding.manual_setup.description" = "Home AssistantサーバーのURL。プロトコルとポートが含まれていることを確認してください。";
+"onboarding.manual_setup.description" = "GiToonサーバーのURL。プロトコルとポートが含まれていることを確認してください。";
 "onboarding.manual_setup.no_scheme.message" = "http:// または、https:// を使用して接続してみる必要がありますか？";
 "onboarding.manual_setup.no_scheme.title" = "スキームなしで入力されたURL";
 "onboarding.manual_setup.title" = "URLを入力";
@@ -272,7 +272,7 @@
 "onboarding.permissions.change_later_note" = "この権限は後で、設定から変更することができます";
 "onboarding.permissions.focus.bullet.automations" = "フォーカスベースのオートメーション";
 "onboarding.permissions.focus.bullet.instant" = "ステータスが変わると即座にアップデート";
-"onboarding.permissions.focus.description" = "フォーカスモードになっているかどうかを、Home Assistantに送信できるようにする";
+"onboarding.permissions.focus.description" = "フォーカスモードになっているかどうかを、GiToonに送信できるようにする";
 "onboarding.permissions.focus.grant_description" = "集中状態のセンサーを作成するためのフォーカス権限を許可します。これは、おやすみモードとも呼ばれます。";
 "onboarding.permissions.focus.title" = "フォーカス";
 "onboarding.permissions.location.bullet.automations" = "プレゼンスベースのオートメーション";
@@ -284,23 +284,23 @@
 "onboarding.permissions.motion.bullet.activity" = "現在のアクティビティタイプのセンサー";
 "onboarding.permissions.motion.bullet.distance" = "移動距離センサー";
 "onboarding.permissions.motion.bullet.steps" = "歩数計測センサー";
-"onboarding.permissions.motion.description" = "モーションアクティビティと歩数計のデータをHome Assistantに送信できるようにする";
+"onboarding.permissions.motion.description" = "モーションアクティビティと歩数計のデータをGiToonに送信できるようにする";
 "onboarding.permissions.motion.grant_description" = "モーションと歩数計データ用のセンサーを作成するためのモーション権限を許可します。";
 "onboarding.permissions.motion.title" = "モーション&歩数計";
 "onboarding.permissions.notification.bullet.alert" = "通知からアラートを受け取る";
 "onboarding.permissions.notification.bullet.badge" = "アプリアイコンのバッジを更新";
 "onboarding.permissions.notification.bullet.commands" = "デバイスにコマンドを送信する";
-"onboarding.permissions.notification.description" = "Home Assistantからのプッシュ通知の送信を許可する";
+"onboarding.permissions.notification.description" = "GiToonからのプッシュ通知の送信を許可する";
 "onboarding.permissions.notification.grant_description" = "デバイスの通知サービスを作成するための通知権限を許可します。";
 "onboarding.permissions.notification.title" = "通知";
 "onboarding.scanning.discovered_announcement" = "発見: %@";
 "onboarding.scanning.manual" = "アドレスを手動で入力";
 "onboarding.scanning.manual_hint" = "サーバーが見つかりませんか？";
 "onboarding.scanning.title" = "サーバーのスキャン";
-"onboarding.welcome.description" = "このアプリは、あなたのHome Assistantのサーバーに接続し、あなたとあなたの携帯電話に関するデータを統合することができます。\
+"onboarding.welcome.description" = "このアプリは、あなたのGiToonのサーバーに接続し、あなたとあなたの携帯電話に関するデータを統合することができます。\
 \
-Home Assistantは、ローカルコントロールとプライバシーに重点を置いた、フリーでオープンソースなホームオートメーションソフトウェアです。";
-"onboarding.welcome.title" = "Home Assistantへようこそ %@！";
+GiToonは、ローカルコントロールとプライバシーに重点を置いた、フリーでオープンソースなホームオートメーションソフトウェアです。";
+"onboarding.welcome.title" = "GiToonへようこそ %@！";
 "open_label" = "オープン";
 "preview_output" = "プレビュー出力";
 "requires_version" = "%@ 以降が必要です。";
@@ -318,11 +318,11 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "settings.connection_section.delete_server.title" = "サーバーの削除";
 "settings.connection_section.details" = "詳細";
 "settings.connection_section.errors.cannot_remove_last_url" = "利用可能なURLのみを削除することはできません。";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "外部URL";
 "settings.connection_section.header" = "接続";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "例: http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "例: http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "内部URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "新しいハードウェアアドレスの追加";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "内部 URL は、プライマリ ネットワーク インターフェイスの MAC アドレスがこれらのハードウェア アドレスのいずれかに一致する場合に使用されます。";
@@ -332,7 +332,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "settings.connection_section.internal_url_ssids.footer" = "リストアップされたSSIDに接続すると、内部URLが使用されます";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "内部SSIDの場合、Home Assistantサーバーに直接接続し、プッシュ通知を行います。";
+"settings.connection_section.local_push_description" = "内部SSIDの場合、GiToonサーバーに直接接続し、プッシュ通知を行います。";
 "settings.connection_section.location_send_type.setting.exact" = "正確";
 "settings.connection_section.location_send_type.setting.never" = "なし";
 "settings.connection_section.location_send_type.setting.zone_only" = "ゾーン名のみ";
@@ -387,7 +387,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "settings.location_history.title" = "ロケーション履歴";
 "settings.navigation_bar.about_button.title" = "～について";
 "settings.navigation_bar.title" = "設定";
-"settings.reset_section.reset_alert.message" = "設定がリセットされ、このデバイスはプッシュ通知から登録解除されるだけでなく、Home Assistantの設定からも削除されます。";
+"settings.reset_section.reset_alert.message" = "設定がリセットされ、このデバイスはプッシュ通知から登録解除されるだけでなく、GiToonの設定からも削除されます。";
 "settings.reset_section.reset_alert.progress_message" = "リセット中…...";
 "settings.reset_section.reset_alert.title" = "リセット";
 "settings.reset_section.reset_row.title" = "リセット";
@@ -395,7 +395,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "settings.server_select.page_title" = "サーバー";
 "settings.server_select.title" = "サーバー";
 "settings.status_section.header" = "ステータス";
-"settings.status_section.location_name_row.placeholder" = "My Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "My GiToon";
 "settings.status_section.location_name_row.title" = "名前";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "バージョン";
@@ -427,7 +427,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "settings_details.general.app_icon.enum.electric_violet" = "エレクトリックバイオレット";
 "settings_details.general.app_icon.enum.fire_orange" = "ファイアオレンジ";
 "settings_details.general.app_icon.enum.green" = "緑";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistantブルー";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToonブルー";
 "settings_details.general.app_icon.enum.old_beta" = "古いベータ";
 "settings_details.general.app_icon.enum.old_dev" = "古いDev";
 "settings_details.general.app_icon.enum.old_release" = "古いリリース";
@@ -561,7 +561,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "settings_details.notifications.title" = "通知";
 "settings_details.privacy.alerts.description" = "セキュリティの脆弱性などの重要な警告をチェックできます。";
 "settings_details.privacy.alerts.title" = "アラート";
-"settings_details.privacy.analytics.generic_description" = "デバイスとアプリとのやり取りに関する基本情報の収集を許可します。Home Assistantの URL やトークンなど、ユーザーを特定できるデータは共有されません。この設定の変更を有効にするには、アプリを再起動する必要があります。";
+"settings_details.privacy.analytics.generic_description" = "デバイスとアプリとのやり取りに関する基本情報の収集を許可します。GiToonの URL やトークンなど、ユーザーを特定できるデータは共有されません。この設定の変更を有効にするには、アプリを再起動する必要があります。";
 "settings_details.privacy.analytics.generic_title" = "分析";
 "settings_details.privacy.crash_reporting.description" = "アプリのクラッシュやその他のエラーをより詳細に追跡できるため、より迅速に修正を公開できます。基本的なデバイス情報以外に、ユーザーを特定できる情報は送信されません。この設定の変更を有効にするには、アプリを再起動する必要があります。";
 "settings_details.privacy.crash_reporting.sentry" = "この機能は現在、レポートの送信先としてSentryを使用しています。";
@@ -601,7 +601,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "thread.credentials.screen_title" = "Thread 認証情報";
 "thread.credentials.share_credentials.no_credentials_message" = "Apple Home のホーム所有者である iCloud アカウントでログインしていることを確認してください。";
 "thread.credentials.share_credentials.no_credentials_title" = "共有する資格情報がありません";
-"thread.credentials.share_credentials_button_title" = "Home Assistantと認証情報を共有する";
+"thread.credentials.share_credentials_button_title" = "GiToonと認証情報を共有する";
 "thread.extended_pan_id.title" = "拡張PAN ID";
 "thread.management.title" = "Thread 認証情報";
 "thread.network_key.title" = "ネットワークキー";
@@ -609,7 +609,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Thread 認証情報をキーチェーンに保存するときに入力を 16 進数に変換できませんでした";
 "thread.store_in_keychain.error.title" = "操作に失敗しました";
 "thread.transter_to_apple.title" = "Apple キーチェーンに転送";
-"thread.transter_to_homeassistant.title" = "Home Assistantに転送";
+"thread.transter_to_homeassistant.title" = "GiToonに転送";
 "token_error.connection_failed" = "接続に失敗しました。";
 "token_error.expired" = "トークンの有効期限が切れています。";
 "token_error.token_unavailable" = "トークンが利用できません。";
@@ -639,7 +639,7 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "url_handler.send_location.success.title" = "場所を送信";
 "url_handler.x_callback_url.error.eventNameMissing" = "イベント名を定義する必要があります";
 "url_handler.x_callback_url.error.general" = "一般的なエラーが発生しました";
-"url_handler.x_callback_url.error.serviceMissing" = "サービス (例: homeassistant.turn_on) を定義する必要があります";
+"url_handler.x_callback_url.error.serviceMissing" = "サービス (例: gitoon.turn_on) を定義する必要があります";
 "url_handler.x_callback_url.error.templateMissing" = "レンダリング可能なテンプレートを定義する必要があります";
 "username_label" = "ユーザー名";
 "watch.configurator.delete.button" = "コンプリケーションを削除";
@@ -836,10 +836,10 @@ Home Assistantは、ローカルコントロールとプライバシーに重点
 "watch.labels.complication_text_areas.trailing.label" = "トレーリング";
 "watch.labels.no_action" = "アクションが構成されていません。このメッセージを閉じるには、電話機でアクションを構成してください。";
 "watch.placeholder_complication_name" = "プレースホルダー";
-"widgets.actions.description" = "Home Assistantのアクションを実行する。";
+"widgets.actions.description" = "GiToonのアクションを実行する。";
 "widgets.actions.not_configured" = "アクションの設定なし";
 "widgets.actions.title" = "アクション";
-"widgets.open_page.description" = "Home Assistantでフロントエンドページを開きます。";
+"widgets.open_page.description" = "GiToonでフロントエンドページを開きます。";
 "widgets.open_page.not_configured" = "利用できるページがありません";
 "widgets.open_page.title" = "ページを開く";
 "yes_label" = "はい";

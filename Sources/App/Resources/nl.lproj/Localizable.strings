@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Help de app te vertalen!";
-"about.home_assistant_on_facebook.title" = "Home Assistant op Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant op Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon op Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon op Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Awaken Your Home";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Laat een beoordeling achter";
 "about.title" = "Over";
 "about.website.title" = "Website";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "U deze ook wijzigen door de scènekenmerken aan te brengen: %@";
 "actions_configurator.visual_section.server_defined" = "Het uiterlijk van deze actie wordt bepaald door de serverconfiguratie.";
 "addButtonLabel" = "Toevoegen";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Please update Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Please update GiToon";
 "alerts.alert.ok" = "Oké";
 "alerts.auth_required.message" = "De server heeft uw inloggegevens geweigerd en u moet opnieuw inloggen om door te gaan.";
 "alerts.auth_required.title" = "Je moet inloggen om door te gaan";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS-stream niet beschikbaar";
 "extensions.notification_content.error.request.other" = "Non-200 Statuscode ontvangen (%li)";
 "ha_api.api_error.cant_build_url" = "Kon de API URL niet maken";
-"ha_api.api_error.invalid_response" = "Ongeldige reactie ontvangen van Home Assistant";
+"ha_api.api_error.invalid_response" = "Ongeldige reactie ontvangen van GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager is niet beschikbaar";
-"ha_api.api_error.mobile_app_component_not_loaded" = "De component mobile_app is niet geladen. Voeg deze toe aan uw configuratie, start de Home Assistant opnieuw en probeer het opnieuw.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Je Home Assistant-versie (%@) is te oud. Je moet upgraden naar ten minste versie %@ om de app te kunnen gebruiken.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "De component mobile_app is niet geladen. Voeg deze toe aan uw configuratie, start de GiToon opnieuw en probeer het opnieuw.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Je GiToon-versie (%@) is te oud. Je moet upgraden naar ten minste versie %@ om de app te kunnen gebruiken.";
 "ha_api.api_error.not_configured" = "HA API niet geconfigureerd";
 "ha_api.api_error.unacceptable_status_code" = "Onacceptabele statuscode %1$li .";
 "ha_api.api_error.unexpected_type" = "Reactie ontvangen met resultaat van type %1$@ maar type %2$@ verwacht.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tag lezen";
 "nfc.list.description" = "NFC-tags die door de app zijn geschreven, geven een melding weer wanneer je je apparaat in de buurt brengt. Als je de melding activeert, wordt de app gestart en wordt een gebeurtenis geactiveerd.\
 \
-Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardwareondersteuning heeft om ze te lezen.";
+Tags werken op elk apparaat waarop GiToon is geïnstalleerd en dat hardwareondersteuning heeft om ze te lezen.";
 "nfc.list.learn_more" = "Meer informatie";
 "nfc.list.read_tag" = "Lees Tag";
 "nfc.list.title" = "NFC-tags";
 "nfc.list.write_tag" = "Schrijf Tag";
 "nfc.not_available" = "NFC is niet beschikbaar op dit apparaat";
 "nfc.read.error.generic_failure" = "Kan de tag niet lezen";
-"nfc.read.error.not_home_assistant" = "NFC-tag is geen Home Assistant-tag";
+"nfc.read.error.not_home_assistant" = "NFC-tag is geen GiToon-tag";
 "nfc.read.error.tag_invalid" = "NFC-tag is ongeldig";
 "nfc.read.start_message" = "Houd je %@ bij een NFC-tag";
 "nfc.tag_read" = "NFC-tag lezen";
@@ -213,7 +213,7 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "notification_service.parser.camera.invalid_entity" = "entity_id is ongeldig.";
 "notification_service.parser.url.invalid_url" = "De opgegeven URL was ongeldig.";
 "notification_service.parser.url.no_url" = "Er is geen URL opgegeven.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Wanneer de gebruiker een actie met deze optie selecteert, vraagt het systeem de gebruiker om het apparaat te ontgrendelen. Na het ontgrendelen wordt de Home Assistant op de hoogte gebracht van de geselecteerde actie.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Wanneer de gebruiker een actie met deze optie selecteert, vraagt het systeem de gebruiker om het apparaat te ontgrendelen. Na het ontgrendelen wordt de GiToon op de hoogte gebracht van de geselecteerde actie.";
 "notifications_configurator.action.rows.authentication_required.title" = "Authenticatie vereist";
 "notifications_configurator.action.rows.destructive.footer" = "Indien ingeschakeld, wordt de actieknop weergegeven met speciale markering om aan te geven dat het een destructieve taak uitvoert.";
 "notifications_configurator.action.rows.destructive.title" = "Vernietigend";
@@ -263,7 +263,7 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "onboarding.manual_setup.connect" = "Verbind";
 "onboarding.manual_setup.couldnt_make_url.message" = "De waarde '%@' was geen geldige URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Kan geen URL maken";
-"onboarding.manual_setup.description" = "De URL van uw Home Assistant-server. Zorg ervoor dat het protocol en de poort erin staan.";
+"onboarding.manual_setup.description" = "De URL van uw GiToon-server. Zorg ervoor dat het protocol en de poort erin staan.";
 "onboarding.manual_setup.no_scheme.message" = "Moeten we proberen verbinding te maken via http:// of https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL ingevoerd zonder schema";
 "onboarding.manual_setup.title" = "URL invoeren";
@@ -272,7 +272,7 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "onboarding.permissions.change_later_note" = "U kunt deze toestemming later wijzigen in Instellingen";
 "onboarding.permissions.focus.bullet.automations" = "Focusgebaseerde automatiseringen";
 "onboarding.permissions.focus.bullet.instant" = "Directe updates wanneer de status verandert";
-"onboarding.permissions.focus.description" = "Sta toe dat als u in focus modus bent dit naar Home Assistant wordt gestuurd";
+"onboarding.permissions.focus.description" = "Sta toe dat als u in focus modus bent dit naar GiToon wordt gestuurd";
 "onboarding.permissions.focus.grant_description" = "Geef toestemming voor focus om sensors te maken voor uw status van focus, ook bekend als niet-storen.";
 "onboarding.permissions.focus.title" = "Focus";
 "onboarding.permissions.location.bullet.automations" = "Aanwezigheidsgebaseerde automatiseringen";
@@ -284,23 +284,23 @@ Tags werken op elk apparaat waarop Home Assistant is geïnstalleerd en dat hardw
 "onboarding.permissions.motion.bullet.activity" = "Sensor voor huidig activiteitstype";
 "onboarding.permissions.motion.bullet.distance" = "Sensor voor afgelegde afstand";
 "onboarding.permissions.motion.bullet.steps" = "Sensor voor stappentelling";
-"onboarding.permissions.motion.description" = "Toestaan dat bewegingsactiviteiten en stappentellergegevens naar Home Assistant worden gezonden";
+"onboarding.permissions.motion.description" = "Toestaan dat bewegingsactiviteiten en stappentellergegevens naar GiToon worden gezonden";
 "onboarding.permissions.motion.grant_description" = "Toestemming geven voor beweging om sensoren te maken voor bewegings- en stappentellergegevens.";
 "onboarding.permissions.motion.title" = "Beweging en stappenteller";
 "onboarding.permissions.notification.bullet.alert" = "Ontvang waarschuwingen van meldingen";
 "onboarding.permissions.notification.bullet.badge" = "App-icoonbadge bijwerken";
 "onboarding.permissions.notification.bullet.commands" = "Stuur opdrachten naar je apparaat";
-"onboarding.permissions.notification.description" = "Toestaan dat pushmeldingen worden verzonden vanuit Home Assistant";
+"onboarding.permissions.notification.description" = "Toestaan dat pushmeldingen worden verzonden vanuit GiToon";
 "onboarding.permissions.notification.grant_description" = "Geef toestemming voor meldingen om een meldingsservice voor uw apparaat te maken.";
 "onboarding.permissions.notification.title" = "Meldingen";
 "onboarding.scanning.discovered_announcement" = "Ontdekt: %@";
 "onboarding.scanning.manual" = "Voer handmatig een adres in";
 "onboarding.scanning.manual_hint" = "Vindt u uw server niet?";
 "onboarding.scanning.title" = "Scannen naar servers";
-"onboarding.welcome.description" = "Deze app maakt verbinding met uw Home Assistant-server en maakt het mogelijk gegevens over u en uw telefoon te integreren.\
+"onboarding.welcome.description" = "Deze app maakt verbinding met uw GiToon-server en maakt het mogelijk gegevens over u en uw telefoon te integreren.\
 \
-Home Assistant is gratis en open source domotica-software met een focus op lokale controle en privacy.";
-"onboarding.welcome.title" = "Welkom bij Home Assistant %@!";
+GiToon is gratis en open source domotica-software met een focus op lokale controle en privacy.";
+"onboarding.welcome.title" = "Welkom bij GiToon %@!";
 "open_label" = "Open";
 "preview_output" = "Voorbeeld Output";
 "requires_version" = "Vereist %@ of hoger.";
@@ -318,11 +318,11 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.connection_section.delete_server.title" = "Server verwijderen";
 "settings.connection_section.details" = "Details";
 "settings.connection_section.errors.cannot_remove_last_url" = "U kunt niet alleen de beschikbare URL verwijderen.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.mijnhuis.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.mijnhuis.com";
 "settings.connection_section.external_base_url.title" = "Externe URL";
 "settings.connection_section.header" = "Verbinding";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "bijv. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "bijv. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Interne URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Nieuw hardware-adres toevoegen";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Interne URL wordt gebruikt als de primaire netwerkinterface een MAC-adres heeft dat overeenkomt met een van deze hardwareadressen.";
@@ -332,7 +332,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.connection_section.internal_url_ssids.footer" = "Interne URL wordt gebruikt bij verbinding met vermelde SSID's";
 "settings.connection_section.internal_url_ssids.header" = "SSID's";
 "settings.connection_section.internal_url_ssids.placeholder" = "MijnLeukeNetwerkNaam";
-"settings.connection_section.local_push_description" = "Maak rechtstreeks verbinding met de Home Assistant-server voor pushmeldingen op interne SSID's.";
+"settings.connection_section.local_push_description" = "Maak rechtstreeks verbinding met de GiToon-server voor pushmeldingen op interne SSID's.";
 "settings.connection_section.location_send_type.setting.exact" = "Exact";
 "settings.connection_section.location_send_type.setting.never" = "Nooit";
 "settings.connection_section.location_send_type.setting.zone_only" = "Alleen zonenaam";
@@ -387,7 +387,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.location_history.title" = "Locatiegeschiedenis";
 "settings.navigation_bar.about_button.title" = "Over";
 "settings.navigation_bar.title" = "Instellingen";
-"settings.reset_section.reset_alert.message" = "Uw instellingen worden gereset en dit apparaat wordt niet langer geregistreerd bij pushmeldingen en verwijderd uit uw Home Assistant-configuratie.";
+"settings.reset_section.reset_alert.message" = "Uw instellingen worden gereset en dit apparaat wordt niet langer geregistreerd bij pushmeldingen en verwijderd uit uw GiToon-configuratie.";
 "settings.reset_section.reset_alert.progress_message" = "Resetten…";
 "settings.reset_section.reset_alert.title" = "Herstel";
 "settings.reset_section.reset_row.title" = "Herstel";
@@ -395,7 +395,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Status";
-"settings.status_section.location_name_row.placeholder" = "My Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "My GiToon";
 "settings.status_section.location_name_row.title" = "Naam";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versie";
@@ -427,7 +427,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings_details.general.app_icon.enum.electric_violet" = "Elektrisch Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Vuur Oranje";
 "settings_details.general.app_icon.enum.green" = "Groen";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blauw";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon Blauw";
 "settings_details.general.app_icon.enum.old_beta" = "Oude bèta";
 "settings_details.general.app_icon.enum.old_dev" = "Oude Dev";
 "settings_details.general.app_icon.enum.old_release" = "Oude versie";
@@ -561,7 +561,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "settings_details.notifications.title" = "Notificatie instellingen";
 "settings_details.privacy.alerts.description" = "Maakt het mogelijk om te controleren op belangrijke waarschuwingen, zoals beveiligingsproblemen.";
 "settings_details.privacy.alerts.title" = "Waarschuwingen";
-"settings_details.privacy.analytics.generic_description" = "Staat toe basisinformatie te verzamelen over uw apparaat en interacties met de app. Er worden geen gebruikersidentificeerbare gegevens gedeeld, inclusief uw URL's en tokens van de Home Assistant. U moet de app opnieuw starten om wijzigingen in deze instelling van kracht te laten worden.";
+"settings_details.privacy.analytics.generic_description" = "Staat toe basisinformatie te verzamelen over uw apparaat en interacties met de app. Er worden geen gebruikersidentificeerbare gegevens gedeeld, inclusief uw URL's en tokens van de GiToon. U moet de app opnieuw starten om wijzigingen in deze instelling van kracht te laten worden.";
 "settings_details.privacy.analytics.generic_title" = "Analyse";
 "settings_details.privacy.crash_reporting.description" = "Hiermee u crashes en andere fouten in de app gedetailleerder bijhouden, wat leidt tot snellere oplossingen die worden gepubliceerd. Er wordt geen identificeerbare informatie van de gebruiker verzonden, behalve basisapparaatgegevens. U moet de app opnieuw starten om wijzigingen in deze instelling van kracht te laten worden.";
 "settings_details.privacy.crash_reporting.sentry" = "Deze functie gebruikt momenteel Sentry als rapportbestemming.";
@@ -601,7 +601,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -609,7 +609,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Verbinding mislukt.";
 "token_error.expired" = "Token is verlopen.";
 "token_error.token_unavailable" = "Token is niet beschikbaar.";
@@ -639,7 +639,7 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "url_handler.send_location.success.title" = "Locatie verzonden";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName moet worden gedefinieerd";
 "url_handler.x_callback_url.error.general" = "Er is een algemene fout opgetreden";
-"url_handler.x_callback_url.error.serviceMissing" = "service (bijv. homeassistant.turn_on) moet worden gedefinieerd";
+"url_handler.x_callback_url.error.serviceMissing" = "service (bijv. gitoon.turn_on) moet worden gedefinieerd";
 "url_handler.x_callback_url.error.templateMissing" = "Een renderbare sjabloon moet worden gedefinieerd";
 "username_label" = "Gebruikersnaam";
 "watch.configurator.delete.button" = "Complicatie verwijderen";
@@ -836,10 +836,10 @@ Home Assistant is gratis en open source domotica-software met een focus op lokal
 "watch.labels.complication_text_areas.trailing.label" = "Achterrand";
 "watch.labels.no_action" = "Geen acties geconfigureerd. Configureer acties op uw telefoon om dit bericht te sluiten.";
 "watch.placeholder_complication_name" = "Tijdelijke aanduiding";
-"widgets.actions.description" = "Voer Home Assistant-acties uit.";
+"widgets.actions.description" = "Voer GiToon-acties uit.";
 "widgets.actions.not_configured" = "Geen acties geconfigureerd";
 "widgets.actions.title" = "Acties";
-"widgets.open_page.description" = "Open een frontend-pagina in Home Assistant";
+"widgets.open_page.description" = "Open een frontend-pagina in GiToon";
 "widgets.open_page.not_configured" = "Geen pagina's beschikbaar";
 "widgets.open_page.title" = "Open pagina";
 "yes_label" = "Ja";

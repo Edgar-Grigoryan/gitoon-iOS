@@ -22,7 +22,7 @@
 			<key>INIntentConfigurable</key>
 			<true/>
 			<key>INIntentDescription</key>
-			<string>Call a service on the Home Assistant instance</string>
+			<string>Call a service on the GiToon instance</string>
 			<key>INIntentDescriptionID</key>
 			<string>FBQiVD</string>
 			<key>INIntentIneligibleForSuggestions</key>
@@ -233,7 +233,7 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Failed: Home Assistant is not reachable</string>
+						<string>Failed: GiToon is not reachable</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>2KWKqM</string>
 						<key>INIntentResponseCodeName</key>
@@ -303,7 +303,7 @@
 			<key>INIntentConfigurable</key>
 			<true/>
 			<key>INIntentDescription</key>
-			<string>Send location to Home Assistant</string>
+			<string>Send location to GiToon</string>
 			<key>INIntentDescriptionID</key>
 			<string>RMQY3r</string>
 			<key>INIntentIneligibleForSuggestions</key>
@@ -321,7 +321,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Send ${location} to Home Assistant</string>
+					<string>Send ${location} to GiToon</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>fuRWMi</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
@@ -401,11 +401,11 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>Failed: Home Assistant is not currently reachable</string>
+						<string>Failed: GiToon is not currently reachable</string>
 						<key>INIntentResponseCodeConciseFormatStringID</key>
 						<string>5ZzwZD</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Failed: Home Assistant is not currently reachable</string>
+						<string>Failed: GiToon is not currently reachable</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>KHH48D</string>
 						<key>INIntentResponseCodeName</key>
@@ -463,7 +463,7 @@
 			<key>INIntentConfigurable</key>
 			<true/>
 			<key>INIntentDescription</key>
-			<string>Fire an event to the Home Assistant event bus</string>
+			<string>Fire an event to the GiToon event bus</string>
 			<key>INIntentDescriptionID</key>
 			<string>wfPQQQ</string>
 			<key>INIntentIneligibleForSuggestions</key>
@@ -676,11 +676,11 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>Failed: Home Assistant is not currently reachable</string>
+						<string>Failed: GiToon is not currently reachable</string>
 						<key>INIntentResponseCodeConciseFormatStringID</key>
 						<string>pQhTjo</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Failed: Home Assistant is not currently reachable</string>
+						<string>Failed: GiToon is not currently reachable</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>glRCfJ</string>
 						<key>INIntentResponseCodeName</key>
@@ -903,7 +903,7 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Failed: Home Assistant is not currently reachable</string>
+						<string>Failed: GiToon is not currently reachable</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>mAibJP</string>
 						<key>INIntentResponseCodeName</key>
@@ -975,7 +975,7 @@
 			<key>INIntentConfigurable</key>
 			<true/>
 			<key>INIntentDescription</key>
-			<string>Renders the Home Assistant template</string>
+			<string>Renders the GiToon template</string>
 			<key>INIntentDescriptionID</key>
 			<string>NdG9Jz</string>
 			<key>INIntentIneligibleForSuggestions</key>
@@ -1148,11 +1148,11 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>Failed: Home Assistant is not currently reachable</string>
+						<string>Failed: GiToon is not currently reachable</string>
 						<key>INIntentResponseCodeConciseFormatStringID</key>
 						<string>cuflz3</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Failed: Home Assistant is not currently reachable</string>
+						<string>Failed: GiToon is not currently reachable</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>foI0Fv</string>
 						<key>INIntentResponseCodeName</key>
@@ -1542,7 +1542,7 @@
 			<key>INIntentConfigurable</key>
 			<true/>
 			<key>INIntentDescription</key>
-			<string>Send a sensor update to Home Assistant</string>
+			<string>Send a sensor update to GiToon</string>
 			<key>INIntentDescriptionID</key>
 			<string>vAIAF2</string>
 			<key>INIntentIneligibleForSuggestions</key>

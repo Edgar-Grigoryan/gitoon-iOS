@@ -39,7 +39,7 @@ class OnboardingManualURLViewController: UIViewController, UITextFieldDelegate {
             $0.delegate = self
             $0.backgroundColor = UIColor(white: 0, alpha: 0.12)
             $0.borderStyle = .roundedRect
-            $0.placeholder = "http://homeassistant.local:8123"
+            $0.placeholder = "http://gitoon.local:8123"
             $0.textContentType = .URL
             $0.keyboardType = .URL
             $0.autocapitalizationType = .none

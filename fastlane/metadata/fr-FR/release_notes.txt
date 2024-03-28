@@ -1,4 +1,4 @@
-Une autre semaine, une nouvelle version de Home Assistant Companion ! 
+Une autre semaine, une nouvelle version de GiToon Companion ! 
 
  - Plus de traduction ! Nous prenons maintenant en charge le chinois (traditionnel et simplifié), le néerlandais et l'espagnol. Des mises à jour mineures ont également été apportées à la traduction allemande existante. 
  - Ajout du support pour le contrôle granulaire des déclencheurs de mise à jour d'emplacement (dans Paramètres- > Emplacement) 

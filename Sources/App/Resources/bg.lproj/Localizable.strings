@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "Проследяване на проблеми в GitHub";
 "about.help_localize.title" = "Помогнете за локализацията на приложението!";
-"about.home_assistant_on_facebook.title" = "Home Assistant във Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant в Twitter";
-"about.logo.app_title" = "Home Assistant Помощник";
+"about.home_assistant_on_facebook.title" = "GiToon във Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon в Twitter";
+"about.logo.app_title" = "GiToon Помощник";
 "about.logo.tagline" = "Събудете дома си";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Оставете отзив";
 "about.title" = "Относно";
 "about.website.title" = "Уебсайт";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "You can also change these by customizing the Scene attributes: %@";
 "actions_configurator.visual_section.server_defined" = "The appearance of this action is controlled by the server configuration.";
 "addButtonLabel" = "Добавяне";
-"alerts.action_automation_editor.unavailable.body" = "За автоматично създаване на автоматизация за действие, актуализирайте вашата Home Assistant до поне версия 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Моля, актуализирайте Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "За автоматично създаване на автоматизация за действие, актуализирайте вашата GiToon до поне версия 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Моля, актуализирайте GiToon";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "The server has rejected your credentials, and you must sign in again to continue.";
 "alerts.auth_required.title" = "You must sign in to continue";
@@ -128,7 +128,7 @@
 "error_label" = "Error";
 "extensions.map.location.new" = "New Location";
 "extensions.map.location.original" = "Original Location";
-"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a homeassistant dictionary!";
+"extensions.map.payload_missing_homeassistant.message" = "Payload didn't contain a gitoon dictionary!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Latitude wasn't found or couldn't be casted to string!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Longitude wasn't found or couldn't be casted to string!";
 "extensions.notification_content.error.no_entity_id" = "No entity_id found in payload!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS stream unavailable";
 "extensions.notification_content.error.request.other" = "Got non-200 status code (%li)";
 "ha_api.api_error.cant_build_url" = "Cant build API URL";
-"ha_api.api_error.invalid_response" = "Received invalid response from Home Assistant";
+"ha_api.api_error.invalid_response" = "Received invalid response from GiToon";
 "ha_api.api_error.manager_not_available" = "HA API Manager is unavailable";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Компонентът mobile_app не е зареден. Добавете го към конфигурацията си, рестартирайте Home Assistant и опитайте отново.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Your Home Assistant version (%@) is too old, you must upgrade to at least version %@ to use the app.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Компонентът mobile_app не е зареден. Добавете го към конфигурацията си, рестартирайте GiToon и опитайте отново.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Your GiToon version (%@) is too old, you must upgrade to at least version %@ to use the app.";
 "ha_api.api_error.not_configured" = "HA API not configured";
 "ha_api.api_error.unacceptable_status_code" = "Неприемлив код на състояние %1$li.";
 "ha_api.api_error.unexpected_type" = "Получен отговор с резултат от тип %1$@, но се очакваше тип %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "NFC таговете, записани от приложението, ще показват известие, когато донесете устройството си близо до тях. Активирането на известието ще стартира приложението и ще задейства събитие.\
 \
-Таговете ще работят на всяко устройство с инсталиран Home Assistant, което има хардуерна поддръжка за четенето им.";
+Таговете ще работят на всяко устройство с инсталиран GiToon, което има хардуерна поддръжка за четенето им.";
 "nfc.list.learn_more" = "Научете повече";
 "nfc.list.read_tag" = "Прочетете етикет";
 "nfc.list.title" = "NFC тагове";
 "nfc.list.write_tag" = "Напишете етикет";
 "nfc.not_available" = "NFC не е налично на това устройство";
 "nfc.read.error.generic_failure" = "Неуспешно четене на етикет";
-"nfc.read.error.not_home_assistant" = "NFC таг не е таг на Home Assistant";
+"nfc.read.error.not_home_assistant" = "NFC таг не е таг на GiToon";
 "nfc.read.error.tag_invalid" = "NFC маркерът е невалиден";
 "nfc.read.start_message" = "Дръжте вашия %@ близо до NFC таг";
 "nfc.tag_read" = "Четене на NFC етикет";
@@ -213,7 +213,7 @@
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "The given URL was invalid.";
 "notification_service.parser.url.no_url" = "No URL was provided.";
-"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, Home Assistant will be notified of the selected action.";
+"notifications_configurator.action.rows.authentication_required.footer" = "When the user selects an action with this option, the system prompts the user to unlock the device. After unlocking, GiToon will be notified of the selected action.";
 "notifications_configurator.action.rows.authentication_required.title" = "Authentication Required";
 "notifications_configurator.action.rows.destructive.footer" = "When enabled, the action button is displayed with special highlighting to indicate that it performs a destructive task.";
 "notifications_configurator.action.rows.destructive.title" = "Destructive";
@@ -263,7 +263,7 @@
 "onboarding.manual_setup.connect" = "Свържете се";
 "onboarding.manual_setup.couldnt_make_url.message" = "The value '%@' was not a valid URL.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Could not create a URL";
-"onboarding.manual_setup.description" = "URL адресът на вашия Home Assistant сървър. Уверете се, че включва протокола и порта.";
+"onboarding.manual_setup.description" = "URL адресът на вашия GiToon сървър. Уверете се, че включва протокола и порта.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "Въведете URL";
@@ -272,7 +272,7 @@
 "onboarding.permissions.change_later_note" = "Можете да промените това разрешение по-късно в Настройки";
 "onboarding.permissions.focus.bullet.automations" = "Автоматизации, базирани на фокус";
 "onboarding.permissions.focus.bullet.instant" = "Незабавни актуализации при промяна на състоянието";
-"onboarding.permissions.focus.description" = "Позволете изпращането на информация за това дали сте в режим на фокусиране към Home Assistant";
+"onboarding.permissions.focus.description" = "Позволете изпращането на информация за това дали сте в режим на фокусиране към GiToon";
 "onboarding.permissions.focus.grant_description" = "Позволете разрешение за фокусиране, за да създадете сензори за вашето състояние на фокусиране, известно още като „не безпокойте“.";
 "onboarding.permissions.focus.title" = "Фокус";
 "onboarding.permissions.location.bullet.automations" = "Автоматизации, базирани на присъствие";
@@ -284,23 +284,23 @@
 "onboarding.permissions.motion.bullet.activity" = "Сензор за текущия тип активност";
 "onboarding.permissions.motion.bullet.distance" = "Сензор за изминато разстояние";
 "onboarding.permissions.motion.bullet.steps" = "Сензор за броене на стъпки";
-"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Home Assistant";
+"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to GiToon";
 "onboarding.permissions.motion.grant_description" = "Разрешете разрешението за движение да създава сензори за данни за движение и педометър.";
 "onboarding.permissions.motion.title" = "Motion & Pedometer";
 "onboarding.permissions.notification.bullet.alert" = "Получавайте известия от уведомления";
 "onboarding.permissions.notification.bullet.badge" = "Актуализирай значката на иконата на приложението";
 "onboarding.permissions.notification.bullet.commands" = "Изпращайте команди към вашето устройство";
-"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your Home Assistant";
+"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your GiToon";
 "onboarding.permissions.notification.grant_description" = "Разрешете получаването за известия, за да създадете услуга за известяване към Вашето устройство.";
 "onboarding.permissions.notification.title" = "Notifications";
 "onboarding.scanning.discovered_announcement" = "Открити: %@";
 "onboarding.scanning.manual" = "Въведете адрес ръчно";
 "onboarding.scanning.manual_hint" = "Не намирате сървъра си?";
 "onboarding.scanning.title" = "Сканиране за сървъри";
-"onboarding.welcome.description" = "Това приложение се свързва с вашия Home Assistant сървър и позволява интегриране на данни за вас и вашия телефон.\
+"onboarding.welcome.description" = "Това приложение се свързва с вашия GiToon сървър и позволява интегриране на данни за вас и вашия телефон.\
 \
-Home Assistant е безплатен и с отворен код софтуер за автоматизация на дома с акцент върху локалния контрол и поверителността.";
-"onboarding.welcome.title" = "Добре дошли в Home Assistant %@!";
+GiToon е безплатен и с отворен код софтуер за автоматизация на дома с акцент върху локалния контрол и поверителността.";
+"onboarding.welcome.title" = "Добре дошли в GiToon %@!";
 "open_label" = "Open";
 "preview_output" = "Preview Output";
 "requires_version" = "Изисква %@ или по-нова версия.";
@@ -318,11 +318,11 @@ Home Assistant е безплатен и с отворен код софтуер 
 "settings.connection_section.delete_server.title" = "Изтрий сървър";
 "settings.connection_section.details" = "Details";
 "settings.connection_section.errors.cannot_remove_last_url" = "Не можете да премахнете единствения наличен URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Външен URL";
 "settings.connection_section.header" = "Връзка";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "e.g. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Вътрешен URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Добавете нов хардуерен адрес";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Вътрешният URL ще бъде използван, когато основният мрежов интерфейс има MAC адрес, съвпадащ с един от тези хардуерни адреси.";
@@ -332,7 +332,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "settings.connection_section.internal_url_ssids.footer" = "Internal URL will be used when connected to listed SSIDs";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Директно свързване със сървъра на Home Assistant за push известия когато сте свързани с вътрешни SSID-та.";
+"settings.connection_section.local_push_description" = "Директно свързване със сървъра на GiToon за push известия когато сте свързани с вътрешни SSID-та.";
 "settings.connection_section.location_send_type.setting.exact" = "Точно";
 "settings.connection_section.location_send_type.setting.never" = "Никога";
 "settings.connection_section.location_send_type.setting.zone_only" = "Само име на зона";
@@ -387,7 +387,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "settings.location_history.title" = "История на местоположението";
 "settings.navigation_bar.about_button.title" = "Относно";
 "settings.navigation_bar.title" = "Настройки";
-"settings.reset_section.reset_alert.message" = "Вашите настройки ще бъдат нулирани и това устройство ще бъде дерегистрирано от насочени известия, както и премахнато от конфигурацията на Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Вашите настройки ще бъдат нулирани и това устройство ще бъде дерегистрирано от насочени известия, както и премахнато от конфигурацията на GiToon.";
 "settings.reset_section.reset_alert.progress_message" = "Resetting…";
 "settings.reset_section.reset_alert.title" = "Нулиране";
 "settings.reset_section.reset_row.title" = "Нулиране";
@@ -395,7 +395,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "settings.server_select.page_title" = "Сървър";
 "settings.server_select.title" = "Сървър";
 "settings.status_section.header" = "Състояние";
-"settings.status_section.location_name_row.placeholder" = "Моят Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Моят GiToon";
 "settings.status_section.location_name_row.title" = "Име";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Версия";
@@ -427,7 +427,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "settings_details.general.app_icon.enum.electric_violet" = "Електрическо виолетово";
 "settings_details.general.app_icon.enum.fire_orange" = "Огнено оранжево";
 "settings_details.general.app_icon.enum.green" = "Зелено";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Стара бета версия";
 "settings_details.general.app_icon.enum.old_dev" = "Стар Dev";
 "settings_details.general.app_icon.enum.old_release" = "Стара версия";
@@ -561,7 +561,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "settings_details.notifications.title" = "Известия";
 "settings_details.privacy.alerts.description" = "Позволява проверка за важни сигнали като уязвимости в сигурността.";
 "settings_details.privacy.alerts.title" = "Сигнали";
-"settings_details.privacy.analytics.generic_description" = "Позволява събирането на основна информация за вашето устройство и взаимодействията с приложението. Не се споделят данни, които могат да идентифицират потребителя, включително URL адресите и токените ви в Home Assistant. Трябва да рестартирате приложението, за да влязат в сила промените в тази настройка.";
+"settings_details.privacy.analytics.generic_description" = "Позволява събирането на основна информация за вашето устройство и взаимодействията с приложението. Не се споделят данни, които могат да идентифицират потребителя, включително URL адресите и токените ви в GiToon. Трябва да рестартирате приложението, за да влязат в сила промените в тази настройка.";
 "settings_details.privacy.analytics.generic_title" = "Аналитика";
 "settings_details.privacy.crash_reporting.description" = "Позволява по-детайлно проследяване на сривове и други грешки в приложението, което води до по-бързо публикуване на корекции. Не се изпраща информация, която може да идентифицира потребителя, освен основна информация за устройството. Трябва да рестартирате приложението, за да влязат в сила промените в тази настройка.";
 "settings_details.privacy.crash_reporting.sentry" = "Тази функция в момента използва Sentry като дестинация за докладване.";
@@ -601,7 +601,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "thread.credentials.screen_title" = "Идентификационни данни за Thread";
 "thread.credentials.share_credentials.no_credentials_message" = "Уверете се, че сте влезли в своя iCloud акаунт, който е собственик на Дом в Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "Нямате идентификационни данни за споделяне";
-"thread.credentials.share_credentials_button_title" = "Споделете идентификационни данни с Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Споделете идентификационни данни с GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -609,7 +609,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Connection failed.";
 "token_error.expired" = "Token is expired.";
 "token_error.token_unavailable" = "Token is unavailable.";
@@ -639,7 +639,7 @@ Home Assistant е безплатен и с отворен код софтуер 
 "url_handler.send_location.success.title" = "Sent location";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName must be defined";
 "url_handler.x_callback_url.error.general" = "Възникна обща грешка";
-"url_handler.x_callback_url.error.serviceMissing" = "service (e.g. homeassistant.turn_on) must be defined";
+"url_handler.x_callback_url.error.serviceMissing" = "service (e.g. gitoon.turn_on) must be defined";
 "url_handler.x_callback_url.error.templateMissing" = "A renderable template must be defined";
 "username_label" = "Username";
 "watch.configurator.delete.button" = "Delete Complication";
@@ -836,10 +836,10 @@ Home Assistant е безплатен и с отворен код софтуер 
 "watch.labels.complication_text_areas.trailing.label" = "Trailing";
 "watch.labels.no_action" = "No actions configured. Configure actions on your phone to dismiss this message.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Perform Home Assistant actions.";
+"widgets.actions.description" = "Perform GiToon actions.";
 "widgets.actions.not_configured" = "No Actions Configured";
 "widgets.actions.title" = "Actions";
-"widgets.open_page.description" = "Отворете предна страница в Home Assistant.";
+"widgets.open_page.description" = "Отворете предна страница в GiToon.";
 "widgets.open_page.not_configured" = "Няма налични страници";
 "widgets.open_page.title" = "Отворена страница";
 "yes_label" = "Yes";

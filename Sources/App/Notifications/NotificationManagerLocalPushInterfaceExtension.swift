@@ -164,7 +164,6 @@ final class NotificationManagerLocalPushInterfaceExtension: NSObject, Notificati
 
         updateAndDirty(\.isEnabled, true)
         updateAndDirty(\.localizedDescription, "HomeAssistant for \(ssid)")
-        updateAndDirty(\.providerBundleIdentifier, Constants.BundleID + ".PushProvider")
         updateAndDirty(\.matchSSIDs, [ssid])
 
         let configurations: [PushProviderConfiguration] = servers.map {

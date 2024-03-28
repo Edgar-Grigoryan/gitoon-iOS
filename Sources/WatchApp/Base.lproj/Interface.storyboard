@@ -7,10 +7,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
     </dependencies>
     <scenes>
-        <!--Home Assistant-->
+        <!--GiToon-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller title="Home Assistant" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchApp" customModuleProvider="target">
+                <controller title="GiToon" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchApp" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="wzm-z7-qRv">
                             <items>

@@ -9,7 +9,7 @@
 			<string>INShareFocusStatusIntent</string>
 			<key>IntentExamples</key>
 			<array>
-				<string>Share focus in Home Assistant</string>
+				<string>Share focus in GiToon</string>
 			</array>
 		</dict>
 	</array>

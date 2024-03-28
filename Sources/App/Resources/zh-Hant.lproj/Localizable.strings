@@ -9,10 +9,10 @@
 "about.github_issue_tracker.title" = "GitHub 問題追蹤";
 "about.help_localize.title" = "協助 App 中文化！";
 "about.home_assistant_on_facebook.title" = "官方 Facebook 粉絲頁";
-"about.home_assistant_on_twitter.title" = "Home Assistant 官方 Twitter 帳號";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_twitter.title" = "GiToon 官方 Twitter 帳號";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "喚醒你的智能家居";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "留個評論吧";
 "about.title" = "關於";
 "about.website.title" = "網站";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "同時也可藉由自訂變更以下場景屬性：%@";
 "actions_configurator.visual_section.server_defined" = "此觸發由伺服器設定所控制。";
 "addButtonLabel" = "新增";
-"alerts.action_automation_editor.unavailable.body" = "要自動為動作建立自動化，請將您的 Home Assistant 更新為 2024.2 以上版本";
-"alerts.action_automation_editor.unavailable.title" = "請更新 Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "要自動為動作建立自動化，請將您的 GiToon 更新為 2024.2 以上版本";
+"alerts.action_automation_editor.unavailable.title" = "請更新 GiToon";
 "alerts.alert.ok" = "好";
 "alerts.auth_required.message" = "伺服器拒絕您的憑證，必須再次登入以繼續。";
 "alerts.auth_required.title" = "必須登入以繼續";
@@ -128,7 +128,7 @@
 "error_label" = "錯誤";
 "extensions.map.location.new" = "新座標";
 "extensions.map.location.original" = "原座標";
-"extensions.map.payload_missing_homeassistant.message" = "Payload 中未包含 homeassistant 字典！";
+"extensions.map.payload_missing_homeassistant.message" = "Payload 中未包含 gitoon 字典！";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "找不到緯度或無法轉換為字串！";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "找不到經度或無法轉換為字串！";
 "extensions.notification_content.error.no_entity_id" = "Payload 中未找到 entity_id！";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS 串流不可用";
 "extensions.notification_content.error.request.other" = "取得 non-200 狀態代碼（%li）";
 "ha_api.api_error.cant_build_url" = "無法建立 API URL";
-"ha_api.api_error.invalid_response" = "來自 Home Assistant 回應無效";
+"ha_api.api_error.invalid_response" = "來自 GiToon 回應無效";
 "ha_api.api_error.manager_not_available" = "HA API 管理員不可用";
-"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app 元件未載入。請於設定檔加入後，重啟 Home Assistant 然後再試一次。";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistant 版次（%@）太舊，必須更新至最新 %@ 版方能使用應用程式。";
+"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app 元件未載入。請於設定檔加入後，重啟 GiToon 然後再試一次。";
+"ha_api.api_error.must_upgrade_home_assistant" = "GiToon 版次（%@）太舊，必須更新至最新 %@ 版方能使用應用程式。";
 "ha_api.api_error.not_configured" = "HA API 尚未設定";
 "ha_api.api_error.unacceptable_status_code" = "不可接受狀態代碼 %1$li。";
 "ha_api.api_error.unexpected_type" = "接收回應為 %1$@ 類別之結果，但預期為 %2$@ 類別。";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "標籤讀取";
 "nfc.list.description" = "由 App 寫入的 NFC 標籤將會於於靠近裝置時顯示通知，啟用通知將啟動 App 並觸發事件。\
 \
-標籤與任何安裝 Home Assistant 的裝置、並具備硬體支援的設備上進行讀取。";
+標籤與任何安裝 GiToon 的裝置、並具備硬體支援的設備上進行讀取。";
 "nfc.list.learn_more" = "了解更多";
 "nfc.list.read_tag" = "讀取標籤";
 "nfc.list.title" = "NFC 標籤";
 "nfc.list.write_tag" = "寫入標籤";
 "nfc.not_available" = "無法於此裝置使用 NFC";
 "nfc.read.error.generic_failure" = "讀取標籤失敗";
-"nfc.read.error.not_home_assistant" = "NFC 標籤並非 Home Assistant 標籤";
+"nfc.read.error.not_home_assistant" = "NFC 標籤並非 GiToon 標籤";
 "nfc.read.error.tag_invalid" = "NFC 標籤無效";
 "nfc.read.start_message" = "%@";
 "nfc.tag_read" = "NFC 標籤讀取";
@@ -213,7 +213,7 @@
 "notification_service.parser.camera.invalid_entity" = "所提供的 entity_id 無效。";
 "notification_service.parser.url.invalid_url" = "所提供的 URL 無效。";
 "notification_service.parser.url.no_url" = "未提供 URL。";
-"notifications_configurator.action.rows.authentication_required.footer" = "當使用者選擇此選項操作，系統將會提示使用者解鎖裝置。解鎖後，Home Assistant 將會通知所選擇的觸發動作。";
+"notifications_configurator.action.rows.authentication_required.footer" = "當使用者選擇此選項操作，系統將會提示使用者解鎖裝置。解鎖後，GiToon 將會通知所選擇的觸發動作。";
 "notifications_configurator.action.rows.authentication_required.title" = "需要驗證";
 "notifications_configurator.action.rows.destructive.footer" = "開啟後、觸發動作按鈕將會以特殊標明顯示，以表示正在執行 Destructive 任務。";
 "notifications_configurator.action.rows.destructive.title" = "Desctructive";
@@ -263,7 +263,7 @@
 "onboarding.manual_setup.connect" = "連線";
 "onboarding.manual_setup.couldnt_make_url.message" = "數值 '%@' 並非有效 URL。";
 "onboarding.manual_setup.couldnt_make_url.title" = "無法製作 URL";
-"onboarding.manual_setup.description" = "Home Assistant 伺服器 URL、記得包含協定與通訊埠。";
+"onboarding.manual_setup.description" = "GiToon 伺服器 URL、記得包含協定與通訊埠。";
 "onboarding.manual_setup.no_scheme.message" = "是否要嘗試以 http:// 或 https:// 進行連線？";
 "onboarding.manual_setup.no_scheme.title" = "所輸入 URL 不符結構";
 "onboarding.manual_setup.title" = "輸入 URL";
@@ -272,7 +272,7 @@
 "onboarding.permissions.change_later_note" = "可稍後於設定中變更權限";
 "onboarding.permissions.focus.bullet.automations" = "專注模式關聯自動化";
 "onboarding.permissions.focus.bullet.instant" = "當狀態改變時即時更新";
-"onboarding.permissions.focus.description" = "允許任何專注模式下皆能傳送資料至 Home Assistant";
+"onboarding.permissions.focus.description" = "允許任何專注模式下皆能傳送資料至 GiToon";
 "onboarding.permissions.focus.grant_description" = "允許專注模式權限以新增專注模式、或勿打擾模式感測器。";
 "onboarding.permissions.focus.title" = "專注模式";
 "onboarding.permissions.location.bullet.automations" = "所在位置關聯自動化";
@@ -284,23 +284,23 @@
 "onboarding.permissions.motion.bullet.activity" = "目前活動類別感測器";
 "onboarding.permissions.motion.bullet.distance" = "移動距離感測器";
 "onboarding.permissions.motion.bullet.steps" = "計步感測器";
-"onboarding.permissions.motion.description" = "允許動作與健身活動資料傳送至 Home Assistant";
+"onboarding.permissions.motion.description" = "允許動作與健身活動資料傳送至 GiToon";
 "onboarding.permissions.motion.grant_description" = "允許運動權限以新增運動及計步資料感測器。";
 "onboarding.permissions.motion.title" = "動作與健身";
 "onboarding.permissions.notification.bullet.alert" = "由通知獲得警告";
 "onboarding.permissions.notification.bullet.badge" = "更新 App 圖示圓標";
 "onboarding.permissions.notification.bullet.commands" = "傳送命令至裝置";
-"onboarding.permissions.notification.description" = "允許 Home Assistant 發出推送通知";
+"onboarding.permissions.notification.description" = "允許 GiToon 發出推送通知";
 "onboarding.permissions.notification.grant_description" = "允許通知權限以為裝置新增通知服務。";
 "onboarding.permissions.notification.title" = "通知";
 "onboarding.scanning.discovered_announcement" = "已掃描：%@";
 "onboarding.scanning.manual" = "手動輸入位址";
 "onboarding.scanning.manual_hint" = "找不到伺服器？";
 "onboarding.scanning.title" = "掃描伺服器";
-"onboarding.welcome.description" = "App 將連線至 Home Assistant 伺服器並允許整合關於你與手機的資料。\
+"onboarding.welcome.description" = "App 將連線至 GiToon 伺服器並允許整合關於你與手機的資料。\
 \
-Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本地端控制與隱私議題。";
-"onboarding.welcome.title" = "歡迎使用 Home Assistant %@！";
+GiToon 為一款免費且開源的家庭自動化軟體、專制於本地端控制與隱私議題。";
+"onboarding.welcome.title" = "歡迎使用 GiToon %@！";
 "open_label" = "開啟";
 "preview_output" = "預覽輸出";
 "requires_version" = "需要 %@ 或更新版本。";
@@ -318,11 +318,11 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "settings.connection_section.delete_server.title" = "刪除伺服器";
 "settings.connection_section.details" = "詳細資料";
 "settings.connection_section.errors.cannot_remove_last_url" = "你無法移除唯一可用的網址";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "外部 URL";
 "settings.connection_section.header" = "連線";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud 服務";
-"settings.connection_section.internal_base_url.placeholder" = "例如、http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud 服務";
+"settings.connection_section.internal_base_url.placeholder" = "例如、http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "內部 URL";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "新增硬體位址";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "當主要網路介面之MAC 位址與以下硬體位址吻合時，將使用內部 URL。";
@@ -332,7 +332,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "settings.connection_section.internal_url_ssids.footer" = "當連線至列表 SSID 時將使用內部 URL 連線";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "當使用內部 SSID 網路時，直接連線至 Home Assistant 伺服器以進行推播通知。";
+"settings.connection_section.local_push_description" = "當使用內部 SSID 網路時，直接連線至 GiToon 伺服器以進行推播通知。";
 "settings.connection_section.location_send_type.setting.exact" = "精確";
 "settings.connection_section.location_send_type.setting.never" = "未執行";
 "settings.connection_section.location_send_type.setting.zone_only" = "僅區域名稱";
@@ -387,7 +387,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "settings.location_history.title" = "座標紀錄";
 "settings.navigation_bar.about_button.title" = "關於";
 "settings.navigation_bar.title" = "設定";
-"settings.reset_section.reset_alert.message" = "你的設定將被重置，且此裝置將從推播通知及 Home Assistant 設定中被移除。";
+"settings.reset_section.reset_alert.message" = "你的設定將被重置，且此裝置將從推播通知及 GiToon 設定中被移除。";
 "settings.reset_section.reset_alert.progress_message" = "重置中…";
 "settings.reset_section.reset_alert.title" = "重置";
 "settings.reset_section.reset_row.title" = "重置";
@@ -395,7 +395,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "settings.server_select.page_title" = "伺服器";
 "settings.server_select.title" = "伺服器";
 "settings.status_section.header" = "狀態";
-"settings.status_section.location_name_row.placeholder" = "我的 Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "我的 GiToon";
 "settings.status_section.location_name_row.title" = "名稱";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "版本";
@@ -427,7 +427,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "settings_details.general.app_icon.enum.electric_violet" = "靛紫";
 "settings_details.general.app_icon.enum.fire_orange" = "火橙";
 "settings_details.general.app_icon.enum.green" = "綠色";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant 藍";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon 藍";
 "settings_details.general.app_icon.enum.old_beta" = "舊測試版";
 "settings_details.general.app_icon.enum.old_dev" = "舊開發版";
 "settings_details.general.app_icon.enum.old_release" = "舊正式版";
@@ -561,7 +561,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "settings_details.notifications.title" = "通知訊息設定";
 "settings_details.privacy.alerts.description" = "允許檢查重要警告，例如安全漏洞通報。";
 "settings_details.privacy.alerts.title" = "警告";
-"settings_details.privacy.analytics.generic_description" = "允許收集關於裝置與 App 整合的基本資訊。將不會包含任何有關於使用者身份資料，包含您的 Home Assistant URL 與權杖等。必須重新啟動應用程式，變更的設定方能作用。";
+"settings_details.privacy.analytics.generic_description" = "允許收集關於裝置與 App 整合的基本資訊。將不會包含任何有關於使用者身份資料，包含您的 GiToon URL 與權杖等。必須重新啟動應用程式，變更的設定方能作用。";
 "settings_details.privacy.analytics.generic_title" = "分析資料";
 "settings_details.privacy.crash_reporting.description" = "允許針對應用程式當機或其他錯誤進行更深入的追蹤。有助於更快修正錯誤推出。僅會傳送基本裝置資料，不會傳送任何使用者身份資料。必須重新啟動應用程式，變更的設定方能作用。";
 "settings_details.privacy.crash_reporting.sentry" = "此功能使用 Sentry 作為回報目標。";
@@ -601,7 +601,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "thread.credentials.screen_title" = "Thread 憑證";
 "thread.credentials.share_credentials.no_credentials_message" = "請確定已使用 Apple 家庭中擁有者相同的 iCloud 帳號進行登入。";
 "thread.credentials.share_credentials.no_credentials_title" = "沒有可以分享的憑證";
-"thread.credentials.share_credentials_button_title" = "與 Home Assistant 共享憑證";
+"thread.credentials.share_credentials_button_title" = "與 GiToon 共享憑證";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread 憑證";
 "thread.network_key.title" = "網路金鑰";
@@ -609,7 +609,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "將 Thread 憑證儲存至鑰匙圈時、輸入轉換為十六進位失敗";
 "thread.store_in_keychain.error.title" = "操作失敗";
 "thread.transter_to_apple.title" = "傳送至 Apple 鑰匙圈";
-"thread.transter_to_homeassistant.title" = "傳送至 Home Assistant";
+"thread.transter_to_homeassistant.title" = "傳送至 GiToon";
 "token_error.connection_failed" = "連線失敗。";
 "token_error.expired" = "權杖已過期。";
 "token_error.token_unavailable" = "權杖不可用。";
@@ -639,7 +639,7 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "url_handler.send_location.success.title" = "傳送座標";
 "url_handler.x_callback_url.error.eventNameMissing" = "必須定義 eventName";
 "url_handler.x_callback_url.error.general" = "發生一般錯誤";
-"url_handler.x_callback_url.error.serviceMissing" = "必須定義服務（例如 homeassistant.turn_on）";
+"url_handler.x_callback_url.error.serviceMissing" = "必須定義服務（例如 gitoon.turn_on）";
 "url_handler.x_callback_url.error.templateMissing" = "必須定義產生模板";
 "username_label" = "使用者名稱";
 "watch.configurator.delete.button" = "刪除複雜功能";
@@ -836,10 +836,10 @@ Home Assistant 為一款免費且開源的家庭自動化軟體、專制於本�
 "watch.labels.complication_text_areas.trailing.label" = "靠右對齊";
 "watch.labels.no_action" = "尚未設定動作。於手機上設定動作以關閉此訊息。";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "執行 Home Assistant 動作。";
+"widgets.actions.description" = "執行 GiToon 動作。";
 "widgets.actions.not_configured" = "未設定動作";
 "widgets.actions.title" = "動作";
-"widgets.open_page.description" = "於 Home Assistant 中開啟前端頁面。";
+"widgets.open_page.description" = "於 GiToon 中開啟前端頁面。";
 "widgets.open_page.not_configured" = "無頁面可使用";
 "widgets.open_page.title" = "開啟頁面";
 "yes_label" = "是";

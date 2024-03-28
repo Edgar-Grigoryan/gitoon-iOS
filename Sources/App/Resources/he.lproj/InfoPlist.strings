@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "צלם תמונות ושלח אותן לשרת הום אסיסטנט שלך.";
 "NSCrossWebsiteTrackingUsageDescription" = "לחלופין, הפעל מעקב חוצה אתרי אינטרנט אם התצורה שלך דורשת זאת.";
 "NSFocusStatusUsageDescription" = "דווח על מצב הפוקוס שלך כחיישן.";
-"NSLocalNetworkUsageDescription" = "Locate and communicate with your Home Assistant instance.";
+"NSLocalNetworkUsageDescription" = "Locate and communicate with your GiToon instance.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "We suggest selecting \"Always Allow\" for the best location experience. Selecting \"Only While Using the App\" will disable iBeacons, geofences, background location updates and accurate reporting.";
 "NSLocationAlwaysUsageDescription" = "We always need access to your location for features like iBeacons, geofences, background location updates and accurate reporting.";
 "NSLocationUsageDescription" = "כאשר מופעל, מיקום המכשיר שלך נשלח לשרת הום אסיסטנט שלך כמעקב אחר מכשירים.";

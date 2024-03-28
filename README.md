@@ -1,4 +1,4 @@
-Home Assistant for Apple Platforms
+GiToon for Apple Platforms
 =================
 
 [![TestFlight Beta invite](https://img.shields.io/badge/TestFlight-Beta-blue.svg)](https://www.home-assistant.io/ios/beta/)
@@ -8,7 +8,7 @@ Home Assistant for Apple Platforms
 
 ## Getting Started
 
-Home Assistant uses Bundler, Homebrew and Cocoapods to manage build dependencies. You'll need Xcode 14.1 (or later) which you can download from the [App Store](https://developer.apple.com/download/). You can get the app running using the following commands:
+GiToon uses Bundler, Homebrew and Cocoapods to manage build dependencies. You'll need Xcode 14.1 (or later) which you can download from the [App Store](https://developer.apple.com/download/). You can get the app running using the following commands:
 
 ```bash
 git clone https://github.com/home-assistant/iOS.git

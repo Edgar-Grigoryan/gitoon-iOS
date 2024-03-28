@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Issue Tracker";
 "about.help_localize.title" = "Helpu i leoleiddio'r ap!";
-"about.home_assistant_on_facebook.title" = "Home Assistant ar Facebook";
-"about.home_assistant_on_twitter.title" = "Home Assistant ar Twitter";
-"about.logo.app_title" = "Home Assistant Companion";
+"about.home_assistant_on_facebook.title" = "GiToon ar Facebook";
+"about.home_assistant_on_twitter.title" = "GiToon ar Twitter";
+"about.logo.app_title" = "GiToon Companion";
 "about.logo.tagline" = "Deffro'ch Cartref";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Ysgrifennu adolygiad";
 "about.title" = "Amdanom Ni";
 "about.website.title" = "Gwefan";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "Gallwch hefyd newid y rhain trwy addasu'r priodoleddau Golygfa: %@";
 "actions_configurator.visual_section.server_defined" = "The appearance of this action is controlled by the server configuration.";
 "addButtonLabel" = "Ychwanegu";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Please update Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Please update GiToon";
 "alerts.alert.ok" = "Iawn";
 "alerts.auth_required.message" = "Mae'r gweinydd wedi gwrthod eich tystlythyrau, a rhaid i chi fewngofnodi eto i barhau.";
 "alerts.auth_required.title" = "Rhaid i chi fewngofnodi i barhau";
@@ -128,7 +128,7 @@
 "error_label" = "Gwall";
 "extensions.map.location.new" = "Lleoliad Newydd";
 "extensions.map.location.original" = "Lleoliad Gwreiddiol";
-"extensions.map.payload_missing_homeassistant.message" = "Nid oedd llwyth tâl yn cynnwys geiriadur homeassistant!";
+"extensions.map.payload_missing_homeassistant.message" = "Nid oedd llwyth tâl yn cynnwys geiriadur gitoon!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Ni ddaethpwyd o hyd i Lledred neu ni ellid ei roi ar linyn!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Ni ddaethpwyd o hyd i Hydred neu ni ellid ei roi i linyn!";
 "extensions.notification_content.error.no_entity_id" = "Ni chafwyd unrhyw endid_id yn y llwyth tâl!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "Ffrwd HLS ddim ar gael";
 "extensions.notification_content.error.request.other" = "Wedi derbyn côd statws di-200 %li";
 "ha_api.api_error.cant_build_url" = "API URL heb wedi'i greu";
-"ha_api.api_error.invalid_response" = "Wedi derbyn ymateb annilys gan Home Assistant";
+"ha_api.api_error.invalid_response" = "Wedi derbyn ymateb annilys gan GiToon";
 "ha_api.api_error.manager_not_available" = "Nid yw Rheolwr HA API ar gael";
-"ha_api.api_error.mobile_app_component_not_loaded" = "Dydy'r gydran mobile_app ddim wedi'i llwytho. Ychwanegwch ef at eich ffurfweddiad, ailgychwynnwch Home Assistant, a rhowch gynnig arall arni.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Mae eich fersiwn Home Assistant ( %@ ) yn rhy hen, rhaid i chi uwchraddio o leiaf i fersiwn %@ i ddefnyddio'r app.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "Dydy'r gydran mobile_app ddim wedi'i llwytho. Ychwanegwch ef at eich ffurfweddiad, ailgychwynnwch GiToon, a rhowch gynnig arall arni.";
+"ha_api.api_error.must_upgrade_home_assistant" = "Mae eich fersiwn GiToon ( %@ ) yn rhy hen, rhaid i chi uwchraddio o leiaf i fersiwn %@ i ddefnyddio'r app.";
 "ha_api.api_error.not_configured" = "HA API heb ei ffurfweddu";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "NFC tags written by the app will show a notification when you bring your device near them. Activating the notification will launch the app and fire an event.\
 \
-Tags will work on any device with Home Assistant installed which has hardware support to read them.";
+Tags will work on any device with GiToon installed which has hardware support to read them.";
 "nfc.list.learn_more" = "Learn More";
 "nfc.list.read_tag" = "Read Tag";
 "nfc.list.title" = "NFC Tags";
 "nfc.list.write_tag" = "Write Tag";
 "nfc.not_available" = "NFC is not available on this device";
 "nfc.read.error.generic_failure" = "Failed to read tag";
-"nfc.read.error.not_home_assistant" = "NFC tag is not a Home Assistant tag";
+"nfc.read.error.not_home_assistant" = "NFC tag is not a GiToon tag";
 "nfc.read.error.tag_invalid" = "NFC tag is invalid";
 "nfc.read.start_message" = "Hold your %@ near an NFC tag";
 "nfc.tag_read" = "NFC Tag Read";
@@ -213,7 +213,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "notification_service.parser.camera.invalid_entity" = "entity_id provided was invalid.";
 "notification_service.parser.url.invalid_url" = "The given URL was invalid.";
 "notification_service.parser.url.no_url" = "No URL was provided.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Pan fydd y defnyddiwr yn dewis gweithred gyda'r opsiwn hwn, mae'r system yn annog y defnyddiwr i ddatgloi'r ddyfais. Ar ôl datgloi, hysbysir Home Assistant am y camau a ddewiswyd.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Pan fydd y defnyddiwr yn dewis gweithred gyda'r opsiwn hwn, mae'r system yn annog y defnyddiwr i ddatgloi'r ddyfais. Ar ôl datgloi, hysbysir GiToon am y camau a ddewiswyd.";
 "notifications_configurator.action.rows.authentication_required.title" = "Angen Dilysu";
 "notifications_configurator.action.rows.destructive.footer" = "Pan fydd wedi'i alluogi, mae'r botwm gweithredu yn cael ei arddangos gydag uchafbwyntiau arbennig i nodi ei fod yn cyflawni tasg ddinistriol.";
 "notifications_configurator.action.rows.destructive.title" = "Dinistriol";
@@ -263,7 +263,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.manual_setup.connect" = "Connect";
 "onboarding.manual_setup.couldnt_make_url.message" = "Nid oedd y gwerth ' %@ ' yn URL dilys.";
 "onboarding.manual_setup.couldnt_make_url.title" = "Wedi methu creu URL";
-"onboarding.manual_setup.description" = "The URL of your Home Assistant server. Make sure it includes the protocol and port.";
+"onboarding.manual_setup.description" = "The URL of your GiToon server. Make sure it includes the protocol and port.";
 "onboarding.manual_setup.no_scheme.message" = "A ddylem ni geisio cysylltu gan ddefnyddio http: // neu https: //?";
 "onboarding.manual_setup.no_scheme.title" = "URL wedi'i nodi heb protocol";
 "onboarding.manual_setup.title" = "Enter URL";
@@ -272,7 +272,7 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.change_later_note" = "You can change this permission later in Settings";
 "onboarding.permissions.focus.bullet.automations" = "Focus-based automations";
 "onboarding.permissions.focus.bullet.instant" = "Instant updates when status changes";
-"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to Home Assistant";
+"onboarding.permissions.focus.description" = "Allow whether you are in focus mode to be sent to GiToon";
 "onboarding.permissions.focus.grant_description" = "Allow focus permission to create sensors for your focus status, also known as do-not-disturb.";
 "onboarding.permissions.focus.title" = "Focus";
 "onboarding.permissions.location.bullet.automations" = "Presence-based automations";
@@ -284,23 +284,23 @@ Tags will work on any device with Home Assistant installed which has hardware su
 "onboarding.permissions.motion.bullet.activity" = "Sensor for current activity type";
 "onboarding.permissions.motion.bullet.distance" = "Sensor for distance moved";
 "onboarding.permissions.motion.bullet.steps" = "Sensor for step counts";
-"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to Home Assistant";
+"onboarding.permissions.motion.description" = "Allow motion activity and pedometer data to be sent to GiToon";
 "onboarding.permissions.motion.grant_description" = "Allow motion permission to create sensors for motion and pedometer data.";
 "onboarding.permissions.motion.title" = "Motion & Pedometer";
 "onboarding.permissions.notification.bullet.alert" = "Get alerted from notifications";
 "onboarding.permissions.notification.bullet.badge" = "Update app icon badge";
 "onboarding.permissions.notification.bullet.commands" = "Send commands to your device";
-"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your Home Assistant";
+"onboarding.permissions.notification.description" = "Allow push notifications to be sent from your GiToon";
 "onboarding.permissions.notification.grant_description" = "Allow notification permission to create a notify service for your device.";
 "onboarding.permissions.notification.title" = "Notifications";
 "onboarding.scanning.discovered_announcement" = "Discovered: %@";
 "onboarding.scanning.manual" = "Enter Address Manually";
 "onboarding.scanning.manual_hint" = "Not finding your server?";
 "onboarding.scanning.title" = "Scanning for Servers";
-"onboarding.welcome.description" = "This app connects to your Home Assistant server and allows integrating data about you and your phone.\
+"onboarding.welcome.description" = "This app connects to your GiToon server and allows integrating data about you and your phone.\
 \
-Home Assistant is free and open source home automation software with a focus on local control and privacy.";
-"onboarding.welcome.title" = "Welcome to Home Assistant %@!";
+GiToon is free and open source home automation software with a focus on local control and privacy.";
+"onboarding.welcome.title" = "Welcome to GiToon %@!";
 "open_label" = "Open";
 "preview_output" = "Rhagolwg o'r allbwn";
 "requires_version" = "Requires %@ or later.";
@@ -318,11 +318,11 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.delete_server.title" = "Delete Server";
 "settings.connection_section.details" = "Manylion";
 "settings.connection_section.errors.cannot_remove_last_url" = "You cannot remove only available URL.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "URL allanol";
 "settings.connection_section.header" = "Cysylltiad";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "e.g. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "e.g. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "URL mewnol";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Add New Hardware Address";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Internal URL will be used when the primary network interface has a MAC address matching one of these hardware addresses.";
@@ -332,7 +332,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.connection_section.internal_url_ssids.footer" = "Bydd URL mewnol yn cael ei ddefnyddio pan fydd wedi'i gysylltu â SSIDs rhestredig";
 "settings.connection_section.internal_url_ssids.header" = "SSIDs";
 "settings.connection_section.internal_url_ssids.placeholder" = "MyFunnyNetworkName";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the GiToon server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Exact";
 "settings.connection_section.location_send_type.setting.never" = "Never";
 "settings.connection_section.location_send_type.setting.zone_only" = "Zone Name Only";
@@ -387,7 +387,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.location_history.title" = "Location History";
 "settings.navigation_bar.about_button.title" = "Amdanom Ni";
 "settings.navigation_bar.title" = "Gosodiadau";
-"settings.reset_section.reset_alert.message" = "Bydd eich gosodiadau yn cael eu hailosod a bydd y ddyfais hon yn ddigofrestredig o hysbysiadau gwthio yn ogystal â chael eu tynnu o'ch cyfluniad Home Assistant.";
+"settings.reset_section.reset_alert.message" = "Bydd eich gosodiadau yn cael eu hailosod a bydd y ddyfais hon yn ddigofrestredig o hysbysiadau gwthio yn ogystal â chael eu tynnu o'ch cyfluniad GiToon.";
 "settings.reset_section.reset_alert.progress_message" = "Ailosod…";
 "settings.reset_section.reset_alert.title" = "Ailosod";
 "settings.reset_section.reset_row.title" = "Ailosod";
@@ -395,7 +395,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings.server_select.page_title" = "Server";
 "settings.server_select.title" = "Server";
 "settings.status_section.header" = "Statws";
-"settings.status_section.location_name_row.placeholder" = "Fy Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Fy GiToon";
 "settings.status_section.location_name_row.title" = "Enw";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Fersiwn";
@@ -427,7 +427,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.general.app_icon.enum.electric_violet" = "Fioled Trydanol";
 "settings_details.general.app_icon.enum.fire_orange" = "Oren Tân";
 "settings_details.general.app_icon.enum.green" = "Gwyrdd";
-"settings_details.general.app_icon.enum.ha_blue" = "Glas Home Assistant";
+"settings_details.general.app_icon.enum.ha_blue" = "Glas GiToon";
 "settings_details.general.app_icon.enum.old_beta" = "Hen fersiwn beta";
 "settings_details.general.app_icon.enum.old_dev" = "Hen fersiwn datblygwr";
 "settings_details.general.app_icon.enum.old_release" = "Wedi'i cyhoeddi yn y gorffennol";
@@ -561,7 +561,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "settings_details.notifications.title" = "Hysbysiadau";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Alerts";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your GiToon URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytics";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -601,7 +601,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Network Key";
@@ -609,7 +609,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Transfer to Apple Keychain";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Methodd y cysylltiad.";
 "token_error.expired" = "Mae Token wedi dod i ben.";
 "token_error.token_unavailable" = "Nid yw Token ar gael.";
@@ -639,7 +639,7 @@ Home Assistant is free and open source home automation software with a focus on 
 "url_handler.send_location.success.title" = "Wedi anfon lleoliad";
 "url_handler.x_callback_url.error.eventNameMissing" = "rhaid diffinio eventName";
 "url_handler.x_callback_url.error.general" = "Digwyddodd gwall cyffredinol";
-"url_handler.x_callback_url.error.serviceMissing" = "rhaid diffinio gwasanaeth (ee homeassistant.turn_on)";
+"url_handler.x_callback_url.error.serviceMissing" = "rhaid diffinio gwasanaeth (ee gitoon.turn_on)";
 "url_handler.x_callback_url.error.templateMissing" = "Rhaid diffinio templed y gellir ei drawsnewid";
 "username_label" = "Enw Defnyddiwr";
 "watch.configurator.delete.button" = "Delete Complication";
@@ -836,10 +836,10 @@ Home Assistant is free and open source home automation software with a focus on 
 "watch.labels.complication_text_areas.trailing.label" = "Yn llusgo";
 "watch.labels.no_action" = "Dim gweithredoedd wedi'u ffurfweddu. Ffurfweddu gweithredoedd ar eich ffôn i wrthod y neges hon.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Perform Home Assistant actions.";
+"widgets.actions.description" = "Perform GiToon actions.";
 "widgets.actions.not_configured" = "No Actions Configured";
 "widgets.actions.title" = "Actions";
-"widgets.open_page.description" = "Open a frontend page in Home Assistant.";
+"widgets.open_page.description" = "Open a frontend page in GiToon.";
 "widgets.open_page.not_configured" = "No Pages Available";
 "widgets.open_page.title" = "Open Page";
 "yes_label" = "Ie";

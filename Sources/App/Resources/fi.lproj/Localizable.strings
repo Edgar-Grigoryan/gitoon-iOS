@@ -8,11 +8,11 @@
 "about.github.title" = "GitHub";
 "about.github_issue_tracker.title" = "GitHub Vikaseuranta";
 "about.help_localize.title" = "Auta paikallistamaan sovellusta!";
-"about.home_assistant_on_facebook.title" = "Home Assistant Facebookissa";
-"about.home_assistant_on_twitter.title" = "Home Assistant Twitterillä";
-"about.logo.app_title" = "Home Assistantin kumppani";
+"about.home_assistant_on_facebook.title" = "GiToon Facebookissa";
+"about.home_assistant_on_twitter.title" = "GiToon Twitterillä";
+"about.logo.app_title" = "GiToonin kumppani";
 "about.logo.tagline" = "Herätä kotiasi";
-"about.logo.title" = "Home Assistant";
+"about.logo.title" = "GiToon";
 "about.review.title" = "Jätä arvostelu";
 "about.title" = "Sovelluksesta";
 "about.website.title" = "Verkkosivusto";
@@ -32,8 +32,8 @@
 "actions_configurator.visual_section.scene_hint_footer" = "You can also change these by customizing the Scene attributes: %@";
 "actions_configurator.visual_section.server_defined" = "The appearance of this action is controlled by the server configuration.";
 "addButtonLabel" = "Lisää";
-"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your Home Assistant to at least version 2024.2";
-"alerts.action_automation_editor.unavailable.title" = "Päivitä Home Assistant";
+"alerts.action_automation_editor.unavailable.body" = "To automatically create an automation for an Action please update your GiToon to at least version 2024.2";
+"alerts.action_automation_editor.unavailable.title" = "Päivitä GiToon";
 "alerts.alert.ok" = "OK";
 "alerts.auth_required.message" = "Palvelin on hylännyt tunnistetietoasi, ja sinun on kirjauduttava uudelleen jatkaaksesi.";
 "alerts.auth_required.title" = "Sinun on kirjauduttava sisään jatkaaksesi";
@@ -128,7 +128,7 @@
 "error_label" = "Virhe";
 "extensions.map.location.new" = "Uusi sijainti";
 "extensions.map.location.original" = "Alkuperäinen sijainti";
-"extensions.map.payload_missing_homeassistant.message" = "Hyötykuorma ei sisältänyt homeassistant-sanakirjaa!";
+"extensions.map.payload_missing_homeassistant.message" = "Hyötykuorma ei sisältänyt gitoon-sanakirjaa!";
 "extensions.map.value_missing_or_uncastable.latitude.message" = "Leveysastetta ei löytynyt tai ei voitu valettaa merkkijonoon!";
 "extensions.map.value_missing_or_uncastable.longitude.message" = "Pituusastetta ei löytynyt tai sitä ei voitu valettaa merkkijonoon!";
 "extensions.notification_content.error.no_entity_id" = "entity_id:tä ei löydetty hyötykuormasta!";
@@ -137,10 +137,10 @@
 "extensions.notification_content.error.request.hls_unavailable" = "HLS stream unavailable";
 "extensions.notification_content.error.request.other" = "Saatiin non-200 tilakoodia (%li)";
 "ha_api.api_error.cant_build_url" = "Ei voi rakentaa API URL:ia";
-"ha_api.api_error.invalid_response" = "Vastaanotettu virheellinen vastaus Home Assistantilta";
+"ha_api.api_error.invalid_response" = "Vastaanotettu virheellinen vastaus GiToonilta";
 "ha_api.api_error.manager_not_available" = "HA API Manager ei ole käytettävissä";
-"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app-komponenttia ei ole ladattu. Lisää se kokoonpanoon, käynnistä Home Assistant uudelleen ja yritä uudestaan.";
-"ha_api.api_error.must_upgrade_home_assistant" = "Home Assistant-versiosi (%@) on liian vanha, sinun on päivitettävä vähintään versioon %@, jotta voit käyttää sovellusta.";
+"ha_api.api_error.mobile_app_component_not_loaded" = "mobile_app-komponenttia ei ole ladattu. Lisää se kokoonpanoon, käynnistä GiToon uudelleen ja yritä uudestaan.";
+"ha_api.api_error.must_upgrade_home_assistant" = "GiToon-versiosi (%@) on liian vanha, sinun on päivitettävä vähintään versioon %@, jotta voit käyttää sovellusta.";
 "ha_api.api_error.not_configured" = "HA API ei ole määritetty";
 "ha_api.api_error.unacceptable_status_code" = "Unacceptable status code %1$li.";
 "ha_api.api_error.unexpected_type" = "Received response with result of type %1$@ but expected type %2$@.";
@@ -186,14 +186,14 @@
 "nfc.generic_tag_read" = "Tag Read";
 "nfc.list.description" = "Sovelluksen kirjoittamat NFC-tunnisteet näyttävät ilmoituksen, kun tuot laitteesi niiden lähelle. Ilmoituksen painaminen käynnistää sovelluksen joka käynnistää tapahtuman. \
 \
-NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assistant ja jolla on tuki NFC-tunnisteiden lukemiseen.";
+NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu GiToon ja jolla on tuki NFC-tunnisteiden lukemiseen.";
 "nfc.list.learn_more" = "Lisätietoja";
 "nfc.list.read_tag" = "Lue tunniste";
 "nfc.list.title" = "NFC-tunnisteet";
 "nfc.list.write_tag" = "Kirjoita tunniste";
 "nfc.not_available" = "NFC ei ole käytettävissä tällä laitteella";
 "nfc.read.error.generic_failure" = "Tunnisteen lukeminen epäonnistui";
-"nfc.read.error.not_home_assistant" = "NFC-tunniste ei ole Home Assistant -tunniste";
+"nfc.read.error.not_home_assistant" = "NFC-tunniste ei ole GiToon -tunniste";
 "nfc.read.error.tag_invalid" = "NFC-tunniste on virheellinen";
 "nfc.read.start_message" = "Pidä %@ lähellä NFC-tunnistetta";
 "nfc.tag_read" = "NFC-tunnisteen luku";
@@ -213,7 +213,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "notification_service.parser.camera.invalid_entity" = "Annettu entity_id oli virheellinen.";
 "notification_service.parser.url.invalid_url" = "Annettu URL-osoite oli virheellinen.";
 "notification_service.parser.url.no_url" = "URL-osoitetta ei annettu.";
-"notifications_configurator.action.rows.authentication_required.footer" = "Kun käyttäjä valitsee toiminnon tällä asetuksella, järjestelmä kehottaa käyttäjää avaamaan laitetta. Avaamisen jälkeen Home Assistant saa ilmoituksen käyttäjän valitusta toimesta.";
+"notifications_configurator.action.rows.authentication_required.footer" = "Kun käyttäjä valitsee toiminnon tällä asetuksella, järjestelmä kehottaa käyttäjää avaamaan laitetta. Avaamisen jälkeen GiToon saa ilmoituksen käyttäjän valitusta toimesta.";
 "notifications_configurator.action.rows.authentication_required.title" = "Vaaditaan todennusta";
 "notifications_configurator.action.rows.destructive.footer" = "Käyttöönotettu, tapahtumapainike korostetaan osoittaakseen, että se suorittaa tuhoisan tehtävän.";
 "notifications_configurator.action.rows.destructive.title" = "Tuhoisa";
@@ -263,7 +263,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.manual_setup.connect" = "Yhdistä";
 "onboarding.manual_setup.couldnt_make_url.message" = "Arvo '%@' ei ollut kelvollinen URL-osoite.";
 "onboarding.manual_setup.couldnt_make_url.title" = "URL-osoitetta ei voitu luoda";
-"onboarding.manual_setup.description" = "Home Assistant -palvelimesi URL. Varmista, että se sisältää protokollan sekä portin.";
+"onboarding.manual_setup.description" = "GiToon -palvelimesi URL. Varmista, että se sisältää protokollan sekä portin.";
 "onboarding.manual_setup.no_scheme.message" = "Should we try connecting using http:// or https://?";
 "onboarding.manual_setup.no_scheme.title" = "URL entered without scheme";
 "onboarding.manual_setup.title" = "Syötä URL";
@@ -272,7 +272,7 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.permissions.change_later_note" = "Voit muuttaa tätä lupaa myöhemmin Asetuksissa";
 "onboarding.permissions.focus.bullet.automations" = "Keskittymistilaan perustuvat automaatiot";
 "onboarding.permissions.focus.bullet.instant" = "Välittömät päivitykset, kun tila muuttuu";
-"onboarding.permissions.focus.description" = "Salli Home Assistantiin lähetettävä tieto siitä, että oletko tarkennustilassa.";
+"onboarding.permissions.focus.description" = "Salli GiTooniin lähetettävä tieto siitä, että oletko tarkennustilassa.";
 "onboarding.permissions.focus.grant_description" = "Salli keskittymistilan käyttöoikeuden luoda sensoreita nykyiselle keskittymistilalle, kuten älä häiritse.";
 "onboarding.permissions.focus.title" = "Keskity";
 "onboarding.permissions.location.bullet.automations" = "Läsnäoloon perustuvat automaatiot";
@@ -284,23 +284,23 @@ NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu Home Assis
 "onboarding.permissions.motion.bullet.activity" = "Sensori nykyiselle aktiviteetille";
 "onboarding.permissions.motion.bullet.distance" = "Anturi siirrettyä etäisyyttä varten";
 "onboarding.permissions.motion.bullet.steps" = "Anturi askelmäärälle";
-"onboarding.permissions.motion.description" = "Salli liikkumisaktiivisuuden ja askelmittaritietojen lähettäminen Home Assistantille";
+"onboarding.permissions.motion.description" = "Salli liikkumisaktiivisuuden ja askelmittaritietojen lähettäminen GiToonille";
 "onboarding.permissions.motion.grant_description" = "Salli liikkeen käyttöoikeuden luoda sensorit liikkeelle ja askelmittaritiedoille.";
 "onboarding.permissions.motion.title" = "Liike & askelmittari";
 "onboarding.permissions.notification.bullet.alert" = "Vastaanota hälytyksiä ilmoituksista";
 "onboarding.permissions.notification.bullet.badge" = "Päivitä sovelluksen ikonin merkki";
 "onboarding.permissions.notification.bullet.commands" = "Lähetä komentoja laitteeseesi";
-"onboarding.permissions.notification.description" = "Salli push ilmoitusten lähettäminen Home Assistantilta";
+"onboarding.permissions.notification.description" = "Salli push ilmoitusten lähettäminen GiToonilta";
 "onboarding.permissions.notification.grant_description" = "Salli ilmoitusten käyttöoikeuden luoda ilmoituspalvelu laitteellesi.";
 "onboarding.permissions.notification.title" = "Ilmoitukset";
 "onboarding.scanning.discovered_announcement" = "Löydetty: %@";
 "onboarding.scanning.manual" = "Syötä osoite manuaalisesti";
 "onboarding.scanning.manual_hint" = "Etkö löydä palvelinta?";
 "onboarding.scanning.title" = "Etsitään palvelimia";
-"onboarding.welcome.description" = "Tämä sovellus yhdistää Home Assistant -palvelimeesi ja mahdollistaa tietojen integroinnin sinusta ja puhelimestasi.\
+"onboarding.welcome.description" = "Tämä sovellus yhdistää GiToon -palvelimeesi ja mahdollistaa tietojen integroinnin sinusta ja puhelimestasi.\
 \
-Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka painottaa paikallista hallinnoitavuutta ja yksityisyyttä.";
-"onboarding.welcome.title" = "Tervetuloa Home Assistantiin %@!";
+GiToon on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka painottaa paikallista hallinnoitavuutta ja yksityisyyttä.";
+"onboarding.welcome.title" = "Tervetuloa GiTooniin %@!";
 "open_label" = "Avaa";
 "preview_output" = "Tuloksen esikatselu";
 "requires_version" = "Vaatii %@ tai uudemman";
@@ -318,11 +318,11 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.connection_section.delete_server.title" = "Poista palvelin";
 "settings.connection_section.details" = "Yksityiskohdat";
 "settings.connection_section.errors.cannot_remove_last_url" = "Et voi poistaa ainoaa käytettävissä olevaa URL-osoitetta.";
-"settings.connection_section.external_base_url.placeholder" = "https://homeassistant.myhouse.com";
+"settings.connection_section.external_base_url.placeholder" = "https://gitoon.myhouse.com";
 "settings.connection_section.external_base_url.title" = "Ulkoinen URL-osoite";
 "settings.connection_section.header" = "Yhteys";
-"settings.connection_section.home_assistant_cloud.title" = "Home Assistant Cloud";
-"settings.connection_section.internal_base_url.placeholder" = "Esim. http://homeassistant.local:8123/";
+"settings.connection_section.home_assistant_cloud.title" = "GiToon Cloud";
+"settings.connection_section.internal_base_url.placeholder" = "Esim. http://gitoon.local:8123/";
 "settings.connection_section.internal_base_url.title" = "Sisäinen URL-osoite";
 "settings.connection_section.internal_url_hardware_addresses.add_new_ssid" = "Lisää Uusi Laitteisto-osoite";
 "settings.connection_section.internal_url_hardware_addresses.footer" = "Internal URL will be used when the primary network interface has a MAC address matching one of these hardware addresses.";
@@ -332,7 +332,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.connection_section.internal_url_ssids.footer" = "Sisäistä URL-osoitetta käytetään, kun on yhteys listattuihin SSID-tunnuksiin";
 "settings.connection_section.internal_url_ssids.header" = "SSID";
 "settings.connection_section.internal_url_ssids.placeholder" = "MinunHupaisaVerkkoNimi";
-"settings.connection_section.local_push_description" = "Directly connect to the Home Assistant server for push notifications when on internal SSIDs.";
+"settings.connection_section.local_push_description" = "Directly connect to the GiToon server for push notifications when on internal SSIDs.";
 "settings.connection_section.location_send_type.setting.exact" = "Tarkka";
 "settings.connection_section.location_send_type.setting.never" = "Ei koskaan";
 "settings.connection_section.location_send_type.setting.zone_only" = "Vain alueen nimi";
@@ -387,7 +387,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.location_history.title" = "Sijaintihistoria";
 "settings.navigation_bar.about_button.title" = "Sovelluksesta";
 "settings.navigation_bar.title" = "Asetukset";
-"settings.reset_section.reset_alert.message" = "Asetuksesi nollataan ja tämä laite poistetaan push-ilmoituksista sekä poistetaan Home Assistant-asennuksista.";
+"settings.reset_section.reset_alert.message" = "Asetuksesi nollataan ja tämä laite poistetaan push-ilmoituksista sekä poistetaan GiToon-asennuksista.";
 "settings.reset_section.reset_alert.progress_message" = "Nollataan…";
 "settings.reset_section.reset_alert.title" = "Palauta";
 "settings.reset_section.reset_row.title" = "Palauta";
@@ -395,7 +395,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings.server_select.page_title" = "Palvelin";
 "settings.server_select.title" = "Palvelin";
 "settings.status_section.header" = "Tila";
-"settings.status_section.location_name_row.placeholder" = "Minun Home Assistant";
+"settings.status_section.location_name_row.placeholder" = "Minun GiToon";
 "settings.status_section.location_name_row.title" = "Nimi";
 "settings.status_section.version_row.placeholder" = "0.92.0";
 "settings.status_section.version_row.title" = "Versio";
@@ -427,7 +427,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings_details.general.app_icon.enum.electric_violet" = "Electric Violet";
 "settings_details.general.app_icon.enum.fire_orange" = "Fire Orange";
 "settings_details.general.app_icon.enum.green" = "Vihreä";
-"settings_details.general.app_icon.enum.ha_blue" = "Home Assistant Blue";
+"settings_details.general.app_icon.enum.ha_blue" = "GiToon Blue";
 "settings_details.general.app_icon.enum.old_beta" = "Vanha beta";
 "settings_details.general.app_icon.enum.old_dev" = "Ohjelmoiden vanha";
 "settings_details.general.app_icon.enum.old_release" = "Vanha julkaisu";
@@ -561,7 +561,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "settings_details.notifications.title" = "Ilmoitukset";
 "settings_details.privacy.alerts.description" = "Allows checking for important alerts like security vulnerabilities.";
 "settings_details.privacy.alerts.title" = "Hälytykset";
-"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your Home Assistant URLs and tokens. You must restart the app for changes to this setting to take effect.";
+"settings_details.privacy.analytics.generic_description" = "Allows collection of basic information about your device and interactions with the app. No user identifiable data is shared, including your GiToon URLs and tokens. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.analytics.generic_title" = "Analytiikka";
 "settings_details.privacy.crash_reporting.description" = "Allows for deeper tracking of crashes and other errors in the app, leading to faster fixes being published. No user identifiable information is sent, other than basic device information. You must restart the app for changes to this setting to take effect.";
 "settings_details.privacy.crash_reporting.sentry" = "This feature currently uses Sentry as the report destination.";
@@ -601,7 +601,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "thread.credentials.screen_title" = "Thread Credentials";
 "thread.credentials.share_credentials.no_credentials_message" = "Make sure your are logged in with your iCloud account which is owner of a Home in Apple Home.";
 "thread.credentials.share_credentials.no_credentials_title" = "You don't have credentials to share";
-"thread.credentials.share_credentials_button_title" = "Share credential with Home Assistant";
+"thread.credentials.share_credentials_button_title" = "Share credential with GiToon";
 "thread.extended_pan_id.title" = "Extended PAN ID";
 "thread.management.title" = "Thread Credentials";
 "thread.network_key.title" = "Verkkoavain";
@@ -609,7 +609,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "thread.store_in_keychain.error.hexadecimal_conversion.body" = "Failed to convert input to hexadecimal while storing thread credential in keychain";
 "thread.store_in_keychain.error.title" = "Operation failed";
 "thread.transter_to_apple.title" = "Siirrä Apple-Avainnippuun";
-"thread.transter_to_homeassistant.title" = "Transfer to Home Assistant";
+"thread.transter_to_homeassistant.title" = "Transfer to GiToon";
 "token_error.connection_failed" = "Yhteys epäonnistui.";
 "token_error.expired" = "Poletti on vanhentunut.";
 "token_error.token_unavailable" = "Polettia ei ole käytettävissä.";
@@ -639,7 +639,7 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "url_handler.send_location.success.title" = "Sijainti lähetetty";
 "url_handler.x_callback_url.error.eventNameMissing" = "eventName on määritettävä";
 "url_handler.x_callback_url.error.general" = "Tapahtui yleinen virhe";
-"url_handler.x_callback_url.error.serviceMissing" = "palvelu (esim. homeassistant.turn_on) on määritettävä";
+"url_handler.x_callback_url.error.serviceMissing" = "palvelu (esim. gitoon.turn_on) on määritettävä";
 "url_handler.x_callback_url.error.templateMissing" = "Hahmotettava malli on määritettävä";
 "username_label" = "Käyttäjätunnus";
 "watch.configurator.delete.button" = "Poista komplikaatio";
@@ -836,10 +836,10 @@ Home Assistant on ilmainen ja avoimen lähdekoodin automaatio-ohjelmisto, joka p
 "watch.labels.complication_text_areas.trailing.label" = "Perääntuleva";
 "watch.labels.no_action" = "Toimintoja ei ole määritetty. Tämä sanoma poistuu määrittämällä toimintoja puhelimen kautta.";
 "watch.placeholder_complication_name" = "Placeholder";
-"widgets.actions.description" = "Perform Home Assistant actions.";
+"widgets.actions.description" = "Perform GiToon actions.";
 "widgets.actions.not_configured" = "No Actions Configured";
 "widgets.actions.title" = "Toiminnot";
-"widgets.open_page.description" = "Avaa käyttöliittymäsivu Home Assistantissa.";
+"widgets.open_page.description" = "Avaa käyttöliittymäsivu GiToonissa.";
 "widgets.open_page.not_configured" = "Sivuja ei saatavilla";
 "widgets.open_page.title" = "Avaa sivu";
 "yes_label" = "Kyllä";

@@ -35,7 +35,7 @@ if [[
 fi
 
 echo "Ensuring fonttools is installed via pip..."
-pip3 install --user fonttools
+#pip3 install --user fonttools
 
 if [ ! -f fontname-$FONT_RENAME_COMMIT.py ]; then
   echo "Downloading the fontname script..."

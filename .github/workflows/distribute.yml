@@ -60,13 +60,13 @@ jobs:
         if: success() && matrix.kind == 'ios'
         with:
           name: ios-app-store.ipa
-          path: build/ios/Home Assistant.ipa
+          path: build/ios/GiToon.ipa
       - uses: actions/upload-artifact@v4
         name: "Upload iOS dSYMs"
         if: success() && matrix.kind == 'ios'
         with:
           name: ios.dSYM.zip
-          path: build/ios/Home Assistant.app.dSYM.zip
+          path: build/ios/GiToon.app.dSYM.zip
 
       - uses: actions/upload-artifact@v4
         name: "Upload Mac Developer ID App"
@@ -79,11 +79,11 @@ jobs:
         if: success() && matrix.kind == 'mac'
         with:
           name: mac-app-store.pkg
-          path: build/macos/Home Assistant.pkg
+          path: build/macos/GiToon.pkg
 
       - uses: actions/upload-artifact@v4
         name: "Upload Mac dSYMs"
         if: success() && matrix.kind == 'mac'
         with:
           name: mac.dSYM.zip
-          path: build/macos/Home Assistant.app.dSYM.zip
+          path: build/macos/GiToon.app.dSYM.zip

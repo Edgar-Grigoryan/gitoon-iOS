@@ -1,13 +1,13 @@
 "NFCReaderUsageDescription" = "Ler e escrever tags NFC permite acionar eventos.";
-"NSCameraUsageDescription" = "Tire fotos e envie-as para o servidor do Home Assistant.";
+"NSCameraUsageDescription" = "Tire fotos e envie-as para o servidor do GiToon.";
 "NSCrossWebsiteTrackingUsageDescription" = "Opcionalmente, habilite o rastreamento entre sites se sua configuração exigir.";
 "NSFocusStatusUsageDescription" = "Informe seu estado de foco como um sensor.";
-"NSLocalNetworkUsageDescription" = "Localize e comunique-se com sua instância do Home Assistant.";
+"NSLocalNetworkUsageDescription" = "Localize e comunique-se com sua instância do GiToon.";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Sugerimos selecionar \"Sempre permitir\" para obter a melhor experiência de localização. Selecionar \"Somente durante o uso do aplicativo\" desativará iBeacons, cercas geográficas, atualizações de localização em segundo plano e relatórios precisos.";
 "NSLocationAlwaysUsageDescription" = "Sempre precisamos de acesso à sua localização para recursos como iBeacons, cercas geográficas, atualizações de localização em segundo plano e relatórios precisos.";
-"NSLocationUsageDescription" = "Quando ativado, a localização do seu dispositivo é enviada para o servidor do Home Assistant como um rastreador de dispositivo.";
+"NSLocationUsageDescription" = "Quando ativado, a localização do seu dispositivo é enviada para o servidor do GiToon como um rastreador de dispositivo.";
 "NSLocationWhenInUseUsageDescription" = "Apenas permitir o acesso à localização enquanto o aplicativo estiver em uso desativará iBeacons, geofences, atualizações de localização em segundo plano e relatórios precisos.";
-"NSMicrophoneUsageDescription" = "Grave áudio usando o frontend do Home Assistant.";
+"NSMicrophoneUsageDescription" = "Grave áudio usando o frontend do GiToon.";
 "NSMotionUsageDescription" = "O movimento é usado para melhorar as atualizações de localização com o tipo de movimento atual, bem como fornecer dados básicos de pedômetro.";
 "NSPhotoLibraryAddUsageDescription" = "O acesso à Biblioteca de fotos é necessário para permitir salvar fotos da visualização da web.";
 "NSPhotoLibraryUsageDescription" = "O acesso à Biblioteca de fotos é necessário para permitir salvar fotos da visualização da web.";

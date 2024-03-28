@@ -1,4 +1,4 @@
-¡Bienvenido a Home Assistant Companion versión 2019.1, también conocida como 2.0! Ha pasado mucho tiempo, pero finalmente está aquí. Estas son algunas de las nuevas características de esta versión:
+¡Bienvenido a GiToon Companion versión 2019.1, también conocida como 2.0! Ha pasado mucho tiempo, pero finalmente está aquí. Estas son algunas de las nuevas características de esta versión:
 
 - Nuevo motor de notificaciones push, impulsado por Firebase, para notificaciones aún más complejas que nunca, incluidas notificaciones críticas y mucho más
 - Atajos de Siri: ahora, puede interactuar con su Asistente de inicio a través de Siri y la aplicación de Atajos
@@ -9,4 +9,4 @@
 
 En cambio, hay muchas más características nuevas y mejoras por descubrir. Consulte los foros y la nueva documentación para obtener más información.
 
-¡Gracias por usar Home Assistant Companion!
+¡Gracias por usar GiToon Companion!

@@ -148,7 +148,7 @@ public struct ConnectionInfo: Codable, Equatable {
         }
     }
 
-    /// Returns the url that should be used at this moment to access the Home Assistant instance.
+    /// Returns the url that should be used at this moment to access the GiToon instance.
     public mutating func activeURL() -> URL {
         if let overrideActiveURLType {
             let overrideURL: URL?
