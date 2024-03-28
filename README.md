@@ -35,14 +35,3 @@ BUNDLE_ID_PREFIX = some.bundle.prefix
 ```
 
 Xcode should generate provisioning profiles in your Team ID and our configuration will disable features your team doesn't have like Critical Alerts. You can find your Team ID on Apple's [developer portal](https://developer.apple.com/account); it looks something like `ABCDEFG123`.
-
-## Code style
-
-Linters run as part of Pull Request checks. Additionally, some linting requirements can be autocorrected.
-
-```bash
-# checks for linting problems, doesn't fix
-bundle exec fastlane lint
-# checks for linting problems and fixes them
-bundle exec fastlane autocorrect
-```
