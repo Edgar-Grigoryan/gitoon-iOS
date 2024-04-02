@@ -73,18 +73,6 @@ class SettingsViewController: HAFormViewController {
 
         title = L10n.Settings.NavigationBar.title
 
-        if !Current.isCatalyst {
-            // About is in the Application menu on Catalyst, and closing the button is direct
-            navigationItem.leftBarButtonItems = [
-                UIBarButtonItem(
-                    title: L10n.Settings.NavigationBar.AboutButton.title,
-                    style: .plain,
-                    target: self,
-                    action: #selector(openAbout(_:))
-                ),
-            ]
-        }
-
         if !Current.sceneManager.supportsMultipleScenes || !Current.isCatalyst {
             navigationItem.rightBarButtonItems = [
                 UIBarButtonItem(
@@ -113,25 +101,13 @@ class SettingsViewController: HAFormViewController {
                 <<< SettingsRootDataSource.Row.actions.row
                 <<< SettingsRootDataSource.Row.sensors.row
                 <<< SettingsRootDataSource.Row.complications.row
-                <<< SettingsRootDataSource.Row.nfc.row
         }
 
         if contentSections.contains(.help) {
             form +++ Section()
-                <<< SettingsRootDataSource.Row.help.row
                 <<< SettingsRootDataSource.Row.privacy.row
                 <<< SettingsRootDataSource.Row.debugging.row
         }
-
-        form +++ Section()
-            <<< SettingsRootDataSource.Row.whatsNew.row
-    }
-
-    @objc func openAbout(_ sender: UIButton) {
-        let aboutView = AboutViewController()
-
-        let navController = UINavigationController(rootViewController: aboutView)
-        show(navController, sender: nil)
     }
 
     @objc func closeSettings(_ sender: UIButton) {

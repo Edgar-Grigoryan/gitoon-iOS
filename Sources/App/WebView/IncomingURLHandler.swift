@@ -86,64 +86,6 @@ class IncomingURLHandler {
         return true
     }
 
-    @discardableResult
-    func handle(userActivity: NSUserActivity) -> Bool {
-        Current.Log.info(userActivity)
-
-        switch Current.tags.handle(userActivity: userActivity) {
-        case let .handled(type):
-            let (icon, text) = { () -> (MaterialDesignIcons, String) in
-                switch type {
-                case .nfc:
-                    return (.nfcVariantIcon, L10n.Nfc.tagRead)
-                case .generic:
-                    return (.qrcodeIcon, L10n.Nfc.genericTagRead)
-                }
-            }()
-
-            Current.sceneManager.showFullScreenConfirm(
-                icon: icon,
-                text: text,
-                onto: .value(windowController.window)
-            )
-            return true
-        case let .open(url):
-            // NFC-based URL
-            return handle(url: url)
-        case .unhandled:
-            // not a tag
-            if let url = userActivity.webpageURL, url.host?.lowercased() == "my.home-assistant.io" {
-                return showMy(for: url)
-            } else if let interaction = userActivity.interaction {
-                if let intent = interaction.intent as? OpenPageIntent,
-                   let panel = intent.page, let path = panel.identifier {
-                    Current.Log.info("launching from shortcuts with panel \(panel)")
-
-                    let urlString = "/" + path
-                    if let server = Current.servers.server(for: panel) {
-                        windowController.open(
-                            from: .deeplink,
-                            server: server,
-                            urlString: urlString,
-                            skipConfirm: true
-                        )
-                    } else {
-                        windowController.openSelectingServer(
-                            from: .deeplink,
-                            urlString: urlString,
-                            skipConfirm: true
-                        )
-                    }
-                    return true
-                }
-
-                return false
-            } else {
-                return false
-            }
-        }
-    }
-
     func handle(shortcutItem: UIApplicationShortcutItem) -> Promise<Void> {
         Current.backgroundTask(withName: "shortcut-item") { remaining -> Promise<Void> in
             if shortcutItem.type == "sendLocation" {

@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Alternar %1$@";
 "menu.view.reload_page" = "Recarregar página";
 "navBar.close" = "Fechar";
-"nfc.detail.copy" = "Copiar para o Pasteboard";
-"nfc.detail.duplicate" = "Criar uma cópia";
-"nfc.detail.example_trigger" = "Exemplo de gatilho";
-"nfc.detail.fire" = "Evento de Incêndio";
-"nfc.detail.share" = "Identificador de compartilhamento";
-"nfc.detail.tag_value" = "Identificador de Tag";
-"nfc.detail.title" = "Tag NFC";
-"nfc.generic_tag_read" = "Leitura de tags";
-"nfc.list.description" = "As tags NFC escritas pelo aplicativo mostrarão uma notificação quando você aproximar seu dispositivo deles. Ativar a notificação iniciará o aplicativo e acionará um evento. \
-\
- As tags funcionarão em qualquer dispositivo com o GiToon instalado que tenha suporte de hardware para lê-las.";
-"nfc.list.learn_more" = "Saber mais";
-"nfc.list.read_tag" = "Ler tag";
-"nfc.list.title" = "Tags NFC";
-"nfc.list.write_tag" = "Gravar tag";
-"nfc.not_available" = "NFC não está disponível neste dispositivo";
-"nfc.read.error.generic_failure" = "Falha ao ler a tag";
-"nfc.read.error.not_home_assistant" = "A tag NFC não é uma tag do GiToon";
-"nfc.read.error.tag_invalid" = "A tag NFC é inválida";
-"nfc.read.start_message" = "Segure seu %@ perto de uma tag NFC";
-"nfc.tag_read" = "Leitura de tags NFC";
-"nfc.write.error.capacity" = "A tag NFC tem capacidade insuficiente: precisa de %ld mas só tem %ld";
-"nfc.write.error.invalid_format" = "A tag NFC não é o formato NDEF";
-"nfc.write.error.not_writable" = "A tag NFC é somente leitura";
-"nfc.write.identifier_choice.manual" = "Manual";
-"nfc.write.identifier_choice.message" = "O identificador ajuda a diferenciar várias tags.";
-"nfc.write.identifier_choice.random" = "Aleatório (recomendado)";
-"nfc.write.identifier_choice.title" = "Que tipo de identificador de tag?";
-"nfc.write.manual_input.title" = "Qual identificador para a tag?";
-"nfc.write.start_message" = "Segure seu %@ perto de uma tag NFC gravável";
-"nfc.write.success_message" = "Tag Escrita!";
 "no_label" = "Não";
 "notification_service.failed_to_load" = "Falha ao carregar anexo";
 "notification_service.loading_dynamic_actions" = "Carregando ações…";

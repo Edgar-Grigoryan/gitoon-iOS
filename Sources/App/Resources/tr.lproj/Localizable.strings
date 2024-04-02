@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Geçiş %1$@";
 "menu.view.reload_page" = "Sayfayı Yeniden Yükle";
 "navBar.close" = "Kapat";
-"nfc.detail.copy" = "Panoya kopyala";
-"nfc.detail.duplicate" = "Kopya Oluştur";
-"nfc.detail.example_trigger" = "Örnek Tetikleyici";
-"nfc.detail.fire" = "Olayı Çalıştır";
-"nfc.detail.share" = "Tanımlayıcıyı Paylaş";
-"nfc.detail.tag_value" = "Etiket Tanımlayıcısı";
-"nfc.detail.title" = "NFC Etiketi";
-"nfc.generic_tag_read" = "Etiketi Oku";
-"nfc.list.description" = "Uygulama tarafından yazılan NFC etiketleri, cihazınızı yanlarına getirdiğinizde bir bildirim gösterecektir. Bildirimi etkinleştirmek, uygulamayı başlatır ve bir etkinliği tetikler. \
-\
- Etiketler, onları okumak için donanım desteğine sahip olan GiToon yüklü herhangi bir cihazda çalışacaktır.";
-"nfc.list.learn_more" = "Daha fazla bilgi edinin";
-"nfc.list.read_tag" = "Etiketi Oku";
-"nfc.list.title" = "NFC Etiketleri";
-"nfc.list.write_tag" = "Etiket Yaz";
-"nfc.not_available" = "NFC bu cihazda kullanılamaz";
-"nfc.read.error.generic_failure" = "Etiket okunamadı";
-"nfc.read.error.not_home_assistant" = "NFC etiketi, GiToon etiketi değil";
-"nfc.read.error.tag_invalid" = "NFC etiketi geçersiz";
-"nfc.read.start_message" = "%@'lerinizi bir NFC etiketinin yakınında tutun";
-"nfc.tag_read" = "NFC Etiketi Okuma";
-"nfc.write.error.capacity" = "NFC etiketi yetersiz kapasiteye sahiptir: ihtiyacı %ld ama sadece %ld vardır";
-"nfc.write.error.invalid_format" = "NFC etiketi NDEF formatında değildir";
-"nfc.write.error.not_writable" = "NFC etiketi salt okunur";
-"nfc.write.identifier_choice.manual" = "Manuel";
-"nfc.write.identifier_choice.message" = "Tanımlayıcı, çeşitli etiketleri ayırt etmeye yardımcı olur.";
-"nfc.write.identifier_choice.random" = "Rastgele (Önerilen)";
-"nfc.write.identifier_choice.title" = "Ne tür etiket tanımlayıcısı?";
-"nfc.write.manual_input.title" = "Etiket için hangi tanımlayıcı?";
-"nfc.write.start_message" = "%@'lerinizi yazılabilir bir NFC etiketinin yakınında tutun";
-"nfc.write.success_message" = "Etiket Yazılı!";
 "no_label" = "Hayır";
 "notification_service.failed_to_load" = "Ek yüklenemedi";
 "notification_service.loading_dynamic_actions" = "Sahneler yükleniyor...";

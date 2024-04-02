@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "NFC etiketlerini okumak ve yazmak, olayları tetiklemenizi sağlar.";
 "NSCameraUsageDescription" = "Fotoğraf çekin ve bunları GiToon sunucunuza gönderin.";
 "NSCrossWebsiteTrackingUsageDescription" = "Yapılandırmanız gerektiriyorsa, isteğe bağlı olarak web siteleri arası izlemeyi etkinleştirin.";
 "NSFocusStatusUsageDescription" = "Odak durumunuzu bir sensör olarak bildirin.";

@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Commuta %1$@";
 "menu.view.reload_page" = "Recarregar la pàgina";
 "navBar.close" = "Close";
-"nfc.detail.copy" = "Copiar al porta-retalls";
-"nfc.detail.duplicate" = "Crear un duplicat";
-"nfc.detail.example_trigger" = "Disparador d'exemple";
-"nfc.detail.fire" = "Crida esdeveniment";
-"nfc.detail.share" = "Compartir identificador";
-"nfc.detail.tag_value" = "Identificador d’etiqueta";
-"nfc.detail.title" = "Etiqueta NFC";
-"nfc.generic_tag_read" = "Llegir etiqueta";
-"nfc.list.description" = "Les etiquetes NFC escrites per l'aplicació mostraran una notificació quan apropeu el vostre dispositiu. Si activeu la notificació, s'obrirà l’aplicació i disparará un esdeveniment. \
-\
-Les etiquetes funcionaran en qualsevol dispositiu amb GiToon instal·lat que tingui maquinari per llegir-les.";
-"nfc.list.learn_more" = "Més informació";
-"nfc.list.read_tag" = "Llegir l’etiqueta";
-"nfc.list.title" = "Etiquetes NFC";
-"nfc.list.write_tag" = "Escriure etiqueta";
-"nfc.not_available" = "L'NFC no està disponible en aquest dispositiu";
-"nfc.read.error.generic_failure" = "No s'ha pogut llegir l'etiqueta";
-"nfc.read.error.not_home_assistant" = "L'etiqueta NFC no és una etiqueta GiToon";
-"nfc.read.error.tag_invalid" = "L'etiqueta NFC no és vàlida";
-"nfc.read.start_message" = "Mentingueu el vostre %@ prop d'una etiqueta NFC";
-"nfc.tag_read" = "Lectura d'etiquetes NFC";
-"nfc.write.error.capacity" = "L’etiqueta NFC no té capacitat suficient: necessita %ld però només té %ld";
-"nfc.write.error.invalid_format" = "L’etiqueta NFC no té el format NDEF";
-"nfc.write.error.not_writable" = "L’etiqueta NFC és de només lectura";
-"nfc.write.identifier_choice.manual" = "Manual";
-"nfc.write.identifier_choice.message" = "L’identificador ajuda a diferenciar diverses etiquetes.";
-"nfc.write.identifier_choice.random" = "Aleatori (Recomanat)";
-"nfc.write.identifier_choice.title" = "Quin tipus d'identificador d'etiqueta?";
-"nfc.write.manual_input.title" = "Quin identificador per a l'etiqueta?";
-"nfc.write.start_message" = "Manteneu el vostre %@ prop d'una etiqueta NFC que es pugui escriure";
-"nfc.write.success_message" = "Etiqueta escrita!";
 "no_label" = "No";
 "notification_service.failed_to_load" = "No s'ha pogut carregar el fitxer adjunt";
 "notification_service.loading_dynamic_actions" = "Carregant Accions...";

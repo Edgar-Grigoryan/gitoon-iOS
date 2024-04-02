@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "讀寫NFC標籤可觸發事件";
 "NSCameraUsageDescription" = "拍照並上傳至 GiToon 伺服器。";
 "NSCrossWebsiteTrackingUsageDescription" = "假如設定需要，可選項開啟跨網站追蹤。";
 "NSFocusStatusUsageDescription" = "以感測器方式回報專注狀態。";

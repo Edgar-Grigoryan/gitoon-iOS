@@ -27,11 +27,8 @@ enum SettingsRootDataSource {
         case actions
         case sensors
         case complications
-        case nfc
-        case help
         case privacy
         case debugging
-        case whatsNew
 
         var row: SettingsButtonRow {
             let row = { () -> SettingsButtonRow in
@@ -44,11 +41,8 @@ enum SettingsRootDataSource {
                 case .actions: return SettingsRootDataSource.actions()
                 case .sensors: return SettingsRootDataSource.sensors()
                 case .complications: return SettingsRootDataSource.complications()
-                case .nfc: return SettingsRootDataSource.nfc()
-                case .help: return SettingsRootDataSource.help()
                 case .privacy: return SettingsRootDataSource.privacy()
                 case .debugging: return SettingsRootDataSource.debugging()
-                case .whatsNew: return SettingsRootDataSource.whatsNew()
                 }
             }()
             row.tag = rawValue
@@ -146,30 +140,6 @@ enum SettingsRootDataSource {
         }
     }
 
-    private static func nfc() -> SettingsButtonRow {
-        SettingsButtonRow {
-            $0.title = L10n.Nfc.List.title
-            $0.icon = .nfcVariantIcon
-            $0.hidden = .isCatalyst
-            $0.presentationMode = .show(controllerProvider: ControllerProvider.callback {
-                NFCListViewController()
-            }, onDismiss: nil)
-        }
-    }
-
-    private static func help() -> SettingsButtonRow {
-        SettingsButtonRow {
-            $0.title = L10n.helpLabel
-            $0.icon = .helpCircleOutlineIcon
-            $0.accessoryIcon = .openInNewIcon
-            $0.hidden = .isCatalyst
-            $0.onCellSelection { cell, row in
-                openURLInBrowser(URL(string: "https://companion.home-assistant.io")!, cell.formViewController())
-                row.deselect(animated: true)
-            }
-        }
-    }
-
     private static func privacy() -> SettingsButtonRow {
         SettingsButtonRow {
             $0.title = L10n.SettingsDetails.Privacy.title
@@ -189,21 +159,6 @@ enum SettingsRootDataSource {
             $0.presentationMode = .show(controllerProvider: .callback {
                 DebugSettingsViewController()
             }, onDismiss: nil)
-        }
-    }
-
-    private static func whatsNew() -> SettingsButtonRow {
-        SettingsButtonRow {
-            $0.title = L10n.Settings.WhatsNew.title
-            $0.icon = .starIcon
-            $0.accessoryIcon = .openInNewIcon
-            $0.onCellSelection { cell, row in
-                openURLInBrowser(
-                    URL(string: "https://www.home-assistant.io/latest-ios-release-notes/")!,
-                    cell.formViewController()
-                )
-                row.deselect(animated: true)
-            }
         }
     }
 }

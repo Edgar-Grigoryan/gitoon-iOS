@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "Čtení a zápis NFC štítků umožňuje spouštět události.";
 "NSCameraUsageDescription" = "Pořídí fotky a odešle je na server GiToona.";
 "NSCrossWebsiteTrackingUsageDescription" = "Volitelně povolte sledování napříč weby, pokud to Vaše konfigurace vyžaduje.";
 "NSFocusStatusUsageDescription" = "Hlásí stav zaostření jako senzor.";

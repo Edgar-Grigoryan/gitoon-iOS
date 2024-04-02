@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Basculer %1$@";
 "menu.view.reload_page" = "Rafraîchir la page";
 "navBar.close" = "Fermer";
-"nfc.detail.copy" = "Copier dans le presse-papier";
-"nfc.detail.duplicate" = "Créer un doublon";
-"nfc.detail.example_trigger" = "Exemple de déclencheur";
-"nfc.detail.fire" = "Événement d'incendie";
-"nfc.detail.share" = "Partager l'identifiant";
-"nfc.detail.tag_value" = "Identifiant de la balise";
-"nfc.detail.title" = "Balise NFC";
-"nfc.generic_tag_read" = "Tag lu";
-"nfc.list.description" = "Les balises NFC écrites par l'application afficheront une notification lorsque vous rapprochez votre appareil. L'activation de la notification lancera l'application et déclenchera un événement. \
-\
-Les balises fonctionneront sur tout appareil sur lequel GiToon est installé et qui dispose d'un support matériel pour les lire.";
-"nfc.list.learn_more" = "En savoir plus";
-"nfc.list.read_tag" = "Lire la balise";
-"nfc.list.title" = "Balises NFC";
-"nfc.list.write_tag" = "Ecrire une balise";
-"nfc.not_available" = "Le NFC n'est pas disponible sur cet appareil";
-"nfc.read.error.generic_failure" = "Échec de lecture de la balise";
-"nfc.read.error.not_home_assistant" = "Le tag NFC n'est pas un tag GiToon";
-"nfc.read.error.tag_invalid" = "Le tag NFC n'est pas valide";
-"nfc.read.start_message" = "Tenez votre %@ près d’une balise NFC";
-"nfc.tag_read" = "Balise NFC lue";
-"nfc.write.error.capacity" = "La balise NFC a une capacité insuffisante: nécessite %ld mais n'a que %ld";
-"nfc.write.error.invalid_format" = "La balise NFC n'est pas au format NDEF";
-"nfc.write.error.not_writable" = "Le tag NFC est en lecture seule";
-"nfc.write.identifier_choice.manual" = "Manuel";
-"nfc.write.identifier_choice.message" = "L'identifiant permet de différencier les différentes balises.";
-"nfc.write.identifier_choice.random" = "Aléatoire (recommandé)";
-"nfc.write.identifier_choice.title" = "Identifiant de la balise";
-"nfc.write.manual_input.title" = "Quel est l'identifiant du tag ?";
-"nfc.write.start_message" = "Tenez votre %@ à proximité d'un tag NFC inscriptible";
-"nfc.write.success_message" = "Tag écrit !";
 "no_label" = "Non";
 "notification_service.failed_to_load" = "Échec du chargement de la pièce jointe";
 "notification_service.loading_dynamic_actions" = "Chargement des actions";

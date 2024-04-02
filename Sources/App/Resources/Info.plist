@@ -46,7 +46,7 @@
 					<string>CarPlay</string>
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).CarPlaySceneDelegate</string>
-            	</dict>
+				</dict>
 			</array>
 			<key>UIWindowSceneSessionRoleApplication</key>
 			<array>
@@ -153,8 +153,6 @@
 	<string>Photo Library access is needed to allow saving photos from the web view.</string>
 	<key>NSSiriUsageDescription</key>
 	<string>We use Siri to allow created shortcuts to interact with the app.</string>
-	<key>NFCReaderUsageDescription</key>
-	<string>Reading and writing NFC tags allows you to trigger events.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Used to dictate text to Assist.</string>
 	<key>NSCameraUsageDescription</key>
@@ -163,27 +161,9 @@
 	<string>Record audio using your GiToon frontend.</string>
 	<key>NSFocusStatusUsageDescription</key>
 	<string>Report your focus status as a sensor.</string>
-	<key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
-	<array>
-		<string>12FC</string>
-	</array>
-	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
-	<array>
-		<string>D2760000850101</string>
-	</array>
 	<key>NSUserActivityTypes</key>
 	<array>
-		<string>CallServiceIntent</string>
-		<string>FireEventIntent</string>
-		<string>GetCameraImageIntent</string>
-		<string>OpenPageIntent</string>
-		<string>PerformActionIntent</string>
-		<string>RenderTemplateIntent</string>
-		<string>SendLocationIntent</string>
-		<string>UpdateSensorsIntent</string>
-		<string>WidgetActionsIntent</string>
-		<string>WidgetOpenPageIntent</string>
-		<string>AssistIntent</string>
+		<string>INSendMessageIntent</string>
 	</array>
 	<key>UIApplicationShortcutItems</key>
 	<array>
@@ -233,9 +213,5 @@
 		<key>TemporaryFullAccuracyReasonManualUpdate</key>
 		<string>[localized in strings file]</string>
 	</dict>
-    <key>NSUserActivityTypes</key>
-    <array>
-        <string>INSendMessageIntent</string>
-    </array>
 </dict>
 </plist>

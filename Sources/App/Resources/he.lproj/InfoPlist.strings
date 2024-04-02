@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "Reading and writing NFC tags allows you to trigger events.";
 "NSCameraUsageDescription" = "צלם תמונות ושלח אותן לשרת הום אסיסטנט שלך.";
 "NSCrossWebsiteTrackingUsageDescription" = "לחלופין, הפעל מעקב חוצה אתרי אינטרנט אם התצורה שלך דורשת זאת.";
 "NSFocusStatusUsageDescription" = "דווח על מצב הפוקוס שלך כחיישן.";

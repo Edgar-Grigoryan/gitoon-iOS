@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "%1$@ kapcsolása";
 "menu.view.reload_page" = "Oldal újratöltése";
 "navBar.close" = "Bezárás";
-"nfc.detail.copy" = "Másolás a beillesztőtáblára";
-"nfc.detail.duplicate" = "Hozzon létre egy másolatot";
-"nfc.detail.example_trigger" = "Példa eseményindító";
-"nfc.detail.fire" = "Esemény meghívása";
-"nfc.detail.share" = "Azonosító megosztása";
-"nfc.detail.tag_value" = "Címkeazonosító";
-"nfc.detail.title" = "NFC-címke";
-"nfc.generic_tag_read" = "Címke olvasása";
-"nfc.list.description" = "Az alkalmazás által írt NFC-címkék értesítést jeleznek, ha a készüléket a közelükbe viszi. Az értesítés aktiválása elindítja az alkalmazást és eseményt indít.\
-\
-A címkék minden olyan eszközön működnek, amelyre telepítve van a GiToon és amely hardveres támogatással rendelkezik az olvasásukhoz.";
-"nfc.list.learn_more" = "Tudjon meg többet";
-"nfc.list.read_tag" = "Címke olvasása";
-"nfc.list.title" = "NFC-címkék";
-"nfc.list.write_tag" = "Címke írása";
-"nfc.not_available" = "Az NFC nem érhető el ezen a készüléken";
-"nfc.read.error.generic_failure" = "Nem sikerült beolvasni a matricát";
-"nfc.read.error.not_home_assistant" = "Az NFC-címke nem GiToon címke";
-"nfc.read.error.tag_invalid" = "Az NFC-címke érvénytelen";
-"nfc.read.start_message" = "Tartsa a(z) %@-t egy NFC-címke közelébe";
-"nfc.tag_read" = "NFC-címke olvasása";
-"nfc.write.error.capacity" = "Az NFC-címke kapacitása nem elegendő: %ld szükséges, de csak %ld van.";
-"nfc.write.error.invalid_format" = "Az NFC-címke nem NDEF formátumú";
-"nfc.write.error.not_writable" = "Az NFC-címke csak olvasható";
-"nfc.write.identifier_choice.manual" = "Manuális";
-"nfc.write.identifier_choice.message" = "Az azonosító segít megkülönböztetni a különböző címkéket.";
-"nfc.write.identifier_choice.random" = "Véletlenszerű (ajánlott)";
-"nfc.write.identifier_choice.title" = "Milyen címkeazonosító?";
-"nfc.write.manual_input.title" = "Milyen azonosítója van a címkének?";
-"nfc.write.start_message" = "Tartsa a(z) %@-t egy írható NFC-címke közelében.";
-"nfc.write.success_message" = "Címke megírva!";
 "no_label" = "Nem";
 "notification_service.failed_to_load" = "Nem sikerült betölteni a mellékletet";
 "notification_service.loading_dynamic_actions" = "Műveletek betöltése…";

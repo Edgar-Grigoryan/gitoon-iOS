@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "Читання та запис тегів NFC дозволяє запускати події.";
 "NSCameraUsageDescription" = "Зробіть фотографії та надішліть їх на сервер GiToon.";
 "NSCrossWebsiteTrackingUsageDescription" = "За бажанням увімкніть відстеження між веб-сайтами, якщо цього вимагає ваша конфігурація.";
 "NSFocusStatusUsageDescription" = "Report your focus status as a sensor.";

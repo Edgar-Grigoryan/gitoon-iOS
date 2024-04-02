@@ -48,10 +48,6 @@ class NotificationSettingsViewController: HAFormViewController {
 
             <<< notificationPermissionRow()
 
-            <<< LearnMoreButtonRow {
-                $0.value = URL(string: "https://companion.home-assistant.io/app/ios/notifications")!
-            }
-
             +++ Section(
                 footer: L10n.SettingsDetails.Notifications.Sounds.footer
             )

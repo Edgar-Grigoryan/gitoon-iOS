@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Vaihda %1$@";
 "menu.view.reload_page" = "Lataa sivu uudelleen";
 "navBar.close" = "Sulje";
-"nfc.detail.copy" = "Kopioi leikepöydälle";
-"nfc.detail.duplicate" = "Luo kopio";
-"nfc.detail.example_trigger" = "Example Trigger";
-"nfc.detail.fire" = "Fire Event";
-"nfc.detail.share" = "Jaa tunniste";
-"nfc.detail.tag_value" = "Tag Identifier";
-"nfc.detail.title" = "NFC-tunniste";
-"nfc.generic_tag_read" = "Tag Read";
-"nfc.list.description" = "Sovelluksen kirjoittamat NFC-tunnisteet näyttävät ilmoituksen, kun tuot laitteesi niiden lähelle. Ilmoituksen painaminen käynnistää sovelluksen joka käynnistää tapahtuman. \
-\
-NFC-tunnisteet toimivat millä tahansa laitteella, johon on asennettu GiToon ja jolla on tuki NFC-tunnisteiden lukemiseen.";
-"nfc.list.learn_more" = "Lisätietoja";
-"nfc.list.read_tag" = "Lue tunniste";
-"nfc.list.title" = "NFC-tunnisteet";
-"nfc.list.write_tag" = "Kirjoita tunniste";
-"nfc.not_available" = "NFC ei ole käytettävissä tällä laitteella";
-"nfc.read.error.generic_failure" = "Tunnisteen lukeminen epäonnistui";
-"nfc.read.error.not_home_assistant" = "NFC-tunniste ei ole GiToon -tunniste";
-"nfc.read.error.tag_invalid" = "NFC-tunniste on virheellinen";
-"nfc.read.start_message" = "Pidä %@ lähellä NFC-tunnistetta";
-"nfc.tag_read" = "NFC-tunnisteen luku";
-"nfc.write.error.capacity" = "NFC tag has insufficient capacity: needs %ld but only has %ld";
-"nfc.write.error.invalid_format" = "NFC-tunniste ei ole NDEF-muodossa";
-"nfc.write.error.not_writable" = "NFC-tunniste on vain luku-tyyppinen";
-"nfc.write.identifier_choice.manual" = "Manuaalinen";
-"nfc.write.identifier_choice.message" = "The identifier helps differentiate various tags.";
-"nfc.write.identifier_choice.random" = "Satunnainen (suositus)";
-"nfc.write.identifier_choice.title" = "What kind of tag identifier?";
-"nfc.write.manual_input.title" = "What identifier for the tag?";
-"nfc.write.start_message" = "Pidä %@ kirjoitettavan NFC-tunnisteen lähellä";
-"nfc.write.success_message" = "Tag Written!";
 "no_label" = "Ei";
 "notification_service.failed_to_load" = "Liitteen lataaminen epäonnistui";
 "notification_service.loading_dynamic_actions" = "Ladataan toimintoja…";

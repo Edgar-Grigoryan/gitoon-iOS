@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Toggle %1$@";
 "menu.view.reload_page" = "Reload Page";
 "navBar.close" = "Затвори";
-"nfc.detail.copy" = "Копиране в клипборда";
-"nfc.detail.duplicate" = "Създайте дубликат";
-"nfc.detail.example_trigger" = "Примерен тригер";
-"nfc.detail.fire" = "Стартирай събитие";
-"nfc.detail.share" = "Сподели идентификатор";
-"nfc.detail.tag_value" = "Идентификатор на етикет";
-"nfc.detail.title" = "NFC етикет";
-"nfc.generic_tag_read" = "Tag Read";
-"nfc.list.description" = "NFC таговете, записани от приложението, ще показват известие, когато донесете устройството си близо до тях. Активирането на известието ще стартира приложението и ще задейства събитие.\
-\
-Таговете ще работят на всяко устройство с инсталиран GiToon, което има хардуерна поддръжка за четенето им.";
-"nfc.list.learn_more" = "Научете повече";
-"nfc.list.read_tag" = "Прочетете етикет";
-"nfc.list.title" = "NFC тагове";
-"nfc.list.write_tag" = "Напишете етикет";
-"nfc.not_available" = "NFC не е налично на това устройство";
-"nfc.read.error.generic_failure" = "Неуспешно четене на етикет";
-"nfc.read.error.not_home_assistant" = "NFC таг не е таг на GiToon";
-"nfc.read.error.tag_invalid" = "NFC маркерът е невалиден";
-"nfc.read.start_message" = "Дръжте вашия %@ близо до NFC таг";
-"nfc.tag_read" = "Четене на NFC етикет";
-"nfc.write.error.capacity" = "NFC маркерът няма достатъчен капацитет: нуждае се от %ld, но има само %ld";
-"nfc.write.error.invalid_format" = "NFC тагът не е в NDEF формат";
-"nfc.write.error.not_writable" = "NFC тагът е само за четене";
-"nfc.write.identifier_choice.manual" = "Ръчно";
-"nfc.write.identifier_choice.message" = "Идентификаторът помага за разграничаване на различните тагове.";
-"nfc.write.identifier_choice.random" = "Случаен (Препоръчително)";
-"nfc.write.identifier_choice.title" = "Какъв вид идентификатор на етикет?";
-"nfc.write.manual_input.title" = "Какъв идентификатор за етикета?";
-"nfc.write.start_message" = "Дръжте вашия %@ близо до записващ NFC таг";
-"nfc.write.success_message" = "Написан етикет!";
 "no_label" = "No";
 "notification_service.failed_to_load" = "Failed to load attachment";
 "notification_service.loading_dynamic_actions" = "Действията се зареждат...";

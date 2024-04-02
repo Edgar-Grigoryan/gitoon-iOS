@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Muuda %1$@ olekut";
 "menu.view.reload_page" = "Taaslae vaade";
 "navBar.close" = "Sulge";
-"nfc.detail.copy" = "Kopeeri lõikelauale";
-"nfc.detail.duplicate" = "Loo koopia";
-"nfc.detail.example_trigger" = "Näidispäästik";
-"nfc.detail.fire" = "Käivita sündmus";
-"nfc.detail.share" = "Jaga identifikaatorit";
-"nfc.detail.tag_value" = "Märgise ID";
-"nfc.detail.title" = "NFC märgis";
-"nfc.generic_tag_read" = "Märgise lugemine";
-"nfc.list.description" = "Rakenduse poolt kirjutatud NFC-märgised näitavad teavitust kui viid oma seadme nende lähedusse. Teate aktiveerimine käivitab rakenduse ja vallandab sündmuse.\
-\
-Sildid toimivad igas seadmes, kuhu on paigaldatud GiToon, millel on nende lugemiseks riistvaraline tugi.";
-"nfc.list.learn_more" = "Lisateave";
-"nfc.list.read_tag" = "Loe NFC märgist";
-"nfc.list.title" = "NFC-märgised";
-"nfc.list.write_tag" = "Kirjuta NFC märgis";
-"nfc.not_available" = "NFC pole selles seadmes saadaval";
-"nfc.read.error.generic_failure" = "Märgise lugemine nurjus";
-"nfc.read.error.not_home_assistant" = "NFC-märgis ei ole GiTooni märgis";
-"nfc.read.error.tag_invalid" = "NFC-märgis on sobimatu";
-"nfc.read.start_message" = "Hoia oma %@  NFC-märgise lähedal";
-"nfc.tag_read" = "NFC märgise lugemine";
-"nfc.write.error.capacity" = "NFC-märgisel on ebapiisav maht: vajab %ld , kuid sellel on ainult %ld";
-"nfc.write.error.invalid_format" = "NFC-märgis ei ole NDEF-vormingus";
-"nfc.write.error.not_writable" = "NFC-märgis on kirjutuskaitstud";
-"nfc.write.identifier_choice.manual" = "Käsitsi";
-"nfc.write.identifier_choice.message" = "Nimi aitab eristada erinevaid märgiseid.";
-"nfc.write.identifier_choice.random" = "Juhuslik (soovitatav)";
-"nfc.write.identifier_choice.title" = "Millist tüüpi märgise identifikaator?";
-"nfc.write.manual_input.title" = "Märgise nimi?";
-"nfc.write.start_message" = "Hoia oma %@ kirjutatava NFC-märgise lähedal";
-"nfc.write.success_message" = "Märgis on kirjutatud!";
 "no_label" = "Ei";
 "notification_service.failed_to_load" = "Manuse laadimine nurjus";
 "notification_service.loading_dynamic_actions" = "Toimingute laadimine…";

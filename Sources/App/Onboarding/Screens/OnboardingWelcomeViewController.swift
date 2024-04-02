@@ -48,20 +48,6 @@ class OnboardingWelcomeViewController: UIViewController, OnboardingViewControlle
             $0.textAlignment = .center
             $0.numberOfLines = 0
         })
-        stackView.addArrangedSubview(with(UIButton(type: .system)) {
-            $0.setAttributedTitle(NSAttributedString(
-                string: L10n.Nfc.List.learnMore,
-                attributes: [.underlineStyle: NSUnderlineStyle.single.rawValue]
-            ), for: .normal)
-            $0.titleLabel?.font = .preferredFont(forTextStyle: .body)
-            $0.setTitleColor(Current.style.onboardingLabelSecondary, for: .normal)
-            $0.addTarget(self, action: #selector(learnMoreTapped(_:)), for: .touchUpInside)
-
-            UIView.performWithoutAnimation { [button = $0] in
-                // Prevent the button from fading in initially
-                button.layoutIfNeeded()
-            }
-        })
 
         stackView.addArrangedSubview(equalSpacers.next())
 
@@ -86,13 +72,5 @@ class OnboardingWelcomeViewController: UIViewController, OnboardingViewControlle
 
     @objc private func continueTapped(_ sender: UIButton) {
         show(OnboardingScanningViewController(), sender: self)
-    }
-
-    @objc private func learnMoreTapped(_ sender: UIButton) {
-        present(
-            SFSafariViewController(url: .init(string: "http://www.home-assistant.io")!),
-            animated: true,
-            completion: nil
-        )
     }
 }

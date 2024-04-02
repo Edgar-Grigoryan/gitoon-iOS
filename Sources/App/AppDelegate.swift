@@ -85,12 +85,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             lifecycleManager.isActive
         }
 
-        #if targetEnvironment(simulator)
-        Current.tags = SimulatorTagManager()
-        #else
-        Current.tags = iOSTagManager()
-        #endif
-
         notificationManager.setupNotifications()
         setupFirebase()
         setupModels()
@@ -169,13 +163,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         precondition(Current.sceneManager.supportsMultipleScenes)
         let delegate: Guarantee<SettingsSceneDelegate> = sceneManager.scene(for: .init(activity: .settings))
         delegate.done { $0.pushActions(animated: true) }
-    }
-
-    @objc func openHelp() {
-        openURLInBrowser(
-            URL(string: "https://companion.home-assistant.io")!,
-            nil
-        )
     }
 
     func application(
@@ -340,13 +327,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 message: L10n.Alerts.Deprecations.NotificationCategory.message("iOS-2022.4"),
                 preferredStyle: .alert
             )
-            alert.addAction(UIAlertAction(title: L10n.Nfc.List.learnMore, style: .default, handler: { _ in
-                userDefaults.set(true, forKey: seenKey)
-                openURLInBrowser(
-                    URL(string: "https://companion.home-assistant.io/app/ios/actionable-notifications")!,
-                    nil
-                )
-            }))
             alert.addAction(UIAlertAction(title: L10n.okLabel, style: .cancel, handler: { _ in
                 userDefaults.set(true, forKey: seenKey)
             }))

@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Toggle %1$@";
 "menu.view.reload_page" = "Herlaad pagina";
 "navBar.close" = "Close";
-"nfc.detail.copy" = "Kopieer naar plakbord";
-"nfc.detail.duplicate" = "Maak een duplicaat";
-"nfc.detail.example_trigger" = "Voorbeeld Trigger";
-"nfc.detail.fire" = "Gebeurtenis uitvoeren";
-"nfc.detail.share" = "Deel identifier";
-"nfc.detail.tag_value" = "Tag-id";
-"nfc.detail.title" = "NFC-tag";
-"nfc.generic_tag_read" = "Tag lezen";
-"nfc.list.description" = "NFC-tags die door de app zijn geschreven, geven een melding weer wanneer je je apparaat in de buurt brengt. Als je de melding activeert, wordt de app gestart en wordt een gebeurtenis geactiveerd.\
-\
-Tags werken op elk apparaat waarop GiToon is geïnstalleerd en dat hardwareondersteuning heeft om ze te lezen.";
-"nfc.list.learn_more" = "Meer informatie";
-"nfc.list.read_tag" = "Lees Tag";
-"nfc.list.title" = "NFC-tags";
-"nfc.list.write_tag" = "Schrijf Tag";
-"nfc.not_available" = "NFC is niet beschikbaar op dit apparaat";
-"nfc.read.error.generic_failure" = "Kan de tag niet lezen";
-"nfc.read.error.not_home_assistant" = "NFC-tag is geen GiToon-tag";
-"nfc.read.error.tag_invalid" = "NFC-tag is ongeldig";
-"nfc.read.start_message" = "Houd je %@ bij een NFC-tag";
-"nfc.tag_read" = "NFC-tag lezen";
-"nfc.write.error.capacity" = "NFC-tag heeft onvoldoende capaciteit: heeft %ld nodig, maar heeft %ld.";
-"nfc.write.error.invalid_format" = "NFC-tag heeft geen NDEF-indeling";
-"nfc.write.error.not_writable" = "NFC-tag is alleen-lezen";
-"nfc.write.identifier_choice.manual" = "Handmatig";
-"nfc.write.identifier_choice.message" = "De identifier helpt verschillende tags te onderscheiden.";
-"nfc.write.identifier_choice.random" = "Willekeurig (aanbevolen)";
-"nfc.write.identifier_choice.title" = "Wat voor soort tag identifier?";
-"nfc.write.manual_input.title" = "Welke identificatie voor de tag?";
-"nfc.write.start_message" = "Houd je %@ bij een beschrijfbare NFC-tag";
-"nfc.write.success_message" = "Tag geschreven!";
 "no_label" = "Nee";
 "notification_service.failed_to_load" = "Bijlage kan niet worden geladen";
 "notification_service.loading_dynamic_actions" = "Acties aan het laden...";

@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Přepnout %1$@";
 "menu.view.reload_page" = "Znovu načíst stránku";
 "navBar.close" = "Zavřít";
-"nfc.detail.copy" = "Kopírovat do schránky";
-"nfc.detail.duplicate" = "Vytvořit duplikát";
-"nfc.detail.example_trigger" = "Příklad spouštěče";
-"nfc.detail.fire" = "Spustit událost";
-"nfc.detail.share" = "Sdílet identifikátor";
-"nfc.detail.tag_value" = "Identifikátor štítku";
-"nfc.detail.title" = "NFC štítek";
-"nfc.generic_tag_read" = "Přečíst štítek";
-"nfc.list.description" = "NFC štítky zapsané pomocí aplikace vyvolají událost, jakmile k nim přiblížíte své zařízení.\
-\
-Štítky budou fungovat na jakémkoli zařízení s GiToonem a hardwarovou podporou k jejich čtení.";
-"nfc.list.learn_more" = "Další informace";
-"nfc.list.read_tag" = "Přečíst štítek";
-"nfc.list.title" = "NFC štítky";
-"nfc.list.write_tag" = "Zapsat štítek";
-"nfc.not_available" = "NFC není na tomto zařízení k dispozici";
-"nfc.read.error.generic_failure" = "Nepodařilo se přečíst štítek";
-"nfc.read.error.not_home_assistant" = "NFC štítek neobsahuje štítek z GiToona";
-"nfc.read.error.tag_invalid" = "NFC štítek je neplatný";
-"nfc.read.start_message" = "Podržte %@ poblíž NFC štítku";
-"nfc.tag_read" = "Přečíst NFC štítek";
-"nfc.write.error.capacity" = "NFC štítek nemá dostatečnou kapacitu: potřebuje %ld, ale má jen %ld";
-"nfc.write.error.invalid_format" = "NFC štítek není ve formátu NDEF";
-"nfc.write.error.not_writable" = "NFC štítek je jen pro čtení";
-"nfc.write.identifier_choice.manual" = "Ručně";
-"nfc.write.identifier_choice.message" = "Identifikátor pomáhá rozlišovat různé štítky.";
-"nfc.write.identifier_choice.random" = "Náhodný (doporučeno)";
-"nfc.write.identifier_choice.title" = "Jaký bude druh identifikátoru štítku?";
-"nfc.write.manual_input.title" = "Jaký bude identifikátor štítku?";
-"nfc.write.start_message" = "Podržte %@ poblíž zapisovatelného NFC štítku";
-"nfc.write.success_message" = "Štítek zapsán!";
 "no_label" = "Ne";
 "notification_service.failed_to_load" = "Načtení přílohy se nezdařilo";
 "notification_service.loading_dynamic_actions" = "Načítání akcí...";

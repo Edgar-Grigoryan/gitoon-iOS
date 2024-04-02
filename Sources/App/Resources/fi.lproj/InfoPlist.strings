@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "Reading and writing NFC tags allows you to trigger events.";
 "NSCameraUsageDescription" = "Ota valokuvia ja lähetä ne GiToon -palvelimellesi.";
 "NSCrossWebsiteTrackingUsageDescription" = "Optionally enable cross-website tracking if your configuration requires it.";
 "NSFocusStatusUsageDescription" = "Ilmoita tarkennustilasi anturina.";

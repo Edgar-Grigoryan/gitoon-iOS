@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "Llegir i escriure etiquetes NFC us permet activar esdeveniments.";
 "NSCameraUsageDescription" = "Feu fotos i envieu-les al servidor de GiToon.";
 "NSCrossWebsiteTrackingUsageDescription" = "Opcionalment, activeu el seguiment entre llocs web si la vostra configuració ho requereix.";
 "NSFocusStatusUsageDescription" = "Informa del teu estat de concentració com a un sensor.";

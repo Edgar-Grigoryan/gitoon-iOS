@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "NFCタグの読み取りと書き込みにより、イベントをトリガーできます。";
 "NSCameraUsageDescription" = "写真を撮って、GiToon serverに送ることができます。";
 "NSCrossWebsiteTrackingUsageDescription" = "必要に応じて、クロス Web サイト トラッキングを有効にします。";
 "NSFocusStatusUsageDescription" = "フォーカスの状態をセンサーとして報告します。";

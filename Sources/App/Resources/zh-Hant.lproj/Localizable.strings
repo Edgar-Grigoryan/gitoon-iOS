@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "切換 %1$@";
 "menu.view.reload_page" = "重新載入頁面";
 "navBar.close" = "關閉";
-"nfc.detail.copy" = "複製到剪貼簿";
-"nfc.detail.duplicate" = "進行複製";
-"nfc.detail.example_trigger" = "觸發範例";
-"nfc.detail.fire" = "觸發事件";
-"nfc.detail.share" = "分享識別";
-"nfc.detail.tag_value" = "邊前識別";
-"nfc.detail.title" = "NFC標籤";
-"nfc.generic_tag_read" = "標籤讀取";
-"nfc.list.description" = "由 App 寫入的 NFC 標籤將會於於靠近裝置時顯示通知，啟用通知將啟動 App 並觸發事件。\
-\
-標籤與任何安裝 GiToon 的裝置、並具備硬體支援的設備上進行讀取。";
-"nfc.list.learn_more" = "了解更多";
-"nfc.list.read_tag" = "讀取標籤";
-"nfc.list.title" = "NFC 標籤";
-"nfc.list.write_tag" = "寫入標籤";
-"nfc.not_available" = "無法於此裝置使用 NFC";
-"nfc.read.error.generic_failure" = "讀取標籤失敗";
-"nfc.read.error.not_home_assistant" = "NFC 標籤並非 GiToon 標籤";
-"nfc.read.error.tag_invalid" = "NFC 標籤無效";
-"nfc.read.start_message" = "%@";
-"nfc.tag_read" = "NFC 標籤讀取";
-"nfc.write.error.capacity" = "NFC 標籤容量不足：需要 %ld 但僅剩下 %ld";
-"nfc.write.error.invalid_format" = "非 NDEF 格式 NFC 標籤";
-"nfc.write.error.not_writable" = "唯獨的NFC標籤";
-"nfc.write.identifier_choice.manual" = "手動";
-"nfc.write.identifier_choice.message" = "識別有助於區分不同的標籤。";
-"nfc.write.identifier_choice.random" = "隨機（推薦）";
-"nfc.write.identifier_choice.title" = "何種標籤識別";
-"nfc.write.manual_input.title" = "哪一種標籤識別？";
-"nfc.write.start_message" = "將 %@ 靠近 NFC 標籤";
-"nfc.write.success_message" = "標籤已寫入！";
 "no_label" = "否";
 "notification_service.failed_to_load" = "載入附帶檔案失敗";
 "notification_service.loading_dynamic_actions" = "載入動作...";

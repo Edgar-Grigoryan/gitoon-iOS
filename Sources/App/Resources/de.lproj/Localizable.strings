@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Schalte %1$@ um";
 "menu.view.reload_page" = "Seite neuladen";
 "navBar.close" = "Schließen";
-"nfc.detail.copy" = "In die Zwischenablage kopieren";
-"nfc.detail.duplicate" = "Duplikat erstellen";
-"nfc.detail.example_trigger" = "Beispiel Auslöser";
-"nfc.detail.fire" = "Event auslösen";
-"nfc.detail.share" = "Id teilen";
-"nfc.detail.tag_value" = "Tag Id";
-"nfc.detail.title" = "NFC Tag";
-"nfc.generic_tag_read" = "Tag gelesen";
-"nfc.list.description" = "Von der App beschriebene NFC-Tags lösen eine Mitteilung aus, wenn du dein Gerät in ihre Nähe bringst. Das Antippen der Mitteilung öffnet die App und löst ein Event aus. \
-\
-Tags funktionieren auf jedem Gerät mit Hardwareunterstützung zum Lesen von NFC-Tags, auf dem GiToon installiert ist.";
-"nfc.list.learn_more" = "Mehr Informationen";
-"nfc.list.read_tag" = "Tag lesen";
-"nfc.list.title" = "NFC Tags";
-"nfc.list.write_tag" = "Tag beschreiben";
-"nfc.not_available" = "NFC ist auf diesem Gerät nicht verfügbar";
-"nfc.read.error.generic_failure" = "Lesen des Tags fehlgeschlagen";
-"nfc.read.error.not_home_assistant" = "NFC-Tag ist kein GiToon Tag";
-"nfc.read.error.tag_invalid" = "NFC-Tag ist ungültig";
-"nfc.read.start_message" = "Halte dein/deine %@ nahe an einen NFC-Tag";
-"nfc.tag_read" = "NFC Tag lesen";
-"nfc.write.error.capacity" = "Kapazität des NFC Tags zu gering: benötigt %ld, aber nur %ld vorhanden";
-"nfc.write.error.invalid_format" = "Der NFC-Tag ist nicht im NDEF-Format";
-"nfc.write.error.not_writable" = "Der NFC-Tag ist schreibgeschützt";
-"nfc.write.identifier_choice.manual" = "Manuell";
-"nfc.write.identifier_choice.message" = "Diese Id hilft bei der Unterscheidung mehrerer Tags.";
-"nfc.write.identifier_choice.random" = "Zufällig (empfohlen)";
-"nfc.write.identifier_choice.title" = "Welche Art von Tag Id?";
-"nfc.write.manual_input.title" = "Welche Id für den Tag?";
-"nfc.write.start_message" = "Halte dein/deine %@ nahe an einen beschreibbaren NFC-Tag";
-"nfc.write.success_message" = "Tag beschrieben!";
 "no_label" = "Nein";
 "notification_service.failed_to_load" = "Fehler beim Laden des Anhangs";
 "notification_service.loading_dynamic_actions" = "Aktionen werden geladen...";

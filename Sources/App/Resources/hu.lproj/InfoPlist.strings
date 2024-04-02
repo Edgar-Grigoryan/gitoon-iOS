@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "Az NFC-címkék olvasása és írása lehetővé teszi események indítását.";
 "NSCameraUsageDescription" = "Készítsen fényképeket és küldje el őket a GiToon szerverére.";
 "NSCrossWebsiteTrackingUsageDescription" = "Opcionálisan engedélyezze a webhelyek közötti nyomon követést, ha a konfiguráció megköveteli.";
 "NSFocusStatusUsageDescription" = "Jelentse a fókusz állapotát érzékelőként.";

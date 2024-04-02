@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Переключить %1$@";
 "menu.view.reload_page" = "Reload Page";
 "navBar.close" = "Закрыть";
-"nfc.detail.copy" = "Копировать на бумагу или в память";
-"nfc.detail.duplicate" = "Создать дубликат";
-"nfc.detail.example_trigger" = "Пример триггера";
-"nfc.detail.fire" = "Запустить событие";
-"nfc.detail.share" = "Поделись идентификатором";
-"nfc.detail.tag_value" = "Идентификатор метки";
-"nfc.detail.title" = "NFC-метка";
-"nfc.generic_tag_read" = "Чтение меток";
-"nfc.list.description" = "NFC-метки, записанные приложением, будут отображать уведомление, когда вы поднесете к ним свое устройство. Активация уведомления приведет к запуску приложения и запуску события.\
-\
-Теги будут работать на любом устройстве с установленным GiToon, которое имеет аппаратную поддержку для их чтения.";
-"nfc.list.learn_more" = "Узнайте больше";
-"nfc.list.read_tag" = "Считать метку";
-"nfc.list.title" = "NFC-метки";
-"nfc.list.write_tag" = "Записать метку";
-"nfc.not_available" = "NFC недоступен на этом устройстве";
-"nfc.read.error.generic_failure" = "Не удалось прочитать метку";
-"nfc.read.error.not_home_assistant" = "NFC-метка не является тегом GiToon";
-"nfc.read.error.tag_invalid" = "NFC-метка недействительна";
-"nfc.read.start_message" = "Держите %@ рядом с NFC-меткой";
-"nfc.tag_read" = "Чтение NFC-метки";
-"nfc.write.error.capacity" = "NFC-метка имеет недостаточную емкость: требуется %ld, но есть только %ld";
-"nfc.write.error.invalid_format" = "NFC-метка не является форматом NDEF (формат обмена данными NFC)";
-"nfc.write.error.not_writable" = "NFC-метка доступна только для чтения";
-"nfc.write.identifier_choice.manual" = "Руководство";
-"nfc.write.identifier_choice.message" = "Идентификатор помогает различать различные метки.";
-"nfc.write.identifier_choice.random" = "Случайно (рекомендуется)";
-"nfc.write.identifier_choice.title" = "Какой тип идентификатора метки?";
-"nfc.write.manual_input.title" = "Какой идентификатор метки?";
-"nfc.write.start_message" = "Держите ваш %@ рядом с записываемой NFC меткой";
-"nfc.write.success_message" = "Метка записана!";
 "no_label" = "Нет";
 "notification_service.failed_to_load" = "Не удалось загрузить вложение";
 "notification_service.loading_dynamic_actions" = "Загрузка действий…";

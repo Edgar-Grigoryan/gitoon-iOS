@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "Läsning och skrivning till NFC-taggar möjliggör att du startar händelser.";
 "NSCameraUsageDescription" = "Ta bilder och skicka dem till din GiToon-server.";
 "NSCrossWebsiteTrackingUsageDescription" = "Det är möjligt att tillåta kors-spårning av webbplatser om dina inställningar tillåter det.";
 "NSFocusStatusUsageDescription" = "Rapportera din fokusstatus som en sensor.";

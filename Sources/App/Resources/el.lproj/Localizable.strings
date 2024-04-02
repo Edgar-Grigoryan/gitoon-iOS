@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Εναλλαγή %1$@";
 "menu.view.reload_page" = "Επαναφόρτωση σελίδας";
 "navBar.close" = "Κλείσιμο";
-"nfc.detail.copy" = "Αντιγραφή στον πίνακα επικόλλησης";
-"nfc.detail.duplicate" = "Δημιουργήστε ένα διπλότυπο";
-"nfc.detail.example_trigger" = "Παράδειγμα πυροδότησης";
-"nfc.detail.fire" = "Πυροδότηση Συμβάντος";
-"nfc.detail.share" = "Κοινή χρήση αναγνωριστικού";
-"nfc.detail.tag_value" = "Αναγνωριστικό ετικέτας";
-"nfc.detail.title" = "Ετικέτα NFC";
-"nfc.generic_tag_read" = "Ανάγνωση ετικέτας";
-"nfc.list.description" = "Οι ετικέτες NFC που γράφονται από την εφαρμογή θα εμφανίζουν μια ειδοποίηση όταν φέρετε τη συσκευή σας κοντά τους. Η ενεργοποίηση της ειδοποίησης θα ξεκινήσει την εφαρμογή και θα ενεργοποιήσει ένα συμβάν.\
-\
- Οι ετικέτες θα λειτουργούν σε οποιαδήποτε συσκευή με εγκατεστημένο το GiToon που διαθέτει υποστήριξη υλικού για την ανάγνωσή τους.";
-"nfc.list.learn_more" = "Μάθε περισσότερα";
-"nfc.list.read_tag" = "Ανάγνωση ετικέτας";
-"nfc.list.title" = "Ετικέτες NFC";
-"nfc.list.write_tag" = "Εγγραφή ετικέτας";
-"nfc.not_available" = "Το NFC δεν είναι διαθέσιμο σε αυτήν τη συσκευή";
-"nfc.read.error.generic_failure" = "Αποτυχία ανάγνωσης ετικέτας";
-"nfc.read.error.not_home_assistant" = "Η ετικέτα NFC δεν είναι ετικέτα του GiToon";
-"nfc.read.error.tag_invalid" = "Η ετικέτα NFC δεν είναι έγκυρη";
-"nfc.read.start_message" = "Κρατήστε το %@ κοντά σε μια ετικέτα NFC";
-"nfc.tag_read" = "Ανάγνωση ετικέτας NFC";
-"nfc.write.error.capacity" = "Η ετικέτα NFC έχει ανεπαρκή χωρητικότητα: χρειάζεται %ld αλλά έχει μόνο %ld";
-"nfc.write.error.invalid_format" = "Η ετικέτα NFC δεν έχει μορφή NDEF";
-"nfc.write.error.not_writable" = "Η ετικέτα NFC είναι μόνο για ανάγνωση";
-"nfc.write.identifier_choice.manual" = "Εγχειρίδιο";
-"nfc.write.identifier_choice.message" = "Το αναγνωριστικό βοηθά στη διαφοροποίηση διαφόρων ετικετών.";
-"nfc.write.identifier_choice.random" = "Τυχαία (Συνιστάται)";
-"nfc.write.identifier_choice.title" = "Τι είδους αναγνωριστικό ετικέτας;";
-"nfc.write.manual_input.title" = "Ποιο αναγνωριστικό για την ετικέτα;";
-"nfc.write.start_message" = "Κρατήστε το %@ κοντά σε μια εγγράψιμη ετικέτα NFC";
-"nfc.write.success_message" = "Η ετικέτα γράφτηκε!";
 "no_label" = "Όχι";
 "notification_service.failed_to_load" = "Αποτυχία φόρτωσης συνημμένου";
 "notification_service.loading_dynamic_actions" = "Φόρτωση ενεργειών…";

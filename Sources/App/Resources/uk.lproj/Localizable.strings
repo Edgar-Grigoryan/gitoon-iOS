@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Toggle %1$@";
 "menu.view.reload_page" = "Перезавантажити сторінку";
 "navBar.close" = "Close";
-"nfc.detail.copy" = "Скопіюйте на макет";
-"nfc.detail.duplicate" = "Створити копію";
-"nfc.detail.example_trigger" = "Приклад тригера";
-"nfc.detail.fire" = "Викликати подію";
-"nfc.detail.share" = "Ідентифікатор спільного доступу";
-"nfc.detail.tag_value" = "Ідентифікатор тегу";
-"nfc.detail.title" = "Тег NFC";
-"nfc.generic_tag_read" = "Читання тегів";
-"nfc.list.description" = "Теги NFC, записані у програмі, відображатимуть сповіщення, коли ви наблизите пристрій до них. Активація сповіщення запустить програму та активує подію. \
-\
-Теги працюватимуть на будь-якому пристрої з встановленим GiToon, який має апаратну підтримку для їх читання.";
-"nfc.list.learn_more" = "Дізнатися більше";
-"nfc.list.read_tag" = "Прочитати тег";
-"nfc.list.title" = "Теги NFC";
-"nfc.list.write_tag" = "Записати тег";
-"nfc.not_available" = "NFC недоступний на цьому пристрої";
-"nfc.read.error.generic_failure" = "Не вдалося прочитати тег";
-"nfc.read.error.not_home_assistant" = "Тег NFC не є тегом GiToon";
-"nfc.read.error.tag_invalid" = "Неприпустимий тег NFC";
-"nfc.read.start_message" = "Тримайте %@ біля тегу NFC";
-"nfc.tag_read" = "Читання тегів NFC";
-"nfc.write.error.capacity" = "Тег NFC має недостатню ємність: потребує %ld але має лише %ld";
-"nfc.write.error.invalid_format" = "Тег NFC не у форматі NDEF";
-"nfc.write.error.not_writable" = "Тег NFC доступний лише для читання";
-"nfc.write.identifier_choice.manual" = "Вручну";
-"nfc.write.identifier_choice.message" = "Ідентифікатор допомагає диференціювати різні теги.";
-"nfc.write.identifier_choice.random" = "Випадково (рекомендується)";
-"nfc.write.identifier_choice.title" = "Ідентифікатор тегу?";
-"nfc.write.manual_input.title" = "Ідентифікатор тегу?";
-"nfc.write.start_message" = "Утримання %@ біля тегу NFC для записування";
-"nfc.write.success_message" = "Тег записаний!";
 "no_label" = "Ні";
 "notification_service.failed_to_load" = "Не вдалося завантажити вкладення";
 "notification_service.loading_dynamic_actions" = "Loading Actions…";

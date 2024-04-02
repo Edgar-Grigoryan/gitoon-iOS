@@ -1,4 +1,3 @@
-"NFCReaderUsageDescription" = "读取和写入 NFC 标签可让您触发事件。";
 "NSCameraUsageDescription" = "拍照并将其发送到您的GiToon服务器。";
 "NSCrossWebsiteTrackingUsageDescription" = "如果您的配置需要，可以选择启用跨网站跟踪。";
 "NSFocusStatusUsageDescription" = "以传感器形式报告您的专注模式状态。";

@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Växla %1$@";
 "menu.view.reload_page" = "Ladda om sida";
 "navBar.close" = "Close";
-"nfc.detail.copy" = "Kopiera till klippbord";
-"nfc.detail.duplicate" = "Skapa kopia";
-"nfc.detail.example_trigger" = "Exempel-utlösare";
-"nfc.detail.fire" = "Kör händelse";
-"nfc.detail.share" = "Dela identifierare";
-"nfc.detail.tag_value" = "Tagg-identifierare";
-"nfc.detail.title" = "NFC-tagg";
-"nfc.generic_tag_read" = "Tagg läst";
-"nfc.list.description" = "NFC-taggar skrivna med appen kommer att visa en notis när du håller din enhet nära dem. Att aktivera notisen kommer att öppna appen och köra åtgärden.\
-\
-Taggar fungerar på alla enheter med GiToon installerat och som har hårdvara som stödjer läsning av dem.";
-"nfc.list.learn_more" = "Läs mer";
-"nfc.list.read_tag" = "Läs tagg";
-"nfc.list.title" = "NFC-taggar";
-"nfc.list.write_tag" = "Skriv till tagg";
-"nfc.not_available" = "NFC är inte tillgängligt på den här enheten";
-"nfc.read.error.generic_failure" = "Kunde inte läsa taggen";
-"nfc.read.error.not_home_assistant" = "NFC-taggen är inte en GiToon-tagg";
-"nfc.read.error.tag_invalid" = "NGC-taggen är ogiltig";
-"nfc.read.start_message" = "Håll din %@ nära en NFC-tagg";
-"nfc.tag_read" = "NFC-tagg läst";
-"nfc.write.error.capacity" = "NFC-tagg har otillräcklig kapacitet: behöver %ld men har bara %ld";
-"nfc.write.error.invalid_format" = "NFC-tagg har inte NDEF-format";
-"nfc.write.error.not_writable" = "NFC-tagg är bara läsbar";
-"nfc.write.identifier_choice.manual" = "Manuell";
-"nfc.write.identifier_choice.message" = "Identifieraren hjälper till att skilja på olika taggar.";
-"nfc.write.identifier_choice.random" = "Slumpmässig (rekommenderas)";
-"nfc.write.identifier_choice.title" = "Vilken sorts tagg-identifierare?";
-"nfc.write.manual_input.title" = "Vilken identifierare för taggen?";
-"nfc.write.start_message" = "Håll din %@ nära en skrivbar NFC-tagg";
-"nfc.write.success_message" = "Tagg skriven";
 "no_label" = "Nej";
 "notification_service.failed_to_load" = "Kunde inte hämta bilaga";
 "notification_service.loading_dynamic_actions" = "Laddar åtgärder...";

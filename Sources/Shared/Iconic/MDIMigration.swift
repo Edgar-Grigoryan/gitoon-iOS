@@ -280,7 +280,6 @@ enum MDIMigration {
         "meetup",
         "mixcloud",
         "mixer",
-        "nfc_off",
         "npm_variant",
         "npm_variant_outline",
         "paypal",

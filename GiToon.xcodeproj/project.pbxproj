@@ -25,11 +25,6 @@
 		07B254BADB23F6A60E82D615 /* Pods_iOS_Extensions_Matter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943E024774CF54EADF771379 /* Pods_iOS_Extensions_Matter.framework */; };
 		1100D51D2496AECE00B1073C /* PermissionStatusRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100D51C2496AECE00B1073C /* PermissionStatusRow.swift */; };
 		1100D51F2496F63400B1073C /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100D51E2496F63400B1073C /* ThemeColors.swift */; };
-		1101568324D770B2009424C9 /* iOSTagManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C01624D75BD500A0E3C4 /* iOSTagManager.swift */; };
-		1101568424D770B2009424C9 /* NFCWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D04E324D76CDB003CE877 /* NFCWriter.swift */; };
-		1101568524D770B2009424C9 /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113D04E124D76CD3003CE877 /* NFCReader.swift */; };
-		1101568724D7712F009424C9 /* TagManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101568624D7712F009424C9 /* TagManagerProtocol.swift */; };
-		1101568824D7712F009424C9 /* TagManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101568624D7712F009424C9 /* TagManagerProtocol.swift */; };
 		1101D7F92621479200AAE617 /* SettingsButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101D7F82621479200AAE617 /* SettingsButtonRow.swift */; };
 		1104FC9125322C1800B8BE34 /* Dictionary+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104FC9025322C1800B8BE34 /* Dictionary+Additions.swift */; };
 		1104FC9225322C1800B8BE34 /* Dictionary+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104FC9025322C1800B8BE34 /* Dictionary+Additions.swift */; };
@@ -67,7 +62,6 @@
 		110FB4532499DC28000865B4 /* NotificationErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110FB4522499DC28000865B4 /* NotificationErrorViewController.swift */; };
 		1110836824AFEFA60027A67A /* Promise+WebhookJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110836724AFEFA60027A67A /* Promise+WebhookJson.swift */; };
 		1110836924AFEFA60027A67A /* Promise+WebhookJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110836724AFEFA60027A67A /* Promise+WebhookJson.swift */; };
-		11108D632634C8FE009DAB0F /* LearnMoreButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11108D622634C8FE009DAB0F /* LearnMoreButtonRow.swift */; };
 		1112AE9B25F71775007A541A /* LocationHistoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112AE9A25F71775007A541A /* LocationHistoryListViewController.swift */; };
 		1112AEBB25F717E9007A541A /* LocationHistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1112AEBA25F717E9007A541A /* LocationHistoryDetailViewController.swift */; };
 		1112EA93271B78690038BBFC /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1112EA92271B78690038BBFC /* UserNotifications.framework */; };
@@ -163,7 +157,6 @@
 		115DA29324F464DC00C00BB1 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DA28C24F4646500C00BB1 /* MenuManager.swift */; };
 		115EF6A72549152F0048597B /* AccountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EF6A62549152F0048597B /* AccountRow.swift */; };
 		115F9D7025F4B7B700CC6A45 /* TemplateSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F9D6F25F4B7B700CC6A45 /* TemplateSection.swift */; };
-		1161C01B24D7634300A0E3C4 /* NFCListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C01A24D7634300A0E3C4 /* NFCListViewController.swift */; };
 		1164D9DE25FB1B9800515E8A /* UIBarButtonItem+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164D9DD25FB1B9800515E8A /* UIBarButtonItem+Additions.swift */; };
 		1164D9DF25FB1B9800515E8A /* UIBarButtonItem+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164D9DD25FB1B9800515E8A /* UIBarButtonItem+Additions.swift */; };
 		1164DA2125FBEE8600515E8A /* TemplateEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164DA2025FBEE8600515E8A /* TemplateEditViewController.swift */; };
@@ -233,8 +226,6 @@
 		1185DFB2271FF53800ED7D9A /* OnboardingAuthStepDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185DFAB271FF53800ED7D9A /* OnboardingAuthStepDuplicate.swift */; };
 		1185DFB3271FF53800ED7D9A /* OnboardingAuthStepSensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185DFAC271FF53800ED7D9A /* OnboardingAuthStepSensors.swift */; };
 		1185DFB4271FF53800ED7D9A /* OnboardingAuthStepModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185DFAD271FF53800ED7D9A /* OnboardingAuthStepModels.swift */; };
-		1187DE4224D77CCC00F0A6A6 /* NFCTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1187DE4124D77CCC00F0A6A6 /* NFCTagViewController.swift */; };
-		1187DE4624D7E1BD00F0A6A6 /* SimulatorNFCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1187DE4524D7E1BD00F0A6A6 /* SimulatorNFCManager.swift */; };
 		11883CC524C12C8A0036A6C6 /* CLLocation+Extensions.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11883CC424C12C8A0036A6C6 /* CLLocation+Extensions.test.swift */; };
 		11883CC724C131EE0036A6C6 /* RealmZone.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11883CC624C131EE0036A6C6 /* RealmZone.test.swift */; };
 		1188793F25BF8006003F4291 /* NSEvent+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188793E25BF8006003F4291 /* NSEvent+Additions.swift */; };
@@ -251,7 +242,6 @@
 		119A7DF32529761800D7000D /* CLKComplication+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6B14B215B1E86003DE2DD /* CLKComplication+Strings.swift */; };
 		119A7E0E2529769A00D7000D /* UIImageView+UIActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF8BC0221C890600370A59 /* UIImageView+UIActivityIndicator.swift */; };
 		119A7E0F2529769A00D7000D /* UIImageView+UIActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF8BC0221C890600370A59 /* UIImageView+UIActivityIndicator.swift */; };
-		119A827C252A3C4700D7000D /* NFCNDEFPayload+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A827B252A3C4700D7000D /* NFCNDEFPayload+Additions.swift */; };
 		119C77F825CF166400D41734 /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C77F725CF166400D41734 /* Bundle+Additions.swift */; };
 		119C786725CF845800D41734 /* LocalizedStrings.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C786625CF845800D41734 /* LocalizedStrings.test.swift */; };
 		119C9B2124A44DA500308A54 /* ZoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C9B1E24A448A600308A54 /* ZoneManager.swift */; };
@@ -434,7 +424,6 @@
 		11EFCDD624F5FA8D00314D85 /* WebViewSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCDD524F5FA8D00314D85 /* WebViewSceneDelegate.swift */; };
 		11EFCDD824F5FCBE00314D85 /* SettingsSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCDD724F5FCBE00314D85 /* SettingsSceneDelegate.swift */; };
 		11EFCDDA24F5FE0600314D85 /* SceneActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCDD924F5FE0600314D85 /* SceneActivity.swift */; };
-		11EFCDDC24F6065F00314D85 /* AboutSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCDDB24F6065F00314D85 /* AboutSceneDelegate.swift */; };
 		11EFCDE024F60E5900314D85 /* BasicSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFCDDF24F60E5900314D85 /* BasicSceneDelegate.swift */; };
 		11EFD3BE27253504000AF78B /* OnboardingAuthStepConnectivity.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFD3BD27253504000AF78B /* OnboardingAuthStepConnectivity.test.swift */; };
 		11EFD3C027261AA4000AF78B /* OnboardingAuthStepDuplicate.test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFD3BF27261AA4000AF78B /* OnboardingAuthStepDuplicate.test.swift */; };
@@ -746,7 +735,6 @@
 		B63CCDC9216442BB00123C50 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63CCDC8216442BB00123C50 /* CameraViewController.swift */; };
 		B63CCDCB216442C200123C50 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63CCDCA216442C200123C50 /* MapViewController.swift */; };
 		B63D28BD215D9E3600F3B907 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B69933931E232AEA0054453D /* Localizable.strings */; };
-		B641BC1F1E2097EF002CCBC1 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641BC1D1E2097EF002CCBC1 /* AboutViewController.swift */; };
 		B641BC231E209CA9002CCBC1 /* HomeAssistantLogoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B641BC221E209CA9002CCBC1 /* HomeAssistantLogoView.xib */; };
 		B641BC251E20A17B002CCBC1 /* OpenInChromeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641BC241E20A17B002CCBC1 /* OpenInChromeController.swift */; };
 		B648AE252275918F006972AF /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648AE232275918E006972AF /* Segues.swift */; };
@@ -1179,7 +1167,6 @@
 		1100D51C2496AECE00B1073C /* PermissionStatusRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionStatusRow.swift; sourceTree = "<group>"; };
 		1100D51E2496F63400B1073C /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
 		1100D52024974D6700B1073C /* camera_notification.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = camera_notification.apns; sourceTree = "<group>"; };
-		1101568624D7712F009424C9 /* TagManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagerProtocol.swift; sourceTree = "<group>"; };
 		1101D7F82621479200AAE617 /* SettingsButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonRow.swift; sourceTree = "<group>"; };
 		1104FC9025322C1800B8BE34 /* Dictionary+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Additions.swift"; sourceTree = "<group>"; };
 		1104FCA025323A9C00B8BE34 /* WebhookResponseUpdateComplications.test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookResponseUpdateComplications.test.swift; sourceTree = "<group>"; };
@@ -1210,7 +1197,6 @@
 		110FB4512499DB3A000865B4 /* map_notification.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = map_notification.apns; sourceTree = "<group>"; };
 		110FB4522499DC28000865B4 /* NotificationErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationErrorViewController.swift; sourceTree = "<group>"; };
 		1110836724AFEFA60027A67A /* Promise+WebhookJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Promise+WebhookJson.swift"; sourceTree = "<group>"; };
-		11108D622634C8FE009DAB0F /* LearnMoreButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreButtonRow.swift; sourceTree = "<group>"; };
 		1112AE9A25F71775007A541A /* LocationHistoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHistoryListViewController.swift; sourceTree = "<group>"; };
 		1112AEBA25F717E9007A541A /* LocationHistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHistoryDetailViewController.swift; sourceTree = "<group>"; };
 		1112EA92271B78690038BBFC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
@@ -1251,8 +1237,6 @@
 		11358AEB24FC9F300074C4E2 /* ActiveSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSensor.swift; sourceTree = "<group>"; };
 		11358AEE24FCA8BE0074C4E2 /* ActiveStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveStateManager.swift; sourceTree = "<group>"; };
 		113A8D48283C7B1700B9DA32 /* PeriodicUpdateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicUpdateManager.swift; sourceTree = "<group>"; };
-		113D04E124D76CD3003CE877 /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
-		113D04E324D76CDB003CE877 /* NFCWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCWriter.swift; sourceTree = "<group>"; };
 		113D29DD24946ED90014067C /* CLLocationManager+OneShotLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+OneShotLocation.swift"; sourceTree = "<group>"; };
 		113D29E024946EE50014067C /* CLLocationManager+OneShotLocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+OneShotLocationTests.swift"; sourceTree = "<group>"; };
 		113E730F2518457C004006D8 /* LocalizedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedManager.swift; sourceTree = "<group>"; };
@@ -1288,8 +1272,6 @@
 		115DA28C24F4646500C00BB1 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
 		115EF6A62549152F0048597B /* AccountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRow.swift; sourceTree = "<group>"; };
 		115F9D6F25F4B7B700CC6A45 /* TemplateSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateSection.swift; sourceTree = "<group>"; };
-		1161C01624D75BD500A0E3C4 /* iOSTagManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTagManager.swift; sourceTree = "<group>"; };
-		1161C01A24D7634300A0E3C4 /* NFCListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCListViewController.swift; sourceTree = "<group>"; };
 		1164D9DD25FB1B9800515E8A /* UIBarButtonItem+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Additions.swift"; sourceTree = "<group>"; };
 		1164D9FE25FB417D00515E8A /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Intents.strings; sourceTree = "<group>"; };
 		1164DA0025FB41AE00515E8A /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -1377,8 +1359,6 @@
 		1185DFAB271FF53800ED7D9A /* OnboardingAuthStepDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingAuthStepDuplicate.swift; sourceTree = "<group>"; };
 		1185DFAC271FF53800ED7D9A /* OnboardingAuthStepSensors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingAuthStepSensors.swift; sourceTree = "<group>"; };
 		1185DFAD271FF53800ED7D9A /* OnboardingAuthStepModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingAuthStepModels.swift; sourceTree = "<group>"; };
-		1187DE4124D77CCC00F0A6A6 /* NFCTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTagViewController.swift; sourceTree = "<group>"; };
-		1187DE4524D7E1BD00F0A6A6 /* SimulatorNFCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorNFCManager.swift; sourceTree = "<group>"; };
 		11883CC424C12C8A0036A6C6 /* CLLocation+Extensions.test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.test.swift"; sourceTree = "<group>"; };
 		11883CC624C131EE0036A6C6 /* RealmZone.test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmZone.test.swift; sourceTree = "<group>"; };
 		1188793E25BF8006003F4291 /* NSEvent+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSEvent+Additions.swift"; sourceTree = "<group>"; };
@@ -1389,7 +1369,6 @@
 		11948E8824DA5D50006F5657 /* InfoLabelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabelRow.swift; sourceTree = "<group>"; };
 		1194B3EC2519B48500AA01C3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1194B4152519BEE900AA01C3 /* MacBridgeNetworkConnectivityImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBridgeNetworkConnectivityImpl.swift; sourceTree = "<group>"; };
-		119A827B252A3C4700D7000D /* NFCNDEFPayload+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFCNDEFPayload+Additions.swift"; sourceTree = "<group>"; };
 		119C77F725CF166400D41734 /* Bundle+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Additions.swift"; sourceTree = "<group>"; };
 		119C786625CF845800D41734 /* LocalizedStrings.test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.test.swift; sourceTree = "<group>"; };
 		119C9B1E24A448A600308A54 /* ZoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneManager.swift; sourceTree = "<group>"; };
@@ -1526,7 +1505,6 @@
 		11EFCDD524F5FA8D00314D85 /* WebViewSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewSceneDelegate.swift; sourceTree = "<group>"; };
 		11EFCDD724F5FCBE00314D85 /* SettingsSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSceneDelegate.swift; sourceTree = "<group>"; };
 		11EFCDD924F5FE0600314D85 /* SceneActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneActivity.swift; sourceTree = "<group>"; };
-		11EFCDDB24F6065F00314D85 /* AboutSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSceneDelegate.swift; sourceTree = "<group>"; };
 		11EFCDDF24F60E5900314D85 /* BasicSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSceneDelegate.swift; sourceTree = "<group>"; };
 		11EFD3BD27253504000AF78B /* OnboardingAuthStepConnectivity.test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingAuthStepConnectivity.test.swift; sourceTree = "<group>"; };
 		11EFD3BF27261AA4000AF78B /* OnboardingAuthStepDuplicate.test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingAuthStepDuplicate.test.swift; sourceTree = "<group>"; };
@@ -1935,7 +1913,6 @@
 		B64048501FBBBA8B00F0CCCD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B64048561FBBBAFF00F0CCCD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B640485C1FBBBB1300F0CCCD /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B641BC1D1E2097EF002CCBC1 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AboutViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B641BC221E209CA9002CCBC1 /* HomeAssistantLogoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeAssistantLogoView.xib; sourceTree = "<group>"; };
 		B641BC241E20A17B002CCBC1 /* OpenInChromeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenInChromeController.swift; sourceTree = "<group>"; };
 		B646B04C24D10A2900093E6A /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Intents.strings; sourceTree = "<group>"; };
@@ -2447,20 +2424,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1161C01924D7633700A0E3C4 /* NFC */ = {
-			isa = PBXGroup;
-			children = (
-				1161C01624D75BD500A0E3C4 /* iOSTagManager.swift */,
-				1161C01A24D7634300A0E3C4 /* NFCListViewController.swift */,
-				119A827B252A3C4700D7000D /* NFCNDEFPayload+Additions.swift */,
-				113D04E124D76CD3003CE877 /* NFCReader.swift */,
-				1187DE4124D77CCC00F0A6A6 /* NFCTagViewController.swift */,
-				113D04E324D76CDB003CE877 /* NFCWriter.swift */,
-				1187DE4524D7E1BD00F0A6A6 /* SimulatorNFCManager.swift */,
-			);
-			path = NFC;
-			sourceTree = "<group>";
-		};
 		1167402325198F9A00F51626 /* MacBridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -2675,7 +2638,6 @@
 				1101D7F82621479200AAE617 /* SettingsButtonRow.swift */,
 				1127383B2625512600F5E312 /* ButtonRowWithLoading.swift */,
 				119DE944263349E50099F7D8 /* HAFormViewController.swift */,
-				11108D622634C8FE009DAB0F /* LearnMoreButtonRow.swift */,
 				11F20BC4274B06C100DFB163 /* ServerSelectRow.swift */,
 			);
 			path = Eureka;
@@ -2921,7 +2883,6 @@
 				11EFCDD524F5FA8D00314D85 /* WebViewSceneDelegate.swift */,
 				11EFCDD724F5FCBE00314D85 /* SettingsSceneDelegate.swift */,
 				11EFCDD924F5FE0600314D85 /* SceneActivity.swift */,
-				11EFCDDB24F6065F00314D85 /* AboutSceneDelegate.swift */,
 				11EFCDDF24F60E5900314D85 /* BasicSceneDelegate.swift */,
 				118261F424F8C7C1000795C6 /* SceneManager.swift */,
 				FD3BC66229B9FF8F00B19FBE /* CarPlaySceneDelegate.swift */,
@@ -3659,14 +3620,12 @@
 				1130F530253A1E6400F371BE /* AppleWatch */,
 				11AD2E2B2528FDEB00FBC437 /* Observation */,
 				11AD2E1C2528FD6F00FBC437 /* Eureka */,
-				1161C01924D7633700A0E3C4 /* NFC */,
 				11F3D74F2495433800C05BBA /* Sensors */,
 				11AD2E392528FDF800FBC437 /* Connection */,
 				11AD2E542528FE1300FBC437 /* Notifications */,
 				B626AAF01D8F972800A0D225 /* SettingsDetailViewController.swift */,
 				B6B2E6A4216ACE4400D39A26 /* ActionConfigurator.swift */,
 				B661FB69226BBDA900E541DD /* SettingsViewController.swift */,
-				B641BC1D1E2097EF002CCBC1 /* AboutViewController.swift */,
 				B641BC221E209CA9002CCBC1 /* HomeAssistantLogoView.xib */,
 				1169B7AC25AA76E30035F2AE /* MaterialDesignIcons+Eureka.swift */,
 				1164DA2025FBEE8600515E8A /* TemplateEditViewController.swift */,
@@ -3847,7 +3806,6 @@
 			children = (
 				D00302BD20D4BEDB004C2CA9 /* Environment.swift */,
 				D03D893A20E0B2E300D4F28D /* Constants.swift */,
-				1101568624D7712F009424C9 /* TagManagerProtocol.swift */,
 				11C8E8AB24F36535003E7F89 /* DeviceWrapper.swift */,
 				11F3847A24FB27FB00CB0D74 /* DeviceWrapperBatteryObserver.swift */,
 				11358AEE24FCA8BE0074C4E2 /* ActiveStateManager.swift */,
@@ -5613,7 +5571,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				115F9D7025F4B7B700CC6A45 /* TemplateSection.swift in Sources */,
-				1101568524D770B2009424C9 /* NFCReader.swift in Sources */,
 				B648AE262275918F006972AF /* Scenes.swift in Sources */,
 				1185DF9A271FE60F00ED7D9A /* OnboardingAuthStep.swift in Sources */,
 				420FE8502B556F7500878E06 /* CarPlayEntitiesListTemplate+Build.swift in Sources */,
@@ -5661,7 +5618,6 @@
 				42FCD0122B9B29740057783F /* ThreadCredentialsManagementView+Build.swift in Sources */,
 				11F3D7512495434C00C05BBA /* SensorDetailViewController.swift in Sources */,
 				117EB15C2569AD4600049541 /* NotificationManager.swift in Sources */,
-				1187DE4224D77CCC00F0A6A6 /* NFCTagViewController.swift in Sources */,
 				D0EEF324214DF2B700D1D360 /* Utils.swift in Sources */,
 				1101D7F92621479200AAE617 /* SettingsButtonRow.swift in Sources */,
 				FD3BC66C29BA00D600B19FBE /* CarPlayEntitiesListTemplate.swift in Sources */,
@@ -5671,7 +5627,6 @@
 				11195F6F267EFC8E003DF674 /* NotificationManagerLocalPushInterfaceDirect.swift in Sources */,
 				FD3BC66329B9FF8F00B19FBE /* CarPlaySceneDelegate.swift in Sources */,
 				11C4629424B189B100031902 /* NotificationRateLimitsAPI.swift in Sources */,
-				1161C01B24D7634300A0E3C4 /* NFCListViewController.swift in Sources */,
 				11A71C6B24A463FC00D9565F /* ZoneManagerState.swift in Sources */,
 				FD3BC66E29BA010A00B19FBE /* CarPlayDomainsListTemplate.swift in Sources */,
 				1185DFAF271FF53800ED7D9A /* OnboardingAuthStepRegister.swift in Sources */,
@@ -5701,9 +5656,7 @@
 				11A71C7124A4648000D9565F /* ZoneManagerEquatableRegion.swift in Sources */,
 				42FCD0132B9B29740057783F /* ThreadCredentialsManagementViewModel.swift in Sources */,
 				11E99A5027156854003C8A65 /* OnboardingTerminalViewController.swift in Sources */,
-				1101568424D770B2009424C9 /* NFCWriter.swift in Sources */,
 				11E7C4B02702E03000667342 /* WidgetOpenPageIntent+Observation.swift in Sources */,
-				1187DE4624D7E1BD00F0A6A6 /* SimulatorNFCManager.swift in Sources */,
 				1185DF96271FBB9800ED7D9A /* OnboardingAuthLogin.swift in Sources */,
 				425573E62B5838B600145217 /* MaterialDesignIcons+CarPlay.swift in Sources */,
 				42F1DA612B4D4F31002729BC /* CarPlayNoServerAlert.swift in Sources */,
@@ -5717,7 +5670,6 @@
 				B6DA3C7122690B1F00DE811C /* NotificationSoundsViewController.swift in Sources */,
 				424DD05A2B3509170057E456 /* CarPlayActionsTemplate.swift in Sources */,
 				D0C88462211ED16300CCB501 /* OnboardingAuth.swift in Sources */,
-				11EFCDDC24F6065F00314D85 /* AboutSceneDelegate.swift in Sources */,
 				42F1DA5F2B4D4B32002729BC /* CarPlayServerListTemplate.swift in Sources */,
 				420FE8492B556A0200878E06 /* CarPlayActionsViewModel.swift in Sources */,
 				B6D8A32A2271455300FA765D /* OnboardingErrorViewController.swift in Sources */,
@@ -5732,7 +5684,6 @@
 				11A48D8124CA8ADB0021BDD9 /* NotificationCategory+Observation.swift in Sources */,
 				1100D51D2496AECE00B1073C /* PermissionStatusRow.swift in Sources */,
 				D0B25BD221323CA600678C2C /* ClientEventPayloadViewController.swift in Sources */,
-				B641BC1F1E2097EF002CCBC1 /* AboutViewController.swift in Sources */,
 				B675ECC3221BB0E600C65D31 /* SearchPushRow.swift in Sources */,
 				11C05F2D254919210031D038 /* AccountInitialsImage.swift in Sources */,
 				B605C891226E9DAC00EF46DD /* Permissions.swift in Sources */,
@@ -5747,7 +5698,6 @@
 				113FB1132515A065000AC680 /* ScaleFactorMutator.swift in Sources */,
 				4296C37A2B9205450051B63C /* WidgetActionsAppIntent.swift in Sources */,
 				1185DFB3271FF53800ED7D9A /* OnboardingAuthStepSensors.swift in Sources */,
-				11108D632634C8FE009DAB0F /* LearnMoreButtonRow.swift in Sources */,
 				425573D12B5576E600145217 /* CarPlayDomainsListTemplate+Build.swift in Sources */,
 				42266B112B740E4C00E94A71 /* BarcodeScannerView.swift in Sources */,
 				42FCCFE32B9B1B610057783F /* BarcodeScannerCameraView.swift in Sources */,
@@ -5771,14 +5721,12 @@
 				1185DFAE271FF53800ED7D9A /* OnboardingAuthStepConfig.swift in Sources */,
 				425573CE2B5574F100145217 /* CarPlayAreasViewModel.swift in Sources */,
 				B661FB7A226C197900E541DD /* OnboardingManualURLViewController.swift in Sources */,
-				119A827C252A3C4700D7000D /* NFCNDEFPayload+Additions.swift in Sources */,
 				42DD84162B14D7AC00936F16 /* WebViewExternalBusMessage.swift in Sources */,
 				11EFCDD324F5F39100314D85 /* WebViewWindowController.swift in Sources */,
 				11EFCDE024F60E5900314D85 /* BasicSceneDelegate.swift in Sources */,
 				42FCCFFF2B9B1C310057783F /* ThreadCredentialsSharingView.swift in Sources */,
 				425573C92B5572DB00145217 /* CarPlayServerListViewModel.swift in Sources */,
 				11A71C6F24A4644A00D9565F /* ZoneManagerIgnoreReason.swift in Sources */,
-				1101568324D770B2009424C9 /* iOSTagManager.swift in Sources */,
 				42F5CABC2B10AE1A00409816 /* ServerFixture.swift in Sources */,
 				11B1FFC524CCD72F00F9BCB2 /* VoiceShortcutRow.swift in Sources */,
 				42FCD0152B9B29740057783F /* ThreadCredentialsManagementView.swift in Sources */,
@@ -6009,7 +5957,6 @@
 				1148A45124E9AF9200345050 /* MDIMigration.swift in Sources */,
 				114E9B4F24E89B1300B43EED /* INImage+MaterialDesignIcons.swift in Sources */,
 				118261FE24F9B81A000795C6 /* HACoreBlahProperty.swift in Sources */,
-				1101568824D7712F009424C9 /* TagManagerProtocol.swift in Sources */,
 				111858D724CB620600B8CDDC /* Intents.intentdefinition in Sources */,
 				B67CE89D22200F220034C1D0 /* ConfigResponse.swift in Sources */,
 				11F855D924DF6C7A0018013E /* MaterialDesignIcons.swift in Sources */,
@@ -6224,7 +6171,6 @@
 				114E9B4E24E89B1300B43EED /* INImage+MaterialDesignIcons.swift in Sources */,
 				118261FD24F9B81A000795C6 /* HACoreBlahProperty.swift in Sources */,
 				42FCCFDA2B9B19F70057783F /* ThreadClientService.swift in Sources */,
-				1101568724D7712F009424C9 /* TagManagerProtocol.swift in Sources */,
 				1141182624AF9A0500E6525C /* WebhookManager.swift in Sources */,
 				119A7E0F2529769A00D7000D /* UIImageView+UIActivityIndicator.swift in Sources */,
 				111858D624CB620500B8CDDC /* Intents.intentdefinition in Sources */,

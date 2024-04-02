@@ -265,13 +265,6 @@ final class ConnectionURLViewController: HAFormViewController, TypedRowControlle
             ) <<< SwitchRow(RowTag.localPush.rawValue) {
                 $0.title = L10n.SettingsDetails.Notifications.LocalPush.title
                 $0.value = server.info.connection.isLocalPushEnabled
-            } <<< LearnMoreButtonRow {
-                $0.onCellSelection { cell, _ in
-                    openURLInBrowser(
-                        URL(string: "https://companion.home-assistant.io/app/ios/local-push")!,
-                        cell.formViewController()
-                    )
-                }
             }
         }
     }

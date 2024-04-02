@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "トグル %1$@";
 "menu.view.reload_page" = "ページをリロード";
 "navBar.close" = "閉じる";
-"nfc.detail.copy" = "ペーストボードにコピー";
-"nfc.detail.duplicate" = "複製を作成する";
-"nfc.detail.example_trigger" = "トリガーの例";
-"nfc.detail.fire" = "Fire event";
-"nfc.detail.share" = "共有識別子";
-"nfc.detail.tag_value" = "タグの識別子";
-"nfc.detail.title" = "NFCタグ";
-"nfc.generic_tag_read" = "タグ読み取り";
-"nfc.list.description" = "アプリによって書き込まれた NFC タグにデバイスを近づけると、通知が表示されます。通知を有効にすると、アプリが起動し、イベントが発生します。 \
-\
-タグは、GiToonがインストールされていて、タグの読み取りをハードウェアでサポートしているすべてのデバイスで機能します。";
-"nfc.list.learn_more" = "さらに詳しく";
-"nfc.list.read_tag" = "タグを読み取る";
-"nfc.list.title" = "NFCタグ";
-"nfc.list.write_tag" = "タグの書き込み";
-"nfc.not_available" = "このデバイスではNFCは使用できません";
-"nfc.read.error.generic_failure" = "タグの読み取りに失敗しました";
-"nfc.read.error.not_home_assistant" = "NFCタグはGiToonのタグではありません";
-"nfc.read.error.tag_invalid" = "NFCタグが無効です";
-"nfc.read.start_message" = "NFCタグに、%@ を近づける";
-"nfc.tag_read" = "NFCタグ読み取り";
-"nfc.write.error.capacity" = "NFCタグの容量が不足しています: %ld 必要ですが、%ld しかありません";
-"nfc.write.error.invalid_format" = "NFCタグが、NDEF形式ではありません";
-"nfc.write.error.not_writable" = "NFCタグは読み取り専用です";
-"nfc.write.identifier_choice.manual" = "マニュアル";
-"nfc.write.identifier_choice.message" = "識別子は、さまざまなタグを区別するのに役立ちます。";
-"nfc.write.identifier_choice.random" = "ランダム(推奨)";
-"nfc.write.identifier_choice.title" = "タグ識別子の種類は？";
-"nfc.write.manual_input.title" = "タグの識別子は何ですか？";
-"nfc.write.start_message" = "書き込み可能なNFCタグの近くに %@ をかざす";
-"nfc.write.success_message" = "タグに書きこみ！";
 "no_label" = "いいえ";
 "notification_service.failed_to_load" = "添付品の読み込みに失敗しました";
 "notification_service.loading_dynamic_actions" = "アクションの読み込み中…";

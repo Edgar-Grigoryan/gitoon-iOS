@@ -176,37 +176,6 @@
 "menu.status_item.toggle" = "Veksle %1$@";
 "menu.view.reload_page" = "Last siden på nytt";
 "navBar.close" = "Lukk";
-"nfc.detail.copy" = "Kopier til Pasteboard";
-"nfc.detail.duplicate" = "Opprette et duplikat";
-"nfc.detail.example_trigger" = "Eksempel utløser";
-"nfc.detail.fire" = "Utfør hendelse";
-"nfc.detail.share" = "Del identifikator";
-"nfc.detail.tag_value" = "Tag Identifier";
-"nfc.detail.title" = "NFC-tag";
-"nfc.generic_tag_read" = "Tagg Les";
-"nfc.list.description" = "NFC-tagger skrevet av appen viser et varsel når du tar med enheten i nærheten av dem. Aktivering av varselet vil starte appen og utløse en hendelse.\
-\
-Koder vil fungere på alle enheter med GiToon installert som har maskinvarestøtte for å lese dem.";
-"nfc.list.learn_more" = "Lære mer";
-"nfc.list.read_tag" = "Les tag";
-"nfc.list.title" = "NFC-tagger";
-"nfc.list.write_tag" = "Skriv tag";
-"nfc.not_available" = "NFC er ikke tilgjengelig på denne enheten";
-"nfc.read.error.generic_failure" = "Kunne ikke lese taggen";
-"nfc.read.error.not_home_assistant" = "NFC-taggen er ikke et GiToon-tagg";
-"nfc.read.error.tag_invalid" = "NFC-taggen er ugyldig";
-"nfc.read.start_message" = "Hold %@ nærheten av en NFC-taggen";
-"nfc.tag_read" = "NFC Tag Les";
-"nfc.write.error.capacity" = "NFC-taggen har ikke nok kapasitet: trenger %ld men har bare %ld";
-"nfc.write.error.invalid_format" = "NFC-taggen er ikke NDEF-format";
-"nfc.write.error.not_writable" = "NFC-taggen er skrivebeskyttet";
-"nfc.write.identifier_choice.manual" = "Manuell";
-"nfc.write.identifier_choice.message" = "Identifikatoren hjelper til med å skille forskjellige tagger.";
-"nfc.write.identifier_choice.random" = "Tilfeldig (anbefales)";
-"nfc.write.identifier_choice.title" = "Hva slags tag identifikator?";
-"nfc.write.manual_input.title" = "Hvilken identifikator for taggen?";
-"nfc.write.start_message" = "Hold %@ i nærheten av en skrivbar NFC-kode";
-"nfc.write.success_message" = "Tag Skrevet!";
 "no_label" = "Nei";
 "notification_service.failed_to_load" = "Kunne ikke laste inn vedlegget";
 "notification_service.loading_dynamic_actions" = "Laster inn handlinger…";
