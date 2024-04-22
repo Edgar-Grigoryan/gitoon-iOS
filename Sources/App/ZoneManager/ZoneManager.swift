@@ -57,7 +57,6 @@ class ZoneManager {
     private func updateLocationManager(isInitial: Bool) {
         with(locationManager) {
             $0.delegate = collector
-            $0.allowsBackgroundLocationUpdates = true
             $0.pausesLocationUpdatesAutomatically = false
 
             if Current.settingsStore.locationSources.significantLocationChange {

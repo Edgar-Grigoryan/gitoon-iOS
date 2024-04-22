@@ -276,7 +276,6 @@ class ZoneManagerTests: XCTestCase {
         XCTAssertTrue(locationManager.isMonitoringSigLocChanges)
         XCTAssertTrue(locationManager.delegate === manager.collector)
         XCTAssertTrue(locationManager.delegate === collector)
-        XCTAssertTrue(locationManager.allowsBackgroundLocationUpdates)
         XCTAssertFalse(locationManager.pausesLocationUpdatesAutomatically)
     }
 
