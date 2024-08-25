@@ -51,7 +51,7 @@ public class MatterWrapper {
     }
 
     public lazy var commission: (_ server: Server) -> Promise<Void> = { [self] server in
-        #if canImport(MatterSupport)
+        #if canImport(MatterSupport) && !os(watchOS)
         guard #available(iOS 16.1, *) else {
             return .value(())
         }
