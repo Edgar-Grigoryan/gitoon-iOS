@@ -14,7 +14,7 @@ func resetStores() {
 
     let bundleId = Bundle.main.bundleIdentifier!
     UserDefaults.standard.removePersistentDomain(forName: bundleId)
-    UserDefaults.standard.removePersistentDomain(forName: Constants.AppGroupID)
+    UserDefaults.standard.removePersistentDomain(forName: AppConstants.AppGroupID)
 
     Realm.reset()
 }
@@ -58,8 +58,8 @@ func convertToDictionary(text: String) -> [String: Any]? {
 }
 
 func setDefaults() {
-    prefs.set(Constants.build, forKey: "lastInstalledBundleVersion")
-    prefs.set(Constants.version, forKey: "lastInstalledShortVersion")
+    prefs.set(AppConstants.build, forKey: "lastInstalledBundleVersion")
+    prefs.set(AppConstants.version, forKey: "lastInstalledShortVersion")
 
     if prefs.object(forKey: "openInBrowser") == nil {
         if prefs.bool(forKey: "openInChrome") {
@@ -72,18 +72,5 @@ func setDefaults() {
 
     if prefs.object(forKey: "confirmBeforeOpeningUrl") == nil {
         prefs.setValue(true, forKey: "confirmBeforeOpeningUrl")
-    }
-}
-
-extension UIImage {
-    func scaledToSize(_ size: CGSize) -> UIImage {
-        UIGraphicsImageRenderer(
-            size: size,
-            format: with(UIGraphicsImageRendererFormat.preferred()) {
-                $0.opaque = imageRendererFormat.opaque
-            }
-        ).image { _ in
-            draw(in: CGRect(origin: .zero, size: size))
-        }
     }
 }

@@ -214,11 +214,15 @@ public class WebhookManager: NSObject {
         }
     }
 
-    public func sendEphemeral<ResponseType>(server: Server, request: WebhookRequest) -> Promise<ResponseType> {
+    public func sendEphemeral<ResponseType>(
+        server: Server,
+        request: WebhookRequest,
+        overrideURL: URL? = nil
+    ) -> Promise<ResponseType> {
         Current.backgroundTask(withName: "webhook-send-ephemeral") { [self, dataQueue] _ in
             attemptNetworking {
                 firstly {
-                    Self.urlRequest(for: request, server: server)
+                    Self.urlRequest(for: request, server: server, baseURL: overrideURL)
                 }.get { _, _ in
                     Current.Log.info("sending to \(server.identifier): \(request)")
                 }.then(on: dataQueue) { [self] urlRequest, data -> Promise<(Data, URLResponse)> in
@@ -246,6 +250,7 @@ public class WebhookManager: NSObject {
             Promise.value(data).webhookJson(
                 on: DispatchQueue.global(qos: .utility),
                 statusCode: (response as? HTTPURLResponse)?.statusCode,
+                requestURL: response.url,
                 secretGetter: { server.info.connection.webhookSecretBytes(version: server.info.version) }
             )
         }.map { possible in
@@ -257,12 +262,31 @@ public class WebhookManager: NSObject {
                     desire: String(describing: ResponseType.self)
                 )
             }
-        }.tap { result in
+        }.tap { [weak self] result in
             switch result {
             case let .fulfilled(response):
                 Current.Log.info("got successful response from \(server.identifier) for \(request.type): \(response)")
             case let .rejected(error):
                 Current.Log.error("got failure from \(server.identifier) for \(request.type): \(error)")
+
+                /* If user's cloud subscription expired or account was signed out, retry with activeURL
+                 instad of cloud hook */
+                if let self, let error = error as? WebhookError, error == WebhookError.unacceptableStatusCode(503),
+                   overrideURL == nil {
+                    let activeURL = server.info.connection.activeURL()
+
+                    let event = ClientEvent(
+                        text: "Retrying with active URL - \(activeURL.absoluteString)",
+                        type: .networkRequest
+                    )
+                    Current.clientEventStore.addEvent(event).cauterize()
+                    let promise: Promise<Any> = sendEphemeral(
+                        server: server,
+                        request: request,
+                        overrideURL: activeURL
+                    )
+                    promise.cauterize()
+                }
             }
         }
     }
@@ -446,6 +470,7 @@ public class WebhookManager: NSObject {
             Promise.value(data).webhookJson(
                 on: DispatchQueue.global(qos: .utility),
                 statusCode: (response as? HTTPURLResponse)?.statusCode,
+                requestURL: response.url,
                 secretGetter: { server.info.connection.webhookSecretBytes(version: server.info.version) }
             )
         }.asVoid()
@@ -612,6 +637,7 @@ extension WebhookManager: URLSessionDataDelegate, URLSessionTaskDelegate {
             }.webhookJson(
                 on: DispatchQueue.global(qos: .utility),
                 statusCode: statusCode,
+                requestURL: task.response?.url,
                 secretGetter: { server.info.connection.webhookSecretBytes(version: server.info.version) }
             )
 
@@ -737,7 +763,7 @@ class WebhookSessionInfo: CustomStringConvertible, Hashable {
             }
 
             return with(configuration) {
-                $0.sharedContainerIdentifier = Constants.AppGroupID
+                $0.sharedContainerIdentifier = AppConstants.AppGroupID
                 $0.httpCookieStorage = nil
                 $0.httpCookieAcceptPolicy = .never
                 $0.httpShouldSetCookies = false

@@ -19,31 +19,7 @@ extension UIWindowSceneDelegate {
     }
 }
 
-@available(iOS, deprecated: 13.0)
-struct SceneManagerPreSceneCompatibility {
-    var windowController: WebViewWindowController?
-    var urlHandler: IncomingURLHandler?
-    let windowControllerPromise: Guarantee<WebViewWindowController>
-    let windowControllerSeal: (WebViewWindowController) -> Void
-
-    init() {
-        (self.windowControllerPromise, self.windowControllerSeal) = Guarantee<WebViewWindowController>.pending()
-    }
-
-    mutating func willFinishLaunching() {
-        let window = UIWindow(haForiOS12: ())
-        let windowController = WebViewWindowController(window: window, restorationActivity: nil)
-        self.windowController = windowController
-        urlHandler = IncomingURLHandler(windowController: windowController)
-        windowControllerSeal(windowController)
-    }
-
-    mutating func didFinishLaunching() {
-        windowController?.setup()
-    }
-}
-
-class SceneManager {
+final class SceneManager {
     // types too hard here
     fileprivate static let activityUserInfoKeyResolver = "resolver"
 
@@ -63,9 +39,6 @@ class SceneManager {
     }
 
     private var pendingResolvers: [String: PendingResolver] = [:]
-
-    @available(iOS, deprecated: 13.0)
-    var compatibility = SceneManagerPreSceneCompatibility()
 
     var webViewWindowControllerPromise: Guarantee<WebViewWindowController> {
         firstly { () -> Guarantee<WebViewSceneDelegate> in
@@ -147,12 +120,22 @@ class SceneManager {
     ) -> Guarantee<DelegateType> {
         if let active = existingScenes(for: query.activity).first,
            let delegate = active.delegate as? DelegateType {
-            UIApplication.shared.requestSceneSessionActivation(
-                active.session,
-                userActivity: nil,
-                options: nil,
-                errorHandler: nil
-            )
+            let options = UIScene.ActivationRequestOptions()
+            options.requestingScene = active
+
+            // Guarantee it runs on main thread when coming from widgets
+            DispatchQueue.main.async {
+                if #available(iOS 17.0, *) {
+                    UIApplication.shared.activateSceneSession(for: .init(session: active.session, options: options))
+                } else {
+                    UIApplication.shared.requestSceneSessionActivation(
+                        active.session,
+                        userActivity: nil,
+                        options: options,
+                        errorHandler: nil
+                    )
+                }
+            }
             return .value(delegate)
         }
 

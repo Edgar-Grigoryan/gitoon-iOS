@@ -1,23 +1,23 @@
 import AppIntents
-import AudioToolbox
 import Foundation
 import Shared
 
 @available(iOS 17.0, macOS 14.0, watchOS 10.0, *)
-struct WidgetActionsAppIntent: AppIntent, WidgetConfigurationIntent, CustomIntentMigratedAppIntent,
-    ProgressReportingIntent {
+struct WidgetActionsAppIntent: AppIntent, WidgetConfigurationIntent, CustomIntentMigratedAppIntent {
     static let intentClassName = "WidgetActionsIntent"
 
-    static let title: LocalizedStringResource = "Actions"
-    static let description = IntentDescription("View and run actions")
+    static let title: LocalizedStringResource = .init("widgets.actions.title", defaultValue: "Actions")
+    static let description = IntentDescription(
+        .init("widgets.actions.description", defaultValue: "Perform Home Assistant actions.")
+    )
 
     @Parameter(
-        title: "Actions",
+        title: .init("widgets.actions.parameters.action", defaultValue: "Action"),
         size: [
-            .systemSmall: 1,
-            .systemMedium: 8,
-            .systemLarge: 16,
-            .systemExtraLarge: 32,
+            .systemSmall: 2,
+            .systemMedium: 4,
+            .systemLarge: 10,
+            .systemExtraLarge: 20,
             .accessoryInline: 1,
             .accessoryCorner: 1,
             .accessoryCircular: 1,
@@ -31,19 +31,12 @@ struct WidgetActionsAppIntent: AppIntent, WidgetConfigurationIntent, CustomInten
     }
 
     func perform() async throws -> some IntentResult {
-        // Unfortunately this is the only 'haptics' that work with widgets
-        // ideally in the future this should use CoreHaptics for a better experience
-        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
-        progress.totalUnitCount = 100
-        progress.completedUnitCount = 70
-        guard let action = $actions.wrappedValue?.first else {
-            Current.Log.error("No action defined or available for widget")
-            return .result()
+        guard let actions else { return .result() }
+        for action in actions {
+            let intent = PerformAction()
+            intent.action = action
+            let _ = try await intent.perform()
         }
-        let intent = PerformAction()
-        intent.action = action
-        let _ = try await intent.perform()
-        progress.completedUnitCount = 100
         return .result()
     }
 }

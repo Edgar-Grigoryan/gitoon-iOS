@@ -112,10 +112,6 @@ public extension IntentAction {
     }
 }
 
-public extension WidgetActionsIntent {
-    static let widgetKind = "WidgetActions"
-}
-
 public extension IntentPanel {
     convenience init(panel: HAPanel, server: Server) {
         let image: INImage?
@@ -126,7 +122,7 @@ public extension IntentPanel {
         image = icon.flatMap { icon in
             INImage(
                 icon: Self.materialDesignIcon(for: icon),
-                foreground: Constants.tintColor.resolvedColor(with: .init(userInterfaceStyle: .light)),
+                foreground: AppConstants.tintColor.resolvedColor(with: .init(userInterfaceStyle: .light)),
                 background: .white
             )
         }
@@ -171,10 +167,6 @@ public extension IntentPanel {
     var materialDesignIcon: MaterialDesignIcons {
         Self.materialDesignIcon(for: icon)
     }
-}
-
-public extension WidgetOpenPageIntent {
-    static let widgetKind = "WidgetOpenPage"
 }
 
 public extension IntentServer {

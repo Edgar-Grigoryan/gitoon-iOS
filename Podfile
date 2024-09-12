@@ -1,7 +1,7 @@
 use_frameworks!
 inhibit_all_warnings!
 
-project 'HomeAssistant', 'Debug' => :debug, 'Release' => :release, 'Beta' => :release
+project 'GiToon', 'Debug' => :debug, 'Release' => :release, 'Beta' => :release
 
 def support_modules
   pod 'SwiftGen', '~> 6.5.0'
@@ -21,23 +21,25 @@ end
 
 plugin 'cocoapods-acknowledgements'
 
-system('./Tools/BuildMaterialDesignIconsFont.sh')
-
 pod 'Alamofire', '~> 5.8'
 pod 'Communicator', git: 'https://github.com/zacwest/Communicator.git', branch: 'observation-memory-direct'
 pod 'KeychainAccess'
 pod 'ObjectMapper', git: 'https://github.com/tristanhimmelman/ObjectMapper.git', branch: 'master'
 pod 'PromiseKit'
+pod 'Improv-iOS', '~> 0.0.6'
+pod 'SFSafeSymbols', '~> 5.3'
 
 pod 'RealmSwift'
+pod 'GRDB.swift', git: 'https://github.com/groue/GRDB.swift.git', tag: 'v6.29.1'
 pod 'UIColor_Hex_Swift'
 pod 'Version'
 pod 'XCGLogger'
 
-pod 'Starscream', git: 'https://github.com/zacwest/starscream', branch: 'ha-swift-api'
-pod 'HAKit', git: 'https://github.com/home-assistant/HAKit.git', branch: 'main'
-pod 'HAKit/PromiseKit', git: 'https://github.com/home-assistant/HAKit.git', branch: 'main'
-pod 'HAKit/Mocks', git: 'https://github.com/home-assistant/HAKit.git', branch: 'main'
+# Keep Starscream reference even though HAKit already install it, because it defines our fork with the necessary fix
+pod 'Starscream', git: 'https://github.com/bgoncal/starscream', branch: 'ha-URLSession-fix'
+pod 'HAKit', git: 'https://github.com/home-assistant/HAKit.git', tag: '0.4.2'
+pod 'HAKit/PromiseKit', git: 'https://github.com/home-assistant/HAKit.git', tag: '0.4.2'
+pod 'HAKit/Mocks', git: 'https://github.com/home-assistant/HAKit.git', tag: '0.4.2'
 
 def test_pods
   pod 'OHHTTPStubs/Swift'
@@ -92,7 +94,6 @@ abstract_target 'iOS' do
   target 'Extensions-NotificationContent'
   target 'Extensions-NotificationService'
   target 'Extensions-Share'
-  target 'Extensions-Today'
   target 'Extensions-Widgets'
 end
 

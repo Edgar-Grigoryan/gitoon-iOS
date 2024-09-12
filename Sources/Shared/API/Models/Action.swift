@@ -24,6 +24,7 @@ public final class Action: Object, ImmutableMappable, UpdatableModel {
     @objc public dynamic var serverIdentifier: String = ""
     @objc public dynamic var showInCarPlay: Bool = true
     @objc public dynamic var showInWatch: Bool = true
+    @objc public dynamic var useCustomColors: Bool = false
 
     static func primaryKey(sourceIdentifier: String, serverIdentifier: String) -> String {
         #warning("multiserver - primary key duplication")
@@ -74,6 +75,8 @@ public final class Action: Object, ImmutableMappable, UpdatableModel {
             return Scene == nil
         case \Action.showInWatch:
             return Scene == nil
+        case \Action.useCustomColors:
+            return Scene == nil
         default:
             return true
         }
@@ -94,6 +97,7 @@ public final class Action: Object, ImmutableMappable, UpdatableModel {
         self.serverIdentifier = try map.value("serverIdentifier")
         self.showInCarPlay = try map.value("showInCarPlay")
         self.showInWatch = try map.value("showInWatch")
+        self.useCustomColors = try map.value("useCustomColors")
         super.init()
     }
 
@@ -111,6 +115,7 @@ public final class Action: Object, ImmutableMappable, UpdatableModel {
         serverIdentifier >>> map["serverIdentifier"]
         showInCarPlay >>> map["showInCarPlay"]
         showInWatch >>> map["showInWatch"]
+        useCustomColors >>> map["useCustomColors"]
     }
 
     static func didUpdate(objects: [Action], server: Server, realm: Realm) {
@@ -126,6 +131,7 @@ public final class Action: Object, ImmutableMappable, UpdatableModel {
     }
 
     public func update(with object: MobileAppConfigAction, server: Server, using realm: Realm) -> Bool {
+        Current.Log.info("Updating server configured Actions")
         if self.realm == nil {
             ID = object.name
             Name = object.name
@@ -169,6 +175,10 @@ public final class Action: Object, ImmutableMappable, UpdatableModel {
 
         if let showInWatch = object.showInWatch {
             self.showInWatch = showInWatch
+        }
+
+        if let useCustomColors = object.useCustomColors {
+            self.useCustomColors = useCustomColors
         }
 
         return true

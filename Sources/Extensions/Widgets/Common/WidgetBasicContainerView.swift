@@ -5,7 +5,6 @@ import WidgetKit
 
 struct WidgetBasicContainerView: View {
     @Environment(\.widgetFamily) var family: WidgetFamily
-    @Environment(\.pixelLength) var pixelLength: CGFloat
 
     let emptyViewGenerator: () -> AnyView
     let contents: [WidgetBasicViewModel]
@@ -17,31 +16,14 @@ struct WidgetBasicContainerView: View {
 
     var body: some View {
         Group {
-            switch contents.count {
-            case 0: emptyViewGenerator()
-            case 1: singleView(for: contents.first!)
-            default: multiView(for: contents)
-            }
-        }
-        .widgetBackground(Color.clear)
-    }
-
-    func singleView(for model: WidgetBasicViewModel) -> some View {
-        ZStack {
-            model.backgroundColor
-                .opacity(0.8)
-            if case let .widgetURL(url) = model.interactionType {
-                WidgetBasicView(model: model, sizeStyle: .single)
-                    .widgetURL(url.withWidgetAuthenticity())
+            if contents.isEmpty {
+                emptyViewGenerator()
             } else {
-                if #available(iOS 17.0, *), let intent = intent(for: model) {
-                    Button(intent: intent) {
-                        WidgetBasicView(model: model, sizeStyle: .single)
-                    }
-                    .buttonStyle(.plain)
-                }
+                content(for: contents)
             }
         }
+        // Whenever Apple allow apps to use material backgrounds we should update this
+        .widgetBackground(Color.asset(Asset.Colors.primaryBackground))
     }
 
     @available(iOS 17.0, *)
@@ -52,20 +34,37 @@ struct WidgetBasicContainerView: View {
         case let .appIntent(widgetIntentType):
             switch widgetIntentType {
             case .action:
-                let intent = WidgetActionsAppIntent()
-                intent.actions = [IntentActionAppEntity(id: model.id, displayString: model.title)]
+                var intent = PerformAction()
+                intent.action = IntentActionAppEntity(id: model.id, displayString: model.title)
+                intent.hapticConfirmation = true
+                return intent
+            case let .script(id, serverId, name, showConfirmationNotification):
+                let intent = ScriptAppIntent()
+                intent.script = .init(
+                    id: id,
+                    serverId: serverId,
+                    serverName: "", // not used in this context
+                    displayString: name,
+                    iconName: "" // not used in this context
+                )
+                intent.hapticConfirmation = true
+                intent.showConfirmationNotification = showConfirmationNotification
                 return intent
             }
         }
     }
 
     @ViewBuilder
-    func multiView(for models: [WidgetBasicViewModel]) -> some View {
+    func content(for models: [WidgetBasicViewModel]) -> some View {
         let actionCount = models.count
         let columnCount = Self.columnCount(family: family, modelCount: actionCount)
         let rows = Array(columnify(count: columnCount, models: models))
 
         let sizeStyle: WidgetBasicSizeStyle = {
+            if models.count == 1 {
+                return .single
+            }
+
             let compactBp = Self.compactSizeBreakpoint(for: family)
 
             let condensed = compactBp < actionCount
@@ -80,32 +79,27 @@ struct WidgetBasicContainerView: View {
             }
         }()
 
-        VStack(alignment: .leading, spacing: pixelLength) {
+        VStack(alignment: .leading, spacing: Spaces.one) {
             ForEach(rows, id: \.self) { column in
-                HStack(spacing: pixelLength) {
+                HStack(spacing: Spaces.one) {
                     ForEach(column) { model in
-                        ZStack {
-                            // stacking the color under makes the Link's highlight state nicer
-                            model.backgroundColor
-                                .opacity(0.8)
-                            if case let .widgetURL(url) = model.interactionType {
-                                Link(destination: url.withWidgetAuthenticity()) {
+                        if case let .widgetURL(url) = model.interactionType {
+                            Link(destination: url.withWidgetAuthenticity()) {
+                                WidgetBasicView(model: model, sizeStyle: sizeStyle)
+                            }
+                        } else {
+                            if #available(iOS 17.0, *), let intent = intent(for: model) {
+                                Button(intent: intent) {
                                     WidgetBasicView(model: model, sizeStyle: sizeStyle)
                                 }
-                            } else {
-                                if #available(iOS 17.0, *), let intent = intent(for: model) {
-                                    Button(intent: intent) {
-                                        WidgetBasicView(model: model, sizeStyle: sizeStyle)
-                                    }
-                                    .buttonStyle(.plain)
-                                }
+                                .buttonStyle(.plain)
                             }
                         }
                     }
                 }
             }
         }
-        .background(Color.black)
+        .padding(models.count == 1 ? 0 : Spaces.one)
     }
 
     private func columnify(count: Int, models: [WidgetBasicViewModel]) -> AnyIterator<[WidgetBasicViewModel]> {
@@ -144,16 +138,19 @@ struct WidgetBasicContainerView: View {
         }
     }
 
-    /// more than this number: show compact (icon left, text right) version
+    /// More than this number: show compact (icon left, text right) version
     static func compactSizeBreakpoint(for family: WidgetFamily) -> Int {
         switch family {
         #if !targetEnvironment(macCatalyst) // no ventura SDK yet
-        case .accessoryCircular, .accessoryInline, .accessoryRectangular: return 1
+        case .accessoryCircular,
+             .accessoryInline,
+             .accessoryRectangular:
+            return 1
         #endif
-        case .systemSmall: return 1
+        case .systemSmall: return 2
         case .systemMedium: return 4
-        case .systemLarge: return 8
-        case .systemExtraLarge: return 16
+        case .systemLarge: return 10
+        case .systemExtraLarge: return 20
         @unknown default: return 8
         }
     }
@@ -161,13 +158,26 @@ struct WidgetBasicContainerView: View {
     static func maximumCount(family: WidgetFamily) -> Int {
         switch family {
         #if !targetEnvironment(macCatalyst) // no ventura SDK yet
-        case .accessoryCircular, .accessoryInline, .accessoryRectangular: return 1
+        case .accessoryCircular,
+             .accessoryInline,
+             .accessoryRectangular:
+            return 1
         #endif
-        case .systemSmall: return 1
-        case .systemMedium: return 8
-        case .systemLarge: return 16
-        case .systemExtraLarge: return 32
-        @unknown default: return 8
+        case .systemSmall: return 2
+        case .systemMedium: return 4
+        case .systemLarge: return 10
+        case .systemExtraLarge: return 20
+        @unknown default: return 4
+        }
+    }
+
+    // This is all widgets that are on the lock screen
+    // Lock screen widgets are transparent and don't need a colored background
+    private static var transparentFamilies: [WidgetFamily] {
+        if #available(iOS 16.0, *) {
+            [.accessoryCircular, .accessoryRectangular]
+        } else {
+            []
         }
     }
 }
