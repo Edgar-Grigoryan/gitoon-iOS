@@ -26,7 +26,11 @@ enum SettingsRootDataSource {
         case thread
         case actions
         case sensors
+        case watch
         case complications
+//        case nfc
+//        case widgets
+//        case help
         case privacy
         case debugging
 
@@ -40,7 +44,11 @@ enum SettingsRootDataSource {
                 case .thread: return SettingsRootDataSource.thread()
                 case .actions: return SettingsRootDataSource.actions()
                 case .sensors: return SettingsRootDataSource.sensors()
+                case .watch: return SettingsRootDataSource.watch()
                 case .complications: return SettingsRootDataSource.complications()
+//                case .nfc: return SettingsRootDataSource.nfc()
+//                case .widgets: return SettingsRootDataSource.widgets()
+//                case .help: return SettingsRootDataSource.help()
                 case .privacy: return SettingsRootDataSource.privacy()
                 case .debugging: return SettingsRootDataSource.debugging()
                 }
@@ -97,7 +105,8 @@ enum SettingsRootDataSource {
     private static func thread() -> SettingsButtonRow {
         SettingsButtonRow {
             $0.title = L10n.SettingsDetails.Thread.title
-            $0.image = .sharedAssetsImage(named: "thread")
+            $0.image = Asset.SharedAssets.thread.image
+            $0.isAvailableForMac = false
             $0.presentationMode = .show(controllerProvider: ControllerProvider.callback {
                 guard #available(iOS 17, *) else { return UIViewController() }
                 return UIHostingController(rootView: ThreadCredentialsManagementView.build())
@@ -127,10 +136,25 @@ enum SettingsRootDataSource {
         }
     }
 
+    private static func watch() -> SettingsButtonRow {
+        SettingsButtonRow {
+            $0.title = L10n.Settings.DetailsSection.WatchRowConfiguration.title
+            $0.icon = .watchVariantIcon
+            $0.hidden = .isCatalyst
+            $0.presentationMode = .presentModally(controllerProvider: ControllerProvider.callback {
+                let controller = UIHostingController(rootView: WatchConfigurationView())
+                controller.overrideUserInterfaceStyle = .dark
+                return controller
+            }, onDismiss: { _ in
+
+            })
+        }
+    }
+
     private static func complications() -> SettingsButtonRow {
         SettingsButtonRow {
-            $0.title = L10n.Settings.DetailsSection.WatchRow.title
-            $0.icon = .watchVariantIcon
+            $0.title = L10n.Settings.DetailsSection.WatchRowComplications.title
+            $0.icon = .chartDonutIcon
             $0.hidden = .isCatalyst
             $0.presentationMode = .show(controllerProvider: ControllerProvider.callback {
                 ComplicationListViewController()
@@ -139,6 +163,40 @@ enum SettingsRootDataSource {
             })
         }
     }
+
+//    private static func nfc() -> SettingsButtonRow {
+//        SettingsButtonRow {
+//            $0.title = L10n.Nfc.List.title
+//            $0.icon = .nfcVariantIcon
+//            $0.hidden = .isCatalyst
+//            $0.presentationMode = .show(controllerProvider: ControllerProvider.callback {
+//                NFCListViewController()
+//            }, onDismiss: nil)
+//        }
+//    }
+//
+//    private static func widgets() -> SettingsButtonRow {
+//        SettingsButtonRow {
+//            $0.title = L10n.Settings.Widgets.title
+//            $0.icon = .widgetsIcon
+//            $0.presentationMode = .show(controllerProvider: ControllerProvider.callback {
+//                UIHostingController(rootView: WidgetsSettingsView.build())
+//            }, onDismiss: nil)
+//        }
+//    }
+//
+//    private static func help() -> SettingsButtonRow {
+//        SettingsButtonRow {
+//            $0.title = L10n.helpLabel
+//            $0.icon = .helpCircleOutlineIcon
+//            $0.accessoryIcon = .openInNewIcon
+//            $0.hidden = .isCatalyst
+//            $0.onCellSelection { cell, row in
+//                openURLInBrowser(URL(string: "https://companion.home-assistant.io")!, cell.formViewController())
+//                row.deselect(animated: true)
+//            }
+//        }
+//    }
 
     private static func privacy() -> SettingsButtonRow {
         SettingsButtonRow {
@@ -161,4 +219,20 @@ enum SettingsRootDataSource {
             }, onDismiss: nil)
         }
     }
+
+//    private static func whatsNew() -> SettingsButtonRow {
+//        SettingsButtonRow {
+//            $0.title = L10n.Settings.WhatsNew.title
+//            $0.icon = .starIcon
+//            $0.accessoryIcon = .openInNewIcon
+//            $0.isAvailableForMac = false
+//            $0.onCellSelection { cell, row in
+//                openURLInBrowser(
+//                    URL(string: "https://www.home-assistant.io/latest-ios-release-notes/")!,
+//                    cell.formViewController()
+//                )
+//                row.deselect(animated: true)
+//            }
+//        }
+//    }
 }

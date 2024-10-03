@@ -118,7 +118,7 @@ class NotificationManager: NSObject, LocalPushManagerDelegate {
 
         let eventName = "ios.shortcut_run"
         let deviceDict: [String: String] = [
-            "sourceDevicePermanentID": Constants.PermanentID, "sourceDeviceName": UIDevice.current.name,
+            "sourceDevicePermanentID": AppConstants.PermanentID, "sourceDeviceName": UIDevice.current.name,
             "sourceDeviceID": Current.settingsStore.deviceID,
         ]
         var eventData: [String: Any] = ["name": shortcutName, "input": shortcutDict, "device": deviceDict]
@@ -264,7 +264,7 @@ extension NotificationManager: UNUserNotificationCenterDelegate {
         }
 
         if response.notification.request.identifier == NotificationIdentifier.carPlayActionIntro.rawValue {
-            Current.Log.info("launching iOS Actions configuration screen")
+            Current.Log.info("Launching iOS Actions configuration screen")
             Current.sceneManager.webViewWindowControllerPromise.done {
                 let settingsView = SettingsDetailViewController()
                 settingsView.detailGroup = .actions
@@ -276,6 +276,13 @@ extension NotificationManager: UNUserNotificationCenterDelegate {
                     })
                 )
                 $0.present(navController)
+            }
+        }
+
+        if response.notification.request.identifier == NotificationIdentifier.improvSetup.rawValue {
+            Current.Log.info("Launching Improv setup")
+            Current.sceneManager.webViewWindowControllerPromise.then(\.webViewControllerPromise).done { controller in
+                controller.webViewExternalMessageHandler.presentImprov()
             }
         }
     }
@@ -293,7 +300,7 @@ extension NotificationManager: UNUserNotificationCenterDelegate {
             return
         }
 
-        var methods: UNNotificationPresentationOptions = [.alert, .badge, .sound]
+        var methods: UNNotificationPresentationOptions = [.badge, .sound, .list, .banner]
         if let presentationOptions = notification.request.content.userInfo["presentation_options"] as? [String] {
             methods = []
             if presentationOptions.contains("sound") || notification.request.content.sound != nil {
@@ -302,8 +309,11 @@ extension NotificationManager: UNUserNotificationCenterDelegate {
             if presentationOptions.contains("badge") {
                 methods.insert(.badge)
             }
-            if presentationOptions.contains("alert") {
-                methods.insert(.alert)
+            if presentationOptions.contains("list") {
+                methods.insert(.list)
+            }
+            if presentationOptions.contains("banner") {
+                methods.insert(.banner)
             }
         }
         return completionHandler(methods)

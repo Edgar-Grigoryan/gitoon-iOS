@@ -2,6 +2,7 @@
 "2KWKqM" = "Misslyckades: GiToon är inte tillgänglig";
 "2LIxe4" = "Misslyckades: ${error}";
 "2b0Uo4" = "Tjänst";
+"2yevCF" = "Which pipeline do you want to use?";
 "3jKamg" = "{{ now() }}";
 "4fFx9y" = "Uppdaterad";
 "4tpAXn" = "För att bekräfta, du väljer ‘${server}’?";
@@ -14,9 +15,11 @@
 "8BMgur" = "Klart";
 "8skKro" = "Vilka åtgärder?";
 "A1pokw" = "Be om hjälp";
+"Asg4pN" = "Med rösten";
 "B28HAk" = "Assistera";
 "B4bXyc" = "Klart";
 "BafuI1" = "Språk";
+"Bw6Ucn" = "Which pipeline?";
 "BwZv3u" = "Vilken server?";
 "CmlkE4" = "shortcut_event";
 "DFWJB8" = "Öppna ${page}";
@@ -35,6 +38,7 @@
 "HoH8wg" = "Åtgärder";
 "J3qct4" = "Server";
 "JBMp1T" = "För att bekräfta, du väljer ‘${server}’?";
+"JFaYRG" = "Bara för att bekräfta, ville du ha '${pipeline}'?";
 "K4xrvF" = "Fel";
 "KHH48D" = "Misslyckades: GiToon är för närvarande inte tillgänglig";
 "KJS2jk" = "Misslyckades: ${error}";
@@ -54,6 +58,7 @@
 "QCGKRz" = "Välj ett språk";
 "QVD2lM" = "Tjänstdata";
 "QmGpOH" = "Fel";
+"R2PmrD" = "Vill du ha hjälp med att använda rösten?";
 "RCQAlr" = "Ta emot bild från ${cameraID}";
 "RMQY3r" = "Skicka plats till GiToon";
 "RsOw3P" = "Lyckades skapa mall";
@@ -68,6 +73,7 @@
 "YNQXwq" = "Fel";
 "YxAau3" = "Det finns ${count} alternativ som matchar '${server}'.";
 "ZApPxB" = "Tjänstnamn";
+"ZG5nuL" = "Assist In App";
 "ZRPVYO" = "Öppna en sida i frontend";
 "ZT9Mld" = "Händelsenamn";
 "ZmUm9Q" = "Vilken mall vill du skapa?";
@@ -81,6 +87,7 @@
 "dFHPYK" = "Utförde ${action}";
 "eObn2i" = "Sida";
 "f1KX0Q" = "Visa och kör åtgärder";
+"fiOkO4" = "Det finns ${count} alternativ som matchar '${pipeline}'";
 "fkQXDn" = "Det finns ${count} möjliga matchningar till ’${action}’.";
 "flUgtx" = "Vilken åtgärd?";
 "fnz838" = "Sensorer uppdaterade";
@@ -96,13 +103,14 @@
 "hKNPaD" = "Server";
 "hLFNfv" = "Misslyckades: ${error}";
 "hXWHln" = "Server";
-"hfoDeC" = "Tänkt språk";
+"hfoDeC" = "Avsett språk";
 "hhPmPc" = "JSON";
 "hsrlTY" = "Få en enskild stillbild från en kamera";
 "iMvUhs" = "Öppna sida";
 "jWGtvO" = "Det finns ${count} alternativ som matchar '${server}'.";
 "jtqxOg" = "För att bekräfta, du önskade ’${action}’?";
 "kGB23u" = "Utför åtgärd";
+"kPqT8T" = "Pipeline";
 "l2coEc" = "Vilken server?";
 "lGqSSG" = "Kunde inte uppdatera sensorer.";
 "lNmaCR" = "Mall";
@@ -127,8 +135,10 @@
 "rFSNpu" = "Klart";
 "rOlW1x" = "Vilken plats vill du skicka?";
 "rU3vhT" = "Serveridentifierare";
+"s9Gk3c" = "Assist In App";
 "sNFoWe" = "Vilken kamera?";
 "sQJAJS" = "Fel";
+"sbjA6e" = "Be om hjälp i appen";
 "sfDGvk" = "Skapade mall";
 "txfcnn" = "Text";
 "tycImk" = "Utför en åtgärd definierad i appen";

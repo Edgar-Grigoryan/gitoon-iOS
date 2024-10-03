@@ -1,6 +1,7 @@
 import CoreLocation
 import CoreMotion
 import Foundation
+import GRDB
 import HAKit
 import PromiseKit
 import RealmSwift
@@ -93,6 +94,15 @@ public class AppEnvironment {
 
     /// Provides the Realm used for many data storage tasks.
     public var realm: () -> Realm = Realm.live
+    /// Provides the Realm given objectTypes to reduce memory usage mostly in extensions.
+    public func realm(objectTypes: [ObjectBase.Type]) -> Realm {
+        Realm.getRealm(objectTypes: objectTypes)
+    }
+
+    public var database: () -> DatabaseQueue = DatabaseQueue.appDatabase
+    public var magicItemProvider: () -> MagicItemProviderProtocol = {
+        MagicItemProvider()
+    }
 
     #if os(iOS)
     public var realmFatalPresentation: ((UIViewController) -> Void)?
@@ -143,6 +153,9 @@ public class AppEnvironment {
         $0.register(provider: FrontmostAppSensor.self)
         $0.register(provider: FocusSensor.self)
         $0.register(provider: LastUpdateSensor.self)
+        $0.register(provider: WatchBatterySensor.self)
+        $0.register(provider: AppVersionSensor.self)
+        $0.register(provider: LocationPermissionSensor.self)
     }
 
     public var localized = LocalizedManager()
@@ -174,7 +187,7 @@ public class AppEnvironment {
 
     public lazy var activeState: ActiveStateManager = .init()
 
-    public lazy var clientVersion: () -> Version = { Constants.clientVersion }
+    public lazy var clientVersion: () -> Version = { AppConstants.clientVersion }
 
     public var onboardingObservation = OnboardingStateObservation()
 
@@ -185,7 +198,7 @@ public class AppEnvironment {
     // Use of 'appConfiguration' is preferred, but sometimes Beta builds are done as releases.
     public var isTestFlight = Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt"
     #if os(iOS)
-    public var isAppExtension = Constants.BundleID != Bundle.main.bundleIdentifier
+    public var isAppExtension = AppConstants.BundleID != Bundle.main.bundleIdentifier
     #elseif os(watchOS)
     public var isAppExtension = false
     #endif
@@ -212,7 +225,7 @@ public class AppEnvironment {
         #endif
     }()
 
-    private let isFastlaneSnapshot = UserDefaults(suiteName: Constants.AppGroupID)!.bool(forKey: "FASTLANE_SNAPSHOT")
+    private let isFastlaneSnapshot = UserDefaults(suiteName: AppConstants.AppGroupID)!.bool(forKey: "FASTLANE_SNAPSHOT")
 
     // This can be used to add debug statements.
     public var isDebug: Bool {
@@ -277,7 +290,7 @@ public class AppEnvironment {
         })
         #endif
 
-        let logPath = Constants.LogsDirectory.appendingPathComponent(
+        let logPath = AppConstants.LogsDirectory.appendingPathComponent(
             ProcessInfo.processInfo.processName + ".txt",
             isDirectory: false
         )

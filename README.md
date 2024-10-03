@@ -8,7 +8,7 @@ GiToon for Apple Platforms
 
 ## Getting Started
 
-GiToon uses Bundler, Homebrew and Cocoapods to manage build dependencies. You'll need Xcode 14.1 (or later) which you can download from the [App Store](https://developer.apple.com/download/). You can get the app running using the following commands:
+GiToon uses Bundler, Homebrew and Cocoapods to manage build dependencies. You'll need Xcode 15.3 (or later) which you can download from the [App Store](https://developer.apple.com/download/). You can get the app running using the following commands:
 
 ```bash
 git clone https://github.com/Edgar-Grigoryan/gitoon-iOS.git

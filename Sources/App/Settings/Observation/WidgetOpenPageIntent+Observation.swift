@@ -22,7 +22,7 @@ extension WidgetOpenPageIntent {
         }
 
         private static func handle(panels: HAPanels, server: Server) {
-            let key = "last-invalidated-widget-panels-\(server.identifier)"
+            let key = OpenPageIntentHandler.cacheKey(serverIdentifier: server.identifier.rawValue)
 
             firstly {
                 Current.diskCache.value(for: key) as Promise<HAPanels>
@@ -33,7 +33,7 @@ extension WidgetOpenPageIntent {
                     return .init(error: HandlePanelsError.unchanged)
                 }
 
-                WidgetCenter.shared.reloadTimelines(ofKind: WidgetOpenPageIntent.widgetKind)
+                WidgetCenter.shared.reloadTimelines(ofKind: WidgetsKind.openPage.rawValue)
                 return .value(())
             }.then {
                 Current.diskCache.set(panels, for: key)

@@ -44,6 +44,8 @@ public enum L10n {
   public static var openLabel: String { return L10n.tr("Localizable", "open_label") }
   /// Preview Output
   public static var previewOutput: String { return L10n.tr("Localizable", "preview_output") }
+  /// Reload
+  public static var reloadLabel: String { return L10n.tr("Localizable", "reload_label") }
   /// Requires %@ or later.
   public static func requiresVersion(_ p1: Any) -> String {
     return L10n.tr("Localizable", "requires_version", String(describing: p1))
@@ -252,6 +254,42 @@ public enum L10n {
   }
 
   public enum AppIntents {
+    public enum Assist {
+      public enum Pipeline {
+        /// Pipeline
+        public static var title: String { return L10n.tr("Localizable", "app_intents.assist.pipeline.title") }
+      }
+      public enum PreferredPipeline {
+        /// Preferred
+        public static var title: String { return L10n.tr("Localizable", "app_intents.assist.preferred_pipeline.title") }
+      }
+      public enum RefreshWarning {
+        /// Can't find your Assist pipeline? Open Assist in the app to refresh pipelines list.
+        public static var title: String { return L10n.tr("Localizable", "app_intents.assist.refresh_warning.title") }
+      }
+    }
+    public enum Controls {
+      public enum Assist {
+        /// Assist in app
+        public static var title: String { return L10n.tr("Localizable", "app_intents.controls.assist.title") }
+        public enum Parameter {
+          /// With voice
+          public static var withVoice: String { return L10n.tr("Localizable", "app_intents.controls.assist.parameter.with_voice") }
+        }
+      }
+    }
+    public enum HapticConfirmation {
+      /// Haptic confirmation
+      public static var title: String { return L10n.tr("Localizable", "app_intents.haptic_confirmation.title") }
+    }
+    public enum Lights {
+      public enum Light {
+        /// Target state
+        public static var target: String { return L10n.tr("Localizable", "app_intents.lights.light.target") }
+        /// Light
+        public static var title: String { return L10n.tr("Localizable", "app_intents.lights.light.title") }
+      }
+    }
     public enum PerformAction {
       /// Which action?
       public static var actionParameterConfiguration: String { return L10n.tr("Localizable", "app_intents.perform_action.action_parameter_configuration") }
@@ -270,9 +308,114 @@ public enum L10n {
       /// Done
       public static var responseSuccess: String { return L10n.tr("Localizable", "app_intents.perform_action.response_success") }
     }
+    public enum Scenes {
+      /// Run Scene
+      public static var title: String { return L10n.tr("Localizable", "app_intents.scenes.title") }
+      public enum FailureMessage {
+        /// Scene "%@" failed to execute, please check your logs.
+        public static func content(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "app_intents.scenes.failure_message.content", String(describing: p1))
+        }
+      }
+      public enum Icon {
+        /// Icon
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scenes.icon.title") }
+      }
+      public enum Parameter {
+        public enum Scene {
+          /// Scene
+          public static var title: String { return L10n.tr("Localizable", "app_intents.scenes.parameter.scene.title") }
+        }
+      }
+      public enum RequiresConfirmationBeforeRun {
+        /// Requires manual confirmation before running the scene.
+        public static var description: String { return L10n.tr("Localizable", "app_intents.scenes.requires_confirmation_before_run.description") }
+        /// Confirm before run
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scenes.requires_confirmation_before_run.title") }
+      }
+      public enum Scene {
+        /// Scene
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scenes.scene.title") }
+      }
+      public enum SuccessMessage {
+        /// Scene "%@" executed.
+        public static func content(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "app_intents.scenes.success_message.content", String(describing: p1))
+        }
+      }
+    }
+    public enum Scripts {
+      public enum FailureMessage {
+        /// Script "%@" failed to execute, please check your logs.
+        public static func content(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "app_intents.scripts.failure_message.content", String(describing: p1))
+        }
+      }
+      public enum HapticConfirmation {
+        /// Haptic confirmation
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scripts.haptic_confirmation.title") }
+      }
+      public enum Icon {
+        /// Icon
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scripts.icon.title") }
+      }
+      public enum RequiresConfirmationBeforeRun {
+        /// Requires manual confirmation before running the script.
+        public static var description: String { return L10n.tr("Localizable", "app_intents.scripts.requires_confirmation_before_run.description") }
+        /// Confirm before run
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scripts.requires_confirmation_before_run.title") }
+      }
+      public enum Script {
+        /// Run Script
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scripts.script.title") }
+      }
+      public enum ShowConfirmationDialog {
+        /// Shows confirmation notification after executed
+        public static var description: String { return L10n.tr("Localizable", "app_intents.scripts.show_confirmation_dialog.description") }
+        /// Confirmation notification
+        public static var title: String { return L10n.tr("Localizable", "app_intents.scripts.show_confirmation_dialog.title") }
+      }
+      public enum SuccessMessage {
+        /// Script "%@" executed.
+        public static func content(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "app_intents.scripts.success_message.content", String(describing: p1))
+        }
+      }
+    }
+    public enum ShowConfirmationDialog {
+      /// Shows confirmation notification after executed
+      public static var description: String { return L10n.tr("Localizable", "app_intents.show_confirmation_dialog.description") }
+      /// Confirmation notification
+      public static var title: String { return L10n.tr("Localizable", "app_intents.show_confirmation_dialog.title") }
+    }
     public enum WidgetAction {
       /// Which actions?
       public static var actionsParameterConfiguration: String { return L10n.tr("Localizable", "app_intents.widget_action.actions_parameter_configuration") }
+    }
+  }
+
+  public enum Assist {
+    public enum Error {
+      /// Failed to obtain Assist pipelines, please check your pipelines configuration.
+      public static var pipelinesResponse: String { return L10n.tr("Localizable", "assist.error.pipelines_response") }
+    }
+    public enum PipelinesPicker {
+      /// Assist Pipelines
+      public static var title: String { return L10n.tr("Localizable", "assist.pipelines_picker.title") }
+    }
+    public enum Watch {
+      public enum MicButton {
+        /// Tap to 
+        public static var title: String { return L10n.tr("Localizable", "assist.watch.mic_button.title") }
+      }
+      public enum NotReachable {
+        /// Assist requires iPhone connectivity. Your iPhone is currently unreachable.
+        public static var title: String { return L10n.tr("Localizable", "assist.watch.not_reachable.title") }
+      }
+      public enum Volume {
+        /// Volume control
+        public static var title: String { return L10n.tr("Localizable", "assist.watch.volume.title") }
+      }
     }
   }
 
@@ -564,6 +707,65 @@ public enum L10n {
     }
   }
 
+  public enum Improv {
+    public enum Button {
+      /// Continue
+      public static var `continue`: String { return L10n.tr("Localizable", "improv.button.continue") }
+    }
+    public enum ConnectionState {
+      /// Setting up Wi-Fi
+      public static var authorized: String { return L10n.tr("Localizable", "improv.connection_state.authorized") }
+      /// Please authorize your device to continue
+      public static var autorizationRequired: String { return L10n.tr("Localizable", "improv.connection_state.autorization_required") }
+      /// Connecting to Wi-Fi
+      public static var provisioning: String { return L10n.tr("Localizable", "improv.connection_state.provisioning") }
+    }
+    public enum ErrorState {
+      /// Invalid RPC Packet
+      public static var invalidRpcPacket: String { return L10n.tr("Localizable", "improv.error_state.invalid_rpc_packet") }
+      /// Not authorized
+      public static var notAuthorized: String { return L10n.tr("Localizable", "improv.error_state.not_authorized") }
+      /// Unable to connect
+      public static var unableToConnect: String { return L10n.tr("Localizable", "improv.error_state.unable_to_connect") }
+      /// Unknown error, please try again.
+      public static var unknown: String { return L10n.tr("Localizable", "improv.error_state.unknown") }
+      /// Unknown command
+      public static var unknownCommand: String { return L10n.tr("Localizable", "improv.error_state.unknown_command") }
+    }
+    public enum List {
+      /// Devices ready to set up
+      public static var title: String { return L10n.tr("Localizable", "improv.list.title") }
+    }
+    public enum State {
+      /// Connected
+      public static var connected: String { return L10n.tr("Localizable", "improv.state.connected") }
+      /// Connecting...
+      public static var connecting: String { return L10n.tr("Localizable", "improv.state.connecting") }
+      /// Wi-Fi connected successfully
+      public static var success: String { return L10n.tr("Localizable", "improv.state.success") }
+    }
+    public enum Toast {
+      /// There are devices available to setup.
+      public static var title: String { return L10n.tr("Localizable", "improv.toast.title") }
+    }
+    public enum Wifi {
+      public enum Alert {
+        /// Cancel
+        public static var cancelButton: String { return L10n.tr("Localizable", "improv.wifi.alert.cancel_button") }
+        /// Connect
+        public static var connectButton: String { return L10n.tr("Localizable", "improv.wifi.alert.connect_button") }
+        /// Please enter your SSID and password.
+        public static var description: String { return L10n.tr("Localizable", "improv.wifi.alert.description") }
+        /// Password
+        public static var passwordPlaceholder: String { return L10n.tr("Localizable", "improv.wifi.alert.password_placeholder") }
+        /// Network Name
+        public static var ssidPlaceholder: String { return L10n.tr("Localizable", "improv.wifi.alert.ssid_placeholder") }
+        /// Connect to WiFi
+        public static var title: String { return L10n.tr("Localizable", "improv.wifi.alert.title") }
+      }
+    }
+  }
+
   public enum Intents {
     /// Select a server before picking this value.
     public static var serverRequiredForValue: String { return L10n.tr("Localizable", "intents.server_required_for_value") }
@@ -644,9 +846,82 @@ public enum L10n {
       /// Location updated via Visit
       public static var body: String { return L10n.tr("Localizable", "location_change_notification.visit.body") }
     }
+    public enum WatchContext {
+      /// Location updated via watch context sync
+      public static var body: String { return L10n.tr("Localizable", "location_change_notification.watch_context.body") }
+    }
     public enum XCallbackUrl {
       /// Location updated via X-Callback-URL
       public static var body: String { return L10n.tr("Localizable", "location_change_notification.x_callback_url.body") }
+    }
+  }
+
+  public enum MagicItem {
+    /// Add
+    public static var add: String { return L10n.tr("Localizable", "magic_item.add") }
+    /// Save
+    public static var edit: String { return L10n.tr("Localizable", "magic_item.edit") }
+    public enum BackgroundColor {
+      /// Background color
+      public static var title: String { return L10n.tr("Localizable", "magic_item.background_color.title") }
+    }
+    public enum IconColor {
+      /// Icon color
+      public static var title: String { return L10n.tr("Localizable", "magic_item.icon_color.title") }
+    }
+    public enum IconName {
+      /// Icon name
+      public static var title: String { return L10n.tr("Localizable", "magic_item.icon_name.title") }
+    }
+    public enum ItemType {
+      public enum Action {
+        public enum List {
+          /// iOS Actions
+          public static var title: String { return L10n.tr("Localizable", "magic_item.item_type.action.list.title") }
+          public enum Warning {
+            /// We will stop supporting iOS Actions in the future, please consider using GiToon scripts or scenes instead.
+            public static var title: String { return L10n.tr("Localizable", "magic_item.item_type.action.list.warning.title") }
+          }
+        }
+      }
+      public enum Scene {
+        public enum List {
+          /// Scenes
+          public static var title: String { return L10n.tr("Localizable", "magic_item.item_type.scene.list.title") }
+        }
+      }
+      public enum Script {
+        public enum List {
+          /// Scripts
+          public static var title: String { return L10n.tr("Localizable", "magic_item.item_type.script.list.title") }
+        }
+      }
+      public enum Selection {
+        public enum List {
+          /// Item type
+          public static var title: String { return L10n.tr("Localizable", "magic_item.item_type.selection.list.title") }
+        }
+      }
+    }
+    public enum Name {
+      /// Name
+      public static var title: String { return L10n.tr("Localizable", "magic_item.name.title") }
+    }
+    public enum NameAndIcon {
+      /// Edit script name and icon in frontend under 'Settings' > 'Automations & scenes' > 'Scripts'.
+      public static var footer: String { return L10n.tr("Localizable", "magic_item.name_and_icon.footer") }
+    }
+    public enum RequireConfirmation {
+      /// Require confirmation
+      public static var title: String { return L10n.tr("Localizable", "magic_item.require_confirmation.title") }
+    }
+    public enum TextColor {
+      /// Text color
+      public static var title: String { return L10n.tr("Localizable", "magic_item.text_color.title") }
+    }
+    public enum UseCustomColors {
+      /// Use custom colors
+      public static var title: String { return L10n.tr("Localizable", "magic_item.use_custom_colors.title") }
     }
   }
 
@@ -1164,6 +1439,14 @@ public enum L10n {
         /// Apple Watch
         public static var title: String { return L10n.tr("Localizable", "settings.details_section.watch_row.title") }
       }
+      public enum WatchRowComplications {
+        /// Complications
+        public static var title: String { return L10n.tr("Localizable", "settings.details_section.watch_row_complications.title") }
+      }
+      public enum WatchRowConfiguration {
+        /// Configuration
+        public static var title: String { return L10n.tr("Localizable", "settings.details_section.watch_row_configuration.title") }
+      }
     }
     public enum Developer {
       /// Don't use these if you don't know what you are doing!
@@ -1315,6 +1598,10 @@ public enum L10n {
       /// What's new?
       public static var title: String { return L10n.tr("Localizable", "settings.whats_new.title") }
     }
+    public enum Widgets {
+      /// Widgets
+      public static var title: String { return L10n.tr("Localizable", "settings.widgets.title") }
+    }
   }
 
   public enum SettingsDetails {
@@ -1358,6 +1645,16 @@ public enum L10n {
         public static var selectAll: String { return L10n.tr("Localizable", "settings_details.actions.scenes.select_all") }
         /// Scene Actions
         public static var title: String { return L10n.tr("Localizable", "settings_details.actions.scenes.title") }
+      }
+      public enum ServerControlled {
+        public enum Update {
+          /// Update server Actions
+          public static var title: String { return L10n.tr("Localizable", "settings_details.actions.server_controlled.update.title") }
+        }
+      }
+      public enum UseCustomColors {
+        /// Use custom colors
+        public static var title: String { return L10n.tr("Localizable", "settings_details.actions.use_custom_colors.title") }
       }
       public enum Watch {
         public enum Available {
@@ -1838,6 +2135,14 @@ public enum L10n {
       /// Apple Watch
       public static var title: String { return L10n.tr("Localizable", "settings_details.watch.title") }
     }
+    public enum Widgets {
+      public enum ReloadAll {
+        /// This will reload all widgets timelines, use this in case your widgets are stuck in a blank state or not updating for some reason.
+        public static var description: String { return L10n.tr("Localizable", "settings_details.widgets.reload_all.description") }
+        /// Reload all widgets
+        public static var title: String { return L10n.tr("Localizable", "settings_details.widgets.reload_all.title") }
+      }
+    }
   }
 
   public enum SettingsSensors {
@@ -2099,6 +2404,56 @@ public enum L10n {
   public enum Watch {
     /// Placeholder
     public static var placeholderComplicationName: String { return L10n.tr("Localizable", "watch.placeholder_complication_name") }
+    public enum Assist {
+      public enum LackConfig {
+        public enum Error {
+          /// Please configure Assist using iOS companion App
+          public static var title: String { return L10n.tr("Localizable", "watch.assist.lack_config.error.title") }
+        }
+      }
+    }
+    public enum Config {
+      public enum Assist {
+        /// Server
+        public static var selectServer: String { return L10n.tr("Localizable", "watch.config.assist.select_server") }
+      }
+      public enum MigrationError {
+        /// Failed to access database (GRDB), error: %@
+        public static func failedAccessGrdb(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "watch.config.migration_error.failed_access_grdb", String(describing: p1))
+        }
+        /// Failed to save initial watch config, error: %@
+        public static func failedCreateNewConfig(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "watch.config.migration_error.failed_create_new_config", String(describing: p1))
+        }
+        /// Failed to migrate actions to watch config, error: %@
+        public static func failedMigrateActions(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "watch.config.migration_error.failed_migrate_actions", String(describing: p1))
+        }
+        /// Failed to save new Watch config, error: %@
+        public static func failedToSave(_ p1: Any) -> String {
+          return L10n.tr("Localizable", "watch.config.migration_error.failed_to_save", String(describing: p1))
+        }
+      }
+    }
+    public enum Configuration {
+      public enum AddItem {
+        /// Add item
+        public static var title: String { return L10n.tr("Localizable", "watch.configuration.add_item.title") }
+      }
+      public enum Items {
+        /// Items
+        public static var title: String { return L10n.tr("Localizable", "watch.configuration.items.title") }
+      }
+      public enum Save {
+        /// Save
+        public static var title: String { return L10n.tr("Localizable", "watch.configuration.save.title") }
+      }
+      public enum ShowAssist {
+        /// Show Assist
+        public static var title: String { return L10n.tr("Localizable", "watch.configuration.show_assist.title") }
+      }
+    }
     public enum Configurator {
       public enum Delete {
         /// Delete Complication
@@ -2255,9 +2610,45 @@ public enum L10n {
         }
       }
     }
+    public enum Debug {
+      public enum DeleteDb {
+        /// Delete watch configuration
+        public static var title: String { return L10n.tr("Localizable", "watch.debug.delete_db.title") }
+        public enum Alert {
+          /// Are you sure you want to delete watch configuration? This can't be reverted
+          public static var title: String { return L10n.tr("Localizable", "watch.debug.delete_db.alert.title") }
+          public enum Failed {
+            /// Failed to delete configuration, error: %@
+            public static func message(_ p1: Any) -> String {
+              return L10n.tr("Localizable", "watch.debug.delete_db.alert.failed.message", String(describing: p1))
+            }
+          }
+        }
+        public enum Reset {
+          /// Reset configuration
+          public static var title: String { return L10n.tr("Localizable", "watch.debug.delete_db.reset.title") }
+        }
+      }
+    }
+    public enum Home {
+      public enum CancelAndUseCache {
+        /// Cancel and use cache
+        public static var title: String { return L10n.tr("Localizable", "watch.home.cancel_and_use_cache.title") }
+      }
+      public enum Run {
+        public enum Confirmation {
+          /// Are you sure you want to run "%@"?
+          public static func title(_ p1: Any) -> String {
+            return L10n.tr("Localizable", "watch.home.run.confirmation.title", String(describing: p1))
+          }
+        }
+      }
+    }
     public enum Labels {
       /// No actions configured. Configure actions on your phone to dismiss this message.
       public static var noAction: String { return L10n.tr("Localizable", "watch.labels.no_action") }
+      /// No watch configuration available, open the iOS App and create your configuration under companion app settings.
+      public static var noConfig: String { return L10n.tr("Localizable", "watch.labels.no_config") }
       public enum ComplicationGroup {
         public enum CircularSmall {
           /// Use circular small complications to display content in the corners of the Color watch face.
@@ -2720,6 +3111,18 @@ public enum L10n {
           public static var label: String { return L10n.tr("Localizable", "watch.labels.complication_text_areas.trailing.label") }
         }
       }
+      public enum SelectedPipeline {
+        /// Pipeline
+        public static var title: String { return L10n.tr("Localizable", "watch.labels.selected_pipeline.title") }
+      }
+    }
+    public enum Settings {
+      public enum NoItems {
+        public enum Phone {
+          /// No items configured, please choose items below.
+          public static var title: String { return L10n.tr("Localizable", "watch.settings.no_items.phone.title") }
+        }
+      }
     }
   }
 
@@ -2731,6 +3134,128 @@ public enum L10n {
       public static var notConfigured: String { return L10n.tr("Localizable", "widgets.actions.not_configured") }
       /// Actions
       public static var title: String { return L10n.tr("Localizable", "widgets.actions.title") }
+      public enum Parameters {
+        /// Action
+        public static var action: String { return L10n.tr("Localizable", "widgets.actions.parameters.action") }
+      }
+    }
+    public enum Assist {
+      /// Ask Assist
+      public static var actionTitle: String { return L10n.tr("Localizable", "widgets.assist.action_title") }
+      /// Open Assist in the app
+      public static var description: String { return L10n.tr("Localizable", "widgets.assist.description") }
+      /// Assist
+      public static var title: String { return L10n.tr("Localizable", "widgets.assist.title") }
+      /// Configure
+      public static var unknownConfiguration: String { return L10n.tr("Localizable", "widgets.assist.unknown_configuration") }
+    }
+    public enum Button {
+      /// Reload all widgets
+      public static var reloadTimeline: String { return L10n.tr("Localizable", "widgets.button.reload_timeline") }
+    }
+    public enum Controls {
+      public enum Assist {
+        /// Open Assist in GiToon app
+        public static var description: String { return L10n.tr("Localizable", "widgets.controls.assist.description") }
+        /// Assist
+        public static var title: String { return L10n.tr("Localizable", "widgets.controls.assist.title") }
+        public enum Pipeline {
+          /// Choose a pipeline
+          public static var placeholder: String { return L10n.tr("Localizable", "widgets.controls.assist.pipeline.placeholder") }
+        }
+      }
+      public enum Light {
+        /// Turn on/off your light
+        public static var description: String { return L10n.tr("Localizable", "widgets.controls.light.description") }
+        /// Light
+        public static var title: String { return L10n.tr("Localizable", "widgets.controls.light.title") }
+      }
+      public enum OpenPage {
+        public enum Configuration {
+          /// Open Page
+          public static var title: String { return L10n.tr("Localizable", "widgets.controls.open_page.configuration.title") }
+          public enum Parameter {
+            /// Choose page
+            public static var choosePage: String { return L10n.tr("Localizable", "widgets.controls.open_page.configuration.parameter.choose_page") }
+            /// Page
+            public static var page: String { return L10n.tr("Localizable", "widgets.controls.open_page.configuration.parameter.page") }
+          }
+        }
+      }
+      public enum Scene {
+        /// Run scene
+        public static var description: String { return L10n.tr("Localizable", "widgets.controls.scene.description") }
+        /// Scene
+        public static var displayName: String { return L10n.tr("Localizable", "widgets.controls.scene.display_name") }
+      }
+      public enum Scenes {
+        /// Choose scene
+        public static var placeholderTitle: String { return L10n.tr("Localizable", "widgets.controls.scenes.placeholder_title") }
+      }
+      public enum Script {
+        /// Run script
+        public static var description: String { return L10n.tr("Localizable", "widgets.controls.script.description") }
+        /// Script
+        public static var displayName: String { return L10n.tr("Localizable", "widgets.controls.script.display_name") }
+      }
+      public enum Scripts {
+        /// Choose script
+        public static var placeholderTitle: String { return L10n.tr("Localizable", "widgets.controls.scripts.placeholder_title") }
+      }
+    }
+    public enum Details {
+      /// Display states using from GiToon in text
+      public static var description: String { return L10n.tr("Localizable", "widgets.details.description") }
+      /// Details
+      public static var title: String { return L10n.tr("Localizable", "widgets.details.title") }
+      public enum Parameters {
+        /// Action
+        public static var action: String { return L10n.tr("Localizable", "widgets.details.parameters.action") }
+        /// Details Text Template (only in rectangular family)
+        public static var detailsTemplate: String { return L10n.tr("Localizable", "widgets.details.parameters.details_template") }
+        /// Lower Text Template
+        public static var lowerTemplate: String { return L10n.tr("Localizable", "widgets.details.parameters.lower_template") }
+        /// Run Action (only in rectangular family)
+        public static var runAction: String { return L10n.tr("Localizable", "widgets.details.parameters.run_action") }
+        /// Server
+        public static var server: String { return L10n.tr("Localizable", "widgets.details.parameters.server") }
+        /// Upper Text Template
+        public static var upperTemplate: String { return L10n.tr("Localizable", "widgets.details.parameters.upper_template") }
+      }
+    }
+    public enum Gauge {
+      /// Display numeric states from GiToon in a gauge
+      public static var description: String { return L10n.tr("Localizable", "widgets.gauge.description") }
+      /// Gauge
+      public static var title: String { return L10n.tr("Localizable", "widgets.gauge.title") }
+      public enum Parameters {
+        /// Action
+        public static var action: String { return L10n.tr("Localizable", "widgets.gauge.parameters.action") }
+        /// Gauge Type
+        public static var gaugeType: String { return L10n.tr("Localizable", "widgets.gauge.parameters.gauge_type") }
+        /// Max Label Template
+        public static var maxLabelTemplate: String { return L10n.tr("Localizable", "widgets.gauge.parameters.max_label_template") }
+        /// Min Label Template
+        public static var minLabelTemplate: String { return L10n.tr("Localizable", "widgets.gauge.parameters.min_label_template") }
+        /// Run Action
+        public static var runAction: String { return L10n.tr("Localizable", "widgets.gauge.parameters.run_action") }
+        /// Server
+        public static var server: String { return L10n.tr("Localizable", "widgets.gauge.parameters.server") }
+        /// Value Label Template
+        public static var valueLabelTemplate: String { return L10n.tr("Localizable", "widgets.gauge.parameters.value_label_template") }
+        /// Value Template (0-1)
+        public static var valueTemplate: String { return L10n.tr("Localizable", "widgets.gauge.parameters.value_template") }
+        public enum GaugeType {
+          /// Capacity
+          public static var capacity: String { return L10n.tr("Localizable", "widgets.gauge.parameters.gauge_type.capacity") }
+          /// Normal
+          public static var normal: String { return L10n.tr("Localizable", "widgets.gauge.parameters.gauge_type.normal") }
+        }
+      }
+    }
+    public enum Lights {
+      /// Turn on/off light
+      public static var description: String { return L10n.tr("Localizable", "widgets.lights.description") }
     }
     public enum OpenPage {
       /// Open a frontend page in GiToon.
@@ -2739,6 +3264,32 @@ public enum L10n {
       public static var notConfigured: String { return L10n.tr("Localizable", "widgets.open_page.not_configured") }
       /// Open Page
       public static var title: String { return L10n.tr("Localizable", "widgets.open_page.title") }
+    }
+    public enum ReloadWidgets {
+      public enum AppIntent {
+        /// Reload all widgets timelines.
+        public static var description: String { return L10n.tr("Localizable", "widgets.reload_widgets.app_intent.description") }
+        /// Reload widgets
+        public static var title: String { return L10n.tr("Localizable", "widgets.reload_widgets.app_intent.title") }
+      }
+    }
+    public enum Scene {
+      public enum Activate {
+        /// Activate scene
+        public static var title: String { return L10n.tr("Localizable", "widgets.scene.activate.title") }
+      }
+      public enum Description {
+        /// Run Scene
+        public static var title: String { return L10n.tr("Localizable", "widgets.scene.description.title") }
+      }
+    }
+    public enum Scripts {
+      /// Run Scripts
+      public static var description: String { return L10n.tr("Localizable", "widgets.scripts.description") }
+      /// No Scripts Configured
+      public static var notConfigured: String { return L10n.tr("Localizable", "widgets.scripts.not_configured") }
+      /// Scripts
+      public static var title: String { return L10n.tr("Localizable", "widgets.scripts.title") }
     }
   }
 }

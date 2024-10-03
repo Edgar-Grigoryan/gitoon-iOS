@@ -34,14 +34,14 @@ public class HomeAssistantAPI {
     public internal(set) var connection: HAConnection
 
     public static var clientVersionDescription: String {
-        "\(Constants.version) (\(Constants.build))"
+        "\(AppConstants.version) (\(AppConstants.build))"
     }
 
     public static var userAgent: String {
         // This matches Alamofire's generated string, for consistency with the past
-        let bundle = Constants.BundleID
-        let appVersion = Constants.version
-        let appBuild = Constants.build
+        let bundle = AppConstants.BundleID
+        let appVersion = AppConstants.version
+        let appBuild = AppConstants.build
 
         let osNameVersion: String = {
             let version = ProcessInfo.processInfo.operatingSystemVersion
@@ -53,6 +53,11 @@ public class HomeAssistantAPI {
         }()
 
         return "Home Assistant/\(appVersion) (\(bundle); build:\(appBuild); \(osNameVersion))"
+    }
+
+    // "Mobile/BUILD_NUMBER" is what CodeMirror sniffs for to decide iOS or not; other things likely look for Safari
+    public static var applicationNameForUserAgent: String {
+        HomeAssistantAPI.userAgent + " Mobile/HomeAssistant, like Safari"
     }
 
     /// Initialize an API object with an authenticated tokenManager.
@@ -254,7 +259,7 @@ public class HomeAssistantAPI {
         let fileManager = FileManager.default
 
         if let downloadDataDir = fileManager.containerURL(
-            forSecurityApplicationGroupIdentifier: Constants.AppGroupID
+            forSecurityApplicationGroupIdentifier: AppConstants.AppGroupID
         )?.appendingPathComponent("downloadedData", isDirectory: true) {
             try? fileManager.removeItem(at: downloadDataDir)
         }
@@ -310,6 +315,7 @@ public class HomeAssistantAPI {
                 server.connection.cloudhookURL = config.CloudhookURL
                 server.connection.set(address: config.RemoteUIURL, for: .remoteUI)
                 server.remoteName = config.LocationName ?? ServerInfo.defaultName
+                server.hassDeviceId = config.hassDeviceId
 
                 if let version = try? Version(hassVersion: config.Version) {
                     server.version = version
@@ -451,7 +457,7 @@ public class HomeAssistantAPI {
                 ]
             }
 
-            $0.AppIdentifier = Constants.BundleID
+            $0.AppIdentifier = AppConstants.BundleID
             $0.AppName = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String
             $0.AppVersion = HomeAssistantAPI.clientVersionDescription
             $0.DeviceID = Current.settingsStore.integrationDeviceID
@@ -545,7 +551,7 @@ public class HomeAssistantAPI {
     }
 
     public var sharedEventDeviceInfo: [String: String] { [
-        "sourceDevicePermanentID": Constants.PermanentID,
+        "sourceDevicePermanentID": AppConstants.PermanentID,
         "sourceDeviceName": server.info.setting(for: .overrideDeviceName) ?? Current.device.deviceName(),
         "sourceDeviceID": Current.settingsStore.deviceID,
     ] }
@@ -629,7 +635,7 @@ public class HomeAssistantAPI {
     public func tagEvent(
         tagPath: String
     ) -> (eventType: String, eventData: [String: String]) {
-        var eventData = [String: String]()
+        var eventData: [String: String] = sharedEventDeviceInfo
         eventData["tag_id"] = tagPath
         if server.info.version < .tagWebhookAvailable {
             eventData["device_id"] = Current.settingsStore.integrationDeviceID

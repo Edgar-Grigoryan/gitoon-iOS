@@ -4,6 +4,7 @@ import Foundation
 import PromiseKit
 import RealmSwift
 import Shared
+import SwiftUI
 import UIKit
 import ViewRow
 
@@ -22,6 +23,8 @@ class ActionConfigurator: HAFormViewController, TypedRowControllerType {
     private(set) var shouldSave: Bool = false
     private(set) var shouldOpenAutomationEditor: Bool = false
     private var preview = ActionPreview(frame: CGRect(x: 0, y: 0, width: 169, height: 55))
+
+    private let useCustomColorsTag = "useCustomColors"
 
     convenience init(action: Action?) {
         self.init()
@@ -87,7 +90,7 @@ class ActionConfigurator: HAFormViewController, TypedRowControllerType {
         let visuals = Section()
 
         if action.canConfigure(\Action.Text) || action.isServerControlled {
-            let section: Section
+            let section: Eureka.Section
 
             if action.canConfigure(\Action.Text) {
                 section = visuals
@@ -147,35 +150,6 @@ class ActionConfigurator: HAFormViewController, TypedRowControllerType {
             }
         }
 
-        if action.canConfigure(\Action.TextColor) {
-            visuals <<< InlineColorPickerRow("text_color") {
-                $0.title = L10n.ActionsConfigurator.Rows.TextColor.title
-                $0.isCircular = true
-                $0.showsPaletteNames = true
-                $0.value = UIColor(hex: self.action.TextColor)
-            }.onChange { row in
-                if let value = row.value {
-                    self.action.TextColor = value.hexString()
-                    self.updatePreviews()
-                }
-            }
-        }
-
-        if action.canConfigure(\Action.BackgroundColor) {
-            visuals <<< InlineColorPickerRow("background_color") {
-                $0.title = L10n.ActionsConfigurator.Rows.BackgroundColor.title
-                $0.isCircular = true
-                $0.showsPaletteNames = true
-                $0.value = UIColor(hex: self.action.BackgroundColor)
-
-            }.onChange { row in
-                if let value = row.value {
-                    self.action.BackgroundColor = value.hexString()
-                    self.updatePreviews()
-                }
-            }
-        }
-
         if action.canConfigure(\Action.IconName) {
             visuals <<< SearchPushRow<MaterialDesignIcons> {
                 $0.options = MaterialDesignIcons.allCases
@@ -210,7 +184,6 @@ class ActionConfigurator: HAFormViewController, TypedRowControllerType {
                 }
             }
         }
-
         if action.canConfigure(\Action.IconColor) {
             visuals <<< InlineColorPickerRow("icon_color") {
                 $0.title = L10n.ActionsConfigurator.Rows.IconColor.title
@@ -258,32 +231,59 @@ class ActionConfigurator: HAFormViewController, TypedRowControllerType {
             form.append(visuals)
         }
 
+        let customSection = Section()
+        form +++ customSection
+        customSection <<< SwitchRow(useCustomColorsTag) {
+            $0.title = L10n.SettingsDetails.Actions.UseCustomColors.title
+            $0.value = action.useCustomColors
+            $0.disabled = .init(booleanLiteral: !action.canConfigure(\Action.useCustomColors))
+        }.onChange { row in
+            if let value = row.value {
+                self.action.useCustomColors = value
+                self.updatePreviews()
+            }
+        }
+
+        if action.canConfigure(\Action.TextColor) {
+            customSection <<< InlineColorPickerRow("text_color") {
+                $0.title = L10n.ActionsConfigurator.Rows.TextColor.title
+                $0.isCircular = true
+                $0.showsPaletteNames = true
+                $0.value = UIColor(hex: self.action.TextColor)
+                $0.hidden = .function([useCustomColorsTag], { _ in
+                    !self.action.useCustomColors
+                })
+            }.onChange { row in
+                if let value = row.value {
+                    self.action.TextColor = value.hexString()
+                    self.updatePreviews()
+                }
+            }
+        }
+
+        if action.canConfigure(\Action.BackgroundColor) {
+            customSection <<< InlineColorPickerRow("background_color") {
+                $0.title = L10n.ActionsConfigurator.Rows.BackgroundColor.title
+                $0.isCircular = true
+                $0.showsPaletteNames = true
+                $0.value = UIColor(hex: self.action.BackgroundColor)
+                $0.hidden = .function([useCustomColorsTag], { _ in
+                    !self.action.useCustomColors
+                })
+            }.onChange { row in
+                if let value = row.value {
+                    self.action.BackgroundColor = value.hexString()
+                    self.updatePreviews()
+                }
+            }
+        }
+
         form +++ Section(header: L10n.ActionsConfigurator.Action.title, footer: L10n.ActionsConfigurator.Action.footer)
             <<< ButtonRow {
                 $0.title = L10n.ActionsConfigurator.Action.createAutomation
             }.onCellSelection({ [weak self] _, _ in
                 self?.saveAndAutomate()
             })
-
-        form +++ VoiceShortcutRow {
-            $0.buttonStyle = .automaticOutline
-            $0.value = .intent(PerformActionIntent(action: action))
-        }
-
-        form +++ YamlSection(
-            tag: "exampleTrigger",
-            header: L10n.ActionsConfigurator.TriggerExample.title,
-            yamlGetter: { [action] in
-                if let server = Current.servers.server(forServerIdentifier: action.serverIdentifier) {
-                    return action.exampleTrigger(api: Current.api(for: server))
-                } else if let first = Current.apis.first {
-                    return action.exampleTrigger(api: first)
-                } else {
-                    return ""
-                }
-            },
-            present: { [weak self] controller in self?.present(controller, animated: true, completion: nil) }
-        )
     }
 
     @objc
@@ -329,65 +329,66 @@ class ActionConfigurator: HAFormViewController, TypedRowControllerType {
 }
 
 class ActionPreview: UIView {
-    var imageView = UIImageView(frame: CGRect(x: 15, y: 0, width: 44, height: 44))
-    var title = UILabel(frame: CGRect(x: 60, y: 60, width: 200, height: 100))
     var action: Action?
+
+    private let stackView = UIStackView()
 
     override func layoutSubviews() {
         super.layoutSubviews()
 
-        layer.cornerRadius = 8
-        let centerY = (frame.size.height / 2) - 50
+        addSubview(stackView)
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            stackView.topAnchor.constraint(equalTo: topAnchor),
+            stackView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            stackView.leftAnchor.constraint(equalTo: leftAnchor),
+            stackView.rightAnchor.constraint(equalTo: rightAnchor),
+        ])
 
-        title = UILabel(frame: CGRect(x: 60, y: centerY, width: 200, height: 100))
-
-        title.textAlignment = .natural
-        title.clipsToBounds = true
-        title.numberOfLines = 1
-        title.font = title.font.withSize(UIFont.smallSystemFontSize)
-
-        addSubview(title)
-        addSubview(imageView)
-
-        let tap = UITapGestureRecognizer(target: self, action: #selector(handleGesture))
-        addGestureRecognizer(tap)
+        setup(action)
     }
 
-    public func setup(_ action: Action) {
+    func setup(_ action: Action?) {
         self.action = action
-        DispatchQueue.main.async {
-            self.backgroundColor = UIColor(hex: action.BackgroundColor)
 
-            let icon = MaterialDesignIcons(named: action.IconName)
-            self.imageView.image = icon.image(
-                ofSize: self.imageView.bounds.size,
-                color: UIColor(hex: action.IconColor)
-            )
-            self.title.text = action.Text
-            self.title.textColor = UIColor(hex: action.TextColor)
+        for subview in stackView.arrangedSubviews {
+            stackView.removeArrangedSubview(subview)
+            subview.removeFromSuperview()
         }
+        guard let action else { return }
+        let previewView = UIHostingController(rootView: WidgetPreviewView(action: action))
+        stackView.addArrangedSubview(previewView.view)
     }
+}
 
-    @objc func handleGesture(gesture: UITapGestureRecognizer) {
-        guard let action,
-              let server = Current.servers.server(forServerIdentifier: action.serverIdentifier) else {
-            return
+#Preview {
+    VStack {
+        WidgetPreviewView(action: Action())
+    }
+}
+
+struct WidgetPreviewView: View {
+    let action: Action
+    var body: some View {
+        VStack {
+            WidgetBasicView(
+                model: .init(
+                    id: action.ID,
+                    title: action.Text,
+                    subtitle: nil,
+                    interactionType: .widgetURL(URL(string: "https://google.com")!),
+                    icon: MaterialDesignIcons(named: action.IconName),
+                    textColor: Color(uiColor: .init(hex: action.TextColor)),
+                    iconColor: Color(uiColor: .init(hex: action.IconColor)),
+                    backgroundColor: Color(uiColor: .init(hex: action.BackgroundColor)),
+                    useCustomColors: action.useCustomColors
+                ),
+                sizeStyle: .condensed
+            )
+            .padding()
+            .frame(width: 340, height: 100)
         }
-
-        let feedbackGenerator = UINotificationFeedbackGenerator()
-        feedbackGenerator.prepare()
-
-        imageView.showActivityIndicator()
-
-        firstly {
-            Current.api(for: server).HandleAction(actionID: action.ID, source: .Preview)
-        }.done { _ in
-            feedbackGenerator.notificationOccurred(.success)
-        }.ensure {
-            self.imageView.hideActivityIndicator()
-        }.catch { err in
-            Current.Log.error("Error during action event fire: \(err)")
-            feedbackGenerator.notificationOccurred(.error)
-        }
+        .frame(maxWidth: .infinity)
+        .background(Color(uiColor: .tertiarySystemGroupedBackground))
     }
 }

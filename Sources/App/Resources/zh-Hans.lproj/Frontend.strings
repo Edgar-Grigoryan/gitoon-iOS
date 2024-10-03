@@ -1,5 +1,5 @@
 "panel::calendar" = "日历";
-"panel::config" = "配置";
+"panel::config" = "设置";
 "panel::developer_tools" = "开发者工具";
 "panel::energy" = "能源";
 "panel::history" = "历史";
@@ -9,6 +9,6 @@
 "panel::media_browser" = "媒体";
 "panel::profile" = "用户资料";
 "panel::shopping_list" = "购物清单";
-"panel::states" = "概览";
+"panel::states" = "概况";
 "state::default::unavailable" = "不可用";
 "state::default::unknown" = "未知";

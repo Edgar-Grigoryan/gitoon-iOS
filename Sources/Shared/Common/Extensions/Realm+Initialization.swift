@@ -17,11 +17,12 @@ public extension Realm {
 
     static var storeDirectoryURL: URL {
         let fileManager = FileManager.default
-        let storeDirectoryURL = fileManager.containerURL(forSecurityApplicationGroupIdentifier: Constants.AppGroupID)?
+        let storeDirectoryURL = fileManager
+            .containerURL(forSecurityApplicationGroupIdentifier: AppConstants.AppGroupID)?
             .appendingPathComponent("dataStore", isDirectory: true)
 
         if storeDirectoryURL == nil {
-            Current.Log.error("Unable to get directory URL! AppGroupID: \(Constants.AppGroupID)")
+            Current.Log.error("Unable to get directory URL! AppGroupID: \(AppConstants.AppGroupID)")
         }
 
         return storeDirectoryURL ?? URL(fileURLWithPath: NSTemporaryDirectory())
@@ -29,6 +30,12 @@ public extension Realm {
 
     /// The live data store, located in shared storage.
     static let live: () -> Realm = {
+        getRealm()
+    }
+
+    // swiftlint:disable cyclomatic_complexity
+    /// Mainly used to specify objectTypes in a context such as an extension, otherwise always use "Realm.live"
+    static func getRealm(objectTypes: [ObjectBase.Type]? = nil) -> Realm {
         if NSClassFromString("XCTest") != nil {
             do {
                 return try Realm(configuration: .init(inMemoryIdentifier: "Tests", deleteRealmIfMigrationNeeded: true))
@@ -81,7 +88,16 @@ public extension Realm {
         // 20…25 - 2022-08-13 v2022.x undoing realm automatic migration
         // 26 - 2022-08-13 v2022.x bumping mdi version
         // 27 - 2024-01-18 v2024.x adding CarPlay toggle to Actions
-        let schemaVersion: UInt64 = 27
+        // 28 - 2024-07-29 v2024.x Add option to use custom colors
+
+        // Current schema version from database
+        if let currentSchemaVersion = try? schemaVersionAtURL(storeURL) {
+            Current.Log.verbose("Current schema version \(currentSchemaVersion)")
+        }
+
+        // New schema version
+        let schemaVersion: UInt64 = 28
+        Current.Log.verbose("Schema version defined: \(schemaVersion)")
 
         let config = Realm.Configuration(
             fileURL: storeURL,
@@ -191,6 +207,12 @@ public extension Realm {
                     }
                 }
 
+                if oldVersion < 28 {
+                    migration.enumerateObjects(ofType: Action.className()) { _, newObject in
+                        newObject?["useCustomColors"] = false
+                    }
+                }
+
                 do {
                     // always do an MDI migration, since micro-managing whether it needs to be done is annoying
                     migration.enumerateObjects(ofType: Action.className()) { _, newObject in
@@ -227,7 +249,8 @@ public extension Realm {
                 // Check for the realm file size to be greater than the max file size, and the amount of bytes
                 // currently used to be less than 50% of the total realm file size
                 return (realmFileSizeInBytes > maxFileSize) && (Double(usedBytes) / Double(realmFileSizeInBytes)) < 0.5
-            }
+            },
+            objectTypes: objectTypes
         )
 
         do {
