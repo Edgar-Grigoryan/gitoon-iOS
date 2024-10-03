@@ -64,48 +64,48 @@ class SettingsDetailViewController: HAFormViewController, TypedRowControllerType
             title = L10n.SettingsDetails.General.title
 
             form
-                +++ Section {
-                    $0.hidden = .isCatalyst
-                }
-
-                <<< PushRow<AppIcon>("appIcon") {
-                    $0.hidden = .isCatalyst
-                    $0.title = L10n.SettingsDetails.General.AppIcon.title
-                    $0.selectorTitle = $0.title
-                    $0.options = AppIcon.allCases.sorted { a, b in
-                        switch (a.isDefault, b.isDefault) {
-                        case (true, false): return true
-                        case (false, true): return false
-                        default:
-                            // swift sort isn't stable
-                            return AppIcon.allCases.firstIndex(of: a)! < AppIcon.allCases.firstIndex(of: b)!
-                        }
-                    }
-                    $0.value = AppIcon.Release
-                    if let altIconName = UIApplication.shared.alternateIconName,
-                       let icon = AppIcon(rawValue: altIconName) {
-                        $0.value = icon
-                    }
-                    $0.displayValueFor = { $0?.title }
-                }.onPresent { [weak self] _, to in
-                    to.selectableRowCellUpdate = { cell, row in
-                        cell.height = { 72 }
-                        cell.imageView?.layer.masksToBounds = true
-                        cell.imageView?.layer.cornerRadius = 12.63
-                        guard let newIcon = row.selectableValue else { return }
-                        cell.imageView?.image = self?.resizeImage(
-                            image: UIImage(named: newIcon.rawValue),
-                            newSize: .init(width: 64, height: 64)
-                        )
-                        cell.textLabel?.text = newIcon.title
-                    }
-                }.onChange { row in
-                    let iconName = row.value?.iconName
-                    UIApplication.shared.setAlternateIconName(iconName) { error in
-                        Current.Log
-                            .info("set icon to \(String(describing: iconName)) error: \(String(describing: error))")
-                    }
-                }
+//                +++ Section {
+//                    $0.hidden = .isCatalyst
+//                }
+//
+//                <<< PushRow<AppIcon>("appIcon") {
+//                    $0.hidden = .isCatalyst
+//                    $0.title = L10n.SettingsDetails.General.AppIcon.title
+//                    $0.selectorTitle = $0.title
+//                    $0.options = AppIcon.allCases.sorted { a, b in
+//                        switch (a.isDefault, b.isDefault) {
+//                        case (true, false): return true
+//                        case (false, true): return false
+//                        default:
+//                            // swift sort isn't stable
+//                            return AppIcon.allCases.firstIndex(of: a)! < AppIcon.allCases.firstIndex(of: b)!
+//                        }
+//                    }
+//                    $0.value = AppIcon.Release
+//                    if let altIconName = UIApplication.shared.alternateIconName,
+//                       let icon = AppIcon(rawValue: altIconName) {
+//                        $0.value = icon
+//                    }
+//                    $0.displayValueFor = { $0?.title }
+//                }.onPresent { [weak self] _, to in
+//                    to.selectableRowCellUpdate = { cell, row in
+//                        cell.height = { 72 }
+//                        cell.imageView?.layer.masksToBounds = true
+//                        cell.imageView?.layer.cornerRadius = 12.63
+//                        guard let newIcon = row.selectableValue else { return }
+//                        cell.imageView?.image = self?.resizeImage(
+//                            image: UIImage(named: newIcon.rawValue),
+//                            newSize: .init(width: 64, height: 64)
+//                        )
+//                        cell.textLabel?.text = newIcon.title
+//                    }
+//                }.onChange { row in
+//                    let iconName = row.value?.iconName
+//                    UIApplication.shared.setAlternateIconName(iconName) { error in
+//                        Current.Log
+//                            .info("set icon to \(String(describing: iconName)) error: \(String(describing: error))")
+//                    }
+//                }
 
                 +++ Section {
                     $0.hidden = .isNotCatalyst
