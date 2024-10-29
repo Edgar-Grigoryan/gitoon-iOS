@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/edgargrigoryan/Projects/GiToon/gitoon-iOS/GiToon.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:GiToon.xcodeproj">
    </FileRef>
 </Workspace>

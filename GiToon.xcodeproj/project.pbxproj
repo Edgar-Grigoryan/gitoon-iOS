@@ -748,6 +748,7 @@
 		81A0C1BBDEFF4F8C5FC314BE /* Pods_iOS_Extensions_NotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F356D0219C7F8A24234511B /* Pods_iOS_Extensions_NotificationContent.framework */; };
 		84F7755EFB03C3F463292ABF /* Pods-watchOS-Shared-watchOS-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B55CB9064A0477C9F456B6A /* Pods-watchOS-Shared-watchOS-metadata.plist */; };
 		8E5FA96C740F1D671966CEA9 /* Pods-iOS-Extensions-NotificationContent-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = B613440AEDD4209862503F5D /* Pods-iOS-Extensions-NotificationContent-metadata.plist */; };
+		972DA50583F87879133740C7 /* Pods_iOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD90A8F251D0671EFAC931ED /* Pods_iOS_App.framework */; };
 		A5A3C1932BE1F4A40EA78754 /* Pods-iOS-Extensions-Matter-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 392B0C44197C98E2653932A5 /* Pods-iOS-Extensions-Matter-metadata.plist */; };
 		B6022213226DAC9D00E8DBFE /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6022212226DAC9D00E8DBFE /* ScaledFont.swift */; };
 		B6022223226DBA3800E8DBFE /* OnboardingNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6022222226DBA3800E8DBFE /* OnboardingNavigationViewController.swift */; };
@@ -1054,8 +1055,8 @@
 		D0EEF335214EB77100D1D360 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2C17E20D1F64D00BD810B /* CLLocation+Extensions.swift */; };
 		D0FF79D220D87D200034574D /* ClientEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF79D120D87D200034574D /* ClientEventTableViewController.swift */; };
 		D0FF79D520D87DB10034574D /* ClientEvents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FF79D420D87DB10034574D /* ClientEvents.storyboard */; };
+		F03D3D742CD11EF5005052D2 /* gitoon_alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = F03D3D732CD11EF5005052D2 /* gitoon_alarm.wav */; };
 		F077F0892CCFC0E100232245 /* gitoon_doorbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = F077F0872CCFC0E100232245 /* gitoon_doorbell.wav */; };
-		F077F08A2CCFC0E100232245 /* gitoon_alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = F077F0862CCFC0E100232245 /* gitoon_alarm.wav */; };
 		F077F08B2CCFC0E100232245 /* gitoon_push.wav in Resources */ = {isa = PBXBuildFile; fileRef = F077F0882CCFC0E100232245 /* gitoon_push.wav */; };
 		FC8E9421FDB864726918B612 /* Pods-watchOS-WatchExtension-Watch-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9249824D575933DFA1530BB2 /* Pods-watchOS-WatchExtension-Watch-metadata.plist */; };
 		FD3BC66329B9FF8F00B19FBE /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3BC66229B9FF8F00B19FBE /* CarPlaySceneDelegate.swift */; };
@@ -2382,7 +2383,7 @@
 		E3D5CF14402325076CA105EB /* Pods-iOS-Extensions-PushProvider-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Pods-iOS-Extensions-PushProvider-metadata.plist"; path = "Pods/Pods-iOS-Extensions-PushProvider-metadata.plist"; sourceTree = "<group>"; };
 		E41A4AAEF642A72ACDB6C006 /* Pods-iOS-Extensions-Intents-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Pods-iOS-Extensions-Intents-metadata.plist"; path = "Pods/Pods-iOS-Extensions-Intents-metadata.plist"; sourceTree = "<group>"; };
 		E805474FB6E532B5C40E83B4 /* Pods-iOS-Extensions-NotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Extensions-NotificationContent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Extensions-NotificationContent/Pods-iOS-Extensions-NotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
-		F077F0862CCFC0E100232245 /* gitoon_alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gitoon_alarm.wav; sourceTree = "<group>"; };
+		F03D3D732CD11EF5005052D2 /* gitoon_alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gitoon_alarm.wav; sourceTree = "<group>"; };
 		F077F0872CCFC0E100232245 /* gitoon_doorbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gitoon_doorbell.wav; sourceTree = "<group>"; };
 		F077F0882CCFC0E100232245 /* gitoon_push.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gitoon_push.wav; sourceTree = "<group>"; };
 		F0954F3919DBD03AC16B0391 /* Pods-iOS-Extensions-PushProvider.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Extensions-PushProvider.beta.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Extensions-PushProvider/Pods-iOS-Extensions-PushProvider.beta.xcconfig"; sourceTree = "<group>"; };
@@ -2468,6 +2469,7 @@
 				11D826F124E39F2E005B8A86 /* CoreNFC.framework in Frameworks */,
 				D0C88460211ED11A00CCB501 /* SafariServices.framework in Frameworks */,
 				B6393F881CB2561100503916 /* MapKit.framework in Frameworks */,
+				972DA50583F87879133740C7 /* Pods_iOS_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4800,9 +4802,9 @@
 		F077F0852CCFC0C200232245 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				F077F0862CCFC0E100232245 /* gitoon_alarm.wav */,
 				F077F0872CCFC0E100232245 /* gitoon_doorbell.wav */,
 				F077F0882CCFC0E100232245 /* gitoon_push.wav */,
+				F03D3D732CD11EF5005052D2 /* gitoon_alarm.wav */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -5501,7 +5503,6 @@
 				B60616431D1F117700249C11 /* US-EN-Morgan-Freeman-Turning-Off-The-Kitchen-Light.wav in Resources */,
 				B60616341D1F117700249C11 /* US-EN-Morgan-Freeman-Smartthings-Detected-Smoke.wav in Resources */,
 				F077F0892CCFC0E100232245 /* gitoon_doorbell.wav in Resources */,
-				F077F08A2CCFC0E100232245 /* gitoon_alarm.wav in Resources */,
 				F077F08B2CCFC0E100232245 /* gitoon_push.wav in Resources */,
 				B60616841D1F117700249C11 /* US-EN-Alexa-Girlfriend-Is-Arriving.wav in Resources */,
 				B60616321D1F117700249C11 /* US-EN-Morgan-Freeman-Smartthings-Detected-A-Flood.wav in Resources */,
@@ -5602,6 +5603,7 @@
 				B606167D1D1F117700249C11 /* US-EN-Alexa-Basement-Door-Opened.wav in Resources */,
 				B60616931D1F117800249C11 /* US-EN-Alexa-Smoke-Detected-In-Basement.wav in Resources */,
 				B661FC7E226C87BB00E541DD /* home.json in Resources */,
+				F03D3D742CD11EF5005052D2 /* gitoon_alarm.wav in Resources */,
 				B60616271D1F117700249C11 /* US-EN-Morgan-Freeman-Motion-In-Kitchen.wav in Resources */,
 				B606167C1D1F117700249C11 /* US-EN-Alexa-Back-Door-Unlocked.wav in Resources */,
 				B60615BB1D1F117700249C11 /* MorganFreemanSounds.csv in Resources */,
