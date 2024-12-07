@@ -159,6 +159,8 @@ public class AppEnvironment {
     }
 
     public var localized = LocalizedManager()
+    
+    public var tags: TagManager = EmptyTagManager()
 
     public var updater = Updater()
     public var serverAlerter = ServerAlerter()

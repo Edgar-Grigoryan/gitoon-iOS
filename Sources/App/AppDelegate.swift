@@ -78,6 +78,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             lifecycleManager.isActive
         }
 
+        #if targetEnvironment(simulator)
+        Current.tags = SimulatorTagManager()
+        #else
+        Current.tags = iOSTagManager()
+        #endif
+
         notificationManager.setupNotifications()
         setupFirebase()
         setupModels()
@@ -96,6 +102,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.shared.setMinimumBackgroundFetchInterval(UIApplication.backgroundFetchIntervalMinimum)
 
         setupWatchCommunicator()
+//        setupUIApplicationShortcutItems()
 
         return true
     }
@@ -157,6 +164,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         delegate.done { $0.pushActions(animated: true) }
     }
 
+//    @objc func openHelp() {
+//        openURLInBrowser(
+//            URL(string: "https://companion.home-assistant.io")!,
+//            nil
+//        )
+//    }
+
     func application(
         _ application: UIApplication,
         configurationForConnecting connectingSceneSession: UISceneSession,
@@ -195,9 +209,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let timestamp = DateFormatter.localizedString(from: Date(), dateStyle: .medium, timeStyle: .full)
         Current.Log.verbose("Background fetch activated at \(timestamp)!")
 
-        if #available(iOS 18.0, *) {
-            ControlCenter.shared.reloadAllControls()
-        }
+//        DataWidgetsUpdater.update()
+
         #if !targetEnvironment(macCatalyst)
         if UIDevice.current.userInterfaceIdiom == .phone, case .paired = Communicator.shared.currentWatchState {
             Current.Log.verbose("Requesting watch sync from background fetch")
@@ -320,26 +333,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return
         }
 
-        when(fulfilled: Current.apis.map { $0.connection.caches.user.once().promise }).done { [sceneManager] users in
-            guard users.contains(where: \.isAdmin) else {
-                Current.Log.info("not showing because not an admin anywhere")
-                return
-            }
+        when(fulfilled: Current.apis.compactMap { $0.connection.caches.user.once().promise })
+            .done { [sceneManager] users in
+                guard users.contains(where: \.isAdmin) else {
+                    Current.Log.info("not showing because not an admin anywhere")
+                    return
+                }
 
-            let alert = UIAlertController(
-                title: L10n.Alerts.Deprecations.NotificationCategory.title,
-                message: L10n.Alerts.Deprecations.NotificationCategory.message("iOS-2022.4"),
-                preferredStyle: .alert
-            )
-            alert.addAction(UIAlertAction(title: L10n.okLabel, style: .cancel, handler: { _ in
-                userDefaults.set(true, forKey: seenKey)
-            }))
-            sceneManager.webViewWindowControllerPromise.done {
-                $0.present(alert)
+                let alert = UIAlertController(
+                    title: L10n.Alerts.Deprecations.NotificationCategory.title,
+                    message: L10n.Alerts.Deprecations.NotificationCategory.message("iOS-2022.4"),
+                    preferredStyle: .alert
+                )
+                alert.addAction(UIAlertAction(title: L10n.Nfc.List.learnMore, style: .default, handler: { _ in
+                    userDefaults.set(true, forKey: seenKey)
+                    openURLInBrowser(
+                        URL(string: "https://companion.home-assistant.io/app/ios/actionable-notifications")!,
+                        nil
+                    )
+                }))
+                alert.addAction(UIAlertAction(title: L10n.okLabel, style: .cancel, handler: { _ in
+                    userDefaults.set(true, forKey: seenKey)
+                }))
+                sceneManager.webViewWindowControllerPromise.done {
+                    $0.present(alert)
+                }
+            }.catch { error in
+                Current.Log.error("couldn't check for if user: \(error)")
             }
-        }.catch { error in
-            Current.Log.error("couldn't check for if user: \(error)")
-        }
     }
 
     private func setupWatchCommunicator() {
@@ -378,13 +399,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func setupModels() {
         // Force Realm migration to happen now
         _ = Realm.live()
-
-        Current.modelManager.cleanup().cauterize()
-        Current.modelManager.subscribe()
         Action.setupObserver()
         NotificationCategory.setupObserver()
         WidgetOpenPageIntent.setupObserver()
-        AppEntitiesObserver.setupObserver()
     }
 
     private func setupMenus() {
@@ -399,6 +416,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     @objc private func menuRelatedSettingDidChange(_ note: Notification) {
         UIMenuSystem.main.setNeedsRebuild()
     }
+
+//    private func setupUIApplicationShortcutItems() {
+//        if Current.isCatalyst {
+//            UIApplication.shared.shortcutItems = [.init(
+//                type: HAApplicationShortcutItem.openSettings.rawValue,
+//                localizedTitle: L10n.ShortcutItem.OpenSettings.title,
+//                localizedSubtitle: nil,
+//                icon: .init(systemSymbol: .gear)
+//            )]
+//        }
+//    }
 
     // swiftlint:disable:next file_length
 }
