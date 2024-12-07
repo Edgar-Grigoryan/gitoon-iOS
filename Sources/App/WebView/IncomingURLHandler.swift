@@ -91,7 +91,6 @@ class IncomingURLHandler {
     @discardableResult
     func handle(userActivity: NSUserActivity) -> Bool {
         Current.Log.info(userActivity)
-        print("hellooooooasjiosdiasd")
 
         if let assistInAppIntent = userActivity.interaction?.intent as? AssistInAppIntent {
             guard let server = Current.servers.server(for: assistInAppIntent) ?? Current.servers.all.first else { return false }
