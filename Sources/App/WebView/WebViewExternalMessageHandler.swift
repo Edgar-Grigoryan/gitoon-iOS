@@ -42,7 +42,7 @@ final class WebViewExternalMessageHandler {
                             type: "result",
                             result: [
                                 "hasSettingsScreen": !Current.isCatalyst,
-//                                "canWriteTag": Current.tags.isNFCAvailable,
+                                "canWriteTag": Current.tags.isNFCAvailable,
                                 "canCommissionMatter": Current.matter.isAvailable,
                                 "canImportThreadCredentials": Current.matter.threadCredentialsSharingEnabled,
                                 "hasBarCodeScanner": true,
@@ -68,33 +68,33 @@ final class WebViewExternalMessageHandler {
                     return
                 }
                 webViewController.updateSettingsButton(state: connEvt)
-//            case .tagRead:
-//                response = Current.tags.readNFC().map { tag in
-//                    WebSocketMessage(id: incomingMessage.ID!, type: "result", result: ["success": true, "tag": tag])
-//                }.recover { _ in
-//                    .value(WebSocketMessage(id: incomingMessage.ID!, type: "result", result: ["success": false]))
-//                }
-//            case .tagWrite:
-//                let (promise, seal) = Guarantee<Bool>.pending()
-//                response = promise.map { success in
-//                    WebSocketMessage(id: incomingMessage.ID!, type: "result", result: ["success": success])
-//                }
-//
-//                firstly { () throws -> Promise<(tag: String, name: String?)> in
-//                    if let tag = incomingMessage.Payload?["tag"] as? String, tag.isEmpty == false {
-//                        return .value((tag: tag, name: incomingMessage.Payload?["name"] as? String))
-//                    } else {
-//                        throw HomeAssistantAPI.APIError.invalidResponse
-//                    }
-//                }.then { tagInfo in
-//                    Current.tags.writeNFC(value: tagInfo.tag)
-//                }.done { _ in
-//                    Current.Log.info("wrote tag via external bus")
-//                    seal(true)
-//                }.catch { error in
-//                    Current.Log.error("couldn't write tag via external bus: \(error)")
-//                    seal(false)
-//                }
+            case .tagRead:
+                response = Current.tags.readNFC().map { tag in
+                    WebSocketMessage(id: incomingMessage.ID!, type: "result", result: ["success": true, "tag": tag])
+                }.recover { _ in
+                    .value(WebSocketMessage(id: incomingMessage.ID!, type: "result", result: ["success": false]))
+                }
+            case .tagWrite:
+                let (promise, seal) = Guarantee<Bool>.pending()
+                response = promise.map { success in
+                    WebSocketMessage(id: incomingMessage.ID!, type: "result", result: ["success": success])
+                }
+
+                firstly { () throws -> Promise<(tag: String, name: String?)> in
+                    if let tag = incomingMessage.Payload?["tag"] as? String, tag.isEmpty == false {
+                        return .value((tag: tag, name: incomingMessage.Payload?["name"] as? String))
+                    } else {
+                        throw HomeAssistantAPI.APIError.invalidResponse
+                    }
+                }.then { tagInfo in
+                    Current.tags.writeNFC(value: tagInfo.tag)
+                }.done { _ in
+                    Current.Log.info("wrote tag via external bus")
+                    seal(true)
+                }.catch { error in
+                    Current.Log.error("couldn't write tag via external bus: \(error)")
+                    seal(false)
+                }
             case .themeUpdate:
                 webViewController.evaluateJavaScript("notifyThemeColors()", completion: nil)
             case .matterCommission:

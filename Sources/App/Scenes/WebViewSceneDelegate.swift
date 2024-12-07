@@ -57,6 +57,12 @@ final class WebViewSceneDelegate: NSObject, UIWindowSceneDelegate {
            let shortcutItem = connectionOptions.shortcutItem {
             self.windowScene(scene, performActionFor: shortcutItem, completionHandler: { _ in })
         }
+        
+        if !connectionOptions.userActivities.isEmpty {
+            for activity in connectionOptions.userActivities {
+                self.scene(scene, continue: activity)
+            }
+        }
 
         informManager(from: connectionOptions)
 
@@ -103,5 +109,9 @@ final class WebViewSceneDelegate: NSObject, UIWindowSceneDelegate {
 
     func stateRestorationActivity(for scene: UIScene) -> NSUserActivity? {
         windowController?.stateRestorationActivity()
+    }
+    
+    func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+        urlHandler?.handle(userActivity: userActivity)
     }
 }

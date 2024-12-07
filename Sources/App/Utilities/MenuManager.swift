@@ -111,6 +111,8 @@ class MenuManager {
             builder.replace(menu: .preferences, with: preferencesMenu())
         }
 
+//        builder.replaceChildren(ofMenu: .help) { _ in helpMenus() }
+
         if builder.menu(for: .haActions) == nil {
             builder.insertSibling(actionsMenu(), beforeMenu: .window)
         } else {
@@ -215,6 +217,27 @@ class MenuManager {
             callbackInfo.activate()
         }
     }
+
+//    private func helpMenus() -> [UIMenu] {
+//        let title = L10n.Menu.Help.help(appName)
+//
+//        let helpCommand = UICommand(
+//            title: title,
+//            image: nil,
+//            action: #selector(AppDelegate.openHelp),
+//            propertyList: nil
+//        )
+//
+//        return [
+//            UIMenu(
+//                title: title,
+//                image: nil,
+//                identifier: .haHelp,
+//                options: .displayInline,
+//                children: [helpCommand]
+//            ),
+//        ]
+//    }
 
     private static func actionsWithImages() -> [(Action, UIImage)] {
         // Action+Observation calls reload, so when they change this all gets run again
