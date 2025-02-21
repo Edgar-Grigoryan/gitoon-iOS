@@ -17,11 +17,11 @@ public enum AppConstants {
     }
 
     public static var lighterTintColor: UIColor {
-        UIColor(displayP3Red: 0.27, green: 0.607, blue: 0.658, alpha: 1)
+        Asset.Colors.haPrimary.color
     }
 
     public static var darkerTintColor: UIColor {
-        UIColor(displayP3Red: 0.27, green: 0.607, blue: 0.658, alpha: 1)
+        Asset.Colors.haPrimary.color
     }
 
     /// Help icon UIBarButtonItem
